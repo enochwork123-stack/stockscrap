@@ -1,0 +1,13 @@
+.tmp/
+.venv/
+.DS_Store
+__pycache__/
+.gemini/
+*.log
+.agent/
+.system_generated/
+task_plan.md
+findings.md
+gemini.md
+progress.md
+architecture/

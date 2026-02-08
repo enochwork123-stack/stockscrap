@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glaid - Financial News Dashboard</title>
+    <meta name="description"
+        content="Your premium financial news aggregator - Stay updated with the latest market developments from Yahoo Finance, Google Finance, and more.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src=".tmp/dashboard_payload.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="DesignGuidelines/Logo.png" alt="glaid logo" class="logo-img">
+                    <span class="logo-text">glaid</span>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-secondary" id="refreshBtn">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C9.84 2 11.4667 2.84 12.5333 4.13333"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M14 4V4.13333C14 4.13333 14 6 14 6" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 4H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        Refresh
+                    </button>
+                    <div class="filter-tabs">
+                        <button class="filter-tab active" data-filter="all">All Portfolio</button>
+                        <button class="filter-tab" data-filter="google">Google</button>
+                        <button class="filter-tab" data-filter="eqix">Equinix</button>
+                        <button class="filter-tab" data-filter="u">Unity</button>
+                        <button class="filter-tab" data-filter="tdoc">Teladoc</button>
+                        <button class="filter-tab" data-filter="btc">Bitcoin</button>
+                        <button class="filter-tab" data-filter="saved">Saved</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-card">
+                    <div class="stat-icon">📰</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="totalArticles">0</div>
+                        <div class="stat-label">Total Articles</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="savedArticles">0</div>
+                        <div class="stat-label">Saved</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🔄</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="lastUpdated">Just now</div>
+                        <div class="stat-label">Last Updated</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="articles-section">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Financial News</h2>
+                    <div class="section-subtitle">Curated from the best sources</div>
+                </div>
+
+                <div class="articles-grid" id="articlesGrid">
+                    <!-- Articles will be injected here -->
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Loading articles...</p>
+                    </div>
+                </div>
+
+                <!-- Empty State -->
+                <div class="empty-state" id="emptyState" style="display: none;">
+                    <div class="empty-icon">📭</div>
+                    <h3>No articles found</h3>
+                    <p>Try adjusting your filters or refresh to load new content</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 glaid. Powered by AI.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

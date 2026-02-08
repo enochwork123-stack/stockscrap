@@ -1,0 +1,35 @@
+# glaid Brand Design Guidelines
+
+## Brand Identity
+- **Name:** glaid
+- **Logo Style:** Modern, minimalist wordmark with circular icon
+- **Brand Voice:** Professional, tech-forward, innovative
+
+## Color Palette
+### Primary
+- **Orange/Coral:** #FF6B4A (Primary accent, CTAs, active states)
+- **Dark Gray:** #2D2D2D (Logo background, text)
+- **White:** #FFFFFF (Backgrounds, cards)
+
+### Secondary
+- **Light Gray:** #F5F5F5 (Subtle backgrounds)
+- **Light Coral:** #FFB8A8 (Charts, gradients)
+
+### Semantic
+- **Success:** #10B981 (Positive indicators)
+- **Warning:** #EF4444 (Negative indicators)
+- **Info:** #3B82F6 (Informational)
+
+## Typography
+- **Font Family:** Inter, SF Pro Display, -apple-system, system-ui
+- **Headings:** Bold (600-700 weight)
+- **Body:** Regular (400 weight)
+- **Labels:** Medium (500 weight)
+
+## UI Patterns (from Dashboard Inspiration)
+- Card-based layouts with subtle shadows
+- Orange accent for primary actions
+- Clean, generous whitespace
+- Rounded corners (8-12px)
+- Smooth transitions and micro-animations
+- Data visualization with orange/coral tones
