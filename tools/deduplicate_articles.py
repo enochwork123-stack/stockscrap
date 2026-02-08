@@ -9,7 +9,7 @@ import sys
 import os
 
 INPUT_FILE = ".tmp/filtered_articles.json"
-OUTPUT_FILE = ".tmp/dashboard_payload.js"
+OUTPUT_FILE = "data/dashboard_payload.js"
 
 def load_articles():
     """Load filtered articles"""
