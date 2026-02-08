@@ -7,24 +7,19 @@ echo "glaid AI News Dashboard - Data Update"
 echo "============================================"
 echo ""
 
-#📰 Step 0: Scraping Portfolio News...
-echo "📰 Step 0: Scraping Portfolio News (GOOG, EQIX, U, TDOC, BTC)..."
+#📰 Step 0: Scraping Portfolio News (GOOG, EQIX, U, TDOC, BTC, ETH, LINK, AVAX)...
+echo "📰 Step 0: Scraping Portfolio News..."
 python3 tools/scrape_portfolio.py
 echo ""
 
-# Step 1: Scrape Ben's Bites
-echo "📰 Step 1: Scraping Ben's Bites..."
-python3 tools/scrape_bens_bites.py
-if [ $? -ne 0 ]; then
-    echo "❌ Failed to scrape Ben's Bites"
-    exit 1
-fi
+# Step 1: Scrape Financial RSS (Bloomberg & Reuters)
+echo "📰 Step 1: Scraping Financial News (Bloomberg & Reuters)..."
+python3 tools/scrape_financial_rss.py
 echo ""
 
-# Step 2: Scrape AI Rundown (optional - may fail)
-echo "📰 Step 2: Scraping AI Rundown..."
-python3 tools/scrape_ai_rundown.py
-# Don't exit on failure - AI Rundown is optional
+# Step 2: Scrape Crypto RSS (CoinDesk & The Block)
+echo "📰 Step 2: Scraping Crypto News (CoinDesk & The Block)..."
+python3 tools/scrape_crypto_rss.py
 echo ""
 
 # Step 2a: Scrape Yahoo Finance

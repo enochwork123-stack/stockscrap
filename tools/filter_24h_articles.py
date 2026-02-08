@@ -11,6 +11,10 @@ import os
 
 INPUT_FILES = [
     ".tmp/raw_portfolio.json",
+    ".tmp/raw_bloomberg.json",
+    ".tmp/raw_reuters.json",
+    ".tmp/raw_coindesk.json",
+    ".tmp/raw_the_block.json",
     ".tmp/raw_yahoo_finance.json",
     ".tmp/raw_google_finance.json"
 ]
@@ -20,7 +24,8 @@ PORTFOLIO_KEYWORDS = [
     "EQIX", "EQUINIX", 
     "UNITY", "U STOCK", "U.US",
     "TDOC", "TELADOC", 
-    "BTC", "BITCOIN", "CRYPTO", "ETHEREUM", "SOLANA"
+    "BTC", "BITCOIN", "ETH", "ETHEREUM", 
+    "LINK", "CHAINLINK", "AVAX", "AVALANCHE"
 ]
 OUTPUT_FILE = ".tmp/filtered_articles.json"
 
@@ -50,7 +55,10 @@ def filter_24h(articles):
         "EQIX": ["EQIX", "EQUINIX"],
         "U": ["UNITY", "U STOCK", "U.US"],
         "TDOC": ["TDOC", "TELADOC"],
-        "BTC": ["BTC", "BITCOIN", "CRYPTO"]
+        "BTC": ["BTC", "BITCOIN"],
+        "ETH": ["ETH", "ETHEREUM"],
+        "LINK": ["LINK", "CHAINLINK"],
+        "AVAX": ["AVAX", "AVALANCHE"]
     }
 
     filtered = []

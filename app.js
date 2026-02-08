@@ -98,14 +98,13 @@ function renderArticles() {
         if (AppState.currentFilter === 'saved') return AppState.savedArticles.has(article.id);
 
         // Handle ticker filtering
-        const activeFilter = AppState.currentFilter.toLowerCase();
+        const tickerFilter = AppState.currentFilter.toLowerCase();
         const articleTicker = (article.ticker || '').toLowerCase();
 
-        const tickerTabs = ['google', 'eqix', 'u', 'tdoc', 'btc'];
-        if (tickerTabs.includes(activeFilter)) {
-            // Special case for 'google' matching 'GOOG'
-            if (activeFilter === 'google' && articleTicker.includes('goog')) return true;
-            return articleTicker === activeFilter;
+        if (['google', 'eqix', 'u', 'tdoc', 'btc', 'eth', 'link', 'avax'].includes(tickerFilter)) {
+            // Special case for 'google' matching 'goog'
+            if (tickerFilter === 'google' && articleTicker.includes('goog')) return true;
+            return articleTicker.includes(tickerFilter);
         }
 
         return article.source === AppState.currentFilter;

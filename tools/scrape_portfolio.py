@@ -15,14 +15,29 @@ import re
 
 # Configuration
 SOURCE_NAME = "portfolio"
-TICKERS = ["GOOG", "EQIX", "U", "TDOC", "BTC-USD"]
+# Portfolio Configuration
+TICKERS = ["GOOG", "EQIX", "U", "TDOC", "BTC-USD", "ETH-USD", "LINK-USD", "AVAX-USD"]
+# Common Search Queries for broader coverage
+SEARCH_QUERIES = [
+    "(GOOG OR Alphabet OR Google)",
+    "(EQIX OR Equinix)",
+    "(Unity Software OR U STOCK OR Unity Engine)",
+    "(TDOC OR Teladoc Health)",
+    "(Bitcoin OR BTC)",
+    "(Ethereum OR ETH)",
+    "(Chainlink OR LINK crypto)",
+    "(Avalanche AVAX crypto)"
+]
 # Map tickers to friendly names for better searching/filtering
 TICKER_MAP = {
     "GOOG": ["Alphabet", "Google"],
     "EQIX": ["Equinix"],
     "U": ["Unity Software", "Unity Technologies"],
     "TDOC": ["Teladoc"],
-    "BTC-USD": ["Bitcoin", "BTC"]
+    "BTC-USD": ["Bitcoin", "BTC"],
+    "ETH-USD": ["Ethereum", "ETH"],
+    "LINK-USD": ["Chainlink", "LINK crypto"],
+    "AVAX-USD": ["Avalanche", "AVAX crypto"]
 }
 
 OUTPUT_FILE = ".tmp/raw_portfolio.json"
