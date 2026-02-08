@@ -19,14 +19,14 @@ SOURCE_NAME = "portfolio"
 TICKERS = ["GOOG", "EQIX", "U", "TDOC", "BTC-USD", "ETH-USD", "LINK-USD", "AVAX-USD"]
 # Common Search Queries for broader coverage
 SEARCH_QUERIES = [
-    "(GOOG OR Alphabet OR Google)",
-    "(EQIX OR Equinix)",
-    "(Unity Software OR U STOCK OR Unity Engine)",
-    "(TDOC OR Teladoc Health)",
-    "(Bitcoin OR BTC)",
-    "(Ethereum OR ETH)",
-    "(Chainlink OR LINK crypto)",
-    "(Avalanche AVAX crypto)"
+    "Alphabet", "Google", "GOOG",
+    "Equinix", "EQIX",
+    "Unity Software",
+    "Teladoc Health", "TDOC",
+    "Bitcoin", "BTC",
+    "Ethereum", "ETH",
+    "Chainlink", "LINK",
+    "Avalanche", "AVAX"
 ]
 # Map tickers to friendly names for better searching/filtering
 TICKER_MAP = {

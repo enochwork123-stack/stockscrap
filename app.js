@@ -141,40 +141,47 @@ function getFilteredArticles() {
 function createArticleCard(article) {
     const card = document.createElement('div');
     card.className = 'article-card';
-    card.setAttribute('data-article-id', article.id);
+    card.id = `article-${article.id}`;
 
-    const isSaved = AppState.savedArticles.has(article.id);
     const sourceLabel = formatSourceLabel(article.source, article);
-    const relativeTime = formatRelativeTime(article.published_at);
+    const tickerClass = (article.ticker || 'unknown').toLowerCase();
+    const sentiment = article.sentiment || 'neutral';
 
     card.innerHTML = `
-        <div class="article-header">
-            <span class="article-source ${article.source}">${sourceLabel}</span>
-            <button class="save-btn ${isSaved ? 'saved' : ''}" data-article-id="${article.id}">
-                ${isSaved ? '⭐' : '☆'}
-            </button>
-        </div>
-        <h3 class="article-title">${escapeHtml(article.title)}</h3>
-        ${article.description ? `<p class="article-description">${escapeHtml(article.description)}</p>` : ''}
         <div class="article-meta">
-            <span class="article-author">${escapeHtml(article.author || 'Unknown')}</span>
-            <span class="article-date">${relativeTime}</span>
+            <span class="source-badge ${tickerClass}">${sourceLabel}</span>
+            <span class="sentiment-badge ${sentiment}">${sentiment}</span>
+        </div>
+        <h3 class="article-title">
+            <a href="${article.url}" target="_blank">${article.title}</a>
+        </h3>
+        <p class="article-description">${article.description || 'No description available.'}</p>
+        <div class="article-footer">
+            <span class="article-date">${formatRelativeTime(article.published_at)}</span>
+            <div class="article-actions">
+                <button class="save-btn ${AppState.savedArticles.has(article.id) ? 'active' : ''}" 
+                        title="Save article">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
     `;
 
-    // Add click handler to open article
+    // Click handler to open article (on card click)
     card.addEventListener('click', (e) => {
-        if (!e.target.classList.contains('save-btn')) {
+        if (!e.target.closest('.save-btn')) {
             window.open(article.url, '_blank');
         }
     });
 
-    // Add save button handler
+    // Save button handler
     const saveBtn = card.querySelector('.save-btn');
     if (saveBtn) {
         saveBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            toggleSaveArticle(article.id);
+            toggleSaveArticle(article.id, saveBtn);
         });
     }
 
@@ -185,22 +192,23 @@ function createArticleCard(article) {
 // User Interactions
 // ============================================
 
-function toggleSaveArticle(articleId) {
-    if (AppState.savedArticles.has(articleId)) {
+function toggleSaveArticle(articleId, btnEl) {
+    const isSaved = AppState.savedArticles.has(articleId);
+
+    if (isSaved) {
         AppState.savedArticles.delete(articleId);
+        if (btnEl) btnEl.classList.remove('active');
     } else {
         AppState.savedArticles.add(articleId);
+        if (btnEl) btnEl.classList.add('active');
     }
 
     saveSavedArticles();
     renderStats();
 
-    // Update the button
-    const btn = document.querySelector(`.save-btn[data-article-id="${articleId}"]`);
-    if (btn) {
-        const isSaved = AppState.savedArticles.has(articleId);
-        btn.textContent = isSaved ? '⭐' : '☆';
-        btn.classList.toggle('saved', isSaved);
+    // If we are in the 'saved' tab, re-render to remove the article
+    if (AppState.currentFilter === 'saved') {
+        renderArticles();
     }
 }
 

@@ -29,6 +29,35 @@ PORTFOLIO_KEYWORDS = [
 ]
 OUTPUT_FILE = ".tmp/filtered_articles.json"
 
+def get_sentiment(text):
+    """Simple keyword-based sentiment analysis"""
+    bullish_keywords = [
+        "GROWTH", "PROFIT", "SURGE", "BUY", "OUTPERFORM", "GAIN", "EXPANSION", 
+        "HIT", "HIGH", "UPGRADE", "SUCCESS", "INNOVATIVE", "BULLISH", "RECOVERY",
+        "PARTNERSHIP", "ACQUISITION", "CLIMB", "BEAT", "RALLY", "GREEN", "MOON"
+    ]
+    bearish_keywords = [
+        "LOSS", "DECLINE", "SLUMP", "SELL", "UNDERPERFORM", "DROP", "CUT", 
+        "LOW", "DOWNGRADE", "FAILURE", "RISK", "LAWSUIT", "BEARISH", "CRASH",
+        "FEAR", "RED", "DEBT", "SKEPTICAL", "LAYOFF", "WARNING", "MISS"
+    ]
+    
+    text = text.upper()
+    score = 0
+    for k in bullish_keywords:
+        if k in text:
+            score += 1
+    for k in bearish_keywords:
+        if k in text:
+            score -= 1
+            
+    if score > 0:
+        return "bullish"
+    elif score < 0:
+        return "bearish"
+    else:
+        return "neutral"
+
 def load_articles(filepath):
     """Load articles from JSON file"""
     try:
@@ -90,9 +119,11 @@ def filter_24h(articles):
             
             if matched_ticker and matched_ticker != "MIXED":
                 article['ticker'] = matched_ticker
+                article['sentiment'] = get_sentiment(content)
                 filtered.append(article)
             elif any(keyword in content for keyword in PORTFOLIO_KEYWORDS):
                 # Fallback check
+                article['sentiment'] = get_sentiment(content)
                 filtered.append(article)
                     
         except Exception as e:
