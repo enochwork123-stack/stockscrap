@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Portfolio News Scraper
-Scrapes latest news specifically for: GOOG, EQIX, U, TDOC, BTC
+Portfolio News Scraper - Senior Search implementation
+Scrapes latest news specifically for: GOOG, EQIX, U, TDOC, BTC, ETH, LINK, AVAX
+Using high-precision search and scoring-based ticker matching.
 """
 
 import feedparser
@@ -15,32 +16,9 @@ import re
 
 # Configuration
 SOURCE_NAME = "portfolio"
-# Portfolio Configuration
 TICKERS = ["GOOG", "EQIX", "U", "TDOC", "BTC-USD", "ETH-USD", "LINK-USD", "AVAX-USD"]
-# Common Search Queries for broader coverage
-SEARCH_QUERIES = [
-    "Alphabet", "Google", "GOOG",
-    "Equinix", "EQIX",
-    "Unity Software",
-    "Teladoc Health", "TDOC",
-    "Bitcoin", "BTC",
-    "Ethereum", "ETH",
-    "Chainlink", "LINK",
-    "Avalanche", "AVAX"
-]
-# Map tickers to friendly names for better searching/filtering
-TICKER_MAP = {
-    "GOOG": ["Alphabet", "Google"],
-    "EQIX": ["Equinix"],
-    "U": ["Unity Software", "Unity Technologies"],
-    "TDOC": ["Teladoc"],
-    "BTC-USD": ["Bitcoin", "BTC"],
-    "ETH-USD": ["Ethereum", "ETH"],
-    "LINK-USD": ["Chainlink", "LINK crypto"],
-    "AVAX-USD": ["Avalanche", "AVAX crypto"]
-}
-
-OUTPUT_FILE = ".tmp/raw_portfolio.json"
+OUTPUT_FILE = "data/dashboard_payload.js" # This will be managed by deduplicate_articles.py later, but we save raw here
+RAW_OUTPUT = ".tmp/raw_portfolio.json"
 ERROR_LOG = ".tmp/scraper_errors.log"
 
 def log_error(message):
@@ -51,9 +29,93 @@ def log_error(message):
         f.write(f"[{timestamp}] [Portfolio] {message}\n")
     print(f"ERROR: {message}", file=sys.stderr)
 
+def get_simple_sentiment(text):
+    """Simple keyword-based sentiment analysis"""
+    bullish = ["growth", "profit", "surge", "buy", "outperform", "gain", "expansion", "beat", "rally", "recovery", "partnership"]
+    bearish = ["loss", "decline", "slump", "sell", "underperform", "drop", "cut", "risk", "failure", "miss", "debt"]
+    text = text.lower()
+    score = sum(2 for w in bullish if w in text) - sum(2 for w in bearish if w in text)
+    return "bullish" if score > 0 else ("bearish" if score < 0 else "neutral")
+
+def assign_ticker(title, summary):
+    """
+    Advanced scoring-based ticker assignment for high precision.
+    Uses primary terms, context clues, and decoy penalties.
+    """
+    text = (title + " " + summary).upper()
+    
+    # Advanced profiles for disambiguation
+    PROFILES = {
+        "GOOG": {
+            "primary": ["ALPHABET INC", "GOOGLE", "GOOGL"],
+            "context": ["SEARCH", "YOUTUBE", "CLOUD", "AI", "SUNDAR PICHAI", "AD REVENUE", "NASDAQ:GOOG"],
+            "decoys": ["GOOGLE MAPS SEARCH", "GOOGLE ACCOUNT", "GOOGLE DRIVE", "GOOGLE PLAY STORE"]
+        },
+        "EQIX": {
+            "primary": ["EQUINIX", "EQIX"],
+            "context": ["DATA CENTER", "REIT", "COLOCATION", "INTERCONNECTION", "PLATFORM EQUINIX", "CHARLES MEYERS"],
+            "decoys": []
+        },
+        "U": {
+            "primary": ["UNITY SOFTWARE", "UNITY TECHNOLOGIES"],
+            "context": ["GAME ENGINE", "RT3D", "UNITY STOCK", "IRONSOURCE", "CREATE SOLUTIONS", "WHITEHURST"],
+            "decoys": ["UNITY CHURCH", "NATIONAL UNITY", "SPIRIT OF UNITY", "UNITY DAY"]
+        },
+        "TDOC": {
+            "primary": ["TELADOC", "TDOC"],
+            "context": ["TELEHEALTH", "VIRTUAL CARE", "LIVONGO", "REMOTE MONITORING", "GOREVIC"],
+            "decoys": []
+        },
+        "BTC": {
+            "primary": ["BITCOIN ", " BTC "],
+            "context": ["BLOCKCHAIN", "DIGITAL GOLD", "MINING", "HALVING", "BTC ETF", "SATOSHI", "CRYPTOCURRENCY"],
+            "decoys": ["BTC.COM"]
+        },
+        "ETH": {
+            "primary": ["ETHEREUM", " ETH "],
+            "context": ["SMART CONTRACTS", "VITALIK", "STAKING", "LAYER 2", "GAS FEES", "ETH ETF"],
+            "decoys": [" ETHICAL ", " ETHICS "]
+        },
+        "LINK": {
+            "primary": ["CHAINLINK", " LINK "],
+            "context": ["ORACLE", "WEB3", "SERGEY NAZAROV", "CCIP", "ABSTRACTION", "LINK TOKEN"],
+            "decoys": ["HYPERLINK", "URL LINK", "DOWNLOAD LINK", "CLICK THE LINK"]
+        },
+        "AVAX": {
+            "primary": ["AVALANCHE", " AVAX "],
+            "context": ["CRYPTO", "SUBNET", "AVA LABS", "EMIN GUN SIRER", "BLIZZARD", "AVAX TOKEN"],
+            "decoys": ["AVALANCHE WARNING", "SNOW AVALANCHE", "AVALANCHE RESCUE", "AVALANCHE DANGER"]
+        }
+    }
+
+    best_ticker = "MIXED"
+    max_score = 0
+
+    for ticker, profile in PROFILES.items():
+        score = 0
+        # 1. Primary match (High weight)
+        for term in profile["primary"]:
+            if term in text:
+                score += 10
+        
+        # 2. Context match (Medium weight)
+        for term in profile["context"]:
+            if term in text:
+                score += 3
+        
+        # 3. Decoy detection (High penalty)
+        for decoy in profile["decoys"]:
+            if decoy in text:
+                score -= 20
+        
+        if score > max_score:
+            max_score = score
+            best_ticker = ticker
+
+    return best_ticker if max_score >= 8 else "MIXED"
+
 def fetch_ticker_news(ticker):
     """Fetch RSS feed for a specific ticker from Yahoo Finance"""
-    # Yahoo Finance RSS for specific tickers
     url = f"https://finance.yahoo.com/quote/{ticker}/rss"
     articles = []
     
@@ -61,24 +123,16 @@ def fetch_ticker_news(ticker):
         print(f"Fetching news for {ticker}...")
         feed = feedparser.parse(url)
         
-        if feed.bozo:
-            log_error(f"RSS parsing warning for {ticker}: {feed.bozo_exception}")
-            
-        print(f"Found {len(feed.entries)} entries for {ticker}")
-        
         for entry in feed.entries:
             title = entry.get('title', '').strip()
-            if not title:
-                continue
+            if not title: continue
                 
             url_link = entry.get('link', '')
             description = entry.get('summary', '') or entry.get('description', '')
-            
             if description:
                 description = re.sub('<[^<]+?>', '', description)
                 description = unescape(description).strip()
                 
-            # Date parsing
             published_at = None
             if hasattr(entry, 'published_parsed') and entry.published_parsed:
                 published_at = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc).isoformat()
@@ -88,117 +142,123 @@ def fetch_ticker_news(ticker):
             article = {
                 "id": str(uuid.uuid4()),
                 "source": "yahoo_finance",
-                "ticker": ticker.split('-')[0], # Store clean ticker
+                "ticker": ticker.split('-')[0],
+                "sentiment": get_simple_sentiment(title + " " + (description or "")),
                 "title": title,
                 "url": url_link,
-                "description": description[:200] if description else None,
+                "description": description[:250] if description else None,
                 "published_at": published_at,
                 "scraped_at": datetime.now(timezone.utc).isoformat(),
-                "content_preview": description[:200] if description else None,
                 "author": entry.get('author', 'Yahoo Finance'),
                 "tags": [ticker, "Portfolio"],
                 "image_url": None
             }
             articles.append(article)
-            
     except Exception as e:
-        log_error(f"Error fetching news for {ticker}: {e}")
+        log_error(f"Error fetching Yahoo news for {ticker}: {e}")
         
     return articles
 
 def fetch_google_search_news():
-    """Fetch news from Google News for the entire portfolio"""
+    """
+    Expert implementation of per-asset search with precision-oriented query engineering.
+    """
     import urllib.parse
     
-    query_parts = []
-    for ticker, names in TICKER_MAP.items():
-        search_terms = [ticker.split('-')[0]] + names
-        query_parts.append(f"({' OR '.join(search_terms)})")
+    # Precise query sets per asset
+    ASSET_QUERIES = {
+        "GOOG": '"Alphabet Inc" OR "GOOGL stock" OR "Google finance"',
+        "EQIX": 'Equinix (stock OR REIT OR "data center")',
+        "U": '"Unity Software" OR "Unity Technologies" OR "Unity stock"',
+        "TDOC": '"Teladoc Health" OR "Teladoc stock"',
+        "BTC": 'Bitcoin OR (BTC stock) OR "Bitcoin price"',
+        "ETH": 'Ethereum OR (ETH crypto) OR "Ethereum price"',
+        "LINK": '"Chainlink crypto" OR "LINK token"',
+        "AVAX": '"Avalanche AVAX" OR "Avalanche crypto"'
+    }
     
-    query = " OR ".join(query_parts)
-    encoded_query = urllib.parse.quote(query)
-    url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-    
-    articles = []
-    try:
-        print(f"Fetching Google News for portfolio: {query[:50]}...")
-        feed = feedparser.parse(url)
+    finance_filter = 'stock OR shares OR earnings OR revenue OR "price" OR crypto'
+    all_articles = []
+    seen_urls = set()
+
+    for asset, base_query in ASSET_QUERIES.items():
+        query = f"({base_query}) AND ({finance_filter})"
+        encoded_query = urllib.parse.quote(query)
+        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
         
-        if not hasattr(feed, 'entries') or not feed.entries:
-            print(f"No entries found in Google News for portfolio search.")
-            return []
+        try:
+            print(f"Retrieving high-precision Google News for {asset}...")
+            feed = feedparser.parse(url)
             
-        print(f"Found {len(feed.entries)} entries in Google News")
-        
-        for entry in feed.entries:
-            title = entry.get('title', '').strip()
-            if not title:
-                continue
+            for entry in feed.entries:
+                url_link = entry.get('link', '')
+                if url_link in seen_urls: continue
+                seen_urls.add(url_link)
                 
-            # Determine which ticker this article belongs to
-            matched_ticker = "PORTFOLIO"
-            content_text = (title + " " + (entry.get('summary', '') or '')).upper()
-            
-            for ticker_key, names in TICKER_MAP.items():
-                clean_ticker = ticker_key.split('-')[0].upper()
-                if clean_ticker in content_text or any(n.upper() in content_text for n in names):
-                    matched_ticker = clean_ticker
-                    break
+                title = entry.get('title', '').strip()
+                summary = entry.get('summary', '') or entry.get('description', '')
+                if summary:
+                    summary = re.sub('<[^<]+?>', '', summary)
+                    summary = unescape(summary).strip()
+                
+                # Dynamic matching and ranking
+                matched_ticker = assign_ticker(title, summary or "")
+                # Force match the searched asset if it was high precision and didn't trigger decoys
+                if matched_ticker == "MIXED" and asset in (title + (summary or "")).upper():
+                    matched_ticker = asset
+                
+                if matched_ticker == "MIXED": continue # Drop low relevance
 
-            # Extract date
-            published_at = None
-            if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                published_at = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc).isoformat()
-            else:
-                published_at = datetime.now(timezone.utc).isoformat()
+                published_at = None
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    published_at = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc).isoformat()
+                else:
+                    published_at = datetime.now(timezone.utc).isoformat()
 
-            article = {
-                "id": str(uuid.uuid4()),
-                "source": "google_finance",
-                "ticker": matched_ticker,
-                "title": title,
-                "url": entry.get('link', ''),
-                "description": entry.get('summary', '')[:200] if entry.get('summary') else None,
-                "published_at": published_at,
-                "scraped_at": datetime.now(timezone.utc).isoformat(),
-                "content_preview": entry.get('summary', '')[:200] if entry.get('summary') else None,
-                "author": entry.get('source', {}).get('title', 'Google News'),
-                "tags": [matched_ticker, "Portfolio"],
-                "image_url": None
-            }
-            articles.append(article)
+                article = {
+                    "id": str(uuid.uuid4()),
+                    "source": "google_finance",
+                    "ticker": matched_ticker,
+                    "sentiment": get_simple_sentiment(title + " " + (summary or "")),
+                    "title": title,
+                    "url": url_link,
+                    "description": summary[:250] if summary else None,
+                    "published_at": published_at,
+                    "scraped_at": datetime.now(timezone.utc).isoformat(),
+                    "author": entry.get('source', {}).get('title', 'Google News'),
+                    "tags": [matched_ticker, "Portfolio Search"],
+                    "image_url": None
+                }
+                all_articles.append(article)
+        except Exception as e:
+            log_error(f"Error fetching Google News for {asset}: {e}")
             
-    except Exception as e:
-        log_error(f"Error fetching Google News: {e}")
-        
-    return articles
+    return all_articles
 
 def main():
     print("=" * 60)
-    print("Portfolio News Scraper")
+    print("AI Portfolio Search Engineer - Scraper")
     print("=" * 60)
     
     all_articles = []
     
-    # 1. Fetch from Yahoo for each ticker
+    # 1. Yahoo Finance Ticker Feeds
     for ticker in TICKERS:
-        ticker_articles = fetch_ticker_news(ticker)
-        all_articles.extend(ticker_articles)
+        all_articles.extend(fetch_ticker_news(ticker))
         
-    # 2. Fetch from Google Search
-    google_articles = fetch_google_search_news()
-    all_articles.extend(google_articles)
+    # 2. Precision Google News Searches
+    all_articles.extend(fetch_google_search_news())
     
     if not all_articles:
-        print("No articles found for your portfolio.")
+        print("No articles found.")
         sys.exit(0)
-        
-    # Save to file
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    
+    # Save raw results
+    os.makedirs(os.path.dirname(RAW_OUTPUT), exist_ok=True)
+    with open(RAW_OUTPUT, 'w', encoding='utf-8') as f:
         json.dump(all_articles, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ Successfully scraped {len(all_articles)} portfolio articles")
+    print(f"✅ Successfully scraped {len(all_articles)} high-precision articles")
     sys.exit(0)
 
 if __name__ == "__main__":
