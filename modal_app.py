@@ -48,22 +48,37 @@ def sync_portfolio_news():
 
         # 3. Check for changes in the dashboard payload
         payload_path = "data/dashboard_payload.js"
+        abs_payload_path = os.path.join(dname, payload_path)
+
         if payload_path in [item.a_path for item in repo.index.diff(None)] or payload_path in repo.untracked_files:
-            print("✨ New news articles found. Committing changes...")
+            print("✨ New news articles found. Pushing via GitHub API...")
 
-            # Configure git identity via subprocess (most reliable in container env)
-            subprocess.run(["git", "config", "user.name", "Glaid bot"], cwd=dname, check=True)
-            subprocess.run(["git", "config", "user.email", "bot@glaid.ai"], cwd=dname, check=True)
+            # Use PyGithub REST API to update the file — avoids git push auth issues entirely.
+            # The same token used here already works for cloning (confirmed by auth check above).
+            gh_repo = g.get_repo("enochwork123-stack/stockscrap")
+            with open(abs_payload_path, "rb") as f:
+                new_content = f.read()
 
-            # Stage and commit
-            subprocess.run(["git", "add", payload_path], cwd=dname, check=True)
-            subprocess.run(["git", "commit", "-m", "Automated daily news update [Modal]"], cwd=dname, check=True)
+            try:
+                # File exists — get its SHA and update it
+                existing = gh_repo.get_contents(payload_path, ref="main")
+                gh_repo.update_file(
+                    path=payload_path,
+                    message="Automated daily news update [Modal]",
+                    content=new_content,
+                    sha=existing.sha,
+                    branch="main"
+                )
+            except Exception:
+                # File doesn't exist yet — create it
+                gh_repo.create_file(
+                    path=payload_path,
+                    message="Automated daily news update [Modal]",
+                    content=new_content,
+                    branch="main"
+                )
 
-            # Push using the authenticated URL directly via subprocess.
-            # GitPython's remote.push() strips the token from the URL, causing a 403.
-            print("🚀 Pushing to GitHub...")
-            subprocess.run(["git", "push", auth_url, "HEAD:main"], cwd=dname, check=True)
-            print("🚀 Successfully pushed updated dashboard to GitHub.")
+            print("🚀 Successfully pushed updated dashboard to GitHub via API.")
         else:
             print("😴 No new news articles to update.")
 
