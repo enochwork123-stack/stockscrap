@@ -9,6 +9,13 @@ import uuid
 from datetime import datetime, timezone
 import os
 import sys
+import socket
+
+# Set global timeout for all socket operations (30 seconds)
+socket.setdefaulttimeout(30)
+
+# Configuration
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
 # RSS Feeds
 FEEDS = {
@@ -20,7 +27,7 @@ def fetch_feed(name, url):
     print(f"Fetching {name} news from {url}...")
     try:
         # Use a user agent to avoid being blocked by Cloudflare/Bot protection
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(url, request_headers={'User-Agent': USER_AGENT})
         articles = []
         
         if not feed.entries:

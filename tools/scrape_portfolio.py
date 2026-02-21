@@ -13,9 +13,14 @@ import sys
 import os
 from html import unescape
 import re
+import socket
+
+# Set global timeout for all socket operations (30 seconds)
+socket.setdefaulttimeout(30)
 
 # Configuration
 SOURCE_NAME = "portfolio"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 TICKERS = ["GOOG", "EQIX", "U", "TDOC", "BTC-USD", "ETH-USD", "LINK-USD", "AVAX-USD"]
 OUTPUT_FILE = "data/dashboard_payload.js" # This will be managed by deduplicate_articles.py later, but we save raw here
 RAW_OUTPUT = ".tmp/raw_portfolio.json"
@@ -121,7 +126,7 @@ def fetch_ticker_news(ticker):
     
     try:
         print(f"Fetching news for {ticker}...")
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(url, request_headers={'User-Agent': USER_AGENT})
         
         for entry in feed.entries:
             title = entry.get('title', '').strip()
@@ -188,7 +193,7 @@ def fetch_google_search_news():
         
         try:
             print(f"Retrieving high-precision Google News for {asset}...")
-            feed = feedparser.parse(url)
+            feed = feedparser.parse(url, request_headers={'User-Agent': USER_AGENT})
             
             for entry in feed.entries:
                 url_link = entry.get('link', '')

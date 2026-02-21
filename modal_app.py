@@ -17,7 +17,7 @@ image = (
     image=image,
     secrets=[modal.Secret.from_name("github-secret")],
     schedule=modal.Period(hours=24),
-    timeout=600
+    timeout=1200
 )
 def sync_portfolio_news():
     import git
@@ -59,6 +59,9 @@ def sync_portfolio_news():
             repo.index.add([payload_path])
             repo.index.commit("Automated daily news update [Modal]")
             origin = repo.remote(name='origin')
+            # Explicitly set the authenticated URL on the remote before pushing.
+            # clone_from may strip the token from the origin URL, causing a 403.
+            origin.set_url(auth_url)
             origin.push()
             print("🚀 Successfully pushed updated dashboard to GitHub.")
         else:

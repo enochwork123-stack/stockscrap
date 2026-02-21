@@ -10,9 +10,14 @@ import uuid
 from datetime import datetime, timezone
 import sys
 import os
+import socket
+
+# Set global timeout for all socket operations (30 seconds)
+socket.setdefaulttimeout(30)
 
 # Configuration
 SOURCE_NAME = "google_finance"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 RSS_URL = "https://news.google.com/rss/search?q=finance+OR+stocks+OR+market&hl=en-US&gl=US&ceid=US:en"
 OUTPUT_FILE = ".tmp/raw_google_finance.json"
 ERROR_LOG = ".tmp/scraper_errors.log"
@@ -29,7 +34,7 @@ def fetch_rss():
     """Fetch and parse RSS feed"""
     try:
         print(f"Fetching RSS feed: {RSS_URL}")
-        feed = feedparser.parse(RSS_URL)
+        feed = feedparser.parse(RSS_URL, request_headers={'User-Agent': USER_AGENT})
         
         if feed.bozo:
             log_error(f"RSS parsing warning: {feed.bozo_exception}")
