@@ -1,15 +1,15 @@
 window.DASHBOARD_DATA = {
   "articles": [
     {
-      "id": "e0c571ca-e3f3-46b9-b563-3302be70a96b",
+      "id": "a25080db-f004-45fe-86c5-3720b14a2365",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "Alphabet Inc. (GOOG) Surpasses Q4 Earnings and Revenue Estimates - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVjRmSE5HUW00R3o5NFU2OExITWwzMEdjaEYtV19wYlI1WVE2WXJDOHBYbVlPV3VaSXhwcEsxN2FodzJ6MThKQnRQS2ZKRmdkZlZHaVFZT0ZzOFE5NmU2M2RCS0lQSDdpWkhOMzZqMjJkVWJYY2xwN2xYV25VV0tabzdB?oc=5",
-      "description": "Alphabet Inc. (GOOG) Surpasses Q4 Earnings and Revenue Estimates  Yahoo Finance",
-      "published_at": "2026-02-04T22:10:01+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114726+00:00",
+      "title": "Alphabet (GOOGL) Stock Trades Up, Here Is Why - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzlZT1V5X0R0dE55VGVfNTA0NlYyYUVmV1Z2eUtBNFVrSTEtaTEyaTdCMDFmVEFwbC1XR1R5VzZnekd1M1FobUYxZkFMQzBHa21HMGtza2JNOWloSTBRSk02OElYX2FRTVVVUlBESUJoX3pmZFlzMVIydW5sTTlQVmZ1VQ?oc=5",
+      "description": "Alphabet (GOOGL) Stock Trades Up, Here Is Why  Yahoo Finance",
+      "published_at": "2026-02-20T20:35:42+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202315+00:00",
       "author": "Yahoo Finance",
       "tags": [
         "GOOG",
@@ -18,67 +18,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "21881028-09f0-42a5-9841-2d68545a0ff6",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "GOOGL Stock: Alphabet Earnings Overshadowed by CapEx - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPNnM5UkVFV0ZGeDcwZmxhb1BFSXZiV19aY2RweXlmOHhuZ2M5UU5QMVNiNi1wY0gwNEQ3Rlo2QTdJallNbWtYUVc2TUVSaTFiWDE5TWZQUmdqa01icloxd2huNm1hekliZmhNSE5ONWtQaXg1RWNYU0g3SnJZeTNXUUJyM0dJVXNFdVlmOUJwQWZTemluNEpRa1NpM3hCOHhiZlI3Q3pIRWlaZzdRV2UwbW9wdG5vQ1k3aTZyR2FXNDNVMl9IX3RuRWtCel93UTFQam94RDJOV3ZXWk82S09KUzZ0d0dIeHlHQlRPTVZXbVVqS0h1WHJTZ1ItaW9DbDBsdmxSZVdqSFgyWTloU3A4aDVUb1VaTUZLWjVqRDdQRXIwcXRvSGlpZGVKRkExRjJYMEtqeUUzOTZPN1I1NXV0QXI0Q29ucHVwOEl3S0JSVy1PbW9RTXdaSXQ4QjFJLXBrbEQwakZ6LW0tb25hZ3gxbDk1VDRvWmtZYUdBZXo5UGJnWWpPTFhyZDlNN0VTR2lqY1E?oc=5",
-      "description": "GOOGL Stock: Alphabet Earnings Overshadowed by CapEx  Barron's",
-      "published_at": "2026-02-05T13:06:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114778+00:00",
-      "author": "Barron's",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "53e7d279-073a-47c7-81f5-f473b95d30e8",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "GOOG - Alphabet Inc Stock Price and Quote - Finviz",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5LTk13RFpQZGxEMC04NWxraThGWXI4UXlodEszLXRRX2xkZ1BhWkdYZVZuS1prcXJyaGg1aURMSVFFTlFOak56MUZJY3M?oc=5",
-      "description": "GOOG - Alphabet Inc Stock Price and Quote  Finviz",
-      "published_at": "2026-02-06T21:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114808+00:00",
-      "author": "Finviz",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "362a6d64-f999-49a2-911e-254895dbbafc",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Alphabet (GOOGL) Stock Quotes, Company News And Chart Analysis - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ3RHcWtkOUszb3lIUjQ3ZndGU05XWDlWeU5IQVJJMEJsUjh6NnFUaFdwVGR0QjVadkFOcm9IbkVsejNxUlJieEdzekQ4TXRsQmQ0ejVZMkpHRkw4TnQwWnB5MnJDLTBrSXBzTTVzdlpOc1ZnNEZpcDdBVWhDNG5wcF9NTVZHYVcxR3hCMVpvVU9OeVJhMko0Ym1qMDNiM1R2Wk9qREoyeUVOdGcwNjh2Qg?oc=5",
-      "description": "Alphabet (GOOGL) Stock Quotes, Company News And Chart Analysis  Investor's Business Daily",
-      "published_at": "2026-02-05T17:02:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114841+00:00",
-      "author": "Investor's Business Daily",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "00162737-142a-43aa-a257-924449751e87",
+      "id": "38c52324-3268-45d8-9e60-7fe723c645e5",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOG Shares Bought by TD Waterhouse Canada Inc. - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDhOOXAzM2xHQlR1Qy1LdWZSQy01elpWYW9UUmFkVFpJeGp5cXl2X2swdUZoNXNDQXNCVWk3TG1HYlhtNE1KSnl2dXptdFM3UTdMVm96eFVHQnhvZ0FOQnJ4N0I4bjh0VWFBbjFXZDBCak9wbTRDMFJ4STNEODZtb180WG1rTWo4LVhvNGl1Nm5CQXlmRU96MC1Ib2RKdmR3REttcEY5NGFRZE40Yjlub29fNllrejQ1R0JMTQ?oc=5",
-      "description": "Alphabet Inc. $GOOG Shares Bought by TD Waterhouse Canada Inc.  MarketBeat",
-      "published_at": "2026-02-05T10:43:43+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114892+00:00",
-      "author": "MarketBeat",
+      "title": "Alphabet Inc. Cl C stock outperforms competitors on strong trading day - MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgNBVV95cUxNOE8wY3ItMHlmN1NoM0pZZld0WE9pQjNZbE9mUXZNNW8xekpPZEp3VlNrOFBrck5aeU9UNTQ3SlppRVJsVXpjT19aWXZkSEd5NzZGaW9fOG9ybUJjLUJlUWtZOXU5UFc0NWJlNUtsdmhTMnpvT04yN201a1gzenRpVWhicTlRWTloOEM0YWdKTUZjai1wM204QWR3TkJXNzBtRU9naG9PWkNkUTNUOVRwWkR4c21ZN0JQYkhVdE1UNTJaZEswS2hpYTVsUzZEOGx2Szgtb0VpRlo2dTY1YzNjb1FMUFptY2Qwa3Q0VDZsRkNLVWV0eURuVUJHOHZjTXBwQmpqNGhMUEw1QjZNQUVuamFsUTJUbDJiVGNFRE5CME1LYV84bTViUkI0dDg0S25LYnFfczNjblAxVjNpNVUxZ2w4dlhMV0Z4RG5IY2RGWDBaZ3d2Z1Fmem16dGxrenNGZmswTldOSFcwR2xjMDNQaW1nN3kyaUtUa0RzdnIteXpyNUh0UGV4YjFwM0tFYTFWajNMUlpSWDhKcXR3U1hYRVBnNndtc3FaNFJ3Mzg3SVVkZGtzQmRFRHNqOWZRam8za2xPeWJzWVdRbExzRXc?oc=5",
+      "description": "Alphabet Inc. Cl C stock outperforms competitors on strong trading day  MarketWatch",
+      "published_at": "2026-02-20T21:30:00+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202414+00:00",
+      "author": "MarketWatch",
       "tags": [
         "GOOG",
         "Portfolio Search"
@@ -86,16 +35,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "b96b0d47-0903-4b51-a1ec-8386174dcb26",
+      "id": "11156ef9-77e4-4d3a-b483-9d978314208f",
       "source": "google_finance",
       "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Is Alphabet Stock (GOOGL) a ‘Buy’ after Q4 Earnings? Top Analysts Weigh in - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDY2VnlnRmJVZF9rOUZlMWEzMUtJaXVaX3drRVdYblQzaWtkdWoyMUNBZHFGcU16M095dTdKRlRGWWhST0daUWNTTk8wejM1bTB3WkFEczhBUTdhcjN0VHk1WWFrVzIyUkducElXaG0zUDdjU3NuOGNHY0ExY0gtcE1EZ044aHg2V1JybEJTd0dsYWFfdGxISQ?oc=5",
-      "description": "Is Alphabet Stock (GOOGL) a ‘Buy’ after Q4 Earnings? Top Analysts Weigh in  TipRanks",
-      "published_at": "2026-02-07T08:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114927+00:00",
-      "author": "TipRanks",
+      "sentiment": "neutral",
+      "title": "Alphabet Inc (GOOGL) Shares Up 3.22% on Feb 20 - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ25kNC1ZVS01S2RLeWF1ZThNUnBjNDJoWVMwMXNldGJSbWp2OTV4SFJkZFBGN0xrSXNtbERUcVowWWttQmdIYWpHbmZ2T3lnSlZhclkyWl93LXpuNHNBam1ZSFVWbDM0UmNjbWt3bVNVVmhrRWVraXF4WW56M0ZwMjNHY0lYTnRv?oc=5",
+      "description": "Alphabet Inc (GOOGL) Shares Up 3.22% on Feb 20  GuruFocus",
+      "published_at": "2026-02-20T16:48:24+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202479+00:00",
+      "author": "GuruFocus",
       "tags": [
         "GOOG",
         "Portfolio Search"
@@ -103,16 +52,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "a2bea2b3-19fa-43e7-ac14-66a14fa8e2c5",
+      "id": "10e39302-ae62-405b-9959-e9750260c525",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "bearish",
-      "title": "GOOGL Stock Today, February 07: $180B 2026 AI Capex Spurs Selloff - Meyka",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVVFZRGhzRk9senVhZVlXQXBBaFUzeEhlZWhtRFRhUVlOQWo5c2gydXlxa1dLRm1FY2hUWGV5bnB1MHRGVmNCYVNBZ0pTYUpmR1daaVdYWlpnM1k1T0N0T3B0ektFWkZBNlVIaktFdDNjZ0ktTjJHSkRzQzE5VFRUdnlYRzBEWUhrdnJqR1d6Y3hFR3F0Tmc?oc=5",
-      "description": "GOOGL Stock Today, February 07: $180B 2026 AI Capex Spurs Selloff  Meyka",
-      "published_at": "2026-02-07T20:36:38+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114954+00:00",
-      "author": "Meyka",
+      "title": "Alphabet director Hennessy sells $184k in GOOGL stock - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTldORE40a3FkOHRCNGNnQlBCdlVuZUNsRGtjWXJidV92NzdsSk5MSnAxMy1CZVZON2MzdUVKM0xGOGZTTzdjX2t1Q2o5Z1Zka3hWenZEQ3pVUkpyOW11aXp2ZE9TZ3FZYWxCSmM1RjQ0cGNTT0pQSHB0aUctR21oUG5JQXBTTUZNMVRYVG91aHhIaXgyQ0owbXNyaDk5Um44NnNZQWtCbjNZRFJKeWZTZk1UVUxiVjJw?oc=5",
+      "description": "Alphabet director Hennessy sells $184k in GOOGL stock  Investing.com",
+      "published_at": "2026-02-18T02:29:21+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202548+00:00",
+      "author": "Investing.com",
       "tags": [
         "GOOG",
         "Portfolio Search"
@@ -120,16 +69,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "dccbaae7-a5dd-41ec-a86b-45d7ac395670",
+      "id": "d25a64cc-3237-4a4d-9b5d-48f696c482da",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "Should You Buy, Sell, or Hold GOOGL Stock Before Q4 Earnings Release? - Zacks Investment Research",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMUZPcFdhQWRFbGhkeXpCcTJQYktnbnVFdmNZcXdUYjR5aDdYd0ZpM0lFY196Qm1KMHdyTTF4RUZra081WmtNSW1iZFd1SWVwSDZsVGJCRFZOdGVNZDhyLTRYbFZlT0RpSGE3dzFZV3hvUGMwMzF1eDBYRm9fS3JiaERMX2JfTFZ4cHBkZkxoYy1HVjZQWXp0UGxEamxxcWtvVmN4S3hNazlzTzg?oc=5",
-      "description": "Should You Buy, Sell, or Hold GOOGL Stock Before Q4 Earnings Release?  Zacks Investment Research",
-      "published_at": "2026-02-02T15:33:45+00:00",
-      "scraped_at": "2026-02-08T13:02:39.114986+00:00",
-      "author": "Zacks Investment Research",
+      "title": "Alphabet Inc.’s (GOOG) Generative AI Capex to Drive Up to $23B in Cloud Revenue, Says UBS - Insider Monkey",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS2U1TDNuVEljbUxGVDlZVUJQZGVHdUs3QWFEcFhkX2lxMEpGR1FUU3NQclhrNHlpYl9ZX3pXeThaVTBoTlJHRmlIUU1CUnFES0pBWFN6eTNCVnJBSTVwN05xcUxPUENhNTdqcFJ6SnhGTlc1emZHcmR4emJJeENEeThHRmp5U0FpNTdaaUhzWllaNEV4b2c5eVo1V1ZqSE9DZXJxdkNaRFljTE5Mc1ZPampkU3g5a29zTXVPa1IwaV9qQjNZc0FN0gHPAUFVX3lxTE9xZFAwTTZwcl95ckhKWGY5SW1DRkxRMFNrT3lsNUcyekFvdFVLVzBXQVhuT2lhdE92RGdNSHF4Q0FKRHJDU05EN1FoSllBTkpNSHBENHV2VWNBZ04zQTcwcm9BZzJKaFpnVS1PZEViOFRJRHNqSXQtdlJDM2lTYjZwXzFrZVZlcVBCRldZRVRZWDlTZ0gyTFFncUlvbkZQZnpnZ2VTb3V5Tmdtak9jekZjNWJud2E1TXZxTV9Sal9GUGNaTFVSUnhnbGpQTmtyRQ?oc=5",
+      "description": "Alphabet Inc.’s (GOOG) Generative AI Capex to Drive Up to $23B in Cloud Revenue, Says UBS  Insider Monkey",
+      "published_at": "2026-02-20T18:21:26+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202651+00:00",
+      "author": "Insider Monkey",
       "tags": [
         "GOOG",
         "Portfolio Search"
@@ -137,66 +86,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "f384e62e-fc6d-4eae-8bf2-697b8fddf1b6",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bearish",
-      "title": "Why Alphabet (GOOGL) stock crashed today, Feb 5: what happened to Alphabet shares as the US stock market t - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNQW9rRWN0U0h5N0t5dENfNThvbHU3X1ZUbjR4WUl1Z3BlMVVkdkNsd1JDdjFhVW4zQXBkd3kyRUZQWWdQekFKU3dQbF9NUzdmLUpLbEVCYUY2Q1d3SjcyWUJlZWJ2dzBRS3dWQ0MzVXRsRnVhdmdSaE9kOThUaGJ5NEI0VFRMOThUblVrWEhYT0ZTMTNMY2N1aTRjWEFOZHNQdVlBZGRuc3Y5V0diY3UzRGR0WldkczI5eHU2R3FUX05uT0ItdTlpTER4Z21pdFI5eERza214MGVfd2xqbHNqY3U4NXFNTUVDY3JqZ05CMXJBOFlGdk1GSjV5T1Viak9YZmRNMHlydjM0OUhudEZiSThTeGtIWmxmV0s3RzVuU3fSAaYCQVVfeXFMUGExRTRjZzlsNFV0T3FJcUxGRm5EVHFidzVCWW5rd1Y3cTRPZ2xxaXdoUXZVa2JGaUlwemtMb3F5bTFyRkk3SGl4dU1wc3VOT1dZUzVFR2NJbTlGeUREU19VdVJ0YWhxek1NSUtYMXRCMDNTa1pSS3NjTml5QnFMZ0t6NFZuOWVzVkJfdU5DY3k1QXUtOTVwQXN4UlUtb2RoSTdNM3pkQlVnTkFxNEdWaWtXSG1jZGFMbFR0N1QycVVSNWFtWG0xbUU2WW55YnlZVV9EVXBVZHE0TlJzR3poMHlaUUNQTWxQVzFYNzZuV21DS0psTFN0aUV2V1hnSlhRSmU5c0tHajVlUDE2ZWphMzdQclRyYnlvc3VYZnl2Z2lEdlBndkpR?oc=5",
-      "description": "Why Alphabet (GOOGL) stock crashed today, Feb 5: what happened to Alphabet shares as the US stock market t  The Economic Times",
-      "published_at": "2026-02-05T15:34:09+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115027+00:00",
-      "author": "The Economic Times",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e884dccc-c1f4-40c8-9ac0-11615f8fd79e",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bearish",
-      "title": "Tweedy Browne CO LLC Reduces Alphabet Inc. Stake - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRlpYNzFzRW9qV1pHSGlzcmVNdmVoNmg3MXpoOFRFaklDWFI3MGppTW5TVTNhbE9iXzI5cTNIYnJKODJhakpORjJSS21kUjhNbGpjWTFwcTU3OXo0aW1tUmZXQ0RhQjJSTUhlTVJia2lYeDN5RWstM2RlWU5xTnV6US0zWTFYRXVUU1hobkRuZUhGVXk3b21Rd00yQVBtZHpWNzlVUUluYm94ZHhsazhxRW5Qazh2aGlVWUw4cmlaU09tZndIekNUWkd3?oc=5",
-      "description": "Tweedy Browne CO LLC Reduces Alphabet Inc. Stake  The Globe and Mail",
-      "published_at": "2026-02-06T03:11:21+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115055+00:00",
-      "author": "The Globe and Mail",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "57d37312-dad0-4524-ae2e-a609c31d1e82",
+      "id": "14aeb4ea-034a-4228-b6b3-3cdc63c228cb",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "New York State Common Retirement Fund Cuts Stock Position in Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV0dqNzBfamdoV0dGR1lMYXh5VTZRQm1XV25zOEpmT3YzZUVCUjdoSlRtOV9MbXJTQjZhUVIwdi1KN3FHem0tS2ozaW9DQ1FXbTltLS1XY2RIVmtJUUFvbkZQWWpSZ2ZiQTlzM2xnVC1Oc2xLV2RGRmxTeXlpd0NJbXhFM1h5emxLZXItYmhwNEZmeEVILTFEMlNZcWpHRjRWRTh0RG5faER6cXduLVp6UzZGRElKdHNWdUlSRy02UEd0bG9EN21kSGVMWU11YnJWSGh1clB3?oc=5",
-      "description": "New York State Common Retirement Fund Cuts Stock Position in Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-05T10:43:39+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115089+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "79513d1f-d664-43e3-bcd9-0e537c258e2c",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Top Mizuho Analyst Raises Alphabet (GOOGL) Stock Price Target Ahead of Q4 Earnings - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcVUxaVRUYlFfQnJZV0I2QTB0SnkzanREMFRjOHYtXzdCZjFBMFpQR3kxa3FhX2JxalhScG9yRUgtdEVLc1JoeWgtUXRjX2ZLVVhSc3FpVEhNSTZ2SktobjFiZzRXZTBWMEEwd09meGtKNlhBZ2NmNU40X2lSUWtBcjhsNnNDV3haOVpvN3ZBSzJqZ2w2MW4wTm04UHFXRXRpR3F5YmI5cjBOZ183TW9B?oc=5",
-      "description": "Top Mizuho Analyst Raises Alphabet (GOOGL) Stock Price Target Ahead of Q4 Earnings  TipRanks",
-      "published_at": "2026-02-03T16:41:15+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115120+00:00",
+      "title": "Farallon Capital trims Alphabet Inc. stake by 333,900 shares - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdUQzV203N0JTdE9xRldlNDNoRmxkaFlTWktZSU01ODNLQzV6a1pXbHdTSkF0LUlvbV9UeHdrZkExTzczZGl3U1FLdmNKQVJoSkczRWhwLXV1Nk1jTzYweEJQT1ByUzNqVF9OSTRlSnlrZmwyMUVDblRMQ19hRHhTenY5QlRsMnF4djBwbmdvRWFPN05fUGVETjNDRlhUY1hQeUZOdG53NTkyNzgwM1dZ?oc=5",
+      "description": "Farallon Capital trims Alphabet Inc. stake by 333,900 shares  TipRanks",
+      "published_at": "2026-02-19T03:08:59+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202707+00:00",
       "author": "TipRanks",
       "tags": [
         "GOOG",
@@ -205,491 +103,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "9a6651d2-0c2f-43a5-a07f-c51c3de56fdd",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOG Shares Sold by Townsquare Capital LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU2FMVzFWXzNJdUU5dnhnaThUR2xCbVhFSGd5R1pnWEZxakhzTkNCNm9rNUtoU3hzT2k3bEhlQzNwZktyclZ2LVNWU3M5a3NRVmNCUWRYVHNBVU5PTExnb3ZCV3pzWGV0TGVsbFFqWUgwdFpFQjRnTVlvWklWa0xGcjFieG5MY1NVMm5RdzNSYzVjR0JuR3lmWXl6YklFSXZwOG42bTdkLURJZGdMR3BVV2w1WVpCYVk?oc=5",
-      "description": "Alphabet Inc. $GOOG Shares Sold by Townsquare Capital LLC  MarketBeat",
-      "published_at": "2026-02-07T11:06:56+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115148+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "70e2c62d-abae-4631-9f6f-db26dfc6a288",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Wall Street Bullish on Alphabet Inc. (GOOGL) with Strong Buy - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVHFIQmJZc1EtT1FtWkNDS2dWbXdZUzBYbnUxUFJVVkJscFRoR0FYaXhTcmdMTV9yTk1CcVh3Rktsck43Y0FnenQ1NzZVb01adWhlZFhSMGJXQllubkZTMWdUcVpZTzZiRG9YUHdzdTJBVXV5MU1Vdi1GTW9wYU1TVC1hNTc?oc=5",
-      "description": "Wall Street Bullish on Alphabet Inc. (GOOGL) with Strong Buy  Yahoo Finance",
-      "published_at": "2026-02-01T17:54:17+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115177+00:00",
-      "author": "Yahoo Finance",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f21fe9ec-e291-4d7f-8b28-230b373e3a6a",
+      "id": "124e1a81-207d-46fc-be33-dedca2a02b61",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "Alphabet Inc. $GOOGL Shares Acquired by Johnson Financial Group LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUVaZ2FnY0FkRWJCY3BUeC1heURFMVN3aEgtbWFkMVNwN2FycjRMOVM1Vjl6NlpOb1RuQkN3UHFtdzZvVGVrcXNvUHZTMzdhbmZzYjBWd3kycFpVWUVRcFhMOE1YcUpVM3NrcXdPTGR0OVBHQ1RzQ2dQdHUwaDJSdDc5ZmNlV2VCZDVCRVh6d294RE51eWtSLUxfOVh3VmFjTGlTXzBfaXFMcjliUHkwSGRoczRhamVRM0FqU1BTMzA4Yktz?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Acquired by Johnson Financial Group LLC  MarketBeat",
-      "published_at": "2026-02-05T11:56:07+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115210+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3ce6e419-8d22-4010-bdce-e8f20b151ffc",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOG Shares Sold by Channing Global Advisors LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRnAyYjlwcTNweElJYnVwbVVKSVZWbmdReGpZUDlvaEo2RDJaNHdsQlFEZ0FrYnEwWm8yR3JNejM4WFlPZEJLXzQ0ekZWMlNVWC1qZVVONDBnUmNWdU9YbTU1cGQ4RWpha0FFeTdOV2tSN29pV0ZJUnZqclQ1a1V3eDB0eGNIUzlFYzVmRUFjVUxQRWx0WjhyN3BncWdQM2NJcDBfaXowNGZ6aUxSQTNPd053RnI1eTNqN1RrQzRYcw?oc=5",
-      "description": "Alphabet Inc. $GOOG Shares Sold by Channing Global Advisors LLC  MarketBeat",
-      "published_at": "2026-02-07T11:18:37+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115238+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "71f1565b-5c51-4149-ac75-2e91de3a1350",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Purchased by Quadrant Private Wealth Management LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZTE0XzFMWFlKeTVaLTZZUGNlNVVUMlE2cDZJdWNuSXMyV01xNGtOQzFsb1VDeGxuWG5UVG10R09nRDZsdnVlVzB0NnZrZ201WFBkbHA3bnVfSmFGNUVINE9BZHo2ekxMd2xPcVlIQjZHVnpzel9TVTNFcUhmc0g2M1FyWXhONTNIZ1FLaVBhRkFWVGxJVWhxOVo2bkVTS0x3TmU2ZU5CRHdjRWw2NXdHVWpQREN1NFkzcUN4ZFE4QVBIcU1fQlpDMXM5TkI1X1VqZzdwQw?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Purchased by Quadrant Private Wealth Management LLC  MarketBeat",
-      "published_at": "2026-02-05T10:43:39+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115270+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "6ebe1a89-e1b1-4937-93b5-a7d69a6395a7",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Jennison Associates LLC Acquires 4,303,643 Shares of Alphabet Inc. $GOOGL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdmNZcjh6N3U2Y2sxcy1PQXM2STlhX0pCcjNfTjZuM1FHOUd2cGwtcFB2Z3pFRWNKN3pEVEg4SDFQS2xwYTFidGVnbzFpclhvcVBLYWlISm1hcW1oQUJoeU8zdFQxdkR5dVYzTjNQd2x2Q2ZfaU9SZGN3clFzTXNadVVLcDItTFVKemN2NlNUc2NnRGJxeDFYdW5CNU9zZWFZRlczUXNpM3dEeHRJWlZUSXRUN2ZZa2FYR1MzNDdSakh1NDVManN6SEp3?oc=5",
-      "description": "Jennison Associates LLC Acquires 4,303,643 Shares of Alphabet Inc. $GOOGL  MarketBeat",
-      "published_at": "2026-02-07T11:46:50+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115301+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8b53b211-74e0-4fff-a3e3-10d410b74139",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Sold by First Business Financial Services Inc. - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkZVcm1IQXVlbVBiV19qX2U3ZWx3bU03VGhycC1zX3ZaUzlsSnVqaVpNQXZMRXhybl9fRms5U1laUTdnRUdiSXBpWHlRZ2hxWnA2bExpVUIyRU5CbGJ2V2ZuV0w3QnFqYTNyQlR6a2ZJemxzdTQtM25TckVVbnF0U3JYSDZ6UThOZEVGUnJzX1hWQUVRSHJrR3pqREZLek5kd0kxMmlGS250YUtWc0pyaGRXb2lVZEprOHJrdmVIQVdISi1QS1pBYUxJcDY?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Sold by First Business Financial Services Inc.  MarketBeat",
-      "published_at": "2026-02-05T11:23:58+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115331+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3a6d60db-4b1c-4ae8-85fb-ee44a20ef9d7",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Bought by Facet Wealth Inc. - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVdHV3AzeEJwaWJLNEdxeVJkRFhXd203QVBDb1p4eFRfWXh2X0tWOUdpdUVjZWJ1ZDZEUTJ3U0p6ZmtsM0FGalFEUUtfMGFDZ0ozaE8tNDN3eUV1Yk00Uy1iWlB5eXN4Mm53VkpXeHl5c3QycUFaMVhJQXJ4MEZXck1QTUFGVXh1dVFYRVJGcGdVSDhKUlM4czBqSXc5dlVGR1MyM2psX2d5enRVWXJuMEJRdw?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Bought by Facet Wealth Inc.  MarketBeat",
-      "published_at": "2026-02-06T08:11:11+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115359+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "6361282b-ac9d-44ba-bda4-9e86608388ad",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Sold by Boyd Wealth Management LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3VsQ0YzRnlRbW5TeEtYRC05azB1TTdXazVNQ3FVNmR1VWU2RnhWVUdhWGFwby1VSWpjcmoydERxMkN1REMtd1RnNnkybnYza2JWX0J4c1B6bWVLbjJXWmxoYzZ4bnQ4Zm9rRDFKck9nckZHdGE2U1g5YjByMk1UbzZWN09KbXJnSlp3UlhCS255Q3NCUHpqelBhbkhXQkFJQ2YzcDhldzhucl9PZzJycm1FSEk2dEoyUVAtWkNn?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Sold by Boyd Wealth Management LLC  MarketBeat",
-      "published_at": "2026-02-07T12:17:01+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115388+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "263c6b11-508f-4be1-bee2-dad25e2402a5",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Beats on Earnings, but Rising AI Spending Weighs on GOOGL Stock. What’s Next? - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaU00Q3htYktJejdDMmpUSXFNYVZ6aWxoV0hnUktGUk56RFg3NHFjWnVBbXpkVDdjNk5GTFBmX1hrVEQ0RFcwSXhCNEhSN3BVQ3dyR1lPZzg5WHVrTFNsVGEyZ0dyR2xFbkxzN3luVTFqUC1SNjRhMjdhTUdiLWcxMmlqR0pSQ2hXYkRvMF90ejJkN1JOYU0tRWpJNVdwcTMtcE54MGpNWmgwUUo4OTJsb3B3?oc=5",
-      "description": "Alphabet Beats on Earnings, but Rising AI Spending Weighs on GOOGL Stock. What’s Next?  TipRanks",
-      "published_at": "2026-02-05T02:48:45+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115423+00:00",
-      "author": "TipRanks",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c984e014-a95d-403b-9320-327abe8b09af",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Alphabet, Inc.: Why We Trimmed Our Position Modestly (GOOGL) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkRadVc1MTRfd0xidzVvc0JabU9JY0JfQmhFclAzMm9tUzlJYUI5WEZIZkk0RmhYVXBYOF9jaUstUzRxM3E2aUxSc3F2YVAtQ1ZKRVpTQzlfRzlnSmVxd0h1Y0VIR3VYUTZuVkdLYURJb3BuU1RTMVRCb0Y2bXNJRXJDUENWYTZEdkVKVk45NzBZTl9D?oc=5",
-      "description": "Alphabet, Inc.: Why We Trimmed Our Position Modestly (GOOGL)  Seeking Alpha",
-      "published_at": "2026-02-02T07:20:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115452+00:00",
-      "author": "Seeking Alpha",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0206979c-d160-47fc-924c-729278cf12a4",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Sold by Resona Asset Management Co. Ltd. - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWkwyTlpfWUpCd2NjeFJ1NkgtZFIxU29KUHpRZm5xNy1udjluRE1aMldsOTNoWU5rWUpHRlRVcURMSTZEcHJUbzM0dVNfVHJBQWxfa2ZaVFl2b0ctbnR0c1dpMEVPMVR2QVBiZXZDZkNSMmNBckd1aFFRQW1Ka20yMnNDdEt2MHE1Sl9nSG82b0JFVHYzeVBOSmFDZTdhZVJ6QVp1OGZnd3RQSURMZ0k1Y3B1MXBxRl81a285cHI5WTloQlk?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Sold by Resona Asset Management Co. Ltd.  MarketBeat",
-      "published_at": "2026-02-07T11:56:57+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115482+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "531ea73e-fdfc-42d4-a629-4a910d66a084",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Core Alternative Capital Sells 9,800 Shares of Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQS1JazAzdzhISS0xMHVkcXBUd3NNaVl4OVB2UkdNb2RVN29RUW5xMWM5QWw3ZlhMMFhGcDRxU2RYbkt2R3lRX2h4cDhCNnNyMlZoR2stZ0lsRTNnUTRfNDdjbHc4dV91ajJaTG1YRHZ5RzdoRkJlVXdPcEpOTzYwcUhzYlRkendZMWEtZ2NCRHVNblptV0pLdXd3VmhnV2VTN3Rub1FXU2JSZ2ViWUpqM3ctRElBc0Vvc0NwakZfSW5WZw?oc=5",
-      "description": "Core Alternative Capital Sells 9,800 Shares of Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-04T11:09:44+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115511+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "cbb948ea-375e-4bd0-a8d4-94ff8904934a",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Everhart Financial Group Inc. Buys 3,252 Shares of Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZnpXeEhEVjlvT1lnWUM1cFBWamZ0clJBNnJsOUk1aWw3YTE1MGdKRUpoeDg1aUp4dk1nQkJMcHNBWTVhUGlnNDI3aFEtWEpYVjZIdGF3Umc1UXo0cVF6ZmcwMmZMbnEtcjJHQW4yOWpnMURobkFjSWRMTTBHWGwzMFpQQ0F4c2RoeUlUbXBkZTJOWnRXc0NrY3Jpek56d0dlMDhhb192S2JQQi10alRNQWQ4ZW5QZzZnUW5pNV84bS00eGU3c1E?oc=5",
-      "description": "Everhart Financial Group Inc. Buys 3,252 Shares of Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-07T11:06:50+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115543+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "a1cf2f46-b82b-4466-8ee5-9fc17beeeded",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Bought by UniSuper Management Pty Ltd - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUWxGc1lhY2pGUVVMSURaaW8yLWJVMjZ5bXV2bUc4LUZ2cWZYY0RFeThJU25CQlp6aHF0Nk1UdEw3ckh6Nmo5NUMzQjdZQ3dFVnJDR3JtYXJtemdnNVZUbHhDQ1hNbmtoN0Fmc0k1T2VnZDJYSXRoa0xRVUwzMUJkYkE5NjM5ZEVyejlCaTcwRzFNb0NQWUxYOEtQUmVULXhxWHFNRjZVZzJmX1BmSlNOTm1ZZnFuekRhYTJWZmpJSFVNdw?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Bought by UniSuper Management Pty Ltd  MarketBeat",
-      "published_at": "2026-02-07T11:35:06+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115572+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "9d1712ba-8ed8-4473-8afd-21bcda349523",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "L.M. Kohn & Company Lowers Stock Holdings in Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb3FYbGxyNU1iNGppbnMweFVxOGQxTkZXMVNSTk03ZXo3LV9kZmRVQmdfYTIxMUZTdmxZSG5CUEIybjEyT0cxQ1lxQktYM0NHWmdzYl9hQWl3dmFkWDlieXhzTHBJaEdmWXUwVHdmN2dzTUZUMFktOXZCeV9zbHZCbWt1c3UyaTZHRG9HVmJlZm9OU1FHVXgzYWVZb3VqMEpfQWZGN0JjVDdzNVJvZnNQN1lPMm95RUJlVUpr?oc=5",
-      "description": "L.M. Kohn & Company Lowers Stock Holdings in Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-07T10:42:22+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115600+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3689b648-44ef-4e1f-886b-68ea4a4bbb15",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet (NASDAQ:GOOGL) Stock Price Expected to Rise, Moffett Nathanson Analyst Says - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDVKZnU2NkxvWHdlaVc0R2VqZjlETThXQjlfTi1JOFBQelFWdmNoOW9hZ2R6LTJTN1pGaGtseWQ4ems5SFp5Uk1BaHFPbUMtRFF3YjYxMnZ2MVJiWXIxRHZ0Qkg3TVBlaC1TNVN0amtYbzVlYWdVUnNDZ3pXLXJ3TDkzLTR4QUNwUHFleDdWeUhTUjFRcTQ5UGhYRkdkVzYtN3Q0M3RHT2ZsWkpGdmVmQ24xRktOYmEzY1B6U2gtdk54WmtOM0Vpel9CU3Nrb1k?oc=5",
-      "description": "Alphabet (NASDAQ:GOOGL) Stock Price Expected to Rise, Moffett Nathanson Analyst Says  MarketBeat",
-      "published_at": "2026-02-05T18:24:44+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115632+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "5e90d8ff-2aa5-4559-a559-49dc58654102",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Alphabet Q4 earnings today outlook for GOOGL stock - Alphabet is set to report quarterly earnings today wi - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQZ2dwV1ZyZ2k5b2dqOGRaMHpyWG5WSHZWUmtDN2JPd0FFSXFDRTVHYWxBb19xZjNkT010aVBRVUJ6T0NYZ0hXTnF0dEI1RHh6dlpDN1VYZHA1VDBRS20yZ0xMZk9hVXNNSEptWHVxRkxITDZjSUgwZkVYR3JrdzdIZmlXb2ZPclpGV25pbzFmUFRFalM5RXEybmk3UXQ2OFZBTV9sUEdEVXZCaWZoMHZueGtJRDhFZDV4Z01obkFKZ1lwSFo2OXZhaFVtVExubHFHWUphc284WTQ1Y09FUGFiYTFqYTVsTFM3bkZBM3lGd052VVBfOEozQmNqNTdjNnlMTzRLYklYcFBRUmprWnJvTG1HT3pab2w1SWU2Ym9FX3BEeXRIYjZDRy02aVM0RlV6SXVNal9UVVgxMi1HTXh4dnpucGUxamtycEg5bW1fRWRwMTJQaGfSAdsCQVVfeXFMT0JXZmMzc2V2X3UwN09XNnY4S3NJNWR4anhlV2p4Zzh2TEN4cU5CeTQ3WU83STdkSy00WU9ZU1hfZjZFUElFenRTLVhHaktKRmRJOTR3OTFtdWVoZ0xQT000bkl0UWdJTEpzMUd1Q1RsNy01aTkwbjhmd1JwSWdYYW45MzRwT1VMcmNmeGt4Mm5ZMDZtZEVsalNNRnhYUndubDE0c0ZrMkZIZlhhRWZDeEZHZDhlY25Mc01XSThjMlYwM2lNSzljRXEwMDdkcG83ZUMySFhaY1h0cVVtcVRNWTE5TWh3dXg2VVQ2YjlQY0N2VXdmUExzUmRlX0wyNVcwVFVlQlRXbmVKbnhLMy1EcGd0b2hFZFpyY01OTWtBZGJJaWI4RUlzNFhrcTlCbEU0Y0MzM0lmNGRUekRWSHppR2JVYlBqS3lLT3dsWDVNbE8xUDlBQ2dUM3Y1Mmc?oc=5",
-      "description": "Alphabet Q4 earnings today outlook for GOOGL stock - Alphabet is set to report quarterly earnings today wi  The Economic Times",
-      "published_at": "2026-02-04T13:10:06+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115673+00:00",
-      "author": "The Economic Times",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "038f41af-bb24-43b4-9e6e-8c6cca881ca4",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "National Pension Service Acquires 313,150 Shares of Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSnZnLVYyOFZwTkZJTzhLZjhWSk5POFQ2dWMzRFlnTGMyelYzZ01GMHA5UlFuTEFzTnA3S2ZwcnlvMUVrcDN0ZGlTaTFTZzVheW9SajFoZlVTcm9ka3RWd2w3VUlYWlJhR1cteHNtVTdrclpRU2pyQlFlajdxZklRdzFGNU1DM05LZ2Zqam9WVlFzbEtILTJkRWNza2hxRW1jTFZfaGRCNzZ6YnlFZExJeWZzWk9fOUlwbWR6ZHp4UkxibG5HTUZ2OQ?oc=5",
-      "description": "National Pension Service Acquires 313,150 Shares of Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-07T11:46:47+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115702+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "a43511a5-96ce-4c06-b212-594cfeaa8d61",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Accredited Investors Inc. Purchases 3,204 Shares of Alphabet Inc. $GOOGL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOFZLOEd0ZENMclR4RmVSWmJ4dFY5OTZrb21lcWxoMFRSem03WDVqOEd1Q1VsNlBYRHZFbkstb3VnTDBYeGRvVFVqT05XNGFPZzJsYzBHeV9WbGJFcXM1YjRnVUlIVFNfaDEtSFBrRDMxWndCbzhoNUlUY0xwY3YwcW5pU2lEMEdpSUtGM1JqOExyQnNzUUxqXzJjeVNsUDdKMkdKejJoSXg5dkJSVUxYY2gyaF9UenZmS1F4R0N1ZW1WM3l3Yk5sWg?oc=5",
-      "description": "Accredited Investors Inc. Purchases 3,204 Shares of Alphabet Inc. $GOOGL  MarketBeat",
-      "published_at": "2026-02-05T10:43:37+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115732+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8726f497-1926-4bcb-b926-2062a6698ee3",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Yong Rong HK Asset Management Ltd Purchases Shares of 200,000 Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSjhtWVkwbHRwSnR6a1BYZnZTTm9vU3AtVXNIdHdqYmJmamNlT3FhTTNRZTdvUm5GUzJuQU1paHZqM1Y3Z1FhdkFvZkotbzlaUXJicG9sajM4SklIOVpmaGZsdVJrRy1JOU1mLWs5RThpNm9IY3k2UVRETmx2WHcyXzlHQTd6dXl0XzZkMEFBM1BxaXFIaGVyQ2gwVzJwak90cFBxTThZUG9lWE9iLThibk9kM3VqTnREX3BTRXJCOFRDT1NFY28zcG1VcGtSclJtYlVPVTVn?oc=5",
-      "description": "Yong Rong HK Asset Management Ltd Purchases Shares of 200,000 Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-07T10:58:23+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115765+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "681ee837-7a23-45ec-b713-6af12e1cbf0f",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Mn Services Vermogensbeheer B.V. Has $462.17 Million Stock Holdings in Alphabet Inc. $GOOGL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWG9lbDNScjkxblh6UjkzR19VSkVoY0EtTDhXcTA5WWQ2djJ3VmFEZzVVblg1S1dOa3RtYXVOQW1YU09MWXRNeUNDeFVqbzBTLTZzZnBFUDVTUkpaX1pSYy11MlFETFR5SG9IanJHNHJxYkFLTV90V2N5OTNqWTFyZ21weFk2UDJ0ZXRWOTE4WmkyVWlLd1FpVERmVFc5ZnE0TTFDLWl2UWlWTzBrZFJaQXFLTEN4b3RZN0xaNjBqUUV0eEphcGJROVpnVGpzMDdvdURGRF9ENGVNTXE0OWM0?oc=5",
-      "description": "Mn Services Vermogensbeheer B.V. Has $462.17 Million Stock Holdings in Alphabet Inc. $GOOGL  MarketBeat",
-      "published_at": "2026-02-07T11:46:49+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115797+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3c541c35-098f-433d-b7f0-a8697c69a269",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Cathie Wood ‘Buys the Dip’ in GOOGL Stock, Trims Coinbase (COIN) after 13% Rally - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHdoVkZZNDhwNGVYNEVJWXhSdU9nU09Rc2tmODMtM3lqbnNCUEJCbGdVUUU0YVFaQVBxR0FXcEtoV1dRSWExNnFTcjMyVnBNcm1qTHo3SWYwNENIMEl0U2RIc0hVbU83cl9CTHhqbk91Qkt2OGtyREdkZTM2SmNLUTF1VU92MWw4YXNDQmcxOUlTVG9fYzJFQWtQdVR6cEhDajJvRk5VQQ?oc=5",
-      "description": "Cathie Wood ‘Buys the Dip’ in GOOGL Stock, Trims Coinbase (COIN) after 13% Rally  TipRanks",
-      "published_at": "2026-02-07T12:09:46+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115830+00:00",
-      "author": "TipRanks",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "08f85a4e-aba8-4585-92f3-dae0348622c7",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Analysts set Google (GOOGL) stock price target - Finbold",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GdGlIMGk0eXh4anlxXzdZVXVnd3k0TnAyY1hBZUg1NTRUTXR4dmhTV1JFZGtveHVoaXpuLXVRam5pcXZzWU1lNE1sQU9xaWNGWEMzRHdNRkg3OUFYNUhVQkZQZEhIOE90bUtncjFsaWlPc0VaVnc?oc=5",
-      "description": "Analysts set Google (GOOGL) stock price target  Finbold",
-      "published_at": "2026-02-05T11:10:38+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115855+00:00",
-      "author": "Finbold",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "b8e5405a-5d49-4e5f-bdb3-ad76a07b9c54",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Sold by UNIVEST FINANCIAL Corp - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSEpZRUI5WlhzUUUzbXZnNjJsaS1taTlBWERTWWdQTUJTcG9HTHEtaENKUC14RVZXdlhrTU5BQlhyNHdTVFR4TmFIRjdJYk5jMGVfU3JCQ1ZxXzdTVmloTVZzeEFnT0pYN1k3SW0wTkI3Szd1cGVsekduUkloX0JHWmhsbmN0bUI3MTNHTVlKWGhrajJKODlLMC15R2JwZDJkSkhlQ0FXNDBsNEo4SlhSYl9NRE1OSmR6?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Sold by UNIVEST FINANCIAL Corp  MarketBeat",
-      "published_at": "2026-02-06T13:06:03+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115883+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ccf9b518-aab0-4768-ae29-fd90ee2f4630",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Bey Douglas LLC Sells 18,700 Shares of Alphabet Inc. $GOOGL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOblVPV1NXYkhEU1piRkpuZGtTVUlMNGVkR0N2eUJxUHR3RTFuRTJMdUxMTVNMaWhrYS1sbjNSSXBBOEU1dDBQbEFFUkxZeXJtX09falBZSUN3R1lTQnNJUUlVQWNkc0FQREVXalFuaHV0c05hVFp6cUVpcTlIM0FuRUVmdmlNR2lzT0RfaEJ4UlpGZGtRMTIyYWtaRWRxUS1ISi10bHR4UldhRURJamRrRWxaMnFsb1FE?oc=5",
-      "description": "Bey Douglas LLC Sells 18,700 Shares of Alphabet Inc. $GOOGL  MarketBeat",
-      "published_at": "2026-02-05T11:48:01+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115939+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4dd750df-9614-4e1b-82ab-8ebc5f2b29ef",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Valeo Financial Advisors LLC Sells 3,042 Shares of Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeGpHX3d1ZFh6UGhzTi15QUxGazlvSHI2d2FOYXhRMmQ3M2dUM24zUWxrMjdpVGR3ZTU5aThmTENPWEMwNEdaWXowTm5LLWhRRkVLNUFlNEdaZ2djLXZ2aXZmdkdnSzFiaVdBV3cycnFpR0dBRU9CajNRYjZKQUtNNi0wbjdnZVI5YV9UTDV0ZGljODNaM0ZqT0xIMlhwTEx1MzBnSFVLdV9oamJ4SFVzbURCeEQ4OFJWcU1OY0E1U1VFSlc2RkU4?oc=5",
-      "description": "Valeo Financial Advisors LLC Sells 3,042 Shares of Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-04T10:53:38+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115968+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7a3aabca-7b09-4b38-9218-58dcf98e7c6e",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Alphabet Inc. $GOOGL Shares Acquired by BIP Wealth LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSmtuX2d1bzczZ0FWM0xuUHhYWi1LUU1iMG14emxrNWh2QmdUcVV3U2dVbHh5V3VWOWZiTGozamtUSVVvMXVLY01USl8wYmFBMDRPNlM4TFVQdUtnQW00VHR5S1pSbktBclBHRm9LM1JDREtPRWpVcFZkend1S2gwQ0NPSzNEb2pMcXFzNzY4MXByRnpnWjlocWxBQXlKVk1naFVDZjFQTmlGcy1QSkRmbGQ5bw?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Acquired by BIP Wealth LLC  MarketBeat",
-      "published_at": "2026-02-05T09:57:27+00:00",
-      "scraped_at": "2026-02-08T13:02:39.115995+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "030a1115-76d7-4ff9-91ab-1bccd80a3f09",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet (GOOGL Stock) Q4 Earnings Preview: Top 2025 Magnificent Seven Stock Goes For Perfect 4 Double Beats - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOb0hLLXEyRTBveXVvZER3WnR4ZGJ0UGQ4OWdKTTQySEdOaTNDdkw5YjdraW5SckdScW5ld1NjeUJpNTN6cnA2Mno5SERCalJYZGpsdmROVHlPbjVyLUk3aVU4SEdCZ3NGM0tiUC1mdllhbGZKSE94YzhWNlZwdDN1bXhpNlAxeF9RMjJRUlhjdjNYSVBWNW12aGJLX0pZb0E4OExmbzNKcHJKQWd4VDJ0bGN2Q2ktRDRPdWt4ejhkLTFTVXpkbVY0NEpWc1ZGNG1LdmR0SmxPNDQ0dnZBdzIzLVNRVmpRTk9FaFMyZHE1aXg5VGVlZWR5XzlPSy0?oc=5",
-      "description": "Alphabet (GOOGL Stock) Q4 Earnings Preview: Top 2025 Magnificent Seven Stock Goes For Perfect 4 Double Beats  Benzinga",
-      "published_at": "2026-02-03T21:37:24+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116029+00:00",
+      "title": "What Does the Market Think About Alphabet Inc? - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3NQQ2IxcEhOUFdSWnNmYWU5ZVFrZDJvaXo4M2puQXB3S0YteXI5cllkci1xUHdNY0Z6U19Jc1NxN1NyakhERzZmZ1hmZHdNQk9PenNtcHZLRm5XQUM4dHR1clFSaUtmMjVvYTVBVUdob3lwclVQQWtESDNhQjN1dnRlX1hXNDc0M1BvVUhjcmozQS01V1FTYS1jbkF5VU9PV2Frc3A4YW1xWnZL?oc=5",
+      "description": "What Does the Market Think About Alphabet Inc?  Benzinga",
+      "published_at": "2026-02-19T15:01:40+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202765+00:00",
       "author": "Benzinga",
       "tags": [
         "GOOG",
@@ -698,49 +120,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "fd0b6c0c-2a56-44b1-90c8-06b911e6f2a5",
+      "id": "05139bda-dbe7-4ceb-b8d7-6faba0d9248c",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "Alphabet Earnings are Coming: 3 Numbers that Could Move GOOGL Stock - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdUdjYXNPR1JDUTBuZ2xVM2FRdXJIQVliSnNtQ05sY2R1MVMxS3luSExXRkp3dU5ic3BsQ0t3eWY1OGw1WWxxZURuSnlGNk1La0FTNVJHOWwyd25tRGlmSkc3azh4UDZpSTN2VC1PZW5uMjdlYTlIOTI2VW5Cc3pyOGtJYXRqSV83MElHNTNkb0laWWxIcExza25wY2Q0UQ?oc=5",
-      "description": "Alphabet Earnings are Coming: 3 Numbers that Could Move GOOGL Stock  TipRanks",
-      "published_at": "2026-02-03T08:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116057+00:00",
-      "author": "TipRanks",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0728832a-f02a-41af-8d41-ceb39cd88260",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Bought by Vest Financial LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkdaOWlmWDFlV2s4UUhoa2dZRENyTHZBZXl5a3ZSb21JRk1McEpoMnFDSEE0dllEcmQ1bGlxYmluendkTEh4RHhtLWpwdmZ3RkRtdm0zSUE5bVBhWlBSOTBhY0NWUXVMNkxCSkZwTVFaTlVMdUc0M21GVGY1a1ZyYkJXanVxZGhJYWZoYVU4ZzluOHNHZE9PVE9WaFZ3SmphMkw5RnQ2TTZ0dXJpUnlRb2lrSTBYUQ?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Bought by Vest Financial LLC  MarketBeat",
-      "published_at": "2026-02-04T11:56:16+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116084+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "aa46eba0-5543-4591-96a6-e7f0123b269e",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Why Cathie Wood Just Loaded Up on Alphabet (GOOGL) Stock - CoinCentral",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3pQZVBpMmtrY3NVV0EtQmVNbWk3QU9rdG93LVk4NVlrS1ZHeFVzdUFOVGxhanlCM0xXMTBwOTJ4WFF6SmN1UVJIMWFwMUF1akJDbkRLUmRXeUo0ZWdLQ2hFU3JoaDBISEVFTUpqZ2NCemIwcDR5RWJOVzlBWHZKSElLNU4xZw?oc=5",
-      "description": "Why Cathie Wood Just Loaded Up on Alphabet (GOOGL) Stock  CoinCentral",
-      "published_at": "2026-02-07T13:07:09+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116112+00:00",
+      "title": "Alphabet (GOOGL) Stock: Top Insider Just Sold 78% of His Position – Here’s What We Know - CoinCentral",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlc0cWV2RVl3Mi1Gc1lRN2x5aDhlZWhtcjNpRVBxdmdEY2taMURCSkVablI5dGVGQ1d6SUZPaVhBR2hQOHltSWRVLUtxVWRORHZWNzVmeVlNcThfWmlRelNybVU5eU04NC10di1VUEhTaE5xRjllaWpHenhTU1ZEUl9oM2d6RWY4WEpSbXFjdV9yOEM0NXRYUXIzX2dkajZKUkRtM2l1RlA?oc=5",
+      "description": "Alphabet (GOOGL) Stock: Top Insider Just Sold 78% of His Position – Here’s What We Know  CoinCentral",
+      "published_at": "2026-02-20T11:16:40+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202835+00:00",
       "author": "CoinCentral",
       "tags": [
         "GOOG",
@@ -749,236 +137,49 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "77050cb8-e5ff-43f3-ac5d-bf005bb1b4b4",
+      "id": "da85de7e-7c27-4ead-89e0-f901707576c1",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Alphabet Inc. (GOOGL) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0RYajVHZFF6Z2FhU1pWcTIxbldYUTVEOWR1d2FsUkRzOFpDNGc4eVNrYUdpX0lwMWFmTnc1ZW1aejM5ODltNWM1TENWUHVNYnp4U1RCVWdEV0RjZDJrUnlXOUljSENQYmVxaGRHNXl3ckxYX01sYWVwYnk3UjM0RVdYWDh2WmtnNEE?oc=5",
+      "description": "Alphabet Inc. (GOOGL) Is a Trending Stock: Facts to Know Before Betting on It  Yahoo Finance Singapore",
+      "published_at": "2026-02-20T14:00:06+00:00",
+      "scraped_at": "2026-02-21T13:23:01.202899+00:00",
+      "author": "Yahoo Finance Singapore",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ff7d2249-04bc-4e10-95ed-040ba4211dc5",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "bearish",
-      "title": "Alphabet (GOOGL) Stock Drops 2% Despite Strong Earnings as AI Spending Doubles - CoinCentral",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQjZCYzBtamR4VnFrdWxpbkc0Q21WMUloS0FTaGhtOHJ1ZU8wMHk5Z3gyNzFCM3pubjFBejFuTGRMdi10cWYtSmtrVlNwQnIyQWNJOTR4S2FNdWoyUFo4bDVyS0p5dXpiY2hkTC05bFk4dEZoam5OWUEzVDBucGRXVVRzLVJkajVROHN0dk5nQlhwMXVWN3RXOHpCRlZFT1Mwc1E?oc=5",
-      "description": "Alphabet (GOOGL) Stock Drops 2% Despite Strong Earnings as AI Spending Doubles  CoinCentral",
-      "published_at": "2026-02-05T10:16:59+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116256+00:00",
-      "author": "CoinCentral",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "37800c87-57cb-4f52-8f8b-0704eacbb8d5",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Alphabet Inc. $GOOGL Shares Sold by Parsons Capital Management Inc. RI - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlBPMTYxOFVxMnNlcjR3Mzdla2xWWFJad0hZLUI2MWJfV1dxZThrWlRZbi1TUXBVR0hZOVNsdmQyM0loMnpPZWJDZTRYRWNsUTlkbjFKejZMNFo0QkxwTHdjVWl3RlNKSDJnajJueWNPLW9uQVc5TWctX25GRS1UOXdBemdxUVJneU90TkU4ZU9IY183azgtNUhqV3BfS3hZREhydzlJT0o0YjI3VDVKU1BvSmlRaGxCUzAyZkdOOGR6M2k0RzVZ?oc=5",
-      "description": "Alphabet Inc. $GOOGL Shares Sold by Parsons Capital Management Inc. RI  MarketBeat",
-      "published_at": "2026-02-02T12:22:23+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116285+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ca12d9b0-b2d2-48e9-8910-3493750cf3f4",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bullish",
-      "title": "Allstate Corp Purchases 200,087 Shares of Alphabet Inc. $GOOGL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0pQemtLUGdOOWRIM3pSOFhPTE44NzBraFRTRkRsWlUySXNuSEFsMkFIQzhVV0NyUGQ1LUpvb2FQQVg1OVJ6U0lPQTVhc2ptV1FoaU56RnN5Tm9FWGFkaHNRRTA5RW5KVm1ldGFfZ3l2ZW90S2xBTW5wb3g1UnNUZWl0RGNZcUc5bXJHT0o5a0l5WU1YSy15WGNHSTRSRmtqWUxDV1o1X3l5QWRGVTV5SG5nQVNrQ3hVdFNiYQ?oc=5",
-      "description": "Allstate Corp Purchases 200,087 Shares of Alphabet Inc. $GOOGL  MarketBeat",
-      "published_at": "2026-02-02T12:01:59+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116337+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0e6962c5-0e2f-4327-8b83-643aa1fd8395",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Parthenon LLC Sells 10,855 Shares of Alphabet Inc. $GOOG - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbS0ySjRzV01hTktYcEdMZVNULUZrMnFUTTlVajlmMDlPOC1YZlMwZUtYT2pTYmNyenlabXdpWnlkdVhyR3BJZmJtbV9aSUpKUUZ5MkwxVFdpaGJSVE85TUpadGszTUw1WXNDa3lXVDBNenNyTXVHa2phVHFSTEhmZGxsV2ZVQjN5bVNnWmxodmtQb3RVM1dGOXNoOXJxQVE1NV9ralhOdmNIX2RSOERsM2ZCSkg?oc=5",
-      "description": "Parthenon LLC Sells 10,855 Shares of Alphabet Inc. $GOOG  MarketBeat",
-      "published_at": "2026-02-02T11:24:34+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116527+00:00",
-      "author": "MarketBeat",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "a7b8900c-2757-4061-bcc3-bb2347c6ecbf",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "bearish",
-      "title": "Alphabet (GOOGL) Stock; Dips Amid Massive AI Investment and Tech Sell-Off - CoinCentral",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWXRselNPQmlLbDUteE5ueEpFdWttS2gxYjhka3VTRnBiUy1TWmRKMlVqRzFrSk96VlUxN3RpeUszZXQzSy1fa3BZdmNNRmNDT3ptWi1yQ09lUG5IWmV0WnRHV0NvaUtaZFRXOHF0Z2dkaHhKNTVWVFRueGZZdlFod21YUQ?oc=5",
-      "description": "Alphabet (GOOGL) Stock; Dips Amid Massive AI Investment and Tech Sell-Off  CoinCentral",
-      "published_at": "2026-02-05T08:34:03+00:00",
-      "scraped_at": "2026-02-08T13:02:39.116922+00:00",
-      "author": "CoinCentral",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4804d8b7-70c5-4606-8aef-813aa5e04a05",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "bearish",
-      "title": "Unity Software Faces Developer Churn While Shares Trade Below Valuation Estimates - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMEJTanhGMlpON1RRbnVoajRsN2VwSHlpaXVYSW5BUXp3ZTNmaURlelJHUlVwWUR0ODNkNnpEMHBEZEFETUxtdk82bVlhUHlUaDBhZzVrcUY5SVdzUThTbF9XT2l1eGRuQ3BwaDBzLTF3bl9HQXVOY2tHWGE3blpOSEhJVTJLX2N4SG5nOE1R?oc=5",
-      "description": "Unity Software Faces Developer Churn While Shares Trade Below Valuation Estimates  Yahoo Finance UK",
-      "published_at": "2026-02-08T08:07:28+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276494+00:00",
-      "author": "Yahoo Finance UK",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "5f89d997-cc2a-4332-89ac-9370ad4cccfa",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software shares fell 37% over six sessions, extended slide to a seventh - MSN",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN1BTaVJQaTcyaDJyMXdDV3pfQmIySEZmMThMRnY5UGxWUWlrd0tBUnE4Wk40TFFFMlNkTjVod2IxVzdzVmstZG80U3BkLURuanYwTzNNWk1fMVhpYjRqN2VDek5aR1l0UW5oNmpjMmIyZmtVN21lRG5IZFZnQzR5dEJmV0hYeXpWWkNudTFhbmRfZF9TWDQ0VWhIamktUFB3SFpBdFFpYjNhU2ZudUNlN2stOFdTLTRYMW5aaVQ1ak1TLUxZSUE?oc=5",
-      "description": "Unity Software shares fell 37% over six sessions, extended slide to a seventh  MSN",
-      "published_at": "2026-02-04T19:02:59+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276560+00:00",
-      "author": "MSN",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4d8d3149-17d0-49e3-9c18-6407c11a79a8",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software (U) Valuation Check After Prolonged Share Price Weakness - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNE9qMTA1Ni1TY2lDOGd2ZzM0NlJfQXNvRlNhT3RTcE85LV9iX3dkNTZpRFczSFBNMnJnQmlYWHBhRmRmX0t0S2xSclBKNG02QzZpenU3TmxlaU1CM0Q0b2FKZWloUDQ5NktuNHpRUDdteGxYY1JuVFN6Q09tZ1l4QktkWFZ6VElZZUtPdHA3V0kzQzg5YTlYRHcwLVM3dGlKamNzblFDOTQtYkpyV1c3VUFjMEFYRXYwZEs2QzVibmdHMnFGMXFr?oc=5",
-      "description": "Unity Software (U) Valuation Check After Prolonged Share Price Weakness  simplywall.st",
-      "published_at": "2026-02-05T07:47:05+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276597+00:00",
-      "author": "simplywall.st",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f18718d2-913e-4170-af6d-c18f29181d77",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "A Look At Unity Software (U) Valuation After AI Concerns And Developer Retention Challenges - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXp2TDJpMGw1TU5QdlNhLTRwemh3VGNJZjA0bW1senFNZ0VpNEtJcVpOOEtOQTdzY0xzQ0JNN1d5Y2JXbzF0UUkxX1NLSG1vVTNneVBLMlpBVWlBYmtPRjR6S1NtSHpxYVBXVnBrc2lJd0VRZUpPZXVLa0poRC1qT2VhSHpsY0k?oc=5",
-      "description": "A Look At Unity Software (U) Valuation After AI Concerns And Developer Retention Challenges  Yahoo Finance UK",
-      "published_at": "2026-02-08T01:05:00+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276637+00:00",
-      "author": "Yahoo Finance UK",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "197b7ca7-ff47-4f90-9313-7c6068686aba",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "bearish",
-      "title": "Is Unity Stock Attractive After The Recent Selloff In Gaming Shares? Jefferies Has An Intersting Take - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRkFvaElsVU5oWG9Ic1NzdU82WXVOd05Valo4cEdZZWdLZHFudmdBTjRXUGJGTUZnajYzV25nRGxjRGl1SGdDZTZ3U0JFeDhhbWVDX2RhTVBHU2dId3BUWHI0cFYzTXFpWnc2Y1c1d3JncUd2aENwMTBDbGpWV29nVjZhZjN1d0ZaRmNvNHl1UHlwc0N1dklWMHlNTTBlNzJ0MUZYcW84d19JYnVBdEIzakQ0bWVkRTlDeFpSdFZlWHVMTmt1R2c?oc=5",
-      "description": "Is Unity Stock Attractive After The Recent Selloff In Gaming Shares? Jefferies Has An Intersting Take  Stocktwits",
-      "published_at": "2026-02-02T18:11:15+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276678+00:00",
-      "author": "Stocktwits",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f8b0c445-48e9-472d-8865-85a70e81beef",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software Inc. (U) Stock Analysis: Exploring A 90% Upside Potential - DirectorsTalk Interviews",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTzM0eXZvTDNvZ2FLMlR1OGYwVGFzUmR0dU9EVm91MjRxcDFCNGdUMHRXdlNpRmtiYUc1dGdFMmprSzMwWlJYTFM3TmR6VHc2Wi0yMHFnSkZJNUxlemhDOGtyOUxRenR4bEx6UXNSa1QyZzVzWklETERQMDBVcU9wUjVDa0pFeV96SFlvMEptU0F4WmRWMmJLMzcyLUp0S3dGZDNSYWlsY25sWGpTbnJ6V3YtUklSOW5WOHc?oc=5",
-      "description": "Unity Software Inc. (U) Stock Analysis: Exploring A 90% Upside Potential  DirectorsTalk Interviews",
-      "published_at": "2026-02-05T17:46:13+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276715+00:00",
-      "author": "DirectorsTalk Interviews",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7b4bc54b-4cb6-44e8-9622-eed7925529f0",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "bullish",
-      "title": "Unity Software stock gains traction with BTIG’s Buy rating reaffirmation - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS2Q2NkxQdjhVSUEzdUs4MlVtVTFONlZtMVhvcmxreS0xbzVhMzkwWUdEeHhIUkFHaWExeHdnU1JMTURKcGoxeFpJOGhDTkZpODdOZTZhS2VmRG9RYTRlODlfXzdYOHVFcWctOEU0Y0hOZnRFcEdoU3g0VlRwSzBEQjN4S0psODNjdk5Zb2dHVW5ndU8xSmZwekxTMFk4bk4wUUZ5T0hnTFZ0b0dYN0JCWEJ4LW0wdzYzYlh3cFNNTU1CamZyVmpreVktWQ?oc=5",
-      "description": "Unity Software stock gains traction with BTIG’s Buy rating reaffirmation  Investing.com",
-      "published_at": "2026-02-02T12:04:39+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276754+00:00",
+      "title": "Alphabet’s Walker sells $14.3 million in GOOGL stock - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUk43SXdWRzM0NTFYRDdIbnI0VU0xdFZ5ajVGNjZZeXV6c1RJZWNRLVJTeko0LXliRFNvVmdMeF8wQkNmN29vVkh5SzU5X1hFVTFZRzFSeUx1N1k2NW9veTVNR0VCUUpUcUxkdVRNTEhOSVlDWlc4Ul9qQkUwbm9jRUVPYlFYME8ydHowR0hkSnZKdGpSWnhPSGE1VXo2ZHRYSEtCWTlmUFVSY0pBU1N3SXZ1QkQ?oc=5",
+      "description": "Alphabet’s Walker sells $14.3 million in GOOGL stock  Investing.com",
+      "published_at": "2026-02-20T02:26:51+00:00",
+      "scraped_at": "2026-02-21T13:23:01.203014+00:00",
       "author": "Investing.com",
       "tags": [
-        "U",
+        "GOOG",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "05605122-1106-4d13-879d-2a8b80479895",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software Faces Project Genie Uncertainty With Shares Flagged Undervalued - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0Z5YUFmT2F3TmVuWkFLbU1mdGg5X211VzFBVHRKanZMUjdZUnN6OFdTV0pRUmE2Y01ENWpZaThWd0s5YjUwME1OdlNpdFh2S2wtbzBNdG4zNFduWkxFdkpMVVM0V3I2WWVlejFVMTFhSDFFZUYya0NjT3V3WWZ4ZWtuWlBNRlVaSmpYOEc5MzBXTEpjZUdGUVUxdXh1UHZmNjdqb1h0RVJYY3ZhblhrZUwyRmlqWXp6UDhUZkpWc1lfdk1nLVNr?oc=5",
-      "description": "Unity Software Faces Project Genie Uncertainty With Shares Flagged Undervalued  simplywall.st",
-      "published_at": "2026-02-03T10:24:46+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276865+00:00",
-      "author": "simplywall.st",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "deeba0c1-4e44-482a-8b0e-21cb1b6a260a",
+      "id": "b0df8cd5-17ff-406b-ac15-4f2af9255aa7",
       "source": "google_finance",
       "ticker": "GOOG",
       "sentiment": "neutral",
-      "title": "After the Google Genie 3 Selloff, Should You Buy the Dip in Unity Software Stock? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84SW1yTzdYdU1QVmZrLVRWMnIwT2wtaUZ1dnRHVUVnT2Zkc3hFXzhhYzhrbUtBMlc5ZlJXYXIzTHJsZ1V2U2IwU0syS1oxV0pTakotOUNiMS1tNU80OEZ2NlVOV0VyZ05ndkt0MWV6OHRST2xWMnVxY0EwaEs?oc=5",
-      "description": "After the Google Genie 3 Selloff, Should You Buy the Dip in Unity Software Stock?  Yahoo Finance",
-      "published_at": "2026-02-03T16:52:11+00:00",
-      "scraped_at": "2026-02-08T13:02:41.276937+00:00",
+      "title": "Monness Maintains Neutral Stance on Alphabet Inc. (GOOGL) Stock - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMTViMDVzWnhRaU9RUkZxU1FIcWVILWtXZUxESkJvb1VWVDdjV1Zock1iU3JZRUc1cG1Edy1Hb1g0SW1DMmpmcFV6dzFTcGUzbDJpUU9qLXJ5Tm1OUmVQUjRwSzg0SVlxcVVvLWFITFJYRXVRQy1Xal9BWGYzby14MHAyd1ZnM0lqREdrcXpQWFM?oc=5",
+      "description": "Monness Maintains Neutral Stance on Alphabet Inc. (GOOGL) Stock  Yahoo Finance",
+      "published_at": "2026-02-17T12:33:39+00:00",
+      "scraped_at": "2026-02-21T13:23:01.203068+00:00",
       "author": "Yahoo Finance",
       "tags": [
         "GOOG",
@@ -987,15 +188,270 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "3aca2eb8-aede-410f-a161-870be53e419a",
+      "id": "2901f97f-fbbc-460f-8a76-75a95d6d8add",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Alphabet (GOOGL) Stock Gets Price Target Hikes from Wall Street After Strong Q4 Results - CoinCentral",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHVzYXNZalA0YlJnZURpUVJodzJXRWM5NjE4ZjZvT2Y1Rnl0OHRJcGg2X2M1TWg4SFRkRGk5SUNPS2xteFlBZXNOQjkzTHg4VzVaSkNJVGFDX094Q2RLSGdhYmdCZjN6M0RCcGhBNlBCRHlVejJObjhzNUNaaHNGU0R4M1d1bGJrUXdQMkJaS1NfbFN2X0FCaU9TWTdRbG9UYm1KamNTcm0xU1Nidi1Z?oc=5",
+      "description": "Alphabet (GOOGL) Stock Gets Price Target Hikes from Wall Street After Strong Q4 Results  CoinCentral",
+      "published_at": "2026-02-17T10:59:26+00:00",
+      "scraped_at": "2026-02-21T13:23:01.203125+00:00",
+      "author": "CoinCentral",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "1191b74f-5a3d-4cf6-82b6-1f8b93e8bddd",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Calm Waters for Alphabet (GOOG, GOOGL) Stock Present a Tempting Options Trade - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcm1CZ2hDSXNsSDh0Y2NyTlJxd1kydHAzck5mTExKNFJMT0l3VkdZNkNOWkVCY0lXcVJpNVBKRGRfZEN5Y3JjZ2M3ZUJ3ZXQ0WktLWkpPQWhVekFydjZuTDNXOXpQV0xBNjdOMXI4d0N6UnpHRDdqZmI3R0RkOVJKZksyVQ?oc=5",
+      "description": "Calm Waters for Alphabet (GOOG, GOOGL) Stock Present a Tempting Options Trade  Yahoo Finance",
+      "published_at": "2026-02-16T18:30:02+00:00",
+      "scraped_at": "2026-02-21T13:23:01.203396+00:00",
+      "author": "Yahoo Finance",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "83d503dc-0ac9-4d61-a477-4cdb6b28d49e",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Maverick Capital Boosts Alphabet Inc. Stake by 1.14M Shares - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUndqX05hWkk2NlRRNF9qX2M3TDlTaUJ4XzFQT3VySUNZcmtBTTdXNl9mTVFXN19OUzVIeVk5SnlCOVpURk9yVHZhTEVQTGlOM3RndFhScnQ3Vk1MNXdqSjhyenVuMC1UT1RqWV9aZjVZQnlETFZRcHlmNVlyd3p4eUFIbHhBYkxPbi1TQmlvd0hLTEZzTW5lTDNwWV84R01QaVh4QTh0VTd3TmZPS2k0?oc=5",
+      "description": "Maverick Capital Boosts Alphabet Inc. Stake by 1.14M Shares  TipRanks",
+      "published_at": "2026-02-15T04:27:19+00:00",
+      "scraped_at": "2026-02-21T13:23:01.203948+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "81ce55eb-4719-4007-a8d7-4c2c2cc6359d",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Baupost Group Boosts Alphabet Inc. Stake by 1.09M Shares - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdzNEU2kwemlyOXZXdVBrcUNSeEVRd1MwNWpwYjllTGQzTG9aenhFUDl5X05wWFBsdTRYTHY3VnNfWHdWcGZYRzdzbDBROTRBY3BRODh4dm1IX2FOajlWZlRNcFZodVc2X2Y4WWgxalJzTjh3bWNYZ1hYUnNHZVp2d09ScVc5VjhhcGlrTUh1Y3lpM1dHYkNCeHJfLWFlak1NLTRBQ0M4eUJBY2c?oc=5",
+      "description": "Baupost Group Boosts Alphabet Inc. Stake by 1.09M Shares  TipRanks",
+      "published_at": "2026-02-15T03:10:16+00:00",
+      "scraped_at": "2026-02-21T13:23:01.204198+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "4f7ba449-de1e-48f5-9ccc-382c2aa0fa76",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "bearish",
+      "title": "Google (GOOGL) Stock; Edges Lower Pre-I/O Amid Android XR and AI Teasers - CoinCentral",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWGtITmdYYlpMSEwzVGgzS2psT1M3akhOeVg3dm1KRk43LTdKRFJnN1l2ZnlmOWdxMUV6bmdVRVlLQ0E2eVZlY1QxTklpQTZyRmVDQ2xCNkFoNnRUU0oyckZzOUQzWnY1OV9zMEFDU1FYdUtCVmtua3VYNGFGTTlmendBVmpLM2ViUUJRMVMxY0IwWElwNHJvMUFWdlBBSVlqY3Zr?oc=5",
+      "description": "Google (GOOGL) Stock; Edges Lower Pre-I/O Amid Android XR and AI Teasers  CoinCentral",
+      "published_at": "2026-02-18T09:44:07+00:00",
+      "scraped_at": "2026-02-21T13:23:01.204314+00:00",
+      "author": "CoinCentral",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "acb8b75b-8df5-46cd-bf1f-a4a3bf76f1fa",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "bearish",
+      "title": "Altarock Partners Cuts Alphabet Inc. Stake by 175,000 Shares - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcDZuMVJ3MGh5T0JJczEzTlZ5N1ZLcTNVMlowck12X3ViczRraFdwa09kOVJyTDN4RnBoUmVsaGN5NU02RWh1bldPbFpYTkl3eS02ZkVkeEtEMkZQb0RLdTdOSGlTTTZ5aVEtc0xIOHE2TU1HdGVNMWMtUFd6bW94Ynh4M3hYLXZaLXdxWi1OTnZmeXRHTk5QelVKaWdFM1Vzd2NMdU5zZnhiemJIWm44?oc=5",
+      "description": "Altarock Partners Cuts Alphabet Inc. Stake by 175,000 Shares  TipRanks",
+      "published_at": "2026-02-15T03:05:14+00:00",
+      "scraped_at": "2026-02-21T13:23:01.204561+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "e92f158e-ccbf-4515-b9b5-d22b8dffe87c",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Sands Capital Boosts Alphabet Inc. Stake by 167,952 Shares - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdmJ4OGVuVzZySHBieHhZMXp6cW1odVczaFExZUVTZVZJV1RvemNQV21MUHJZQlcxNEgtZkVIZ2hweGJjYm5zZXI0NmRIQjVsM0lDajVsQk5VZ2dmeS02QXVoQXAySHJGUzQ5UVVRNGtBQ0tFb25nVWItT1U5dGNYaDFlRkJVQVdTY3VzV2VfUmEzR0ZBWmZrV2pnTEhxTEtfT2pBTXJLemxLRkRj?oc=5",
+      "description": "Sands Capital Boosts Alphabet Inc. Stake by 167,952 Shares  TipRanks",
+      "published_at": "2026-02-15T03:13:15+00:00",
+      "scraped_at": "2026-02-21T13:23:01.204613+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "310b5fa5-de09-4be4-ab0c-7f31e36a81be",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Google GOOGL Stock Faces Key Test at $300 After Alphabet’s Massive Spending Plan - FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRWVYRXlNeENyQU5Tdkh1Vi05ZnlwR0FtZThSQnBDaEV4enpoamRGZDh1YXI3LV82a3NkWXJNRlNTdkx2aEtLczJTUUNvaFQtQ3NySzlTWDl1ZVk3LURrNUg3YXRpNmlUeldjSU4wYWxsbFNwN3BGamNxbWpNVmFUNzNqRGVlMm5DM2htc2FMdXhGRTlUR3dnUDVoNU51RVZuQVZYSHpwak1pSU1WNkNSaGJod2JDNnVEakpSZjNR?oc=5",
+      "description": "Google GOOGL Stock Faces Key Test at $300 After Alphabet’s Massive Spending Plan  FXLeaders",
+      "published_at": "2026-02-17T07:10:42+00:00",
+      "scraped_at": "2026-02-21T13:23:01.204688+00:00",
+      "author": "FXLeaders",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "9e4ceef3-2f9c-40dd-b985-0329fe903991",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Alphabet (GOOGL) Stock: CLO Sells $14M Days After Earnings Beat - Blockonomi",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTVYdzZJN04tSGdsenBXem9hOGlFdDR4cG83eEU4eHl3WU1qaWxVaXltY2FVUThNcDFReEJIU0MyVXduaDhGb1ZKb1VLdHNUcXFYMDRQam85TGJsQ1FEWEdKUGRuQmxnUFpOa1VZZkdRQUFvVG9pdW5sdjk1RzVxb3ZucVd5ZlloUXdF?oc=5",
+      "description": "Alphabet (GOOGL) Stock: CLO Sells $14M Days After Earnings Beat  Blockonomi",
+      "published_at": "2026-02-20T14:08:32+00:00",
+      "scraped_at": "2026-02-21T13:23:01.205192+00:00",
+      "author": "Blockonomi",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "89f316b7-213a-4f35-bbca-4e10e5195067",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "neutral",
+      "title": "Alphabet Inc. (NASDAQ:GOOG) Passes Key Peter Lynch Investment Filters - ChartMill",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUThmdDhJYkhmdnRyNXJ3bzFRbWcyNEZzRm9WMGJDMTFBMGdId2Q4SW1UQ0o5TnYwNXo3M2FWYUNCQnJscXpFektHSVJHVmEtN3F4aG9HOVhESDFBSjlyZkhTa2p5V1JMcFRTbnpuR2hkczZ0Q3U0SjdXZmFhNTBGVHBwbzNwN2hOQm9lRTAzMl9LOHh3ZlpHWDN2dDlPUmlIdm5OaE1EMWNWdHk0OVBxc3c3SmpuQXBs?oc=5",
+      "description": "Alphabet Inc. (NASDAQ:GOOG) Passes Key Peter Lynch Investment Filters  ChartMill",
+      "published_at": "2026-02-18T09:51:00+00:00",
+      "scraped_at": "2026-02-21T13:23:01.205420+00:00",
+      "author": "ChartMill",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "dad689b4-10b5-437a-b0c3-4c5b1a4a0a60",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "bullish",
+      "title": "Google (GOOGL) Stock; Edges Higher on America-India Connect Infrastructure Push - CoinCentral",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM183ZzVPV050M0YtQkNCX1luNklUT3gzZVNCbmpuRG8yTjhFTjdTTm8xZ0NiQW1udFRKQUxKYncyZGEtRGJfanA0U3dIUzJmbFdfZm0yVlN3dFJNSmExMDJYNTRrRXJfalRuazdHb0dmYTBlS3owTjBXQ3lXaS1qVkRFS191ZjkwbTBtSFNuRjctdm1QRnBQZFZLbUt0RURGZldzdVJBUDdFUQ?oc=5",
+      "description": "Google (GOOGL) Stock; Edges Higher on America-India Connect Infrastructure Push  CoinCentral",
+      "published_at": "2026-02-19T07:55:39+00:00",
+      "scraped_at": "2026-02-21T13:23:01.208521+00:00",
+      "author": "CoinCentral",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "887ef028-5977-49d6-8d35-41a9b8c2a4aa",
+      "source": "google_finance",
+      "ticker": "EQIX",
+      "sentiment": "bullish",
+      "title": "Guidance, not earnings, sends Equinix stock higher - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNWY5OW5xaFVFWHBPZFduV3Vra1J6QUtlU0ZqZWFKdm1ZLTdMNTMxNGw1VlM1NjRUdHNtRDgwS3ZfSTBVbUZIMDU4OGw5bWpEcHR1NG1teWh6U29Bd0pFSHVqV0N2X2U2R084MGJxQ1BnNkdkRndhenYxRHV4SGFBZW81NF9QenZLeXBHM05zQmdyV2NYTDltV2ZNV090VVFsb3NTcjVrem14MGdXdi1Db3FfaEhoR1ZYUXlqOG5XOWZUTXhtNVZhWVY5VFFkNTZoSDQ4?oc=5",
+      "description": "Guidance, not earnings, sends Equinix stock higher  MSN",
+      "published_at": "2026-02-20T14:58:12+00:00",
+      "scraped_at": "2026-02-21T13:23:01.701487+00:00",
+      "author": "MSN",
+      "tags": [
+        "EQIX",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "41492d4c-ccd3-496c-bdd5-054d959a695d",
+      "source": "google_finance",
+      "ticker": "EQIX",
+      "sentiment": "neutral",
+      "title": "Equinix: Strong Bookings Momentum And AI Tailwinds, But The Stock Is Overvalued - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZk5SZTFkMzJKTS0taGc5aVRNYnhsLXpQUkVEblR6RlFrSmJXWnRjMzVEWjAtS0hpcXlyU2c2Zm1mQldzRVgtamRuUkVVQlRIcU9QOTE3Ynptc2lYdjJZR2RKLXQwSkE2TzRPeEZoSER5UjJDMzgwcmswN0hLZW5yOVNuRFFSM200OWZ4R2Y1bXYtc0ltNkRRbmo3SWczNUY5djczV1BITzlRX2RmNVFFS0VYV3gwMGNPZ2c?oc=5",
+      "description": "Equinix: Strong Bookings Momentum And AI Tailwinds, But The Stock Is Overvalued  Seeking Alpha",
+      "published_at": "2026-02-19T19:19:12+00:00",
+      "scraped_at": "2026-02-21T13:23:01.703045+00:00",
+      "author": "Seeking Alpha",
+      "tags": [
+        "EQIX",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "74237568-0213-4bae-9880-11423e663058",
+      "source": "google_finance",
+      "ticker": "U",
+      "sentiment": "bearish",
+      "title": "Cathie Wood Is Selling Unity Software Stock Amid an ‘Apocalypse.’ Should You? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2trWlJLR0x2SVRVNzNYVzVrWU5mdVF3SnJkSTRTeS1BeWJ0YmQzeWZkUWt1Z040SVU3OHVlWVdwUFBQcXVpSnZjVFNNRWhTa2lPd2Q3aWpORGRYLWgybFcxb3N4RUQyMnVrQkJpRzZwdHBIVG5fX1RuODZobEVZaGZNWjQyY0k?oc=5",
+      "description": "Cathie Wood Is Selling Unity Software Stock Amid an ‘Apocalypse.’ Should You?  Yahoo Finance",
+      "published_at": "2026-02-19T19:18:55+00:00",
+      "scraped_at": "2026-02-21T13:23:02.256346+00:00",
+      "author": "Yahoo Finance",
+      "tags": [
+        "U",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "dec7ea62-5b6a-4648-ad5d-eb4b2486d940",
+      "source": "google_finance",
+      "ticker": "U",
+      "sentiment": "bullish",
+      "title": "Fund Bets Big on Ad-Tech Turnaround Story, With $47 Million Buy of Unity Stock - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNTNVQVNsTFhuTGJCS1FlQ2c1QTZGOGVOZlhpUFJQSUdKQ0QtYlBXRXpoUG9Oa2tvY29BRjJpN2UwRmJhMWRMT01Pdlg3WjRDMmdoRFl3UWxUdlRNMjd3M3dTUHpNbTQyU3RMb0JUU2xhZ1JSNFR3YnJoc3hzU0tNSHZsUG5adjU0WUVHSWlIZHpuWGppRGNtWjd3RUhPcFR3QXVfS0RNOURDaFJ6b3ltb2R0cnJDYVpTSzQyYTFXUk9MdEs2cUYwMw?oc=5",
+      "description": "Fund Bets Big on Ad-Tech Turnaround Story, With $47 Million Buy of Unity Stock  The Motley Fool",
+      "published_at": "2026-02-18T15:21:00+00:00",
+      "scraped_at": "2026-02-21T13:23:02.256510+00:00",
+      "author": "The Motley Fool",
+      "tags": [
+        "U",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "610c54ff-a389-44fb-bbd2-bcad6b26eb54",
       "source": "google_finance",
       "ticker": "U",
       "sentiment": "neutral",
-      "title": "Why Unity Software Shares Are Sinking This Week - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2p5aUZNMEFDcWx3UVBka0pqQXJlbVVTVDZUbkpNclRkQWYyQXZZMUJVZEFBd0xwX000dFd5Xzh6Sm00R0tKWmdzdEdWWUV0VFU5YkdURVIyRzU2cmg3LXhWQ0ZROFBmcXlNZXRtXzl6Yk0yakVpajVMbUltNkpyRGF1cm5aUWRiUThIZTZqMA?oc=5",
-      "description": "Why Unity Software Shares Are Sinking This Week  TipRanks",
-      "published_at": "2026-02-02T11:00:10+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277281+00:00",
+      "title": "Mixed options sentiment in Unity Software with shares up 1.09% - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUZmOGthU1l3NE1mVXF4OVlJa2JheDIzMmpBR3ZNMF96aUJtSEV3T19oMnFwZkN4c3o4MmhtQW1iSWEtZDdmd3BwWW9xc0I1OXNOVlN1WmVPb3JMZVpSN2ZaNG9ERElFdzY1cmI0X0tncVJDS0N6UU1zeHdEU0xiVWlWYXBZdXZ3alNhdkFZYzloMnRuUTNJNDhiTjA2MXpEVERCOUFyYjZVeGotb2k3MA?oc=5",
+      "description": "Mixed options sentiment in Unity Software with shares up 1.09%  TipRanks",
+      "published_at": "2026-02-18T18:18:11+00:00",
+      "scraped_at": "2026-02-21T13:23:02.256587+00:00",
       "author": "TipRanks",
       "tags": [
         "U",
@@ -1004,16 +460,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "86a30df2-ce02-40e5-8530-5edf7793df3b",
+      "id": "db478583-e8d6-491e-876b-38f920f0ec41",
       "source": "google_finance",
       "ticker": "U",
       "sentiment": "neutral",
-      "title": "Analysts Offer Insights on Technology Companies: Microsoft (MSFT) and Unity Software (U) - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRlUtVzhMOUJoQ3ZKejQtNWNQQktodkhGb0dXdkdwT0ZLaGtja0JZMkJZTlNLZmJFQ09td29CWkJhS0stcHJPeFdhTExVRml0aVlQRWtjLW5wTHRSclYzdHk1dHhoQjMxdHp5di1XYnBpc1lvSy1OcTNsVXlxenZSbmVSQWd5Z1NlVnBaWEJ2ajllZFRQUWc5YUcxZ3dTZ0VXY0ctZTVDanBRVWs4V3lsN0hISFVsRFZUaGFnZUhwMDc5SVR6Yjd0ZE1qREFiT2lyZ2Z6OThPTXphZXprMVNFanROcUo4cWc1VThxZkJST1VjdVMxOWVDMDNkdFgwUQ?oc=5",
-      "description": "Analysts Offer Insights on Technology Companies: Microsoft (MSFT) and Unity Software (U)  The Globe and Mail",
-      "published_at": "2026-02-03T17:30:10+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277318+00:00",
-      "author": "The Globe and Mail",
+      "title": "Unity Software (U) Tops Q4 Estimates but Faces Q1 Revenue Reset, Benchmark Maintains Hold - Finviz",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVnJfMnN6c1RvYlA5UFlQYXdMQ0ZHWkpJTHFEdjVpbUVWVFpjOXU0STYyYVhBQWVvZTlodm9XSi13NzBhX3BPR25NazFoOTE1WkpKWGp3WnlDbDVGOV9xSVJGM1hoeTRBdFUwWXkyeVEwN1N2R2E2b1g1Qm92dW5QblE1WWhpVjl1Nnl3bWY3aWlEakZ6blFsVWZqbkJBNHhMYUVleWs2aFhfU1RRMHJ3X3NTRDAxbnNs?oc=5",
+      "description": "Unity Software (U) Tops Q4 Estimates but Faces Q1 Revenue Reset, Benchmark Maintains Hold  Finviz",
+      "published_at": "2026-02-20T09:02:11+00:00",
+      "scraped_at": "2026-02-21T13:23:02.256655+00:00",
+      "author": "Finviz",
       "tags": [
         "U",
         "Portfolio Search"
@@ -1021,15 +477,32 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "0c1c7d0f-5367-4bf8-a653-92e96fa45689",
+      "id": "cb119f03-42c8-46d8-baff-097d1e1b1766",
       "source": "google_finance",
       "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software Inc. (U): A Bear Case Theory - Insider Monkey",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdUppUHdlZUY5akcyLUZCUjRhaHM0MmM4REZ1eGNkd1BJMGJZMHAwSEE1dEx5UEJrTnhNWEpjdWNQc3Nxb01VQjNpMkNvTlVKdFAwVW91bi1PdnVFMUxYU013dUxPMUNpWlhmUS1LcVBCZUI2Z0swMjJGNkxTZFFBT3F0Zkp5ckNWOW1z0gGTAUFVX3lxTE9iWksxdU9ubHdDSUdtUDFmM3Z5U1V4OUxyUkZiTndWQTRmZl9xTmlNN0Y2YlctQTBVTm5jV1NNZnNMZlpNZExlZUdWS0NwOTF1N3pWNDVwQTl6MTRBVlRwU09XczcxMDA5UnpvT1p6c3htTExuMHdOY3NMVTUzZHhiSGhldEtTNldXZ1lTc3VPQXQ3Zw?oc=5",
-      "description": "Unity Software Inc. (U): A Bear Case Theory  Insider Monkey",
-      "published_at": "2026-02-03T00:37:25+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277525+00:00",
+      "sentiment": "bearish",
+      "title": "Unity Software Inc. (U) Shares Plummet Following Weak Q1 Revenue Forecast - Finviz",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX213UUdENFY5MVVDcE02OEVRY3BKTmN3Q1c1VmFORTRxRlgzVFNSV0VWYzY2V2xENE5DOHBsTHhubm1aMVRVcFZQQ1l6Ulg2cHFmQUFzMld6U1MtZEJ0N2NSWFhxOFJFbWRQYzgzNTdRbFVsaVhzaEc5SXZvbGJpQ2o2bm00ZkotS0IwdU9TaXhPa2xRVGhRTUVObXlsWTU4dnJJ?oc=5",
+      "description": "Unity Software Inc. (U) Shares Plummet Following Weak Q1 Revenue Forecast  Finviz",
+      "published_at": "2026-02-15T05:02:46+00:00",
+      "scraped_at": "2026-02-21T13:23:02.257343+00:00",
+      "author": "Finviz",
+      "tags": [
+        "U",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "2ea672d8-d02e-4604-aa89-b283d16df0a4",
+      "source": "google_finance",
+      "ticker": "U",
+      "sentiment": "bearish",
+      "title": "Deutsche Bank Lowers Unity Software (U) PT to $30 While Maintaining Hold Rating - Insider Monkey",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWE0tWDNENW1BbHRpVlFJN0xIWEx2MGZGVlhnSkhsZ0NzdExqSF9oODdYSFdNeFI1bDBNN1cxR0JBanRJWEgxMHpiYXJtM1RXYTh0YTVmNUVmZjNhaWFabThrTmNjaFdkMVJPc3g4M2M3V3Ewd0t0ZEw0TlFOdTRZZEZuN25pMEFsU0FZSTlQc0E5emdoMjV0a2hMVElzcENsVVBDSG9DWVpTQ05qY2VkM3dKQ1RxREk5THcwatIBxAFBVV95cUxOZ2VVdTFVbVl1RENaMENreVFSbExMaVRWQWcwUEJOVkhYTkROMUp6MGE0RGpuY3dkV0cxY3NEWkphYXFqdWNQSERoc0dhQTBBdVY5VVZkc0RtemFxUzNneW5GT2NTS2JzYXBJRkhqZkhGaFYyUnd6ZEM5QnpaVGxzWWRiSnkxdlctYlF0dnR1NS03S083a2N3RVNzQUNBLWs4a0Y0UFZMbUVhOU9WYTRUOGxvdXFkUmVWR2hLYWxqUXlYNk15?oc=5",
+      "description": "Deutsche Bank Lowers Unity Software (U) PT to $30 While Maintaining Hold Rating  Insider Monkey",
+      "published_at": "2026-02-18T06:10:52+00:00",
+      "scraped_at": "2026-02-21T13:23:02.257905+00:00",
       "author": "Insider Monkey",
       "tags": [
         "U",
@@ -1038,271 +511,152 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "de5b1d16-7a03-4206-b519-3645b85974c5",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Unity stock rebounds as Google’s “Project Genie” jitters ease — what investors watch next - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVWhKQmMySDl2MHJMeTdnUkc3WHp4MFhSQm1xLTY4TGJiSk1pWFF6RENTUXYyT24zTFNfWHhxRGh0R2VTcWR5VTBPNUFEVzBsc2hBSHJBVlZNTHNRV0FMQjFvRlIwLWwxWGwxZ3RRSGVvRXp1cGxpT2xzQ0I4TmFJOHFYQjNqTF9SbC1kYVdMVURHa09IRlZOYUlUYkgtWkhJYWo5OEowZjk?oc=5",
-      "description": "Unity stock rebounds as Google’s “Project Genie” jitters ease — what investors watch next  TechStock²",
-      "published_at": "2026-02-02T17:06:00+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277762+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3c4e70e1-cb20-4996-8bae-dabca53f5ed3",
+      "id": "f54bd8d4-7965-43b0-9b74-49e46636629f",
       "source": "google_finance",
       "ticker": "U",
       "sentiment": "neutral",
-      "title": "Unity Software stock rating reiterated at Hold by Benchmark - Investing.com Australia",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbHZYWnk3SzJ2Nko1YW1TWUdYbUlMU1p6dUhZTEdva1IyZlRRMjR6Y3pGbmJ6eHVXWlhqUl81S1hSdGp4czYwQVB2Tm1OQ3ZZU3BNcTlYY09tVlowLVhtV0dyNG03U0xxbVZRaVRtSGs5c2dJald5SnhTamtZRGlRRVRfUWxheWVGSGk0RTI3RG9HeVBCYkQxN0dTOFJldl82REd3elFLcTZnVVFVLVI1bzhPLV9wRUVDbnc?oc=5",
-      "description": "Unity Software stock rating reiterated at Hold by Benchmark  Investing.com Australia",
-      "published_at": "2026-02-02T15:41:05+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277825+00:00",
-      "author": "Investing.com Australia",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ca81ee93-a01a-4643-b6ca-a0b4451d27aa",
-      "source": "google_finance",
-      "ticker": "GOOG",
-      "sentiment": "neutral",
-      "title": "Unity stock steadies premarket after Google’s Project Genie shock — what to watch next - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOVQ1VVMxN0pQQTdibzhKMGF6UWFpQjluNnpERHBRY0xxMUxmbk02TTdhaFZXa3F6RmxSYkcxYzEtV2V2SThZTnQ0Ym9tdXd2TmNONjhyLW9kTGIwcE10WE45R1ZOc2Nod3g4Yk1HQ2k2anVWYmJ4bmRfY1loTjNoU0hHamE4VFBiZFVMUGl4VGl2V0tQN0dIX2luaHlUTmU2VWFGekQ4RQ?oc=5",
-      "description": "Unity stock steadies premarket after Google’s Project Genie shock — what to watch next  TechStock²",
-      "published_at": "2026-02-02T09:45:00+00:00",
-      "scraped_at": "2026-02-08T13:02:41.277891+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "GOOG",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f0faab40-e35d-4f64-a825-be84620253d3",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "neutral",
-      "title": "Unity Software stock rating reiterated at Hold by Benchmark - Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSWRvenVLdlhpbFZsS3I4NFdMcEYzTXZMYTRoVzRGSkRDZ29YSHBJUEh6V0VoQ2ZJai1IeWNvaTlPb2x5cEMzU01iS29ubWhibEZfSGlNSEdwdmFyQWtKUXF6VG5DV2dRMDlEdzBVSlVGT3dVNnNHNmdyY3JiMjcwd3BzWE1LT2czSW5vY04xTGF1VE5vQ0xsUWlnT2IxUnNlLVVjOTcxQ0NER0dwVmx1UHd5eFVPMlBrT0E?oc=5",
-      "description": "Unity Software stock rating reiterated at Hold by Benchmark  Investing.com India",
-      "published_at": "2026-02-02T15:26:34+00:00",
-      "scraped_at": "2026-02-08T13:02:41.278255+00:00",
-      "author": "Investing.com India",
-      "tags": [
-        "U",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e99660ce-cea4-4347-90b5-3477816d5d85",
-      "source": "google_finance",
-      "ticker": "TDOC",
-      "sentiment": "neutral",
-      "title": "Teladoc Health, Inc.'s (NYSE:TDOC) 28% Dip In Price Shows Sentiment Is Matching Revenues - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeVJ3NEhWWlR5S2hFWlZleUxXb3ZSOVRJNk9OVEpOV3U5T3dia21zdC1pOWNnR1R2dHd5T0NreVAzcVNRWmNTeTRlZ2lpZVZkZHgwaXFMNDhlUF8yR09KVENuNTNRdndLLU8tNS0wRG0tUHp0c0VrSkhEWjVkbkJKV2xMU2Q5d1dNQkNXX1FnZFVIODN2Rm9iZ25MT3l6bnV6WFZaNFZwYThMQXFMUkRrVER4MU12ejFnMXZQY3RhOGNLZ2xFSEExemlyekFnZw?oc=5",
-      "description": "Teladoc Health, Inc.'s (NYSE:TDOC) 28% Dip In Price Shows Sentiment Is Matching Revenues  simplywall.st",
-      "published_at": "2026-02-04T10:56:07+00:00",
-      "scraped_at": "2026-02-08T13:02:42.801895+00:00",
-      "author": "simplywall.st",
-      "tags": [
-        "TDOC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "1913480c-35ca-4596-b2b7-a223bbaaa8bf",
-      "source": "google_finance",
-      "ticker": "TDOC",
-      "sentiment": "bearish",
-      "title": "Lacklustre Performance Is Driving Teladoc Health, Inc.'s (NYSE:TDOC) 28% Price Drop - 富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPXzNIaVowaWtfckc4UC1HMC13eVE2M2NnRGpLd01OTU9IdUhadmFXcTlub2Zub1VhTlRmeGRZbDRtNUVrZzRqNnFuZDZOaTg0azlnWDBSX0ZNTGZlMkxLNExPV1pxbFVFLTY4Q3NHeUp1MXdmcERJOTFkVVJnTWRwQUZYU0lfdUVmR05qdmVWZGlIUFJWSlZFMW9JaS1LUXpkV0p4OFczeEw?oc=5",
-      "description": "Lacklustre Performance Is Driving Teladoc Health, Inc.'s (NYSE:TDOC) 28% Price Drop  富途牛牛",
-      "published_at": "2026-02-04T10:53:38+00:00",
-      "scraped_at": "2026-02-08T13:02:42.802045+00:00",
-      "author": "富途牛牛",
-      "tags": [
-        "TDOC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "1c3add4e-9fac-47ff-a052-dd0cef1e4723",
-      "source": "google_finance",
-      "ticker": "TDOC",
-      "sentiment": "neutral",
-      "title": "Teladoc Health (TDOC) Is Down 13.9% After Medicare Tightens Telehealth Coverage - What's Changed - Sahm",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYnVZYXF4QWhZa0pLcTlpbmlBalJzX21zX3h5Q00yc0l5ZWc0ODZ2QnlZUFp0TDNVaFphTDNTaGxxWXR2YmxWaHIwSTNMU1ZhT1MzVXhCN0JfamF0ZW5VVXpucGRBcGo1UVdPRHdzZVdUM1paZ3NWUUpiTVJhSk1FTXRlaVYzdlA1Z1JtdmowT1BwT1JOWnlXZ0lEUDUzMGdiVG5leDBfTlQzUUk2TVhQQndURmlfQXByZHNjSmk1NVowVWlKay1ZYl9QSjhfMDN2MGFoMy1MSDc?oc=5",
-      "description": "Teladoc Health (TDOC) Is Down 13.9% After Medicare Tightens Telehealth Coverage - What's Changed  Sahm",
-      "published_at": "2026-02-01T13:41:15+00:00",
-      "scraped_at": "2026-02-08T13:02:42.802405+00:00",
-      "author": "Sahm",
-      "tags": [
-        "TDOC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "48b08385-931d-466a-92eb-8dad9704e499",
-      "source": "google_finance",
-      "ticker": "TDOC",
-      "sentiment": "neutral",
-      "title": "The Truth About Teladoc Health Inc: Is TDOC’s Telehealth Empire Still Worth Your Money? - AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT2JJcGIxYkdhQnd6aHBPTUNmeF8tYnFQUksxaWZrS2VwbWFhU3ZkU2RscXpwcmtRYkNnd0UtT09iZWZ3RHhqbmxqaHAtRUxmOHBHVmtGc001T05VME54bm1kT0t1MHJCUWp1dVR1aDA5ZmJUZDBFZ3ZLbTNyMjlrcFp4QU9JSzFJS3NTS09kWUFpUHZLaXlRQi1rVjNOcGNzMkZ2N0pxZTFTTFZOM2VaU3lfd1Y5NDd3Y1Q1QUFaNA?oc=5",
-      "description": "The Truth About Teladoc Health Inc: Is TDOC’s Telehealth Empire Still Worth Your Money?  AD HOC NEWS",
-      "published_at": "2026-02-03T13:59:57+00:00",
-      "scraped_at": "2026-02-08T13:02:42.803457+00:00",
-      "author": "AD HOC NEWS",
-      "tags": [
-        "TDOC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "109ccbf3-d44c-425d-86bf-36fd61f51cdf",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Price Falls Below $67,000: Odds for BTC Low This Year - Federal News Network",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd2sxWThSUjVCeFR5UVpXRXFkZ1FhaGhXRk9PS0tTeXc0LUpHNlRzdFlwLUlMNnNxZlRxbjZDbzBBMkVfMEozUFRNUng3Z1pnT1B0NnZ6MnUwTEJ0VnNDVVg4Nk1WTTQtTTczRERoTUFndGdzaDkwbkwtMy1lYkhCQXhQeVpDTVhnM1hFY1JiMTFZWG9XSnE5QUVnTHJtNmxIRGt4VEpST3FRRFE?oc=5",
-      "description": "Bitcoin Price Falls Below $67,000: Odds for BTC Low This Year  Federal News Network",
-      "published_at": "2026-02-05T22:20:51+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215373+00:00",
-      "author": "Federal News Network",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c10ce1da-9b91-4f66-a155-1621695e9ef4",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin Price To $0? Here's Why The Zero Dollar Bitcoin Narrative Is Growing — And Why It May Teach Us Something - CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjh3VmZ0MFc0NXZRYW9VSjJ2b2h6SkV5bWdMekRpOEE5ZXItcndaeERqTmFKRmVSN1FhVTJrVkNsY0Y1QTBrcnVXamotMzJ1SVk3YzdUd0NrWEp4elZFTzdmd042bkFOdnFfc1pYaXZ3U0xuMWJUQk1kWFU1UFJpbU4yLTdWUVhERDZHcVgwSXBZTml0SVZZbEg1LVp1RWZtRzZ6QWln?oc=5",
-      "description": "Bitcoin Price To $0? Here's Why The Zero Dollar Bitcoin Narrative Is Growing — And Why It May Teach Us Something  CCN.com",
-      "published_at": "2026-02-08T10:02:15+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215434+00:00",
-      "author": "CCN.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "97ea8127-57b9-483d-b0e2-fac6d6c50bfd",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price plummets further. Is crypto crashing? - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmUxQVZWQUNhODV5SDYxQzdhbS1YZW5qS2dSRTI5LVJFY1pwdk5ydzdlZDdOOV9ldGpBZTRVazRIb2NQaFZsUWhRRTZkc3FndFFWTnp3ZHg5WGZ2UFp4ZWo3bEJERmJOb1pVeTk5SkVEeFBnMndtMVZrNHh0TGdfMXRYYkFuOU0?oc=5",
-      "description": "Bitcoin price plummets further. Is crypto crashing?  Mashable",
-      "published_at": "2026-02-05T17:30:01+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215465+00:00",
-      "author": "Mashable",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3f265c84-c5d6-4dbc-a2c7-216bf5c75434",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Market Recap: Bitcoin and Altcoins Rally After Losses - Investing News Network",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
-      "description": "Market Recap: Bitcoin and Altcoins Rally After Losses  Investing News Network",
-      "published_at": "2026-02-06T21:05:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215498+00:00",
-      "author": "Investing News Network",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "df5b9487-dfa5-4e07-986a-3607bbdd5ed8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Price Falls Below $70,000: 1 Smart Move Long-Term Investors Can Make Today - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeU1hWFdqM25tLVRwNi1FSlBUQVVad2s0UVZ2Z2g0dDJzRjAyTUxMcHJ0OG9sb1kwN0V1TG0wVTZucFEyX2RkSzhIbnJmYlRET1J3THY1Mm5uV2t4LVl4VER4TWxXOXpNSzl5b2VWQzJ4MS0zdUZ3aXpOaG9JRjFjVlk0YWFCUnoyX1R1Q004bmxQcmFzSFdR?oc=5",
-      "description": "Bitcoin Price Falls Below $70,000: 1 Smart Move Long-Term Investors Can Make Today  The Motley Fool",
-      "published_at": "2026-02-06T20:05:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215536+00:00",
+      "title": "Best Virtual Reality Stocks for 2026 and How to Invest - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOFhuVnlXTGZoazhZR2ZOX2xrUWtTdnBDSEQ0M3c3XzZfZHNEeC0tWk1feTU1UW1JUkJzaExudTkyOXpZWG5TakU3eUlBUUp3YXBMaTY0MFVlZ2hYbG1VeEs2Q2h1RzhnZnV0bUVieFZYQi1wRWhqNXhpcWJRYURYS25zNHFFQ2pmNVBKU1BtbWdGYXRjcXV6MTlpSFV6T0UzX1hTTmZlSjE?oc=5",
+      "description": "Best Virtual Reality Stocks for 2026 and How to Invest  The Motley Fool",
+      "published_at": "2026-02-17T21:17:00+00:00",
+      "scraped_at": "2026-02-21T13:23:02.261415+00:00",
       "author": "The Motley Fool",
       "tags": [
-        "BTC",
+        "U",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "1f52c926-cc12-4333-98d4-a04cd2d543b6",
+      "id": "40a911a0-08f6-4662-a4bb-0be625e050b3",
       "source": "google_finance",
-      "ticker": "BTC",
+      "ticker": "TDOC",
       "sentiment": "neutral",
-      "title": "Bitcoin falls 8% and Asian shares mostly slip after Wall Street is hit by tech stock losses - ABC News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEpKWUtRZUIyc1F1OXhiY3NpbTRsMTNJX3gxQ2ZCX21ubUk0aDBzVHA4dXc1OEgtcGVtWmplYmI0ZG1FeE4xR2lxZktjZEtVeThJNzF4NENzNjYtNFUwNVVlM242X084c191bzBhNkwzeG82LTVjMEdVU0Vya0Jja3VBMFpNdC01TVcydUZmTWV2SzdYdi0yWXhMeXPSAaIBQVVfeXFMT19QTUtjdDZMX0dQUXdDWkdub1VQcVZqOGJxckVWdzdiS2gtR2VzTG9aYS12b1JaSl9oVG1MQVBBNkVEVXMxQmNaMjNPbzVoTEVEUGlsWjlEUXJtbWNKS29BaUxsZkhiWno2QUhOR05LZzM4QVBiWlJyY2t3R1JnNE1mNG56R0lySmpLbWhwV1JQM1g4Um1xUEJRU0dYdURpZU9n?oc=5",
-      "description": "Bitcoin falls 8% and Asian shares mostly slip after Wall Street is hit by tech stock losses  ABC News",
-      "published_at": "2026-02-06T08:35:48+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215571+00:00",
-      "author": "ABC News",
+      "title": "Is Teladoc Health (TDOC) Stock Undervalued Right Now? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRS1sUG5WT0IwOUs4eXRoU1Q0TlFVQ3pKd3BfdjZjYlBEZk5OMkRDUEJHYlVMYzlxMUFmc2JwTXZvcmwyT3gzVk1QTVJPV3BjU3FkYnI2djQ3cXd6MEE2eGxMRS1lWlFBOUJNdHJLT1dDcTk5Vl93SVBLbF9HLWxPTWJaN2hRMlVWX3JF?oc=5",
+      "description": "Is Teladoc Health (TDOC) Stock Undervalued Right Now?  Yahoo Finance",
+      "published_at": "2026-02-19T14:40:04+00:00",
+      "scraped_at": "2026-02-21T13:23:02.778506+00:00",
+      "author": "Yahoo Finance",
       "tags": [
-        "BTC",
+        "TDOC",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "9e91c140-f96f-4bde-a66b-c0b61817f384",
+      "id": "b8d28182-21f0-4320-8c61-ba80cd2b614f",
       "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price analysis: BTC is seeing accumulation across all cohorts, according to Glassnode - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRzUxUllTMEpoQnJKck1ScUlfNEd0c3hWUEhDRFNCLUNLeGJSNXhpV0lsWGtLUzZ6LS1wZXJEeHNxdXlER2dkZF93Q0NNNHRMSDJtNnhXM3RiVFJOZEd6MDZTZ18zdnBKRzhuSy1pZFl3QW14c1RSYnIwbTJmenlJRzVWZUE2MEt2aFpNdC1PUC1SRkJHRUViRzc4T3Z4bHJ3c3JhOU83YkRZVzBfTGc?oc=5",
-      "description": "Bitcoin price analysis: BTC is seeing accumulation across all cohorts, according to Glassnode  CoinDesk",
-      "published_at": "2026-02-07T21:06:05+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215604+00:00",
-      "author": "CoinDesk",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "59d4580f-a9b7-4a99-91b0-2278c5bfecf3",
-      "source": "google_finance",
-      "ticker": "BTC",
+      "ticker": "TDOC",
       "sentiment": "bullish",
-      "title": "Strategy: High-Beta Bitcoin Exposure (NASDAQ:MSTR) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQk5OWHRlN1dDYms3c0ppNlAzV3BSRmJTa1hiV2g4WkEzcnlVc2FaQkc3bk85MGZCZGV6SlFlekVMOEFSM1VrMEloaVU2Z1dLbTUyQVBlQm1FQmN2blNrRkpGRjNvVmlzSnNZSk55T0pkT1dOV1U1V2lSNm1xRkxwRU93?oc=5",
-      "description": "Strategy: High-Beta Bitcoin Exposure (NASDAQ:MSTR)  Seeking Alpha",
-      "published_at": "2026-02-08T06:44:55+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215632+00:00",
-      "author": "Seeking Alpha",
+      "title": "Teladoc Health (TDOC) to Release Quarterly Earnings on Wednesday - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMjVHSTRJNnA1X3cwaDZ4T0FyVFZpeVBqZzhGUWVLSEo1a2pLUzFaU1VUR1h6Q1VFY3BCdlEtb00zckx4QlhmT2Y3S3lJaWdjSkxIWTdua2lfd1BNbjFLNjlxTGhTZmR2RXVFRVdlZmJnemJ1ek1CcWtLOFRoTDExVC11V1k2Mi12TU9tWERYNWhGeUxQbzk1N3pmVW1udG5uaHE4Z1JNbE1CM1ZtcmJTUE1iVG9RY3M?oc=5",
+      "description": "Teladoc Health (TDOC) to Release Quarterly Earnings on Wednesday  MarketBeat",
+      "published_at": "2026-02-18T08:42:20+00:00",
+      "scraped_at": "2026-02-21T13:23:02.778597+00:00",
+      "author": "MarketBeat",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "38f02b3e-183e-4071-aab9-569dfd3c00da",
+      "source": "google_finance",
+      "ticker": "TDOC",
+      "sentiment": "neutral",
+      "title": "Teladoc Health, Inc. (TDOC) Stock Analysis: Unpacking a 92% Potential Upside for Investors - DirectorsTalk Interviews",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb2pVa01rMTByNEpIYTJhMENQX0MtVElTaW4zLXdFbVZpUDN6Z3YtN0ZhNnRmclpybktuUGZiSXJVa3RGRDRhYVBmdklPdlBGdFphOTgyS3MyNFNrbG8tWTJZLU5uTTNfWnFEdkpWQmVOaWVxNGNaWmJ3NTJONUtDTURIblVDRGhzZktNQzFVWmw1VjdHZTh5RTB5bkZHX2ZpQ2NTa1JVV3lOaU5raDE0NmNOUGZCS2lZUERqRGVqNUtRaHQtZ0I4dkt4UG0xeVVB?oc=5",
+      "description": "Teladoc Health, Inc. (TDOC) Stock Analysis: Unpacking a 92% Potential Upside for Investors  DirectorsTalk Interviews",
+      "published_at": "2026-02-17T12:31:29+00:00",
+      "scraped_at": "2026-02-21T13:23:02.778671+00:00",
+      "author": "DirectorsTalk Interviews",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "4222ea97-8d0b-43f9-a6a2-dc394924dc8c",
+      "source": "google_finance",
+      "ticker": "TDOC",
+      "sentiment": "neutral",
+      "title": "Teladoc Health Adds Michael S. Smith to Board - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMS03OGkyZThFSlJ6VW1GQ0xNRWFpTXk5SjVkN1Jpa1JKVjd6VkEyZVhRQ0JwbHlkZXNWZWd3djRoajUtMDR5WmRJNkVRVUdWMWxmMUNyTlI4N0NOUzF6RDZObGtVcU9qQTBRR0x0WlNFWUlXQnF1REItTFRnNk5hajBtOTAxbGNkenBMamc4M04ydnd1OENjQlhUZ0VWVXk1WmwyWlVzN1VHMktZbUgtWkNmS20tcmVsTE9XMjVzLUg0SllBRWQ0?oc=5",
+      "description": "Teladoc Health Adds Michael S. Smith to Board  The Globe and Mail",
+      "published_at": "2026-02-19T23:48:07+00:00",
+      "scraped_at": "2026-02-21T13:23:02.778792+00:00",
+      "author": "The Globe and Mail",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ba2725ac-9e8e-4a4d-8d53-88ad60b0123c",
+      "source": "google_finance",
+      "ticker": "TDOC",
+      "sentiment": "bullish",
+      "title": "Teladoc Q4 Earnings: Can Integrated Care Strength Save Profits? - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSTlIY1NzcXdETnN1akh4ZTRmS1BhVXlRZWJzQnJlMlItQ3hEYm1yOXJEZl8zN0lIWFh1VUdsQmxCVHVuUzNkTUUydnpWeGJWbkl3YTdXNHU4eWZ5el96eld2QldyNndFelRaLVk4MFZOR3hBb0ZIeGtUTk1OczhtMllyU0JjNlRwbTR4Z056bkVpajdpRjBEb25aTG9ISVA3SHZ1M2xjTmIzUS1JQkZIakl4TFpkNF9h?oc=5",
+      "description": "Teladoc Q4 Earnings: Can Integrated Care Strength Save Profits?  TradingView",
+      "published_at": "2026-02-19T16:27:00+00:00",
+      "scraped_at": "2026-02-21T13:23:02.778870+00:00",
+      "author": "TradingView",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "dec8fafe-aa38-48ea-85d3-88ff4a68b7d2",
+      "source": "google_finance",
+      "ticker": "TDOC",
+      "sentiment": "neutral",
+      "title": "How Teladoc Health Inc. stock benefits from digital adoption - July 2025 Volume & Technical Pattern Based Signals - mfd.ru",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYk1uem0wdkxndXg2UXU4R2Foc2JSQ2F0SlN3RmRWSW9qNDV5SUhHalhkUkNHUHZqT19oOGFJcGFjYUZ2NVhjRFVBNkpBZXZhNGZQTk9tc2ZjNk1TaEFYSG84Q0hZbzZXbmRxcXVGamZPTm5yVmZmVXo0RFRmV1BqVTZpWVB2NE1L?oc=5",
+      "description": "How Teladoc Health Inc. stock benefits from digital adoption - July 2025 Volume & Technical Pattern Based Signals  mfd.ru",
+      "published_at": "2026-02-20T16:05:36+00:00",
+      "scraped_at": "2026-02-21T13:23:02.780174+00:00",
+      "author": "mfd.ru",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b1c83cfb-c95d-4437-8c91-b819a031092d",
+      "source": "google_finance",
+      "ticker": "TDOC",
+      "sentiment": "bearish",
+      "title": "Volume Summary: What is the target price for Teladoc Health Inc stock - 2025 Market Outlook & Low Volatility Stock Recommendations - baoquankhu1.vn",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdTUxcTMzRkd3WjlyQWdLY3BPNl9VaFNLUWNBbl82WkNuakhGUUJVZXlnT29DSks0S0QtaUxibDZYU3dsdmJJUnJDd0N4Y2plOVNtMW9PblNmcldKX2oxVzkxdUc3V1F1ZlNQWTRVSkFmb2xxcG5zWm5qdFpBeU5JWFFFeUJFRHR6SHNmMGpPX002Tkluc1Qzemh3?oc=5",
+      "description": "Volume Summary: What is the target price for Teladoc Health Inc stock - 2025 Market Outlook & Low Volatility Stock Recommendations  baoquankhu1.vn",
+      "published_at": "2026-02-19T11:18:55+00:00",
+      "scraped_at": "2026-02-21T13:23:02.780306+00:00",
+      "author": "baoquankhu1.vn",
+      "tags": [
+        "TDOC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8b2995bc-4610-45dc-9211-cdad0bcde248",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin Price Suddenly Braced For A ‘Massive Trigger’—Predicted To Open The Crypto ‘Flood Gates’ To Trillions - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOG5Wa0RBYlFTcC1rcElGT2hhWVdFeWJybzBRamtJV2w1OWNjalF2ZnBKeDY0a2s3UEZGNlFCRXltZU8xY2Q5WUdwT0h6SEozalpDYTFMTUVVS3dfYzQ2dU1ldnBBSE9BOTB4QzU3NHBiRWpYMnJaRW12M0xsQkE3cHUxQWM4SUZ4ODFlYUF5Skh3MzZITkd5TnR4UXdLY2xHV2QzUlkwRllodHdDQ243OGlfeWFpQTVhOXQtcWJOTnROVEJRdl9nRXdRazZKX3M1YkVBdVBRNmZ6OUZtVWQ1UjNxQjdhREtBSjVCUmhzcFlmcG8?oc=5",
+      "description": "Bitcoin Price Suddenly Braced For A ‘Massive Trigger’—Predicted To Open The Crypto ‘Flood Gates’ To Trillions  Forbes",
+      "published_at": "2026-02-21T12:29:33+00:00",
+      "scraped_at": "2026-02-21T13:23:03.350817+00:00",
+      "author": "Forbes",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -1310,15 +664,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "a3703519-09ec-46ea-8444-359f0ca4e91d",
+      "id": "b2d25c13-c4ea-4610-ac7d-6429f2133827",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Accidental 2,000 BTC Airdrop Crashes Bitcoin Price 10% on Bithumb - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rNjJpSHNXQkwtcXpVWEhVN3cwLXNLWnBCNGZnV1FTOWtnRk91dEVVRkxSenI3VUFtQWJyR2NkN2tiOWZNVkVvNUhMNXVVRkNTNk5kYVZ5MFZ6UnVMeEFUWDFNVW5Qbm5PX0FFdVRabEh4MWFCZ1VoMzNleEQ4cG8?oc=5",
-      "description": "Accidental 2,000 BTC Airdrop Crashes Bitcoin Price 10% on Bithumb  Yahoo Finance",
-      "published_at": "2026-02-06T14:07:30+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215683+00:00",
+      "title": "Eric Trump Celebrates American Bitcoin's 'Incredible' 6,000 BTC Milestone — But Stock Has Sunk 85% Since Nasdaq Debut - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRSMk9jcHlCTG1VQ3pBejJ6Q0ZNaGRJTFZXWVlxa0o4ZXlBQ0pwWU5ZcS10QVQxRmgycGpWeUFULWVxY2JHenJLb0h2MHRwazFtYnh6RWlQQXQwSFdyYTllY1NzLXRNQ0drRnFCWnV2TEdOSEhhQTNwekFMX2NmQk9iNmxfaWU2LTA1NDJn?oc=5",
+      "description": "Eric Trump Celebrates American Bitcoin's 'Incredible' 6,000 BTC Milestone — But Stock Has Sunk 85% Since Nasdaq Debut  Yahoo Finance",
+      "published_at": "2026-02-20T23:01:05+00:00",
+      "scraped_at": "2026-02-21T13:23:03.350918+00:00",
       "author": "Yahoo Finance",
       "tags": [
         "BTC",
@@ -1327,134 +681,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "0cfaecfe-52f7-441e-9f9a-5e6cfca7d311",
+      "id": "9e4a5590-db2a-40f3-9fc4-957b003de619",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Bitcoin price falls below pre-Trump second term levels, now hovering below $67,000 - AP News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVFRSnc1eGZPQkRlZ0xHSG5XeFRKbUE0b3BFaHNXVVA4UzdoNU5iVHRRZjZ5OG1TTmp1TEpTM1ZHZUdmbW1HWEJTMkRscUsxMXBKSU9EU3BmZjlJdzRRRFlxeFhEcmRBZG1kbUhsdlN2R3JiMTRLQ3JQTW50QWdiMjdqa0x4cXlzVFhxdEZyMXZpakFoWGpDOVpUeC04U1ZTdkFIdk52QmROYmhRWnByaW9IOU5WS0E?oc=5",
-      "description": "Bitcoin price falls below pre-Trump second term levels, now hovering below $67,000  AP News",
-      "published_at": "2026-02-05T20:27:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215715+00:00",
-      "author": "AP News",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "cde8402a-a381-4daa-a6a2-aa4d2e69cb0f",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Why bitcoin price is trending - cnn.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWpzb0tCd0U1NUliNEgyU2lieUcxU0hHMUJDQmJFQjNPMEJaV2NGeGgzcTJYSXBoTElUM19VT2UtU2laTUEzdTl3aWI0SVFNSGZRalYyQ2lkZHhFZ2FSazAzajZZUUh0ZGx5UjBNOHRnRl9RZS1WRlBFZzhNRFZwQUNiTQ?oc=5",
-      "description": "Why bitcoin price is trending  cnn.com",
-      "published_at": "2026-02-05T20:38:31+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215740+00:00",
-      "author": "cnn.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e4de008e-5541-40dc-b709-6fea9c3512bb",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price climbs Friday, but can it continue? Experts are skeptical. - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVDYyVWVkSUl0VHcyNEIwYjdPLWducGZLNThrSy1qZE5EOUpUSTN4Y3ZoMnVieGsxeEhiUDhGblVCbThYaFpLMG5RckxuN1E4WUZiaXFpXzB1T084NlZmbmJLNGdaT2Q1SjBSLThRQXRyUHYzejRVVXllSm9HbVUtSWdKYk9BcU9lYTFTLVg1Y2FEZldidk1yNHZJZEZTcUU?oc=5",
-      "description": "Bitcoin price climbs Friday, but can it continue? Experts are skeptical.  Mashable",
-      "published_at": "2026-02-06T20:51:26+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215800+00:00",
-      "author": "Mashable",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7abc849c-640f-4c8d-bf0a-42a1c243c418",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "How Crypto ETFs Could Make the Bitcoin Selloff Even Worse - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPYWtXUmlwaW4wRnJHMmt2akdZMy1FdTRqTjByVmdEb0lZSWc2NHpWZXQ1MTF4QTlldEpBbF8wRVZKNVpNcXBSVnNCYncwME5JN29nRks2allEN1F4YWhlLVV5ZldhREFFWEJVUy16UTdBU01OVkl2eFZnRFZrRTl2QlhTMFcxZWVLdUZnZ3ZGZlhYREJNaGQ0NEVyS196V1ozdFVTd0RSRTJCanB0Snh6dTFwRW9rdVlqZGZsRjRsR3BRbzhsYk1veUNoaEUyLW9HOV9iMnRneWhwQ1ZkRjVab3lNWTRSUHRFNTg0ZFZIZzlDc212MGhfYW01cXFNWndJakc0LU41anQxRnRFT1ZsZDNJYVNWM0NOLWVjc2dWYWE0U2t3dVJCYlZVWk9rUHhpUzB6OUJXZFRTRlhVWWVMcmsxQlI0Qkd6NjFHVjVxRy11Wl9zTG1LZlh5MjVoek1OX1QtZXJNRjBsV0JIVUE2YzAxckJtRVZkbGRRa1ExZ2NER29s?oc=5",
-      "description": "How Crypto ETFs Could Make the Bitcoin Selloff Even Worse  Barron's",
-      "published_at": "2026-02-05T19:17:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215830+00:00",
-      "author": "Barron's",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "653f2c73-9ed1-4466-b51b-e98d70310745",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin slips below $70,000 after erasing post-election gains during 'sell at any price' rout - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ2g1MTVxbE5HbkY4X2YyT3MwbkxzNDdzY0dJeHNWT0hneEc0M09JNDBzVHZvMnlIWldMX096NDByYTZZenRXczZpVHByRGlwbEY4S21NeUZQa094bUN1eVRiS3hMQnQtdTllSlktU3c2NE9oOXN1TWpWeWoxZFVVN3duUmJyM0JGMEU4LTE3cVN5N0JRdWtjMXhsR3NpY2tLMGpDMEZCRU9Fc3d1ckpFaFZ0bEpfV1JpeklGRHFmcENIYTRBRlVMbEVSZHRDSW96c0FN?oc=5",
-      "description": "Bitcoin slips below $70,000 after erasing post-election gains during 'sell at any price' rout  CoinDesk",
-      "published_at": "2026-02-07T16:10:05+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215863+00:00",
-      "author": "CoinDesk",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "78752633-486b-4fe9-b6bb-0b5ded997087",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin Price To $266,000? JPMorgan Sees BTC More Attractive Than Gold Long Term - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQkJiNnRVM1UwQXBQVnNNdEpvRER4ZHRxVklDWGpXZnEzZWRMQ240TVlqRVU1NldzU2xVQ0RLc3FqRFFjQ0JFb3Vwa2t0ME13SDRjZjRXZndacEdHMjJOM0toc3F3S0k5S2FXN1dBS2tFWWdPM25yQzhwSWVJRG1UYnBB?oc=5",
-      "description": "Bitcoin Price To $266,000? JPMorgan Sees BTC More Attractive Than Gold Long Term  Yahoo Finance",
-      "published_at": "2026-02-06T12:37:18+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215893+00:00",
-      "author": "Yahoo Finance",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "30928de3-1333-42ba-a588-2da405cd3a09",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Falls Below $70,000 as Crypto Crisis Gets Scary - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOVmFEUmNGMUg4VF9xeHhqRkpoaGlKb3BXM1l1aTEzdnMxSUk3bnlJSXZ2VXFvYXgxNmhwSVMxQ2xJUXcxNnluUEdKczA3WFk3ZWQ4LWlrY1dzMUM5ZDQtVlF4clFPYml2ODc3T0hUOHFsT3FWM083VXMyQ1ZaSnZSY3MteUc1QklTNGdDdFlvZHRia0haTHNUZ3RfOXVVdkI1Smw5TmhyWDJnWHptejMyQ2ZZd1J6MWNPR2ZWOERLT3puTnZ0SlBpMWQ1WVNJTlNRNXpnT2xqZ0prczN5TmplOXZwTWVNQXJqOGxBbGRQMF9KczhUTVVMYkJyZFViYmk0VXBmVFE3REkwcHVjX2JtOWNRYnVBVkZqS1FDaXlNdHBWdWVCVEFmMk4tN2VOQ1BLRlVtR2tnRW9IbmN1WHYxaW1GQkppSHNHM2xTWVNtS3VieUFiX2JGcndjWjhBb01VWUN0YnlGRzBFdC1ZRVhhWTNncTBWdFZKUElDRFJSOE5KS0hmamcxamV3?oc=5",
-      "description": "Bitcoin Falls Below $70,000 as Crypto Crisis Gets Scary  Barron's",
-      "published_at": "2026-02-05T21:12:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215921+00:00",
-      "author": "Barron's",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "6f99ae22-4d4b-4186-a1ab-db58b30dd11d",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bear Market Outlook: How Low Will Bitcoin Price Drop This Cycle? - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85MFJzMllZTVFQeW1lTXNPek83Yjk3RnhpWWVTLWFDUTFVckNaZnNidm1TbHU2SFJWZVpQY2dHQmF2dFZqaFF0VFk1enVxNzFKU1Fla2VyX0x3Sng3UzdaV3hPTXlnbW1n?oc=5",
-      "description": "Bear Market Outlook: How Low Will Bitcoin Price Drop This Cycle?  BeInCrypto",
-      "published_at": "2026-02-08T03:45:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215949+00:00",
+      "title": "Bitcoin Price Flashes Biggest Warning of 2026: Is a Drop to $56,000 Coming? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iekxjWHAxRVpsQ3djUjFjbmNkbmhHdFhXbE9LUnpFT2dXUTlsRm9nSjFRYy1Fd0hkX3dQS2toX3ZxSVhoVmhIVjhEa0JqZ0J3RzgyS1lSbVFEcGljNy1aQWU1aXlhcUExdnZqSWUyMUZZUW8?oc=5",
+      "description": "Bitcoin Price Flashes Biggest Warning of 2026: Is a Drop to $56,000 Coming?  BeInCrypto",
+      "published_at": "2026-02-21T07:16:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.350986+00:00",
       "author": "BeInCrypto",
       "tags": [
         "BTC",
@@ -1463,15 +698,100 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "1c278d8c-f484-4d9c-9a7a-08cf364b8d79",
+      "id": "194f94e9-2f00-492b-9059-f36dddafb649",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price Falls. Why the Crypto Is Struggling to Break Back Above $70,000. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQY2NkWjZRREIwMVNrSjIxNEVRM1BESjU2RjVZZTVBMzVQU3luaGFha1U0NS1iSFZlSXdlX2t5VkNVdVJHX0xGTEgyVTdvcE5fWUFON3pyZHVVbzFJeEJ1ektNYzlKcmtscU1UaUJlOEpWY1Y0TTE1YnBiOWlfUG5LN3MxSE9iZG9UdlhUX29QZVFKNE1WV29jdlo0S2JVdmJRR0VidlQ4WlpNSHIzYWdSemlkd3dhRG8yamZxX0JzYkpRSkJac2pFRVQ2SmdheFRDeFhYajR6TS1VY1RTNzJkck4yNUZiWnROMXpEaEJCdzNVVXBILVZWampfM2R1bzJCVUNOd1pyLVhMRGFHNGt6bDdSclBJU0dYQ2JvTHIyMHVOeTVPWjBJdjJ5Vm4tTjBMOGNOZVFmOHkyMWV3bmNVRGxJOFo0Ql9KOEx3ZC1vNFZuYTFiaVdJRDhIckl5RU9BSDNYZW5sZEJDdDJ0MmJJWEtIWTdIUFQ4QU9qSG5QTjVOTjZOS0E?oc=5",
+      "description": "Bitcoin Price Falls. Why the Crypto Is Struggling to Break Back Above $70,000.  Barron's",
+      "published_at": "2026-02-17T21:45:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351095+00:00",
+      "author": "Barron's",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "05e2469f-3e61-46f9-b349-8e4ca6fd746b",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Here’s what a US-Iran war could mean for the price of Bitcoin and Ethereum - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS2g1ME13TUs4cHBtT2N4UHFBUDJTZzRDTjBFNXNXamFvYVhkNkY5dXdvdmM3MFM3RWg5dUxQMDM2dWFkOFNCRlVPMngta0ZDQllrMjBOUi1XX28tRklnTkpFXzRES21OcjBzNUZUc0xCVG16cy1kb0w3X05vZTBoM2hGZVBoVnhSZ0ozTWZCRDE0dUhjYXZXeE5NczFwODJjMUxFNHZ3?oc=5",
+      "description": "Here’s what a US-Iran war could mean for the price of Bitcoin and Ethereum  dlnews.com",
+      "published_at": "2026-02-20T16:25:43+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351166+00:00",
+      "author": "dlnews.com",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "c00d0416-0cfe-4971-b06e-4782e7ed7461",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "The Role of the Bitcoin Price USD in a New Kind of Creator Economy - Amarillo Globe-News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaHlWUFQ5UjdRUGRNbUNLS3JnZzB6WHBNTGhYOWpPalZHbnRkT0ZGVHhvS1E4bDJFZlVfbzJWNC1EeFU2cEpxN2puRjJrbFgzLXVBQnZnejRrc3owTmgwa3ZlclBmNXJTTy1qTUxBRW83RVl2UVAxMHJOcDFLcXpLUkdaeGxETzY3TlNZQ1NJWWRsT1o3c3ItRDB3TFlTVDg1TnptVnRHVTB1NzluRFFxUFpUeDNoR18wZ0JwSl85c2E0dldXaHBSSl9JdWMxalUtN3phNmctRFBHekFBaVN6cjU4bw?oc=5",
+      "description": "The Role of the Bitcoin Price USD in a New Kind of Creator Economy  Amarillo Globe-News",
+      "published_at": "2026-02-20T15:56:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351235+00:00",
+      "author": "Amarillo Globe-News",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8dd942e1-9c5b-4bb5-b153-7026112554ee",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Crypto market in free fall as Bitcoin plunges below $70,000 while shares in Coinbase and Circle tumble - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXVJVXptbW1IMXQwc0c0WWROUUFIbS15c1Eza1lkR2JXcGxWMXQ2UVp0c0l2NTBBVXJiMjJoamJLT1lqdVNQQklCUjVIUE9YdmJIYlZTOVdWdXFHMGFxMEdLcUtZczBNNG44aThEV2FFQjU3TEV1Y2FVcE11NnlueVJ1Zw?oc=5",
-      "description": "Crypto market in free fall as Bitcoin plunges below $70,000 while shares in Coinbase and Circle tumble  Fortune",
-      "published_at": "2026-02-05T19:20:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.215983+00:00",
+      "title": "'Not A Stock:' El Salvador Defends Bitcoin Purchases Amid Market Slump – Crypto News Bitcoin News - Bitcoin.com News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON1FPdTJBSzlFTnBGMkNyc1lxaU1HbF9kcG0zcXJjZzBSeHJqMnlURHNfaDQwYldGaDRYcmV2RVAyVEo4bTF0NDhiX09XU20zYmN2R0p0SXVBNlJfMkVXNWpEeV83cWwzelA2Q2NxN1VoUUNzd0lQQXRNd0lMOTc4VkVUUk1MMnRGeGVIOGg5QWRRcEJhRXFTdA?oc=5",
+      "description": "'Not A Stock:' El Salvador Defends Bitcoin Purchases Amid Market Slump – Crypto News Bitcoin News  Bitcoin.com News",
+      "published_at": "2026-02-21T09:30:55+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351303+00:00",
+      "author": "Bitcoin.com News",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ec8dede6-1cb1-4272-8f2e-b4f10fc39764",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price To Dip $40K By Nov 2026, Here’s Why! - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83Q1gyVDk1RlJ0VkhxR09zNmtzMVQ4a3JkVzBnSW8wdE5zT2d2ZG0wRjhmSTdBZTJLZ19nYWFMcC12QUU3UHMwVHJHc2dIT2hEU2s0TENndlpmWVV0RlRJSjJLckpuY2lZdmFlT1F2b0VEbU90eHk0UlRTbUQ1QVnSAYQBQVVfeXFMTkVPaEpGdzlobTlkdVVDNkdFTHdWNFFIZUpaT1pLcG5Dd3Y5S3JtODFUZDNRU1lpRk52bFlpVDRYUUJoTXdYM01vbjd6YzhpVGF6T3NYdkdJYm13YnVDTFpoTTV3QXJ5Z0w2XzZKOUwxLUVlR2FNQnZqWUVPbi1yTTNMbmVU?oc=5",
+      "description": "Bitcoin Price To Dip $40K By Nov 2026, Here’s Why!  Coinpedia Fintech News",
+      "published_at": "2026-02-21T10:49:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351365+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8cfaf6d2-3e6d-4179-b8f6-562d699b0567",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "When Bitcoin prices turned against Michael Saylor, he quietly pivoted to a risky financial gambit at Strategy - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVhmU3RaR3ZmaUprR2paZGJOeG1HUlV1ZU9Ib1lTYWVZUzRVcWQ2bzJRc3hWZ3B4eUVVeDIzZ0k1RVg2d2NWTklHZUJCZ1JtVHg0ZjBCOUk2TFRMeUFIZE8yY29nUHJNV2NuSmJKeldqRThLZ21HWnFPUHNYWHk1VGd0ZV9Cb3ZpTEFreXRTak94emplN05ReWcwekw?oc=5",
+      "description": "When Bitcoin prices turned against Michael Saylor, he quietly pivoted to a risky financial gambit at Strategy  Fortune",
+      "published_at": "2026-02-20T09:30:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351431+00:00",
       "author": "Fortune",
       "tags": [
         "BTC",
@@ -1480,15 +800,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "1c1bec54-ff79-448c-9ea3-37643a3b4990",
+      "id": "7a8c5d5b-f434-43a7-8b2c-f69156292f47",
       "source": "google_finance",
       "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price news: BTC re-takes $70,000 as Michael Saylor addresses Quantum Computing threat - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWU5uNHVTcVdfZVppc1gwMnpCUk90WHJoVXRqVFJnaEFaTHZ4aEdLa3J3X2pHUmFRbnRHVlF1ZE5EMTZDUEdKbUJBR2wtNEFSdzd3dXBqTVpFR09KUDVIZjZrTE1OWW1mX1ViSF9NcTlDMF80SWE0Wlh4YTR1Zm5HSUpqMkt2SHdQdVotQ2FqaHlCM2pkMktXZTlMQ3ZpbW5Ca1E3U1lRTVRESWF6c3c?oc=5",
-      "description": "Bitcoin price news: BTC re-takes $70,000 as Michael Saylor addresses Quantum Computing threat  CoinDesk",
-      "published_at": "2026-02-06T17:03:45+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216014+00:00",
+      "sentiment": "bearish",
+      "title": "Bitcoin price prediction: BTC can bounce but market still lacks fuel for a real run - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFpJeWRSeXdvMHdTX2pyM0lZNlU2MzRwM3BIckMzLWUzNVUyY0I3b1ZVZUNqb0RCaE1fbVRJZ1ZwdlB4NjdnNjVWT1hjMDBTaWxjZDQ1OV9WS0tEXzdFV3Yxdnl0T2dKaFpxY1A3a1dDOGhaMHgtcml0eGFHOWJEWmJVcWl4OXNpZHlfWWczbWd6bkdVbmdYTVRJMTJnQ2ZDSkYyeFU4ektHNWowalhlM3NmWkhlZWc?oc=5",
+      "description": "Bitcoin price prediction: BTC can bounce but market still lacks fuel for a real run  CoinDesk",
+      "published_at": "2026-02-19T04:53:42+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351492+00:00",
       "author": "CoinDesk",
       "tags": [
         "BTC",
@@ -1497,661 +817,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "9c7ebbe7-8220-4eff-aa9a-681a9459aba0",
+      "id": "90f525bb-a857-4cd9-8c30-7b471ef097ac",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin price analysis: BTC's downside volatility is a feature, not a crisis, says hedge funder - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjFzMUpIazY3WEZvN1hJWHRLTVloZnJCSHVUMTRIaUxFcC1DdHFFZ081WDY1MGlUTkQwOFBSUElfNnVpN25HX3U5RHpLdlFlMk51Nk5Ja0lYSzV2dVVKc2k1WGNfMFM1cnEwc0pKbjdBbkctTkt1UFM1LTd6dnFWbW45TklXMGdIZ2RPMlNJSWNxUTB1Yzh2Sk5kZjBjSVBYSlAzTEotM2hMbWkybWh3?oc=5",
-      "description": "Bitcoin price analysis: BTC's downside volatility is a feature, not a crisis, says hedge funder  CoinDesk",
-      "published_at": "2026-02-07T16:49:36+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216047+00:00",
-      "author": "CoinDesk",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e123f04a-dab8-4b5a-9514-73572758fb24",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price crash to lowest level since Trump take office - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82YjV2WHE3T2tVLUd1X1lZb1dtZ3dtemNFd0RCbXRZX2JIRlRGOENDbWJlUldNcVRnUGFJUHl4X1o3TDNZOVhpV3pBRG5EVDlta0R0aWpFOUxzMHZk0gFiQVVfeXFMTzNjdzdxNkRrZnFpal9DVERrR040WFFGY0ZBMW1zMi0zQmN3RUdlOHNCSmZRNUczY1RBdFF1cXFVTzFDRFE0SVJiVTJ3eVhGTXdjUXFqUUt3c1o1bnYzR3RKMkE?oc=5",
-      "description": "Bitcoin price crash to lowest level since Trump take office  BBC",
-      "published_at": "2026-02-06T10:14:01+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216074+00:00",
-      "author": "BBC",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "da88eaff-7a6c-4b4a-b8b4-2d0944e8bad8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price crash brought on by these five reasons, says VanEck analyst - dlnews.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNlVDWHJSRXZlMjdObGNfekdaSS1PLUJxUEhIUzRWN0NCcFFNbDZ3T0VvZC1pcmdkWWVNSV9kNzhndlhzWUQ0ZVlITHNtbkgyVERuTndFVkt0dWRfamdLRGdiU1RacWtJNkFsVEcwaHhqSWhZM2NSQkRld1Q4VGxEamdQaHRyS256U2MyWHpB?oc=5",
-      "description": "Bitcoin price crash brought on by these five reasons, says VanEck analyst  dlnews.com",
-      "published_at": "2026-02-06T18:11:38+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216104+00:00",
-      "author": "dlnews.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "aa4de04d-b64c-4f5c-ad43-ab9fa1383fd7",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Popular hedge fund manager predicts Bitcoin will crash to zero - thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnJ1S1k5MWZOa1JaTVZSN0NLSnU1Wjc5Z1FTQUZOaEJhREZPOWdZZTVvUnR6U1ZSaHFWMVNlQ1Y3TW5mb1Zqb3JDN2dnVFVwcHctakViOUpsbnFNN1pXRXl6aDdXVlFaOFRnSjdmNXViZXIwNGZoWXJkbnJmLXk0TTBtalk4OC1vclRabGNqOWlVallRT0lrcGxUNXVqMkIyT2xtbTNn?oc=5",
-      "description": "Popular hedge fund manager predicts Bitcoin will crash to zero  thestreet.com",
-      "published_at": "2026-02-08T12:30:18+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216133+00:00",
-      "author": "thestreet.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "5410a296-3dc0-4628-875f-9ceef4bbb893",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin gets a zero price target in wake of Burry warning (BTC-USD:Cryptocurrency) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE04RUtpcnNKZV81NlpZTEc5clExc3N0Q0t0b2VjSXJqNWZKOGU4dHlhT1JyQkhyeXI1VW1EdDJIejlpaGNoZ3dfYjVwNmZFbG9QUjBLcnozOEI1c0hfYW8zVDd5TmVhTmxCa0w4cktoU0liQV9Cby0w?oc=5",
-      "description": "Bitcoin gets a zero price target in wake of Burry warning (BTC-USD:Cryptocurrency)  Seeking Alpha",
-      "published_at": "2026-02-05T16:01:01+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216164+00:00",
-      "author": "Seeking Alpha",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "57f5bbf8-3cb5-4ae6-bcfb-140b68564d01",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Strategy Stock Drops as Bitcoin Price Sinks. MSTR Is Doubling Down on Its Bet. - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxNVTlSaGpEbmhSWHdZejRIRmZTdjZQN2o2bFUyUTBEaDBjMFc4aENWdVJCNUx5eGZ6dmpPa2xKS3JEbXlqc0E3QUtHMTNLSG8yNWV2VmlXb284Mi1vSVFoSmtyajBPMUxENTV2LXJQcmNwbDh1aFA2LUJSdUxsSlZObktCenhXcGczOHMyZEFIdkZGR0VKcklmanFTQ1ljd1M4Qk53V0RHdFFIS1JScFVYX3Q1Y3RpeklxbGFCV09GYVhUSU0weW1iS1Nhd2FuVHdKaTdmbjVUVnBESUxMRHd6RmVjaHRuN20wMVZ0UWlWbUttTk11QWNSVzNkUlBabmE2OU1aTnQ4czczaDd1djRnMzdGVHQwM1pKOGpSN2hZQU5nVTFnY0RiX0RoUzhMZmlPQzI2SWN2TmVpckwzcFBheF9STzUtZWJSVGdsc21YSVhISU1fUG11YmtjRW9lZE1ld0h0YjhrbTdzc2ZuOVl0aGM2SG5FVTNHVnBIcW5USVVmX1k0MjFTZTZaUEJybnlMaTZ6azVxMjk?oc=5",
-      "description": "Strategy Stock Drops as Bitcoin Price Sinks. MSTR Is Doubling Down on Its Bet.  Barron's",
-      "published_at": "2026-02-02T19:49:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216195+00:00",
-      "author": "Barron's",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "bfbef612-2812-4f88-b61f-b2252da24747",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Crypto treasury execs grit their teeth amid Bitcoin price bloodbath - dlnews.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFlka2JSMVZhaHdONXZrMkdNSEx1eS1tZE4tNmFCS0F2cVdNeEN5VVZrMW1BUWJxV3EtQ2hjTm84bHlqVk5zNDJsVmZzM1dNMGJHS2FyOURqdGc0M3l6X1lfZnVHd0dWSDdaUmpMNmI1SnNaNmFUU0Y5OGwzdXBmSy1OVWFpbi1HUTF0WUtfZzNXbHdQNjdISFZkd29xdThX?oc=5",
-      "description": "Crypto treasury execs grit their teeth amid Bitcoin price bloodbath  dlnews.com",
-      "published_at": "2026-02-06T14:48:07+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216224+00:00",
-      "author": "dlnews.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "06bd71c8-58e6-4e7b-8ad5-7a8d1ee3c163",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Strategy Stock Soars. Analyst Says It Can Survive the Bitcoin Rout—and Even Thrive. - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxQUVZjbUVLQUxFdEh6eTJJaU15TllVRWpvQUpsQWlhMEZoZ3Y2RmxYOU00b3l6OENkNnE4SlczZC1ZQ2J5YWFfcVZNa3laNThUUUpUYXJIZFdzclVYRWpTdnhuTmVSRmxCaXM0ZEoyV0QxSEpJM2gwYnFyY0lmMjdTNFpaQzVkX241VVI3TjRfc19xZTBkZWVSMjR5R19sZjVQZ1dfZ0R0eDBTN044UFNBVXNSbEZ5dUFZMS1kWVlEa05uSnV1T21PS0ctdThPdXJDbTVpRl9ZQUV2UDM0cjR6eE52WjVaVEhOSGs2YUhBVDltQ2czSzNLUHBYazFFbW05TE5lYTVOaFkwaGE0dS1FUnZzQ01kRWJ6MWpLUEVpUXlzck5CbzNBTENuNTc5VlBrdXpvWVEyeXVBblRaWldVaW9iWGRwWWVPeXhUS2w3SlJxUHRzRWtNNWFnZlI2dS0zOWhXbjJrOVZabVFtQ1JtNDdEc0NWYkxnUXRLQVZ4MnNESlVSTXE2NTlkdjVzUVlxRzhEXw?oc=5",
-      "description": "Strategy Stock Soars. Analyst Says It Can Survive the Bitcoin Rout—and Even Thrive.  Barron's",
-      "published_at": "2026-02-06T16:58:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216261+00:00",
-      "author": "Barron's",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "1a317768-5fc2-4acd-a850-d49e94f5eca2",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "U.S. Bitcoin Reserve Loses Nearly $5 Billion in Value After Crypto Wipeout - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNMHFkdXVLb1hYakFQR1pScEdRcWFVbllTMWNXMGpNTVVkbnRiRHcxR2ZuNTNCTFlfaFpNbklhYWpTZFJhR1cxTWJPbFpSeXFfUjF0R2d4S2w5SnhsQ3ZGTDRrTFI4OEc2OUViazlKdFNBaDVCZGJWN0ZibWw4U0p2NFNVbGpTUXFsUjJUSDlGUXctWlgxSjRteFdRSUxIQll2WFhmTTRTeG14SkY2N3U5WHdOSThyR3B4NHFjb1pUdHNqNkhSaUZBeHJVdFQxaUo5ZF9MOVplQ1VnckhBbFFJTG01NXhNaFJBNzktTVpmM1BIN1lXU28wTExSMUN3LWQ3cWx6REowZDNURWF5UzMyRUpYZXJXRUdOdkNxMUdGMnJEdFlDVnh0dnBkSXotRVE4QjBBNDlCZkNVMlBuemxZVkYyeWU5dXE5cjI2S1hLNUxmV0ZGTFpaVUNadFh6RDhsZlhuT3R0bTJHb21HQ0kyY1JMR2JUUUtqSjJySlRmVW9YcFRkdEUyVw?oc=5",
-      "description": "U.S. Bitcoin Reserve Loses Nearly $5 Billion in Value After Crypto Wipeout  Barron's",
-      "published_at": "2026-02-06T18:23:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216292+00:00",
-      "author": "Barron's",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e7dc18d4-7c33-46a9-a5ca-4eaf02d99b63",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Falls To 16-Month Low, Stifel Warns Of Drop To $38,000. Clarity Talks Hit Snag. - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMFdBOXAyU3ZaQzFjbU8xM2s5VHRtQWVqNzR4S1EzdThQTk9HWnYxNkpJWTIzNEJ6UnluRkk3WnVnOWc5QWN4Ynl5OEg0VUg1VkQ5TUlrUVlpQ0lKVnExNTFtOTc2cFY0Q3lKNkhDWE83ZnB1WGl5ajNlZTdRSjNTa0xCbDkyRnptMm1CcHA4SXpnYXhGQXk5V3JiOENqVE5PTXUxc0xUdHNqX1FyNGJ2WGdnTQ?oc=5",
-      "description": "Bitcoin Falls To 16-Month Low, Stifel Warns Of Drop To $38,000. Clarity Talks Hit Snag.  Investor's Business Daily",
-      "published_at": "2026-02-05T21:48:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216325+00:00",
-      "author": "Investor's Business Daily",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "46526326-a463-4b44-8e4b-02706a576e06",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Price Prediction: Sub-$60K Next for BTC or a Strong BTC Rebound? - CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYkptQzRtai1PcHltZ1dZS0VmRTQ1ZDMxVWlCdVgtRXFhNGdFTm9OWDNycy1XODg3X0Z2UU9zRGFMX1gtQVoxcjgzSnVPNTVZUzF1UV8wV0pyb1RpMDRoek94Rm51ZUdSbUh2c2UzNTROSzlURG5lOU01alZjcE1FNVFmN3RGaVV5S0I5elpXM2ludGdSek1rdURhSQ?oc=5",
-      "description": "Bitcoin Price Prediction: Sub-$60K Next for BTC or a Strong BTC Rebound?  CryptoPotato",
-      "published_at": "2026-02-07T16:40:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216354+00:00",
-      "author": "CryptoPotato",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e9f1f948-e339-4f8b-9f95-a4314fd5e7e8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Price Crash: VanEck Analyst Explains What Triggered the Drop - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYlUyQlhkeTlJTnVIY1ZKTWlCUUh3NXNhYk80VXE0dW5JdmhzbUlQQWNKNTFNbXRkbG84X0pXZm5qTXRMRUljTmlUNWFKZWszbFVHS2pOZ0gyZklIZnpUWjZJZlVvQmNMdDhDZUpXZl9ieU42blFualZNdUpVLUh2b1hmUXdqLXY3V3pJZ3RXX2NmMDdWdGRCMHd6ajN6WWRWdWd4VDVMT21fdkg3bXhxOEFjcGxoakthSFljZzdFUENOeFlHbnBPbw?oc=5",
-      "description": "Bitcoin Price Crash: VanEck Analyst Explains What Triggered the Drop  Benzinga",
-      "published_at": "2026-02-07T17:16:37+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216383+00:00",
-      "author": "Benzinga",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0d376fce-c23d-4d6c-8143-19ad5ef73aed",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price round trips Trump gains. Here’s how low analysts say it’s headed - dlnews.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZWUxbnVQdk1RMkx1MG81ZHIwN0ZtV0NxQkZBMm93WUE4MExHMnRSajZ3dkZnSFA3UEhpamp6WktRRzB4TTQtLUU5TklkYXdEY2xGdFlMNjFIdlBtTHVQRUVkZ3BKcUVGa3BvWW53akhiRGJyZWMyUENvY0h1WmZxZ21NT3JSZTRtcjd0NzZTUTFfeWlJUTVNR3NTWm9pZw?oc=5",
-      "description": "Bitcoin price round trips Trump gains. Here’s how low analysts say it’s headed  dlnews.com",
-      "published_at": "2026-02-05T22:28:31+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216415+00:00",
-      "author": "dlnews.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ae3627d5-e681-4665-b60a-ac2dbad085d6",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price action screams liquidity stress - FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdG55OVpRSkdpa3ZncUNIMTlVZ1hsdHVLRUlqejNEZ2d2ZzlhWkY0Y2ZRN0QzeWo4UUZLZmlmT1VsUUNsdTl4Y1dhQU11OHVyZ0gzWFBxTWZrTGk5ZWdwOTVoNmdobURoMFdoOThYeEVlVGsxTlE5NC0ycXJNZnlWNU9jbzA2allqQTQwTkFXY0NmVE3SAZ8BQVVfeXFMTXF4SGRoWFBEanZlS20zVDBfdjY1dFZ6QXFHMmVzN09BTXRLOXcwU2w2eE5hX1RIejY1d3FlQkxuNGlRbW81Q3pPaHNpM2prN3ctUERMeDVlbGtWLU5MWjNKV0tLVDJycTJTTWhSRjdnTmNXMlZTV2lTT1BoWDUtZ056azJWMmhEQ3FQZ3pUMnN0OFdud1hQcXpxenRWc29R?oc=5",
-      "description": "Bitcoin price action screams liquidity stress  FOREX.com",
-      "published_at": "2026-02-06T01:40:22+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216441+00:00",
-      "author": "FOREX.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f9c71cdb-d0c2-4a82-b213-06aba1c78ec6",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "Stocks, bitcoin rally, regaining some lost ground with precious metals - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PNmtLZFRhTWRpNjFSYl9tQVJsM1IzMlE4RExBSkFjcXdVdnRwbjBlRG55YlllRkl4MzBOelhPUDhPRFJtbzUzeFpmdndRei03YnhzdzVRWVlkX3VWZS1RNDc5ZUZZcWl5NHBMaFk1bjRoNV93ZnRsTnFodWY1SzA?oc=5",
-      "description": "Stocks, bitcoin rally, regaining some lost ground with precious metals  Reuters",
-      "published_at": "2026-02-06T22:18:45+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216469+00:00",
-      "author": "Reuters",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3053386b-882e-4e78-aa10-7701f5ac8c8c",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Risks a Drop Below $64,000 as Peter Brandt Flags Campaign Selling — Here’s Why - CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQczBxQm5Xa0VoSktNSER4cW1pT1NVc0J3TW5pYlNGeU05dlVFWWJsdXVPQTgwZkYxX3Qtb1ZONElOM2Y3ak15RW1QYUpseVlRNGxLM0dBaVI0M040bTIyTW5WSjFNMDgwdFpXSGZ0R2kxNnNtbE1aNTNuVGpkdC1DRWdHVEpUZ1VrcUF0LUlwUm9yLTJyTGViSWVZanFZLWhJVlcyd1Z5NA?oc=5",
-      "description": "Bitcoin Risks a Drop Below $64,000 as Peter Brandt Flags Campaign Selling — Here’s Why  CCN.com",
-      "published_at": "2026-02-08T11:16:35+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216522+00:00",
-      "author": "CCN.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "2d61f683-c4f5-4094-b78e-de98ad1fe63e",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Miner IREN Rebounds After Q2 Miss; AI Services Pick Up - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSmlnSjFKckdMTzJaeTJhWEVOei1EY05zU0JzLVRPdHVlamFMZWc4NEduMVV1Z3FwajJxN010elUzQjhtVGw1eUN2MmtzNFh0QUZXQTNRRk1kQnlUeUFQV0tWTjlCdjJJRTJyYzhHVWU4Q3U0ZkRnU3hyb0d3cF9lV2w2X05UOFFadFpUM3dCY1hQU1lBOHoyWTQ3RjVWbnh1NktJeDZzdkY?oc=5",
-      "description": "Bitcoin Miner IREN Rebounds After Q2 Miss; AI Services Pick Up  Investor's Business Daily",
-      "published_at": "2026-02-06T21:58:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216570+00:00",
-      "author": "Investor's Business Daily",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ecba32ae-227e-4367-b615-018423393f32",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin loses half its value in three months amid crypto crunch - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNXdlMHZWT3FFa3pheHhncmtmQXdTNTVxZmZENVd6WXhXRjM3NlRlWGtHRmszN3ZjZE1Kb0tja2U5MkRySmhBYXNNY2VRWjZDYnAzYUJLYlE0U29EMUxPQ3NuTTRqSHhjUUlkMXR6MXM1dkwxajFhQTJhQjlkY3puZndtZW1GZw?oc=5",
-      "description": "Bitcoin loses half its value in three months amid crypto crunch  The Guardian",
-      "published_at": "2026-02-05T22:41:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216598+00:00",
-      "author": "The Guardian",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "43b5d8a1-9707-4eee-a6f0-aa05020d5f6d",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Can Bitcoin Benefit From Artificial Intelligence? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWhCdHBVbTZGS0M2RFF1VzU3Ulh0NWhJTl9CUU5LejZoS1dUWmpoZk1KaFVjc3RMN2otNzFkak9zVGFLTzloTFlhaU40MDYwbE5SbG9FRWhoRFlTREJRbzlFajNOa0dDQTZySHVscGExRGllY2JIWTJieG9PaU5fLW1zdDF3MGVQNGNnYTN1b0c1aVRxOFE?oc=5",
-      "description": "Can Bitcoin Benefit From Artificial Intelligence?  The Motley Fool",
-      "published_at": "2026-02-07T19:05:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216625+00:00",
-      "author": "The Motley Fool",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "d190290d-4609-418f-af2a-412200ef5b42",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin crash update: Punishing price slide has investors wondering today: Where is the bottom? - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY3VyeHp4QjNMRGtHR1d0cUtkWF9XemN1ZURlMmlNSWF6R092cEx5RGJONGRueElwbElSVVpBQldJaVlGUDh5SDZGTVRoSDBveEdqR2hsZ1lSaWlEb0t3Z0ZoS1pBMkE3clBFTFVvSGJuSjNoRDV2MS1JSXVZVl9sVU9JQ202My1sQ2ZfU0oxUXA1WlNhYjhFbnlR?oc=5",
-      "description": "Bitcoin crash update: Punishing price slide has investors wondering today: Where is the bottom?  Fast Company",
-      "published_at": "2026-02-06T13:13:51+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216658+00:00",
-      "author": "Fast Company",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8dd0fb9d-35dd-4972-b735-77ea99aec806",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin falls below $65,000 to wipe out ‘Trump rally’ - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aam1INl9sb09HeUJObFZ5enZwejJMZ0RxQmVUeG1jTVVaSEFoMXVCZndTQzgybXZvZWREWktIdGdYX0xtOElobUZxOWJsYUJxZEdUNTVVZVdKSVc0Z3pPbVRvQ3pZbDJhNnphS3daUU0?oc=5",
-      "description": "Bitcoin falls below $65,000 to wipe out ‘Trump rally’  Financial Times",
-      "published_at": "2026-02-05T14:22:25+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216688+00:00",
-      "author": "Financial Times",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3d37247f-a57c-4e89-8240-a648948db975",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Why investors misjudge Bitcoin price extremes every cycle - Proactive financial news",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR1FHa0VxdEtsVVcyYk1FUzh2Sk91d0d1NmxJSUJBQXE3ajB1Zms3Ymo0eXZQdGJYZnhHUkpuUDlOUG4yUFZESWNMVHpUaU04T1lrVDN4ZFJLcTd5YV9fSm5iTHg1WXA4R3BqWW9DZVFOaDBLRTNuVE1VNjIxdU96aFFwSDNEWmdUQTRFUndZR25uZDZ0YWpFcXFOSnRQZElIQ3RTeVR5NUFhY2RlVUJJV1BsSzlZOXRDMEtfdy1SQ1N3cHhpRW9j?oc=5",
-      "description": "Why investors misjudge Bitcoin price extremes every cycle  Proactive financial news",
-      "published_at": "2026-02-07T15:50:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216718+00:00",
-      "author": "Proactive financial news",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "1a9ced79-ad38-499c-a667-5167e5544409",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "MARA stock braces for Monday after 22% jump as bitcoin rebounds above $70,000 - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU0Z6c0ZncU9tb3ladkY5dHZKRml3M1lXTTdaQTJlcERzSjhNZDJKNnlBVkVRRHViZ1A4WG1ZSHhHNmlEYzVfWGtxWDhfTVV2MU1KM2Jla3NEaTVQQ08yTHdkUldDRHNlcnF0SmdQOVBmeEdVd0NmUjdNU1ppaXktcURpODlRWnNNMHc3OVlaeDN5SEdpZjF5NDFrbw?oc=5",
-      "description": "MARA stock braces for Monday after 22% jump as bitcoin rebounds above $70,000  TechStock²",
-      "published_at": "2026-02-08T11:20:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216749+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3c70dfcc-c76c-44a9-9479-9bc6d080c721",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Crypto Crowd Is Bearish, BTC Leads Rebound: Is It a Dead-Cat-Bounce? - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wZDBON2EtYkNnRkJ6THRGdERwaE5MSnJiRXVtaGdEUTdKcXR3VHExS05VcVBTLW5XMkt0eUt0OTUyMG1JUjZseGRBbXZXQWY2dmhtbnZNYkdkajV2RXhFWFpGT2o?oc=5",
-      "description": "Crypto Crowd Is Bearish, BTC Leads Rebound: Is It a Dead-Cat-Bounce?  Binance",
-      "published_at": "2026-02-08T03:15:28+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216776+00:00",
-      "author": "Binance",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "12f495e7-c028-49de-9241-48b3f090b4d1",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitfarms stock jumps 16% as firm finalizes shift from bitcoin mining to AI infrastructure - The Block",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdE1zRi0xZTZJM3hLOFZTSWd1aW9aQ1paLXFZQWpkOEUwbHozam8zbmtmR0hqOHpaT29MM2MwMlNJazA4cTBLVnp2QjZlZEZVUXp6eXVJTlZITVRzMzZpbzJ4WHpUZkoyTW1oTEtmYkFvdF9LOUQ3Qm9GNjBzb0NwMVVBY21WbHkydUFXckFzT0lqRG92M3FXcV84Q01zdWhWdGZqc3Q2SUlFeTkweTE2MVZrOA?oc=5",
-      "description": "Bitfarms stock jumps 16% as firm finalizes shift from bitcoin mining to AI infrastructure  The Block",
-      "published_at": "2026-02-06T16:08:20+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216808+00:00",
-      "author": "The Block",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "22a22428-63ed-4640-925e-8885fa7b9d8e",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Price Prediction: Is a 15% Drop Coming? Long-Term Holder Metric Says Watch $34.5K - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNal9reWNHSDgzeG1JRXdIWEJmOGtfSEJacm5iaFZ2NHFLaDRHajVwd2VHckZxZXNpMkxiWEhPTTlzVTRNelZQTjlLZUVKeHhxWFRqdTBXdEhHOHZ3VnYxUlJDWDJKWUNZcEZfN0V2MDhMSFpvV3JZV1NVRk9oVTVGelh5OUgtR01JTTl6aEFwUXU4eUpNMXFoc0dfNC1YbVh3aW9yak1nXzBKMVlaZm1TZ1Exanc?oc=5",
-      "description": "Bitcoin Price Prediction: Is a 15% Drop Coming? Long-Term Holder Metric Says Watch $34.5K  Coinpaper",
-      "published_at": "2026-02-08T11:52:35+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216839+00:00",
-      "author": "Coinpaper",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "fb51bee3-610e-4f6c-812c-07bcf9e9dddd",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin Price Prediction 2026–2031: Can BTC Rally to $105K in Feb 2026? - coindcx.com",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MMzdaYXRIQnVJc3JFV1dKaGNMbzhoVUxFaHNNaDNOTGJuSUR0blBMUU5wMnBfNnJwNzJaRXVzTGtiMDVxZUR4UmtYWHdRR0drclVISnFNR0otQkctc0VBUWhSY05Oc2lKY2VBcXdDTnJOZw?oc=5",
-      "description": "Bitcoin Price Prediction 2026–2031: Can BTC Rally to $105K in Feb 2026?  coindcx.com",
-      "published_at": "2026-02-04T08:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216890+00:00",
-      "author": "coindcx.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "2ab335fb-d4d1-40e3-9f3a-a7054f4959e8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "MicroStrategy Rocketed 24% on Bitcoin Rebound: Why Analysts Expect $406 in 2026 - TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX3B5aHhoVnNkNUlTQmRpVm1pdkhNeFQ0aGRPVEFKYjFPYm5LSjZqa1F4ekNFX25wOEtxN3VXVXM1TFp2U1FuX1ZOOGhmRnVjNUFYNGRjbHVRZjdERUdPVk8wX2xRZE1vWnEtZ053eHJqN3NxQjdIT0N3bjlfMEFMa3kybzJtZWdzbUZLNVluNUo1SUZLTmtwdTVKcWFpSnFlR3BUWg?oc=5",
-      "description": "MicroStrategy Rocketed 24% on Bitcoin Rebound: Why Analysts Expect $406 in 2026  TIKR.com",
-      "published_at": "2026-02-07T23:11:03+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216920+00:00",
-      "author": "TIKR.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8081ff9b-b0a6-45d9-81f2-f3a5e8144b8f",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "How to Buy Bitcoin (BTC): Quick-Start Guide - NerdWallet",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LbFVvN0RJeHYxQkZwY05Qbk5JRmN3N2tyN01wLXZEeG43UlcybHQ3QURsSzU0NkEyYnhtUkdlZTQ0azNVZ0VhdElPUHhxaEZnd1Q5YjVGNm81OWFNVEdRUTlmWjMwVDZ4bWRQRnJCUHA5bTdWS1E?oc=5",
-      "description": "How to Buy Bitcoin (BTC): Quick-Start Guide  NerdWallet",
-      "published_at": "2026-02-02T08:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216945+00:00",
-      "author": "NerdWallet",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f456d541-655c-4371-99c9-cdc50c8f5be7",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin is having a bad year as price tumbles to fresh lows today: Why does crypto keep falling in 2026? - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVk1TF9IME9id1FrZF9hd1N4UUdkeGpoVVZIVUJJTHgyNjdtTTRpOVlkTERYSTYwRl9tWjVKUmRlVzFiSVlhTGctVmVOcWNVQ2M4UU5wckxZMk1DVVlabGk1cFZ2emlEMjlzWDFQdHE5QjhsSXZBc21tY0RrUFIzSTdwaUlvajhfQ2o1QjJtY0RmdlpzaXAxbHBtMzZnakpKbUU1Y1VESU4?oc=5",
-      "description": "Bitcoin is having a bad year as price tumbles to fresh lows today: Why does crypto keep falling in 2026?  Fast Company",
-      "published_at": "2026-02-04T15:19:50+00:00",
-      "scraped_at": "2026-02-08T13:02:44.216996+00:00",
-      "author": "Fast Company",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "eab2496a-e12a-43b5-817b-5d2db1ba3f82",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "Falling tech stocks and a plunge for bitcoin hit Wall Street - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbGNUYmlNdFdDb0kzdEJFV3lvMHh2N1FoS3BGNTFHdjQtRVpSMWZpU2JoS2FldEw0RUNFU2ZYVTBIdmNBenpOdFNYVHlfTExHZUVPOFhoLWFSNzhrTTJabk94UHFTbHV2NjJwa0VkTlh3NHozdlNfb0xxaEhNaV92NnV1ZnJQQWs4UllrdGtGZWlpdnliaC1XQnN0Rms?oc=5",
-      "description": "Falling tech stocks and a plunge for bitcoin hit Wall Street  AP News",
-      "published_at": "2026-02-05T22:35:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217063+00:00",
-      "author": "AP News",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e2c86037-1e13-4588-bfd9-353325b0f388",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Dow Jones Futures Rise, Bitcoin Bounces As Bulls Fight; Amazon Tumbles On This - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXZsaGdjMlgzb2YwUTVEYXp3TVI4QnNOUjR3UThyYWgtUlhPVjRxN21vdThNRVBmVjhlRUdGdTdHdk90MVJKWHNReEMzZjFLVTY2d3c3UlZXamdOeUM4aXVQQW1ya3FpQW1pcEM2cWtoM0FrMkR0SmE3TDIzRHBHNWNlaTJNemxWWXdRaExKLXFrdjhTTXh1cldJLVcxaHZPOVVXTnVRRTNYeUNUQXRXX29ndVpLbWx1amVVTWJaMTM?oc=5",
-      "description": "Dow Jones Futures Rise, Bitcoin Bounces As Bulls Fight; Amazon Tumbles On This  Investor's Business Daily",
-      "published_at": "2026-02-06T13:02:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217096+00:00",
-      "author": "Investor's Business Daily",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8adf5608-4e5f-491a-96ab-2b9b61dad2fc",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses - wral.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONGZNbG5BaEdack5HQlFUVGZvVTF3alhxYndxVnhXZEtxZmtqZzRYR2tLZ25FQl9jZUhWRWFkZHFPUTN6RHZaN18wTGNpU2g3RDRmNElBZkJySU43ZUdueHAyV1BmREtEdTJGeDRjYlVpdko0N19kNzU4U2dYZlBZem5RSVJBeFpFMjFvUERLdmZXRC1UQ3NudlRWTmdrLTlSTEhPX3VkNTU4T0dnYldJd3VuWGc4TzBtYkdr?oc=5",
-      "description": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses  wral.com",
-      "published_at": "2026-02-06T04:33:59+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217127+00:00",
-      "author": "wral.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "95e59072-af43-41eb-a00b-3e6db38d77ac",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "If the Market Ever Crashes, Should You Buy Bitcoin or XRP? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX29XY1YtMFE5Z05ZWDlPTjlhSnB0ekxSOWwyY1NDS2pZa3ZUQThzSVZaRk1iUWZrUHIxQlM2emN4R1JoUU1VSzNoUlhMdWpiaGM5VC0xS3BfOGhXczFncXJvMW1mWm1OdGdYVm1ENXkzbFhMZlQ4S0pNWUxfN0VNSXk0dXNIb2Q3UjVQWk5IUTNvMEpBOFlJ?oc=5",
-      "description": "If the Market Ever Crashes, Should You Buy Bitcoin or XRP?  The Motley Fool",
-      "published_at": "2026-02-07T09:55:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217156+00:00",
-      "author": "The Motley Fool",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4fd712d0-0b64-46c3-9f28-2eaf0c599b3d",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin price climbs Friday, but can it continue? Experts are skeptical. - Mashable SEA",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVlqa01CZ2lfWGxTSlZKYjJISGFkWThqZHJKWjBnY3pWSUp2Z3AwelJjQmYzZXFiNVdYSEJnaFZmdDluVlEzMmE4VkV3b1g3RWd6V2ZhR0g3YXROaVdoYzBmWUUyVWlyWFFVblJnSkVybkxPZWM4akFLWEhrVHd2NGNUYW1XbTV6ai1oNWh1NjRFNGp0dW9ncWpPRDRPakpENUQtQ1JjWFU?oc=5",
-      "description": "Bitcoin price climbs Friday, but can it continue? Experts are skeptical.  Mashable SEA",
-      "published_at": "2026-02-06T20:51:26+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217185+00:00",
-      "author": "Mashable SEA",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "899ce6eb-8749-4930-9f87-c651c997d506",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin (BTC) Price Falls Below 2021 High, Raising the Stakes for a Bear Cycle Confirmation With $60K in Focus - CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT2hteHM1UTFLY0ZXZmZsdUJFQ0JxY09hejBsSVExUkxTRElBYnVDUms3YVB3a0tqV3ctX2ZLS1gwLW82V1Nqb0x5eW5XVEVSR1lHcnRnaFhfMVdvMVBadTNjSXVOVFVDZG1KSUZGNjJ2ZnNUb29CLUw5Q3RiVW5IQ2hocmdyQ1BSbHBIcGl6SHExa3p0Zmc?oc=5",
-      "description": "Bitcoin (BTC) Price Falls Below 2021 High, Raising the Stakes for a Bear Cycle Confirmation With $60K in Focus  CCN.com",
-      "published_at": "2026-02-06T08:31:51+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217246+00:00",
-      "author": "CCN.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "9fc5f775-e8a9-47c2-a608-cadd7a78be6f",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "MARA Stock Surged 22% on Bitcoin Rally: Why Analysts Expect $23 in 2026 - TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNWxvRHpTTkQ3NjM1RXRuZnRlSTRlcDY3N0EwREhHWWZMUjJvdWtTVndOTWFTWHhHVHlrUlMxbW5fQkhSZUUycVozZ2hwQ282ZTdobEI5Zkw3Skwtdmh4cnlmZ1FraFFsbmJDT0xBcFlBbFZGTy15V0VJN3pnZ1hQYVRIWnBmOHpndzlxcmdwNV9kTGNzS0xxczVVYw?oc=5",
-      "description": "MARA Stock Surged 22% on Bitcoin Rally: Why Analysts Expect $23 in 2026  TIKR.com",
-      "published_at": "2026-02-07T14:58:44+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217275+00:00",
-      "author": "TIKR.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "b0f32939-ce10-436f-a09a-583fef5a197e",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Crypto firm accidentally sends $40 billion in bitcoin to users - The Daily Star",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNell6NkxybHVZeWxXMDNDbDMzbFNEbmQ4TVRrNVNYOTM5R1dOTktoelFYMG9DSEZtWVRtTlNUcTZjUmpXTkxLNldyaHJlb0s5blhObzI2YUZwUWFoVjJOZV9NVVpjUDNwY1pyU0RkVVJrQTF4WkJNQURCakhXT193NE1MUk9tS0xtQjVacldTYjdhQ2JDU1o4STZFV0s5RXdCUzh5SEt3?oc=5",
-      "description": "Crypto firm accidentally sends $40 billion in bitcoin to users  The Daily Star",
-      "published_at": "2026-02-08T06:05:49+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217304+00:00",
-      "author": "The Daily Star",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "9516f98e-2f72-4bf7-b892-b8cec129f324",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "Stocks Rebound After Tech Rout as Bitcoin Climbs: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNm96eTYwREFyS1Rwa2Vnczl3V19aNXN6NF90bDNHOUxFdl9lb0kyRkxoU19XZHh6WDNKbkpoUjlUWXdKdTlUel9tUkk1YWkyYjRnLXFNb240LXU3TFhLcDhvdlE5OXdPVmt1ZnJoXzRDeTdXeS1hX09PQ25DOVA5c0JueC14dTFhYm5xT25TcVNhZExiSkZPbWxiVHhld1RPcUZGMklUQlVzT3NQUGpBSTB0NA?oc=5",
-      "description": "Stocks Rebound After Tech Rout as Bitcoin Climbs: Markets Wrap  Bloomberg.com",
-      "published_at": "2026-02-05T22:24:29+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217332+00:00",
+      "title": "Saylor’s Strategy Buys More Bitcoin Using Preferred Stock - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX3NyUm5CV1ItNE05aVBMQW5hWGZqRk8tdjFIb2N0Z2dPVkZWZUNTUmpiUjg1SUxIZmdPb1BvRGl4anc0X3NFWm5ncG5RV1ZkajBZYVdKUERtbWlXQ3E5WXNhbTM0VVdqbXF5NEVFYlVIYkJHYzlRMDNNX0cyMGE4MTNoZkxONThaU1ZBS3ZGclQtd3ZPcWVuQ1FFdGFTb3o1OVgzVVJPMVhxY3RG?oc=5",
+      "description": "Saylor’s Strategy Buys More Bitcoin Using Preferred Stock  Bloomberg.com",
+      "published_at": "2026-02-17T18:06:15+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351563+00:00",
       "author": "Bloomberg.com",
       "tags": [
         "BTC",
@@ -2160,16 +834,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "cd0161a9-1e57-4a75-a8f5-ab8793e3fb33",
+      "id": "c70529ad-3ecd-4e68-92f5-2941a40c20a3",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "US stocks soar to their best day since May as the Dow tops 50,000 and bitcoin stops plunging - WTOP",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRExHVjlxM0JuaG1vNVVXd2V1QklwajBSVGJVeEpjOXY3ekY1ZlFwam1SU3I4SklYT1lhaWE0MVVzLWZGejhzVGhfZ0Q3dnUwbzdLUDQyb21LQ1ctU3Bod2hwMVdyMjhySkJXUjcyZTQzd2IzSndUeVE2T0RHNHBKbFRLRU1DNDR4bDZRNWRmU3RiVzdLSk5yQ2dwaHcxY2FiejlMM1RkdmU1eDFIY0pPNmk2RGhpZw?oc=5",
-      "description": "US stocks soar to their best day since May as the Dow tops 50,000 and bitcoin stops plunging  WTOP",
-      "published_at": "2026-02-06T21:11:15+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217364+00:00",
-      "author": "WTOP",
+      "title": "Bitcoin Price Analysis: How Important Is It for BTC to Reclaim the $70K Resistance? - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0h1Z0ZuLUg3VU1rV1F1cUhBX1ZCMEhFUHBCVU9sb2xzSU03SG92bVEyRWx5X3FMZ3ZRaV9IdUpIdnNSaW12dXJibFBlZTlRanpUNEtIMTBCZGFIYlJNQmY4S21HdnlxVnBrLUV3U2JQVFFWUllpX21uMUY2VEhhX0JzWTNGSmxoOTRNODk0MEtRWnVuakNaS3V0TTNkN0ctMUpfT2xFbENrZw?oc=5",
+      "description": "Bitcoin Price Analysis: How Important Is It for BTC to Reclaim the $70K Resistance?  CryptoPotato",
+      "published_at": "2026-02-21T13:14:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351622+00:00",
+      "author": "CryptoPotato",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2177,16 +851,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "8253cef2-1128-429d-af1e-921a0ae5f5b3",
+      "id": "35fe4d2f-d32f-48b3-94e2-4327cd891d3b",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "MARA stock jolts premarket after $87 million bitcoin move puts miners back in the spotlight - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZjBvb0NvcGktT2ZITms4Q0dxd0RhRG9sN1VHeHdBaDhQUElKTW1OY3FFbTJSU0ZldVZnN29vVEppLWx4b2pyNDRFVDl3SFpmc2xpaWxxY09yVFBDc0g4Rk5SeU95dWlIVVNMUll2SWQtX25STHplYXZURWpKa0dJQXVZMUpDakh3VDJQcDVuUk9XRUs0THRlX1BpQlpUUGZOM3BUYU1BZk5FNUdocXF2Nw?oc=5",
-      "description": "MARA stock jolts premarket after $87 million bitcoin move puts miners back in the spotlight  TechStock²",
-      "published_at": "2026-02-06T13:35:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217396+00:00",
-      "author": "TechStock²",
+      "title": "Bitcoin price still isn’t in a ‘final cathartic bottom,’ says Bitwise - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUE3NEFpa2ZFRTZiMXhZbF9QNjlEalNfa1Ftanp5Qm51cDhvamxMcVZ2aDg0c1gtV1R4NWRmYWFKZ2g3dHVlVU9uWUZ0OENUS0h1dUxObC0xR1VCUjNkdVpiOW1HVjh2RGNmUUM2ZDZpb2xJRjMwRjVUdHFTb1hXWXVWc2YtLXZlQlBkWndYWjZ0R3E2ZzB5eA?oc=5",
+      "description": "Bitcoin price still isn’t in a ‘final cathartic bottom,’ says Bitwise  dlnews.com",
+      "published_at": "2026-02-20T16:25:43+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351716+00:00",
+      "author": "dlnews.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2194,16 +868,33 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "a5c9b3b8-be04-4e1a-80e5-101e37cec3ce",
+      "id": "7166d22d-cd2d-45ab-be48-8d10ef849ad6",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin price news: BTC steadies at $67,000 as traders pay for crash protection - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdE5KeXVsaGx4elAyMV9SQXByZXdOWmFXSExMVmM5OXdmOFZhbU1lX3hGZk1oSTEtQWxMYTEzYmNtajBSNUFXUUl6SHJMbldJOHhBQ25NTVdBNk1PLXFvUFNmY0hJdXVUaWluX3l0STlMZDFQWEtPNjd3aGNVWFhvRXBnaEJ1N3JRSWVLYW45TGxnQWFYYzZwLW1QQjl2VExUV1FMTGdrTlBqNmN1Xzhlaw?oc=5",
+      "description": "Bitcoin price news: BTC steadies at $67,000 as traders pay for crash protection  CoinDesk",
+      "published_at": "2026-02-19T22:54:39+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351816+00:00",
+      "author": "CoinDesk",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "6bd3d57d-df6c-467e-a158-b540dc93ad7f",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses - yourvalley.net",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRDRnNjVqeW5XZ282dDA1TmxScEpxU2dIZVVEOXZfX3VFU2R2Z1NraThoVjFxT21HZ3UxOWlrM3psZDFlM0RCUUNlRFRGSTNaY2JQcWlNYnhfU1JUYmdfMUFBTWFPNEJFaE42aWNHY0doanAyU0xPNzhKRUlENE16TXYxdG0wS1NTZjd4YXZVQ3c4a3BhWDg0cHI1QVIxWUUtR2x5MWJRM2ZscU5FUG9KTEZwdHNnXzVXZk9vYk1RZGFsSzQ?oc=5",
-      "description": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses  yourvalley.net",
-      "published_at": "2026-02-06T04:31:10+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217429+00:00",
-      "author": "yourvalley.net",
+      "title": "Bitcoin Price Falls to $68,000. Why Ethereum, XRP Are Struggling to Find Direction. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOVXVXZTNoaThpdjl6eDU4SEVFRDdCTFRUZ3ZOd21wZU13ODVqRFRobEZ2S0ROaTJfVzhNeDdNWW12RjlFRXc0U3JmbnFLREZCT1VZd3l3cG1PNEZKVk5uTnN6YUUzejR6am1Mbi1sdDcyemVudDBrLS1LX2VIV2l0YkIydktTWW1RaG5jaVEzalhuX1ZlVVQwemVIeXNhbjZJakhkR3pmR1l1YlBKdEtBTGFFbzRLRUtvcWt0TVhUQkFTQ1JKOGlRcTd1dURQVnNmMWZqOHRydGZEVlRxajE0ZHVzSldQMzlKekN2Tmt0QXlubnFCQXR0Wm5Id2pqRjFOYlRWRk9Ca1B1S2ZjdGJSNUhHSXM4Y1N5OGdsb0o4b2M3bFQxcm9iclVadGZGYXRTM3c1OGJTX21ld0xIQnJmQzE2OThscTNSRDluZl9Xa1JtVkhpUkQ1VWIxbXlpRndZMnR3S0RSRG1NdE0wSjlCRkJIdWJiMTlqMEFzV0tqLVdPdDZHaW9Oeng5SVd4VVVhczM5Wm1nSQ?oc=5",
+      "description": "Bitcoin Price Falls to $68,000. Why Ethereum, XRP Are Struggling to Find Direction.  Barron's",
+      "published_at": "2026-02-18T09:16:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351882+00:00",
+      "author": "Barron's",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2211,135 +902,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "c59506e9-f88f-415d-aa4d-ddae6ab059c8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "MARA Holdings: Mirroring The Bitcoin Breakdown (Rating Downgrade) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlVjanhXZE5ZREsxb1ZxemN0NkxqS1NObUdYVjAzZFhsRnhUU0tmRlhmNFRMcnptcDRrRzltNXlUVjFZMzQ2SXJrMUNjRElvUDdiQ25WTkMwR0xPNUVsdGYwTlRxM2lEdE1Oa0tYRExZbFhESnFGbEE0ZUJwZW9oMGhocEVERWJ3RHhKNWtGUQ?oc=5",
-      "description": "MARA Holdings: Mirroring The Bitcoin Breakdown (Rating Downgrade)  Seeking Alpha",
-      "published_at": "2026-02-07T13:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217457+00:00",
-      "author": "Seeking Alpha",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3439d5e2-7144-4d7f-8066-18cf603f17d0",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Jim Cramer blames Bitcoin crash for S&P 500 sell-off - thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDF4cnFXSC1WMU01M0xfYkhVblo1eEJFLVNqdGU1Rk9sOU9ETXVwbzh3T3QyY25LY0MwcWhfOGJycXFGbDJTUldfMEwyZVFiX3hrN2tEN3hUTkhiZ2JJNWZRQUZrZWJwWUxjX0k0VHd4Smd1dG9PQ09tWFg2YVkzS1otaUdzYTZkUTlwUzBXU1ViWnkwU2JOUw?oc=5",
-      "description": "Jim Cramer blames Bitcoin crash for S&P 500 sell-off  thestreet.com",
-      "published_at": "2026-02-06T17:12:09+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217485+00:00",
-      "author": "thestreet.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "dde75dfc-c372-4644-9862-debd779557f1",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price prediction 2026–2030 | Future Forecast - Capital.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45RURPWHRSanVlRV9ScmJiM1lmNGNaY244Q2ZlbmttNEdYbkt5cHVlNlpMRHFqTHl5SFc4VThYZ0xZUldJVXdpZDlTM0xSaVJ4WEF3VFI0NkEyZXhFV1FyQ2F3azhQazJoNU1wUjZsQXd2QVFZX1k4ag?oc=5",
-      "description": "Bitcoin price prediction 2026–2030 | Future Forecast  Capital.com",
-      "published_at": "2026-02-02T15:56:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217514+00:00",
-      "author": "Capital.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "77a34d00-03ec-4d90-886f-894eda3a4ed8",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price wobbles below $69,000 on weekend — what matters before Monday’s reopen - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObEtpZG56WEY4Y0dGYjgyZ1pKbXJDc2pTT1VLS1Y2aGdMb04yNFFRTEtxbkIyamF2TnRZTXJZaF9NYmRHbV9PamZDTGRaOUZGclhKVDdERk11MHpiV1hBdE1lVlFKY2dfcExOUGNOTTBwZE9jTlZBcnNidjBvY2steEhqU1dpQTFRRnBFRTIzbmFGMzZzaEpRRmIycFNTSXU3V2c?oc=5",
-      "description": "Bitcoin price wobbles below $69,000 on weekend — what matters before Monday’s reopen  TechStock²",
-      "published_at": "2026-02-07T17:04:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217547+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "11dff6a8-76e9-44fd-8483-021e893ad502",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price slides to lowest level since 2025 tariff shock - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90RnN4TWJGTm5TRWU0S29LbThRTUVIQ2dJMW96RzBHa1hBZ2RHYXhBakw5a2xuZ09CUG80Z3Jad2t2WWpzazBpTWdUOHl5VWFJTkJYQklkSDVHdHlHd0I3ZDh6VFpMUnltb09NaEVCVFY?oc=5",
-      "description": "Bitcoin price slides to lowest level since 2025 tariff shock  Financial Times",
-      "published_at": "2026-02-01T14:55:48+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217575+00:00",
-      "author": "Financial Times",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "60708a08-172d-4a67-95bf-1d1fa60fcd86",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin Price Under $70,000 Puts 9.3M BTC Underwater — A Level Not Seen Since January 2023 - CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM2JPcUI2aHVBQ1lhMTM4VVh2cVZmYmY1SGVCV0FHc0tDMDFTbFBOc2F3S3JwSHR4S2pxY0UtWmpUVHktS3NYcDZpZjNJNXZtNTd6NHJabGFQYjlRYjVTWkVzTmZWMElGRjFabTZXUzBVeDNCOGpyeXdYUWxLa3U3dEFTaVhTRDdHVmFOQmdLZTh5NS13Ylc1SS0tVlBKQ24wVHl3?oc=5",
-      "description": "Bitcoin Price Under $70,000 Puts 9.3M BTC Underwater — A Level Not Seen Since January 2023  CCN.com",
-      "published_at": "2026-02-07T01:22:15+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217628+00:00",
-      "author": "CCN.com",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c6d9ee59-29db-4cba-a0c3-99b65e973563",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin price rebounds above $70,000 after violent crypto selloff rattles Wall Street - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYjZSNW1PX21qNzY4a0o3ZTFlNU9Kel9fU3FrRXZjcDgxRGl5N24yR1ZtMnBsMl9jczBQZExTYnRvZFU0RFItYi1qVlJKazJQbWYxMTBsOUNxc2hWbEw4MWNkSlhMeG45ZkdOMWZiYV9pVVktWTgxb3MtcE9oWGx3aEVlc1BDY2o1UWtuQ0VOUnE0T092TWpmYTZTNVk0WlIxLVl0eWZ3aw?oc=5",
-      "description": "Bitcoin price rebounds above $70,000 after violent crypto selloff rattles Wall Street  TechStock²",
-      "published_at": "2026-02-06T18:40:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217660+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "d8f1d489-ffd9-4a91-b6b4-95a0c048b2f5",
+      "id": "2190566e-8173-49c7-a62f-87466afdd665",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bullish",
-      "title": "Bitcoin Price News: BTC Falters While DeepSnitch AI Rips Higher In Stage 5 100X Moonshot - BlockchainReporter",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVjhvNWVpTjhGcXpQR2MxYVpZdExxNFA1TkFKUmF4X19yNERuYUQtTmhLM0RzdXk1dlVIemhKZGpFRVBUTExWbGtfd3ZZT2xqdGJyMFRWRmYwdUZzWW9GVlU0MUhURWtvaVdvM0NjMl9JYmVnZUV4cW5Tc3NNS1VrUUxjdXowOHA5cnVQTFRsdVRPVGgtNWhKR2RGRlBINV8yT0pCcFY2NkdFS2tUUFB6X25SRzNfT0t1NmRWZ0gzZ0JZUDdXVGc?oc=5",
-      "description": "Bitcoin Price News: BTC Falters While DeepSnitch AI Rips Higher In Stage 5 100X Moonshot  BlockchainReporter",
-      "published_at": "2026-02-07T18:40:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217693+00:00",
-      "author": "BlockchainReporter",
+      "title": "Bitcoin price news: BTC gains, but quickly retreats as Trump tariffs ruled illegal by Supreme Court - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSnBWeThQZ3pjMVFIdTFYOEh4LWUyVEViTmotNGZPSmZQM3B3VjF4N3UxZUpETlV3ZGFFQzZOOFFScDZBcG1zSnlSUGd5RTQ3MWlHSkVNaHVhN1V6SV9WUkFZZmNpTHVrcnpoUHFQUjJKMlNnbHljMXdFYnc3alk4amxsNE9TQXlQWTNMOTd2NjNvZlVIeEFTNHZSeWtUU1RyNy14YVBmX0NjUkRPYkp4Rw?oc=5",
+      "description": "Bitcoin price news: BTC gains, but quickly retreats as Trump tariffs ruled illegal by Supreme Court  CoinDesk",
+      "published_at": "2026-02-20T15:23:56+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351941+00:00",
+      "author": "CoinDesk",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2347,15 +919,134 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "27f1a708-f530-48ac-8235-8fc72d6fc9ec",
+      "id": "7ec4e55b-e4ad-4471-b767-9ec3ea73472e",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin price news: BTC climbs to $67,000 as Trump says U.S. deficit cut by 78% - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNF94TjZGS3U5UXIxQzZjelVyRHctNjFBYjcyczVxSXZFa1VhWUJuM3UyamV0TnR5YUFXSzZFXy1sR2ViVHp3aTdWX2hhMm90ZXpBQ2Q3cTA0anVvcWJ4WExyVGZkSjFRNVVpdHRNTW5abjZHazNBQjZ2X3lveU5fVWR6bWlHa3lWRVNWa1Y0T2JKUVAyNHZYb2pUN0NOUGwzeFgzeWFuVV8tSFpfandrWFlja0c2Y1hQeklPMTNMQ3Q?oc=5",
+      "description": "Bitcoin price news: BTC climbs to $67,000 as Trump says U.S. deficit cut by 78%  CoinDesk",
+      "published_at": "2026-02-19T04:12:53+00:00",
+      "scraped_at": "2026-02-21T13:23:03.351993+00:00",
+      "author": "CoinDesk",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f87858ba-411d-4b77-92aa-c4252d967962",
+      "source": "google_finance",
+      "ticker": "GOOG",
+      "sentiment": "bullish",
+      "title": "‘Bitcoin Is Dead’ Searches Spike On Google To Post-FTX Highs, But Traders Not Over With Crypto Yet - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVFVWOXFTYWo1WGlHRFE4RzFoeHcwdW5qa1hKTDFVTzdaMlA3RU83Y05LYWZzOVFEdzhBTXNEYXg5Vi1oVlFMbWI0RDhIcnBfbG5WUC15c0NSNklLT21tN1Fld0hjS1RYX2xvQURwU21vcnRnWU0zWDBoSGpSZDNIbzJ4NnJTcHZ4NTVpLVdONFlWemRuOVZPSnE2Skt0Q1BCNjVXSFc1bF9fZGNzeC01QnNoLVNKQjNFRkFRVDNZU3RUZ2t2clloV1hubXFpVEw3UDNNSWhNaFlNX2tfbnktOGs5YUl1VHh6WEFXR0JQWHB1Z004OWhmU1JMdw?oc=5",
+      "description": "‘Bitcoin Is Dead’ Searches Spike On Google To Post-FTX Highs, But Traders Not Over With Crypto Yet  Stocktwits",
+      "published_at": "2026-02-21T04:51:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352114+00:00",
+      "author": "Stocktwits",
+      "tags": [
+        "GOOG",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "18a72062-f515-4d80-98d9-4ded09b9cead",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Becomes More Popular as a Store of Value in Unstable Economies - Utica Observer Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZkN0M2M0VXBtdmFqY2xPRVZYX0hJV2p0NEhWT2VlOWpheEhqQnh1X01rVlFjazZNMEVWbHNRRTlPNms4MXBaYUt2ay1UVGgxdjFMU1V5WEdNYm83TlFkTjdJY2JDb3FxSmZ3SG5nTzRJV0hmRXl1b0oxTlplcUhPbm14ZXZFRjdKQ0luSnluVWNPU3VReEg5THZSamNseXp3STd4UmQzaHhZU3pvamYybmJXcWd0MURXbDd1dlRiYXhNaFB2ZmVVb2Q3SUwySUZjWUl3czZtVjl1Vll5emhRNlZQQ1dGZWc?oc=5",
+      "description": "Bitcoin Becomes More Popular as a Store of Value in Unstable Economies  Utica Observer Dispatch",
+      "published_at": "2026-02-20T19:53:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352175+00:00",
+      "author": "Utica Observer Dispatch",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b8e9d684-377d-47c3-89ab-f18afc6a8036",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Robinhood and eToro Shares Sink for Eighth Day as Bitcoin Price Crashes to $63,500 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWF9obUVFNy1oeVJxSE5MWkNTN21RaVU4YVFhSk5HVVFvRGVpZU1pQ0d3Q1NJcVVJdHBQa2dhNEhlNElRREVJY0VNb3NkNzg4RThHQjlSakFVZllHSzd1Vl9MRUFQSkRXbm0wdkFZSHRXQ3EwMHdHSGlLT2dQT1ZoVERGT25TTnlyVDRHLTRDWW1XbkpsOTMzN1pHOEJBX0hzYkFGUk5Ebm9wckNEU3NwNFZhaE81MTEtOGwxZWZfaHpzN1pIYlFfcHVoMzJPR01XNHZjcV81Q2JGVE1XQm1Tdw?oc=5",
-      "description": "Robinhood and eToro Shares Sink for Eighth Day as Bitcoin Price Crashes to $63,500  TradingView",
-      "published_at": "2026-02-05T21:26:54+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217724+00:00",
+      "title": "Bitcoin Price Under Pressure as $760M BTC Moves to Binance Amid Tariff Fears - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRUdWTTh2ZlRfcFRLM2RRTGZrWGVaVHJEZlZjWHh3VE5sem9xOUlsOWQ5TUowLWt3UHhjUE5SRXNEb1dEYjdaZ0FuWkVQcVh1R1NTaWR2bDJoNjE3b015ckdWZ0YyNEpKSi1SdkNyX2Q0WmQtYU5zTFNhTHJpWG93TWpuZXgtM19YQXAyeXUwUFQwMVR3cklPVTZ6U01sbjZJeXBiUE130gGrAUFVX3lxTFBwZ1ZoQ3Fsd053TkF6ZEZNb0lIYnlJWEp3WmhMeFI0OFk0S1JxT2wtV2N4cVlDSHFKODJtalBScnJmNXY3YUlLYndqZVU5RDk4WnE2dmF3VDBFMmpfTjFSWGx5akNKT3ZzQ0hSMGZxc1Z0dEs4TGFaTTNlLUEtazZtWllaaTFOTS1hZGNiT0FQSmZwV1QwXzVFdHg4NFc5ZlNXX29zelp0ekV4UQ?oc=5",
+      "description": "Bitcoin Price Under Pressure as $760M BTC Moves to Binance Amid Tariff Fears  Coinpedia Fintech News",
+      "published_at": "2026-02-21T08:02:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352235+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "866569af-3c99-46c0-b46a-bc60920e26fe",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin price news: BTC's bounce from this month's crash evaporates - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT1NvcEZDYnJuYjRXS1labXhsSFBzMEdMeWhmdldrVnZYMFZ4TWVibTBOYVZJcHAzd1FFdndlZUdSUmM5TmxHRnYxZmNJa2NnTEp0VHhKa3VfU0xZYjlCcmllT3lvZmtzWE8zby1kRV9rdmp2Q0xQa09nMFJSSUVqVTllOUlrbjdHaWw2T0tNTnJFVG5lejVJNmg5aVVxLWFpU0NmYTFwVkFLVE56cmtseVp5bEYxZmpsR2M4UE5PTVBmdGhZYmhqNjloLTVzNXc?oc=5",
+      "description": "Bitcoin price news: BTC's bounce from this month's crash evaporates  CoinDesk",
+      "published_at": "2026-02-18T20:39:50+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352288+00:00",
+      "author": "CoinDesk",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "5783e4ed-84a7-463b-80e3-420c8fcaf6dc",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin price news: BTC holding in tight range, but COIN, CRCL, IREN and RIOT enjoying gains - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNExpeXAza0xNNk80Y1NqVmRLckZ3SGc1UzVOeFdZRW9ZMGkxcjJmQy1feUNZLWJ2Zkp4S05qek1mYS1Lb0JjZXY0Wl9NendwVzdSVHFvU3d6STBYNFpBS29wZHhHNl81TmpHWVBWV3FvZFk2aUtXaWN0bVA3YjVvUnhIOWhydldicUtpaFlSeE9MUlhDV2FFZXJuTzhHWW14VXlNT19oZFpnTm9vY3dEMEt0LVlNcm8tYkE?oc=5",
+      "description": "Bitcoin price news: BTC holding in tight range, but COIN, CRCL, IREN and RIOT enjoying gains  CoinDesk",
+      "published_at": "2026-02-18T16:37:32+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352347+00:00",
+      "author": "CoinDesk",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "eb231dad-8e3b-49b4-ab69-a3cdf8fee612",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin price will hit a new record as AI destroys jobs, Arthur Hayes says - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOGdsVDNYbzRlaUJidXlvN2Y2cFV4TC1YQWVLT3diM0stQ01vNi1lWm1BLXZJU2ZTRUpLYy1SV2VuWS0tM21pZ2FGeUR3YVFBTC1rOTc0MDN2alh4TXVTNndZb1dGUDJmS2xtTFh6N0hWMDZ3Sm1jenl4VGxOLTdyeFJRb0wwMFFjZGdlZFZwdVNZMFFxelRVZnF1TDFFaWQxNGc?oc=5",
+      "description": "Bitcoin price will hit a new record as AI destroys jobs, Arthur Hayes says  dlnews.com",
+      "published_at": "2026-02-18T16:52:07+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352436+00:00",
+      "author": "dlnews.com",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "7f872ca7-155c-4a9f-bc71-ed4188f46677",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin Trades Below ETF Cost-Basis As MVRV Signals Mounting Pressure - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXRER1otT1gzcDUyZ0ZVWVdmNU03dzNDX0k1aUtuNV9NZFlaWW1KZDdKRXFqR1hOTW5JUmVqbVlzMklHNjRxUzVjWW1FS2ROXzV1RnoxcDhLekRWOWhjVjczSW5rS1UzdnlmQkxyT292VnExMi1helJ2LW9QQTdEbG1EU0RLWWxaVFMzT2lPS1VpSEV3QmNhQko5TmVDWEQ0MElIUVRPNXBfeXA3NEl4UksyNjByV2dyeVRDRlVob0hMM3BMWWc?oc=5",
+      "description": "Bitcoin Trades Below ETF Cost-Basis As MVRV Signals Mounting Pressure  TradingView",
+      "published_at": "2026-02-21T10:00:29+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352490+00:00",
       "author": "TradingView",
       "tags": [
         "BTC",
@@ -2364,16 +1055,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "a13068e9-c6ff-4b0c-b3d0-ed262accf172",
+      "id": "fc1b708a-d178-40a9-b46d-c19009994b5b",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin price snaps back above $70,000 after plunge, but options traders stay on guard - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSENXX2FOUWxzSEJKRUM5VHI5WV8wTnpFSVZsTGVOeDMzdlJRa29fODZtZ01XVXpGbmlXRi03dXluTkxQWGVEQXhoNVFuZU96UlJmc1lEemxXUzIxT1A3R0x3aEFjWUt3YzBBc2p2dGFfeHFWamF3VDkyTEFRYjNpcHFBd3gtNDlHalFhdmgzUmtHWXVrTzJhZW1ORnhLUTNJd3NGOU55VQ?oc=5",
-      "description": "Bitcoin price snaps back above $70,000 after plunge, but options traders stay on guard  TechStock²",
-      "published_at": "2026-02-06T22:03:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217790+00:00",
-      "author": "TechStock²",
+      "title": "Bitcoin price will fall to $10,000 as crypto ‘bubble is imploding,’ warns Bloomberg analyst - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT241OTZFZV9MSmFpOW9oNmNhNzdGdXd5cVhmVFpkQnpOUmt3QzBxLTd6bUFiYjRRTC1ib0xfQUV6bWNhRk52THJ3S0xkU0xoVkZVRy1KMUVPVzhJeS1sYXIzTGlOV3d0eXhWd1V2UTRsckdiUElxN0dxbTAxa204ZHR1eXNrUXVDTnE3OWpBbUlST2cxMnFtUkYtaFFzN1VZblN2Y3lvVFZQU0k?oc=5",
+      "description": "Bitcoin price will fall to $10,000 as crypto ‘bubble is imploding,’ warns Bloomberg analyst  dlnews.com",
+      "published_at": "2026-02-16T09:07:42+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352561+00:00",
+      "author": "dlnews.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2381,16 +1072,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "3d1e46d9-438b-430a-b97a-10effcaf79ec",
+      "id": "39042ad0-14cf-4d15-9f48-c114fa1d5d33",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Bitcoin Price Drop Shakes Crypto Market New York 2026 - Brussels Morning Newspaper",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BbTJ4TW1kUExVUDlDWGhyZGgtQ2JIY2MzcW0wZGV0ekVkWHRHeko1QkgtTWdLUUIwSlJVNXJlMVRfOEcwVS1IbnF0U1NjV2NObGN4Umlkb1BLY29VZHJfRGI2RVpqZGh0TWNnYnVkMDF2NzRJa0E?oc=5",
-      "description": "Bitcoin Price Drop Shakes Crypto Market New York 2026  Brussels Morning Newspaper",
-      "published_at": "2026-02-07T12:39:10+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217818+00:00",
-      "author": "Brussels Morning Newspaper",
+      "title": "Bitcoin Price Prediction: Bitcoin Is Stuck Inside a Triangle – And What Happens Next Could Shock the Market - Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb0RVejFaWm9RZUNzNVdRbFJZVWZONU5qT2Q4RkxWQzdqdHAxS3M5Tk8wWFBpUmlkN0hSdS1oSHc4TlFjUTJpSWJEMTdHWnVEMGU0djVyNHgwc0VGR1otY2ZTZndCWEJFemNBYnFqTFpVeHFRbWpaSlhQaUNSYy1na1UxWmpQRXc0TXkzdS1DeXVCS2xOTGoxcld3dlNjQXRFbWctVXo1QXNVSUJHR2R5dkVPQktZTzUxV20xdzlTcEd1aEZ4UmNKVldYSmsxQQ?oc=5",
+      "description": "Bitcoin Price Prediction: Bitcoin Is Stuck Inside a Triangle – And What Happens Next Could Shock the Market  Cryptonews",
+      "published_at": "2026-02-20T21:07:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352629+00:00",
+      "author": "Cryptonews",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2398,15 +1089,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "287d89c8-1d33-4b87-b00b-aeb80a49b733",
+      "id": "d060a022-e548-43a0-b261-26a38f89523f",
       "source": "google_finance",
       "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "‘A Lot Less Dependable’: Jim Cramer Warns Robinhood’s Bitcoin Exposure Is Spooking Investors - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON2F5Z3V1Q3ZvV3kxd2tDMjdtempEcVRIbElMNU1TOU1MdW9xa2toWFF4X3RfSm05dFZiTnI3cWQwLUFkWUdHVC1MdnhxSTNsVEhMQ01tUENMMkJ5T3BNVmNuM05TNGdGYk1Kd2VJUldtamJEcFJwc0pVMUF1V0g1Rmc0M1AtcUpoMWd0YkNNU2hKLTM0S2c5TjlZNWF0ZTRWRGlqcU5BRnNZSVpOaEZHelFvRlBtV2czTHlpM1RiaFBkVndQcWR0Tg?oc=5",
-      "description": "‘A Lot Less Dependable’: Jim Cramer Warns Robinhood’s Bitcoin Exposure Is Spooking Investors  Stocktwits",
-      "published_at": "2026-02-06T08:59:33+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217853+00:00",
+      "sentiment": "bearish",
+      "title": "'Sell Bitcoin Now' – Crypto Critic Peter Schiff Warns Of BTC's Price Falling To $20,000 - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcS1GUkQ1TDJWMTJZbFN2OHc5d2s5eHQ4SEphX0tzT3NLU2xWTG94NC1NT1pzUThEdFM0QjN2R0dWai1Vc0RydGpoSHR5TFNYZ0U5cURTd2YtTzRTLXJyV2NOTUxVQlFCNjVqMHRnb2ZHZzhJQThBNXh0TUxtWkVHb1lQc0R0OXZud3FmMjZfdjltTDhmQ2NZSHJEaVdubmk1UktjdnlNWU5CVlR2OWNsWTZCcUpwaEVfd0hsVFdCNXAzdlRpVmlpR19NV0VEVUpZTXVMakl1c0NqeUVMTU92NzJOUmRGdw?oc=5",
+      "description": "'Sell Bitcoin Now' – Crypto Critic Peter Schiff Warns Of BTC's Price Falling To $20,000  Stocktwits",
+      "published_at": "2026-02-20T06:46:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352691+00:00",
       "author": "Stocktwits",
       "tags": [
         "BTC",
@@ -2415,16 +1106,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "029f676f-1ceb-47c7-a74a-9ad3d390ce92",
+      "id": "804651f7-3f39-48d3-941c-6be44f7d9a9b",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Bitcoin Falls to its Lowest Level Since Trump’s Inauguration: How BTC Holders Can Make Smart Moves - Robotics & Automation News",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHZLUTFGVWNiRWFNLWVmcElJeHJQQzY3QjZ5VzBZWmVpb3F0a3JjRVE4ZlBVYzZLSmprZE9iVXQzeXZld1dTVmExZG04ZmMtNVZORDEtUWswQlpBbWpfMUtkSU9pcmJ4cmF2VXNSVVlIbGtxRTNMcE5qV2RoYnpuZW1wSVVsa0piSFZiU3AySEhwYmdBNXNqV0RnbmZNNjNfQXdlaEZLZmdhX0V3QXRvazNBeE5DWWJ6QU53VmJ4VWlqSFlJaHFHQkNWN0lyNEVYLUVla0tsM19WRlpNVHExUkMyS1k2N2c?oc=5",
-      "description": "Bitcoin Falls to its Lowest Level Since Trump’s Inauguration: How BTC Holders Can Make Smart Moves  Robotics & Automation News",
-      "published_at": "2026-02-08T01:13:41+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217892+00:00",
-      "author": "Robotics & Automation News",
+      "title": "Why Michael Saylor Isn’t Worried About MicroStrategy Stock Unless Bitcoin Drops Below $8,000 - Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNk00dWoyS1VPN1ZndVl2NVhUSGV0VnUxczczUS0tTHNvc2hNMkhNTlBTbEhId19DdTEyZnozRElEVy05RndwUUEzenVCY0dURGduc1E3eXQtaHIyYlp3QzZIWmJ1QkM3RjZkYWVab21Xc2ZLeGlBOTJQRXVFbDNPRGlDdm53RFdFQUNtRGdNRnQ4NnRSRTVCRThlVnZneTFxRzZuQ2xtYzBOazJuZ3U2VElWTjV3Ry1fMHotOWRHWjJyV0RVWXZsSUM0T0hmZw?oc=5",
+      "description": "Why Michael Saylor Isn’t Worried About MicroStrategy Stock Unless Bitcoin Drops Below $8,000  Barchart.com",
+      "published_at": "2026-02-20T15:34:07+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352751+00:00",
+      "author": "Barchart.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2432,16 +1123,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "8bd5cf4f-9896-4208-b5b7-71c7fca1e45d",
+      "id": "15012cc9-be2d-4ea2-ada4-01eed12f0a06",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bullish",
-      "title": "Bitcoin price rebounds 11% above $65K: Who is buying the dip? - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOHd6LXNSSmlSSUtQR0RRV2lvWTVmVlRLR3BpMmdyTThnS1BJSWxmb2paSUdkSlJWd09IUm9ydjBYbU9tWExzQ2NBcmVzblctOU1PSkRXS2lmOGdfd0l3X3FuclZnUEtoWmFpQTZnV2dYZklCZnQzcHdJWkJWVkhnM0FFYU1sbFRpdlBkWi1jM1hLOGpSU1VpcXlMSEM0M2t5Q1M4V2kxUHlFSktGdTh6eUhtRm5jYWhDZFZYX21R?oc=5",
-      "description": "Bitcoin price rebounds 11% above $65K: Who is buying the dip?  TradingView",
-      "published_at": "2026-02-06T13:06:04+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217920+00:00",
-      "author": "TradingView",
+      "title": "How High Can Bitcoin Go? Trump's BTC Price Prediction Says It Will Hit $1 Million - Finance Magnates",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjBvVDNXVDltYks3Qi1nMzhtMzcyc1lmVnl6b2NBeXBXY1B0SjVFeGo4YVR3ZnNWRU5UTTBRZjNxMVFBcXdZN0RHM1l2QjRsY1lGbUxxMjA5Q3dBVXhaVXhvM2tHdTQ4Ui1GQ29BUDNqVTVBeGV4eWI4ZUtiZjZQSmgzdk04LW9PSTcxMTNYZDQzUjRHenpsbWtabUlDbjZBbkxDMXhJQkdESkVqMEpOb2dsVWxPaGpYUTFYb9IBwgFBVV95cUxQMjZ2NkNfeXM2dTRVZ3MxRnI0THQzSHlVejAzeTNtRWRNOWNGblM4M3lDcWM5dlY3amVMbFVTRHV1dmxuMGg4c0RsUllNWHk1Q1Vhc1JxZDVTLXZrdW8tYzc3dXMybDRzT19qMmRSZjZHRVpCamVGdWw1WFllXzBnRXRQSzZaZ0hEVERVUGRLakl0Z1pQQThSXzRHRmhGczRzZnV4Ml9mekJycnBXYWdGWmR4cko2MGxfeVVnV1dMOHhvdw?oc=5",
+      "description": "How High Can Bitcoin Go? Trump's BTC Price Prediction Says It Will Hit $1 Million  Finance Magnates",
+      "published_at": "2026-02-19T08:59:52+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352812+00:00",
+      "author": "Finance Magnates",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2449,16 +1140,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "cad465c6-813a-41e5-a9c4-23367567d5b5",
+      "id": "8045f6af-c984-4096-8b66-eb498eff8352",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin Price Soars: BTC Achieves Monumental Break Above $69,000 Milestone - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JSHNBZkpFX0hjeVNSZ2pNWHR1LVBnY19Pd0pMUXd5RmtoLVR2Z3FadGVXUUV0VUY3eWJ6blRjQVpMYlJkUms1VnNlaGZtV0k4dEYzby1kRW9qUTI3SWlwYW1zMG5UaThkdm9kdHVnbE1wc0owWWVadg?oc=5",
-      "description": "Bitcoin Price Soars: BTC Achieves Monumental Break Above $69,000 Milestone  CryptoRank",
-      "published_at": "2026-02-07T14:40:55+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217948+00:00",
-      "author": "CryptoRank",
+      "title": "Bitcoin Won Over Wall Street and Now It’s Paying the Price - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRTRXYW1iUTN5STNSYXNxQklVcTlMNWgtdDRWNDJoWHdXVTRacmZFYTFSa2RUWVdJd3ZtRk5IbUZDbndTWlprNXlXRk5Tel9LUGlPcV9jNGFsbDFoUzlDUEszbllBRWk0c2htQmprbjBpNS0wZnNqRGp4WGRvY0dvbmZOcjZoTEVCd2pwcWxDQnlubUxwYkp2RDVITWpiNTNqT0dYTndIWWFTUkVLRGc?oc=5",
+      "description": "Bitcoin Won Over Wall Street and Now It’s Paying the Price  Bloomberg.com",
+      "published_at": "2026-02-18T12:45:11+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352907+00:00",
+      "author": "Bloomberg.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2466,16 +1157,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "98eb6dc7-03d9-41a2-bba3-d07ac5c3d351",
+      "id": "cf4efcc4-6703-4ad0-97bb-ce9bb83f9447",
       "source": "google_finance",
       "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Stock market today: Bonds and Bitcoin sell off on AI, economic fears - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTU5THk1enl5U1p6MnlRZTJqUndESG5LclB6Uk9Md0tiNmxLNFVEMXEtVnlrQ2MwZGF1SXViamFoOXR5M05vV1RsR3dqSHZwS0RaZFRJTTdMY1NmNGhkX2hfQWlyZmRxdmlDTzQ0VUl4X1BRMzZwQUVvVng2ZFdXNFJjaEc1S05iUWYyMVhxSQ?oc=5",
-      "description": "Stock market today: Bonds and Bitcoin sell off on AI, economic fears  USA Today",
-      "published_at": "2026-02-05T22:03:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.217977+00:00",
-      "author": "USA Today",
+      "sentiment": "neutral",
+      "title": "‘Is Bitcoin dead’ searches surge as price seen to drop to $10,000 - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYzd5RXhRd2xNQTF0RVcwck5PWS1vejNSNTNqcFRaSU1lVG0wd2t3SFJ1bExhQ2ViTk1KdWExdUdIQ2R0REVyakIwQV9ZU0FyZTBiTWxXZEJYV096dE15ZXVuWVVfUFI3M1RXWk5aYVIyUXU2RlBvZmNIQ2Jmc1FtTg?oc=5",
+      "description": "‘Is Bitcoin dead’ searches surge as price seen to drop to $10,000  dlnews.com",
+      "published_at": "2026-02-20T17:40:56+00:00",
+      "scraped_at": "2026-02-21T13:23:03.352962+00:00",
+      "author": "dlnews.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2483,15 +1174,83 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "2be5bc36-bc2c-4fca-a519-17b022943e3e",
+      "id": "4df57ff1-b430-44ec-b861-5233d8b712cb",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Trump Sons Hype $1M Bitcoin As Goldman CEO Discloses BTC Stake - Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNTXp4RUxyT09fbnFtVWNYLWxEZDRtNTNZRm9GbnRkNTN1ZXdaRlQyd2FWQ1NjY0tEcjIwWVdXUzFkbnduakhvMUU5UFY5SFRpM2VrNjF3NWtWNGg1YXJSd29XNFFyWjFUck8tWng2OGVRTkRkeHBaVWxudThXc0E?oc=5",
+      "description": "Trump Sons Hype $1M Bitcoin As Goldman CEO Discloses BTC Stake  Bitcoin Magazine",
+      "published_at": "2026-02-18T18:46:32+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353016+00:00",
+      "author": "Bitcoin Magazine",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "e4da75d6-af89-4c21-8cb2-b6c938b130c8",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "MARA stock jumps 22% into weekend as bitcoin whipsaws; Monday risk test looms - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXowS3E3b0ZESHVJUk5kOWxZSTJNWlM5Z1N5UzVYUzV2VDRubXk4ZXpCMU9tQy11dTBkOUhxRGxua25QS3VtQW9ENlVKazMtcHVZMTJfYU13R2lFMUdHUFZpWFg5eTNPNGd2ZDNMOG5BMlQ0eWZuUXFPb2tJU1hNdlAwSEUtV2I2YlpjRzFUdmhIVXgzb2hnYWNnV0w?oc=5",
-      "description": "MARA stock jumps 22% into weekend as bitcoin whipsaws; Monday risk test looms  TechStock²",
-      "published_at": "2026-02-07T14:33:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218102+00:00",
+      "title": "Bitcoin Price Prediction: What Is the Most Probable Next Move for BTC as Momentum Stays Weak? - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX0dSX015SC1VTl85Wkt5VjhBR2QyT1lNQ1U3R2hCaUJDbV9qTDNYNWpSTHBNMGdKWTV2X08yM3MxaHpHTUZIYVpoQ2hHUE1mOW9Fd3dLRmJmZ2k0ZnNVUVJQNy1mUktRVDluazFnTkgtSUlwb0RMOG41akdZR2NEMDBhNDZmUkNZOS0wUkM2NnJQTUU5REtKNFV4UUU5X3lmZE1qOHFNanMwUzNkb1hvSE95dkZYNUdD?oc=5",
+      "description": "Bitcoin Price Prediction: What Is the Most Probable Next Move for BTC as Momentum Stays Weak?  CryptoPotato",
+      "published_at": "2026-02-19T13:32:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353074+00:00",
+      "author": "CryptoPotato",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "cb117593-dab2-40ad-a621-d6c3c39aba53",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin miner gets letter from activist shareholder demanding faster AI pivot for stock price boost - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTlRrSGxfaklpSHVRX3RUZ0tFUVVtcU10SnpQWVk5d0k0NHNCZm41dDBRZ3VWQlR5M2RxaXF3azJTY3lyX0pldWR5WXRUX2I0OUgzWlh4ckV2QTdpQThkMUF2SmtlZU1vaTJNTkRoZjluYk9maFk4ajBQelVwUm4zUEFDQURQS1M4ZHZ2OW5ncG1lNDE5VjlyWEtB?oc=5",
+      "description": "Bitcoin miner gets letter from activist shareholder demanding faster AI pivot for stock price boost  dlnews.com",
+      "published_at": "2026-02-18T20:23:40+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353213+00:00",
+      "author": "dlnews.com",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "7706eb99-8ada-45b0-9802-87e87f50a77b",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Opinion: The Fatal Flaw of the Bitcoin Debate Is That Value Is Being Conflated With Utility - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNHpnMzFxWXluVU1FQkczaF9rZ3RNMF80My1Dd2w1ZTliZ01JNU52T1RPMnJnSDZSa3hKX3VwWXBBcDV3eWdwYU8xbFJWY2pwdGFnbThNcEt2TW80U3BxLVNvZ0NWbl95T2pDYnRENklvQ3lWZTZZNWQwQTVSeXpXOW5lX2ZIMm1xbngtSEppZlhCSFFwWWc?oc=5",
+      "description": "Opinion: The Fatal Flaw of the Bitcoin Debate Is That Value Is Being Conflated With Utility  The Motley Fool",
+      "published_at": "2026-02-20T10:06:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353274+00:00",
+      "author": "The Motley Fool",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "1ab6f021-b759-4d06-9302-f2b66e94aac8",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin price today: BTC rebounds near $68,000 as ETF outflows and Fed signals keep traders cautious - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWWU4VmdZLTV1TzNpZ2w5Qm9nWmwtOUJjUXQ2eHJ0SEkwTHZnN1dQdjlFdEdfc041a3JQZ0tlR2JVQldZbXJnSWNaci04UU9FVEc4Z2EzVHdfVUdVV3hoQzJZOWxodlRlMEdfSnZiYVhKWTI3aXZOcmljVzg2X1VrWGRZYkJ6aDlYWkthR1lHdGtMR2d4N3hFWnhZZ3ptbDF1dnhBOVk5ZmpIVE0wTFFIeV81TkYwMDhPbHc?oc=5",
+      "description": "Bitcoin price today: BTC rebounds near $68,000 as ETF outflows and Fed signals keep traders cautious  TechStock²",
+      "published_at": "2026-02-20T18:39:46+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353438+00:00",
       "author": "TechStock²",
       "tags": [
         "BTC",
@@ -2500,16 +1259,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "c2177adf-1c60-4596-a1d0-526faf107deb",
+      "id": "b4e5ffe5-e0b9-46ea-be81-efe13bc81ab4",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin Price Prediction: BTC Eyes Big Rally To $94K After Forming Potential Bottom - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVWc3UXo4LUJucW9GWTByX2ZFZHRNS1pZV2hEQkViejc1YVRJeDdwZWFvWWtPV3JkVS1NbzNkRm1PUUVLS1VIOC1hTGpLS1JPei1xclhFd2NkYjdORnFHRHM2YTY4WU9XQmlYWmdlQnVZdXdSQjY5TzFDSEtXWktKdWpzY2s4QlozR181RkpEN1JLaUFnRkxaajlDWkthR1FhX2FUSDJJQnJoWWQzUGfSAbMBQVVfeXFMTThJTlprOVQ1Y0pKOC1qd2Q1Y3VCR2JMR3NIS003Zkw2czlUT2NVMkxGQmUwU1N4dFVHQ0JiZTVvTE9FSHQzN1pVZjNpaEhUU01oQTI0S3pCcTVjYlNKUkJxclZGU0l0RmdSQ3lFU0RLSjZrbnZLWFVOV2VHUWtDb3hwUm80Q05EQXhNTzVzdFIycHVXVGh0ZGNiX1FHamRTaGstUzBNVURSR0JIa1BPOVI1N1k?oc=5",
-      "description": "Bitcoin Price Prediction: BTC Eyes Big Rally To $94K After Forming Potential Bottom  Coinpedia",
-      "published_at": "2026-02-06T18:58:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218134+00:00",
-      "author": "Coinpedia",
+      "title": "Clarity Act Odds Briefly Spike; Bitcoin Miner Tumbles On AI Funding Plans - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUHBmejEyVFFLZ2F3bmFDTVB0MV91N1VER3h2SWw5NTVpczljbWJ2ZDBfUmszSmMzdW1jNFAtZHlidkdybTJBRGVZZG9hazVWbEM4TUVPYlJSTWtfSDIxNXJEM3A5VWVOMXRJbTcyTTRreW4xNTA3Z0RBcTBNek1vRExKVjhwQk4xUFZqbEtibU5MSWM0aENnM19mSC1MazN1RlVKZXRjcUNSdGxUWlMyWW9tbUxLNE1BWWc?oc=5",
+      "description": "Clarity Act Odds Briefly Spike; Bitcoin Miner Tumbles On AI Funding Plans  Investor's Business Daily",
+      "published_at": "2026-02-19T21:36:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353495+00:00",
+      "author": "Investor's Business Daily",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2517,16 +1276,50 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "71531ea6-c1b2-4a72-b37a-5af06a54f0f5",
+      "id": "e0d7d5a3-1426-4881-906d-e0762d0743e1",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Whale Deposits Surge on Binance as Bitcoin Price Faces Pressure - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEOUpuaVF0ZWN6QlM5ZGVUcUx4YTZ4MzZxSWJXQWdsdGVsWHdENHpxYThYU0lBSl9YUnM1cDJtVFhIMG1ZWnZzSzJQSDNBc29kUVdHRHRmdHNUSml4VDRaTzc0ZlY?oc=5",
+      "description": "Whale Deposits Surge on Binance as Bitcoin Price Faces Pressure  Binance",
+      "published_at": "2026-02-21T04:07:22+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353733+00:00",
+      "author": "Binance",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8b6516a8-1385-4691-9617-13c520dba883",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Coinbase stock rises as Bitcoin ticks higher — but a DEX balance glitch puts nerves back in play - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSWNydHlSSDI1V0g4OTFlcXluTVQ3dVQxZXpuYldTaWFidDNvVTBpMTY5OGtCTEpvbzZ0bUpyTHF1ZU5VeUNEc0pmREZiNS1POEd0RDF5aDBwaHpnbVJJM3hNSzhJWXg1Q1J4elNjdjhmQmN1S1RFOHdkVzBSNERWOEhadWVRclFZdjhXSDJfOERMV1hNLVlOODBnSU5ySUlQdWRJSG9yMmtTY1l5YjVuU1NqRE5UQQ?oc=5",
+      "description": "Coinbase stock rises as Bitcoin ticks higher — but a DEX balance glitch puts nerves back in play  TechStock²",
+      "published_at": "2026-02-20T21:34:29+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353851+00:00",
+      "author": "TechStock²",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "37a4c90a-e176-4f38-a007-95c22c35c443",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Bitcoin falls to lowest level since Trump took office - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sWFVNamt3dFpIOGVXMmxwNnUzb2pqbUZra045aW1KQ1Vnc2NGZHBVNUJ2OV90UHpOeG9UTmVnSUk1X1U3bm9YMnJUNVdGVkY2SXlMR1Fkc0JhZUhp?oc=5",
-      "description": "Bitcoin falls to lowest level since Trump took office  BBC",
-      "published_at": "2026-02-05T22:03:48+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218159+00:00",
-      "author": "BBC",
+      "title": "Is the Bitcoin Price Under Pressure? 5 Warning Signals Bulls Can’t Ignore - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXVmSlpIcHhyNDdidDczcVZPTEtmZmpKcHU0bnd2Y0pKeHp1RG9jbE9EMkFabDJTWlRMbkJabjNSRUlWWnYwdnVLV3BYeWw2a3dNZ2hUdXZzMDFwckJycjBESnNScTAxanMwM3BmOHdTNDI2aVNISmo0VDRIZmdMbTVFeUk2N01YLUswcE90YnVSS1p4MzYxN1dqRk1idw?oc=5",
+      "description": "Is the Bitcoin Price Under Pressure? 5 Warning Signals Bulls Can’t Ignore  CCN.com",
+      "published_at": "2026-02-19T13:07:34+00:00",
+      "scraped_at": "2026-02-21T13:23:03.353909+00:00",
+      "author": "CCN.com",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2534,16 +1327,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "95817ee8-9504-493c-8d2b-a2bba6abe0f0",
+      "id": "00bcb40d-d3de-4106-b837-50a5e3b8b7c0",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin plunges as ‘forced deleveraging’ accelerates - AFR",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUmhoMVpmdE16bUk0dTBXY0hHZnVndmtjdE5jWGRYQkItNzF6TUIya2RhZmxLWmZGSWhWZjRRMl82dkdkYncxVnN2aTVweUxCNEVheFdQOFJmdGtFOVNSZ3A5UUlKSUVZa1B1TUY0bVdvejRJTUF6NE1ackw0ZzFCaUowMnRQMlFuMTZ2UXZ2U2ZGYzVubkt5MC1yRUpVekVpeHFQbjhpM2lqcGJYcGQ4?oc=5",
-      "description": "Bitcoin plunges as ‘forced deleveraging’ accelerates  AFR",
-      "published_at": "2026-02-05T17:55:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218204+00:00",
-      "author": "AFR",
+      "title": "Strategy (MSTR) stock climbs with bitcoin bounce as fresh filing lays out funding risks - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcjYzR3l1cG4wMXNTR3Z4b0YyQWRMY3ZDVE9xYTMwcGpRMEhHR3RhQktQN28xaWZETFZuR1pJWU5XTTQ3MkpPa0hOMFQ4S0FZSGRiYm9UZnA5YzR6TGRmN2I1TTRwY3lleERCYnI3WUJpY2ctR2poRHNuXzQtdmpNUFNXa1RleWpTcWJ6YVZsMC10eEtjeVN2RlFOMDVUVHV4ZDNCY1EzdjlYQQ?oc=5",
+      "description": "Strategy (MSTR) stock climbs with bitcoin bounce as fresh filing lays out funding risks  TechStock²",
+      "published_at": "2026-02-20T16:53:41+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354013+00:00",
+      "author": "TechStock²",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2551,16 +1344,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "1fcc63f5-8f41-4beb-9ff9-ca4b9273aaa9",
+      "id": "f30bb0f8-68fa-4de2-9367-bef189de74f6",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses - 朝日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wTkN6WWh0NVFYUDlwYWxrVE5nYVR0QnNRTGV1MWJaaTlzTlVpc0V3ZnA5QlljZ0J1UFBud3lxazFsYlJNR04wYXBtT3ZvLW12c1JRcy1B?oc=5",
-      "description": "Bitcoin falls 9% and Asian shares slip after Wall Street is hit by tech stock losses  朝日新聞",
-      "published_at": "2026-02-06T06:45:00+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218236+00:00",
-      "author": "朝日新聞",
+      "title": "Bitcoin Depot Inc. Announces One-for-Seven Reverse Stock Split Effective February 23, 2026 - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFluOWdUcXVQMzRFa00zZlZCclNBVFMxN3lReVdmdjhvZ3VleTJNUWctZVZiYmo4RGFWZS1WOGxPR2JQdE43VGdJZThWVEdWMERLNXZYMldwMzhQSkVyU1BvVGJIYk9LMDNRb2ttZHNWOXc1QndGcXlEMVJXWkRUZmtIcGVvQ3RWRkpxRWVqZUg5OWZUNTExbzlYOE1uNjY1OWxEZzE2Wk1ZcmVqS2YyRUFXNmtWTks5OE9wdk5HeU54SFE?oc=5",
+      "description": "Bitcoin Depot Inc. Announces One-for-Seven Reverse Stock Split Effective February 23, 2026  Quiver Quantitative",
+      "published_at": "2026-02-19T14:01:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354152+00:00",
+      "author": "Quiver Quantitative",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -2568,15 +1361,202 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "1052cfe9-1169-426f-aa2c-3c5b724bd9e7",
+      "id": "46c61501-4d2f-4828-9183-a3aa68837b2c",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Bitcoin Price Plummets: BTC Falls Below $70,000 in Sudden Market Shift - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yMldpYWdTN1N4UWVIbTdyQXRTZEhGNDdYOGxGWVEzeE1zWlZXUmliUWNZTVRucmM3NEUySzhYZnR1ZXoyMEZseXJqRlhaU3BiX1VFaVJjRzhmSlA3WE9DRHk2elZEbGN6WlhMeUtkZFJ2UUhfMVZTclhnMA?oc=5",
-      "description": "Bitcoin Price Plummets: BTC Falls Below $70,000 in Sudden Market Shift  CryptoRank",
-      "published_at": "2026-02-06T18:42:07+00:00",
-      "scraped_at": "2026-02-08T13:02:44.218264+00:00",
+      "title": "Could a hawkish Fed stance and escalating geopolitical tensions intensify Bitcoin selling pressure? - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTk01UnpzekpsTW1xdGM1eHpsNGZqUjBoMjMyaTRCakZiNFBSM25zU1pMQm1hN1dxZWxvSzd1NTdFYzZ6d1BtSVAwMjdWY0ZaQ2dyX3FBaUJzb25wT3MtYVN0SHN4ZmRERlROaEtJTUxGY1o3VWFEekVBYm5MSWVZUDhsRzlMSTltaE5kOTc4dmMxcVJsMmhGclFNdUpZWExvYWJTRGMtRllwNDRUWk4tZ3JvejV3VGFEaUkzNDdUTUYtY1NLdU41MzQ0M1hQYTdqTDc3NHJRanNhaVdvRkk2UVFYakx6OTlrNGxIVFBrNHFVRUpoeGhjd1B3S27SAYICQVVfeXFMTm9xRzFTamFTOVhMZmF2VHBLdjBOcDBRRnJTbzAzZVBqbS1kS0ljcTE0Z0JkS01kejdtalByTUdLdzcwMThDWGZxRU1iTzlPTDJpc19fTVIyOTJFZ25QUTdySnBGM0pxekJET2RmZkI4RUpWNU92TVdYd3hJMGQ3VGlOTHF6TE8wRGQ4TVpjZEM5UEZjS2pxTzFkcm9uZG9RRmw3X3pManFLbXlJQnh2TkJpM181RW5HeGxCM1lBcmNOeFJNcFhfU0p2QVAzUlBhMm80YlAwWnh1QVdLOVFwZlN5SlV2dTJLY1VOdUxGRkFrellURGxwNjNkd1dMX29IN1lB?oc=5",
+      "description": "Could a hawkish Fed stance and escalating geopolitical tensions intensify Bitcoin selling pressure?  FXStreet",
+      "published_at": "2026-02-19T09:45:57+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354247+00:00",
+      "author": "FXStreet",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f0d4a670-5331-44ee-96d0-9fba95cff1bb",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin price coils into a triangle formation, why a breakout is looming - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZXgzUE1RT1cwWDJ6bU9ZWWhQR2VtZWZOTHdXWlN5NlFmQUdnS0duWDdnWnQtUUJRbFl1SHlVVndXTTRwREFRQnpaLVg3eDNFa3o4MUNld3ZXaFlBaEJIcXMyRlhBNnBqUmQ1b21BXzFDUHdXYlgteGpFYm9BdDNYNEk1UGpZa1ZmMjYwM2pELXpobnZpV1pz?oc=5",
+      "description": "Bitcoin price coils into a triangle formation, why a breakout is looming  crypto.news",
+      "published_at": "2026-02-19T17:15:52+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354339+00:00",
+      "author": "crypto.news",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "36e25c6d-dfde-49b2-95e9-96a97386ab38",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price Outlook: Key Levels to Watch as BTC Tests $60K Support - Coinspeaker",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kSW9jQnlFV1lRR0U1ZXEyRmYxR0lEQ1lJMDM1VUlLMXBoOGVqWk1GVkY1bFhpUVNnbjFnMEl6TEtCakcyODhPMGdBei0tQWk4TWF3ZTJxb2ppY0lTWUs2a1E0Vnpxd1JzNGJXVF9RR1VpN2pCdDNIZzRmMnAxZ9IBgwFBVV95cUxQNUlRSVJ2XzJ3Sjh5d25Sb05ZUG5CNTk4THNndVppLU1ZNVNmcE56cnZjaHg2SEI1czFMNk5kNldpRUk2RnJjcXNURWdMQ052c0wwemlpT250Z3JaaS02TXhPNmN2QXVrVElTcEMwSDl0LS02eXJEaUFKYmRDRkJiUnJ6RQ?oc=5",
+      "description": "Bitcoin Price Outlook: Key Levels to Watch as BTC Tests $60K Support  Coinspeaker",
+      "published_at": "2026-02-20T14:44:35+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354450+00:00",
+      "author": "Coinspeaker",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "cfee44b7-d9c5-4154-92b2-4e2075f78489",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Metaplanet Stock Rises as CEO Silences the Critics and Denies Hiding Bitcoin Trade Details - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGU4dnF2c3lwMk1zSW9KNVBRNjh5OFJxNVl4bzJVTFRGMmNkbENRYXFCY19YNG52dTB6WDZleHpYSVV2SWJ2dG1YN25wNWw4clYxZVJmd19VWS0teVNqUlFvTEdRbnM3MmJPR2YyMjJGT0ROdmtXdjZEYkl0Tl91WENHWDNObUdKRHdyNDRyeFRjYmxlbHBHejljdmFLaW50T2ZDRWtmZ29HZWU5ODYyeFZmS2g5amVMbXk5dg?oc=5",
+      "description": "Metaplanet Stock Rises as CEO Silences the Critics and Denies Hiding Bitcoin Trade Details  TipRanks",
+      "published_at": "2026-02-20T11:20:23+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354546+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "bad0df7f-a394-4170-94cc-fa4907150777",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price News: BTC Could Fall Another 14% After This - FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNk5wZzFKXzYtRV82SUN3RVhiQjYzZ3V6aGliQzBIQlJVVzNnenk3NXVuSHN4UjkwSTRDNnVXQ00tbWhXaXo2d1hfS24xNzE1SFVVYl9Qbk5CalRnOG9nV2ZMVFdSWU1NYnBmRGUzSDhvREZfQVV4TlRRWHh5YVF3WXlZZHhVWW1FSHR4bXdDMnZUamtzQ1E4LXAyV1hBd19wTlJhMThaalEwZw?oc=5",
+      "description": "Bitcoin Price News: BTC Could Fall Another 14% After This  FXEmpire",
+      "published_at": "2026-02-18T14:15:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354795+00:00",
+      "author": "FXEmpire",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "15a45a4f-4444-48f5-8036-363bfa7b5cf4",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Why Bitcoin price declines sharply: an analytical deep dive - Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbW00M3EzamVqaGZCdGRHQ1JNdDduRWNLR21JeEJFV1pJSVRUcERpOTRzT00tSG5QaUpEZTNrMzM5R0VLWFB6N000anR2bk9hNmRKNDNSNUV0SFdaTm5YSnpWd2RQQmdVVkl5aEp3b21pdzBfMmk4ZHUtTFBTS2hQVHlOME9wZw?oc=5",
+      "description": "Why Bitcoin price declines sharply: an analytical deep dive  Latest news from Azerbaijan",
+      "published_at": "2026-02-19T12:17:02+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354846+00:00",
+      "author": "Latest news from Azerbaijan",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "0c5842d7-c328-4715-876b-9b895ce2b8c4",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price Analysis: Can BTC Break $68.287 Fib Resistance? - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdlJpWUt2OVJoaHdiVEt2R2lyM094SHRrWDdVaFdrMkZkUVFSendTelhNRWV1TkZuTEtubzVFZ09vdTdwUklwckgtS0I1RTMyYm1wUExZeTVwcEZFZVU2RkUwWjRybFN0T1Z2SkpHZmtoS3Juak9pRm81eFdxYm1xY2NpS3BNeGg2RXBqQk56eWxiemQwZG4w?oc=5",
+      "description": "Bitcoin Price Analysis: Can BTC Break $68.287 Fib Resistance?  KuCoin",
+      "published_at": "2026-02-20T11:46:21+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354908+00:00",
+      "author": "KuCoin",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f2a8c461-8b6a-4af6-b3e2-4d10721a7ffe",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin Climbs Back Near $68K, But Uncertainty Hangs Over Crypto Market - StockInvest.us",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEk3eHlneHRpUFFkc3hWWW5lT3cyV0J6ZnJuWHptYjBFUjBOX3l5bndndzFZTzZEdF84Y1FGdUtQT0lqNzZsQ0laTnpDLVRiU2w0QXRrb1N1Q2RFTTJfa2RqX2xEV3pmZUtrdjV4aHNGSGptMV9oa2NVUkpwX05ma19XT2N4Q01VbUpMY1NWWXZGMGE3OEhBdFZ3Q0lVQ0Z1?oc=5",
+      "description": "Bitcoin Climbs Back Near $68K, But Uncertainty Hangs Over Crypto Market  StockInvest.us",
+      "published_at": "2026-02-20T09:17:29+00:00",
+      "scraped_at": "2026-02-21T13:23:03.354960+00:00",
+      "author": "StockInvest.us",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "c15f8666-65eb-47e5-95fe-5adaa72336f8",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Price Trades Above $68K as Large Holders Step Back In: Is a Structural Break Approaching? - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR3hPZzZCUUtvZldxeU9laTE4WTVyN1BDLThFM21jNVZQbHNPQ2FxQWs4OHdtZXZZbzJSek1GaE13YUJFVjBJX2tKM3E2SEZHRGMycXFuNENFQUItN3lDR0xjWTlLckJuYjhMRWdxUExkNXNvM2Z3N0lDZkt0Y21vRGtOVlhOWnZzR0E1cVR2LS15TGhhTEpwZlh1d1FJa1ktanRfcnItdlNONWs3TkpJcW9sam9idGdLek9JdmZ3TGp5M1pCbWk1OHBiM2_SAdIBQVVfeXFMUHVWWDhYNHl4ZEtCaUhTUmg1UUhlcmtqdEN5TkM0VHBscVpIMWduZWZ2YTh1SUMtR2hITUo2VFJVeHctYlJhZTJZN2Y4bFVjSncxdzAwYkVjVUJnU0ZNazhDR3draVplWEVCNVVOcS1MVnZWdEZtY2s5V3JtWHp6ODNCTWhkN0hJOU9WeWNHNUs4VGwwcUZxLVZ6aG9ycmZ1YTNmUXB1bkRfZ2hFVm5CeTZjSDVuMFEwMHhLQTBqN2JTbjhyaldtcG0yOFdibE4xLTl3?oc=5",
+      "description": "Bitcoin Price Trades Above $68K as Large Holders Step Back In: Is a Structural Break Approaching?  Coinpedia Fintech News",
+      "published_at": "2026-02-20T12:18:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355021+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ac8ed86a-be4d-4f2e-84ba-18b93f95d9eb",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin Depot Stock to Reverse Split on Monday, February 23rd (NASDAQ:BTM) - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSHlidDNOekRIY1d0cVpSN011Y0prNlJNMzM5ZzdYNGxXdm80Sm1KU3FpV01jWUk1cWNYZUdkSjc1X0dBOE41aW9nMlBLZUNrVGx5SW52NUpxUGk1NjZvZTE1U0pZSTVvWDc2Zmp2RFhXWW1XOGREVHNlUUxvVXdXRHQ1bnhacDEyUDhmYjBmSjZUdEFMd25VMGFLMUxhR0pTQmJxV3hyV2NjdU84bS0xRE9sYjBUMkc4SFh5TU5EWkVmZw?oc=5",
+      "description": "Bitcoin Depot Stock to Reverse Split on Monday, February 23rd (NASDAQ:BTM)  MarketBeat",
+      "published_at": "2026-02-20T00:16:20+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355073+00:00",
+      "author": "MarketBeat",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "59fc0c52-5a37-432f-b21c-5b4ddf696a6e",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Bitcoin Price Drops Below $67K After Fed Minutes Turn Hawkish - Meyka",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRnU5ZEFHVWgyQy1TOGJQZDl4VWdWSVQwcDZ1ZGRkSHhQSFRNYkYyYTRwWE8xVEVhUVdTQldWS0JCaFdpc2ZESDhzNUhMWGVoVF83Wm5uSVZXb29CNmZMRnJ6UlNrMDYzQ2dmS0ZEay15SEtseXN1ekxDT21xY0RXZlJZeTdBZkg2ZnI1MA?oc=5",
+      "description": "Bitcoin Price Drops Below $67K After Fed Minutes Turn Hawkish  Meyka",
+      "published_at": "2026-02-19T16:25:41+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355121+00:00",
+      "author": "Meyka",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "90b409c3-2969-4dfe-bbce-666f45bb39e0",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "If War With Iran Is Almost Certain, How Might Bitcoin Price React? - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWdwMzk0bDJyM3h4R0tCQVNTallEVEU4VkNIM1g0Z3hPOWRkeVRUOWhBSk1QaW9BenJTckxCTXFfaGwxVUpVdk0zZUdSV3hQUGVpTl9lRDFwQUZ2cWZ0MGZsenZ5SVBZNWl5NFhxNUZNU2p3QlJ5eWI2bGlSZDg5OWVRQWtwUE13WTY4?oc=5",
+      "description": "If War With Iran Is Almost Certain, How Might Bitcoin Price React?  CryptoRank",
+      "published_at": "2026-02-20T10:04:55+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355176+00:00",
       "author": "CryptoRank",
       "tags": [
         "BTC",
@@ -2585,84 +1565,84 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "ba0bdbfc-08ca-476a-9e6f-50a7f55c9e69",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Why Crypto Is Going Down? XRP Price, Bitcoin, Ethereum and Dogecoin Moves Today to 2026 Lows - financemagnates.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMS03TWFKbTBBYWRaVmt0cjlUOWJNM0xZZWhlbi1ZbFp4ZzFjRE1yRFNhdmhNZFlzM3ZTRnJvRXZiMEdPSEEycXFKdW9nbmc5eGdCWWg0S3ZkdXdfVXRnTlAwNHFxNHUwbXNSNk9WQnVZNzJ3ZXcyMnRBU0s4ZDJvUmZkcVFZXy1QQXI5MnpQal80U2hoQm9FOHg3TDBkbVRpN2dYeFBwdFQ4bU9UbHpKUWhjUVloMDRGMTQzQXFIZk5wMVNETmdXSHJpWdIB0AFBVV95cUxPWTk0UFdjWmZoaGNnNWF2c21ZOWQ1UWlBcHBqRVlYRDhHVkp0VVNHVzJNR0w4T3Fxb0NCdmNKVFdwTnJxU080OEZYN1doRGVKdFJrSnFITmh2cUhwQnFDQ2NRQk1vdkhpZmQxMWUyaHlfMHdTTVllc1llWXlkczN5U3V2X1k4ZzFnSU9Cc1cxUHhBRTY5WHBHNktzRGI5YUo5QWhnUlp4bG5URUhzbU94RDlmejZsQ05vQnQ4UWtjOThWYnJnbWpZWkdUZlQzN0NG?oc=5",
-      "description": "Why Crypto Is Going Down? XRP Price, Bitcoin, Ethereum and Dogecoin Moves Today to 2026 Lows  financemagnates.com",
-      "published_at": "2026-02-05T10:43:30+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518264+00:00",
-      "author": "financemagnates.com",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "13446a70-f364-409d-b1b3-36fd63024f5c",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Eric Trump Jibed For Old Ethereum Advocacy As Second-Largest Crypto Sinks Below $2,100 - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTlQ1Zm5XTWREbXdBNGhybmxzS1Y0SV9hQWIwak1fVE50OEoyT2dOMml5UEVuWVdQNmpsNjlROW1sSVlwbTkxMWpXVUk1bFFnVTdsZWFpeVZiaTBHckxYa3gwVkdWbUJJTk9jbDdZVWMxNkdERnZKX3FVYlEyREtINg?oc=5",
-      "description": "Eric Trump Jibed For Old Ethereum Advocacy As Second-Largest Crypto Sinks Below $2,100  Yahoo Finance",
-      "published_at": "2026-02-07T03:31:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518330+00:00",
-      "author": "Yahoo Finance",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7b5bc8ec-0812-488a-a7da-3075ab0d16c8",
+      "id": "22f96823-3280-4791-b303-482dacb45ca3",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Crypto prices on Friday: Bitcoin, Ethereum and more tick upward - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcUxELVNIQTF4ZEdGcEhid0JqOHNrMjlDVW5KY3lYd1pnNW9Pd0ROSzNZOURXTHJFZk1pSm5OOVdQaGwxYlhNRThRZ0kwb3Q5aERPZFc2QTkyZnlnUkl1cDZ5cWZ1UEhueEVuNWprTW93ajg4WG92WGpHX3VTQ1llM0ZGdVhUWURyX3JMTUY0R1c?oc=5",
-      "description": "Crypto prices on Friday: Bitcoin, Ethereum and more tick upward  Mashable",
-      "published_at": "2026-02-06T16:30:06+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518364+00:00",
-      "author": "Mashable",
+      "title": "Bitcoin Depot Announces Reverse Stock Split - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc1dwaGFjUEV6cnNrTmJRanYxZVBlTC03SW5KZURtMVFnZXVpSlBGclZOTDVFbzJpVl9XRlFyRjBVZ2hYVWRYTUlEMXJ3Z2g3Qm1oeWQ3VWJDX2R6cHhOWXhEcTkwQTJjSUlGUzhmSDF5Q1NVUDJCVThNQUZzdnZXNlBlYmEtX3UzS3lwdUNsUHppSERLRXc?oc=5",
+      "description": "Bitcoin Depot Announces Reverse Stock Split  Stock Titan",
+      "published_at": "2026-02-19T13:56:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355397+00:00",
+      "author": "Stock Titan",
       "tags": [
-        "ETH",
+        "BTC",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "52cb9a8a-b523-473f-b497-0a63aa43feeb",
+      "id": "8ca3af3e-4943-4ed0-b832-a307e47c45df",
       "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ether Tumbles to Eight-Month Low While Crypto Rout Deepens - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTFZkXzZrakpKNU05Rnc3X25FTmNxUXN5SnFHaERYTXFWUFBOaVlrZGxZbXZfOEVmWmFvSUMxVGdjaU9LbTBTS25DSVlpeFhHNXdGbEdNMWRVakVWSUdWYWFEZ1VpT0I5UGNOSU13REJaS243Z245WTJ3dkJ6Y2RIUnlUR2FIZ1ZHZ1pOTGVSWWpHeXpfM3pzeVlFVm45TzA?oc=5",
-      "description": "Ether Tumbles to Eight-Month Low While Crypto Rout Deepens  Bloomberg.com",
-      "published_at": "2026-02-06T08:18:14+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518502+00:00",
-      "author": "Bloomberg.com",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin Price Analysis: The Critical $72K Breakout Needed for a Bullish Reversal - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02RkdDM3YzMmQ3dnAxTEMwbVRHeEdzbmtUVlYtdW1CM1E1dVVSaElvNGp1Zm5JZ01CeHdjbDkwOUlHVmdEOTl1NGxqMHQxQVNHUUg3dHljTkpLemdzajlIWGR2MTJJeDVyWS01UWZ5d2tFZG9MVUFEcEVpQ0F5UQ?oc=5",
+      "description": "Bitcoin Price Analysis: The Critical $72K Breakout Needed for a Bullish Reversal  CryptoRank",
+      "published_at": "2026-02-20T13:14:01+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355461+00:00",
+      "author": "CryptoRank",
       "tags": [
-        "ETH",
+        "BTC",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "38b56571-0659-431e-86e9-2f2b2d40ea14",
+      "id": "821252bb-8209-456e-814a-5e22d07db6d9",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "When Bitcoin Prices Turned Against Michael Saylor, He Quietly Pivoted To Risky Financial Gambit At Strategy - The Wealth Advisor",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbjJJSTVucWk3d2RYaXc5NnlhUU5OVHpIOHQ2MTFDVWk5Xy05a1JIZWFfNy1PU2k3RXFRckhNQmtvelZ0dDVCbUFDWVFUX2xybVZ1ZzRabW9OWHBHcjJDMk1UaGRuUUxHMFRqeXRDR3cxeHVDYmpjQ2E1dkl2RWpSclRhakVrMUJkaEdQeFJVeHE3V2xOUTNfd0VyYlpHX09sckQ3NUdqV0tQYVZhX09PZ3hWS242RTVWYlpwUnZNRHk3M19RM010Ny1Kb2Y?oc=5",
+      "description": "When Bitcoin Prices Turned Against Michael Saylor, He Quietly Pivoted To Risky Financial Gambit At Strategy  The Wealth Advisor",
+      "published_at": "2026-02-20T14:33:34+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355846+00:00",
+      "author": "The Wealth Advisor",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "7ef9c294-97ea-4673-964f-8297d33a79fa",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin Depot Announces One-for-Seven Reverse Stock Split - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR1dBOUFUODNpYk51N1k5c0ZGblRrMjZ1eE5lVi00WF9LbmVPSm5jUDFfX0JLU01hR3V1NHNMYUpqMmo3Vm9TTHVqVGxjSGVGX2k4WmZYT19XVFBFR3AxWWpuY1FlV2RUamloUkhrbmdiWVF4aC1YaVhwSkZNT0JqRFlkOGdCU1E0ODhUVUdXWWhlcU9vU2Q3UDYyRk5WZ1pEdFI1V1oyMEQwUXk1RGc?oc=5",
+      "description": "Bitcoin Depot Announces One-for-Seven Reverse Stock Split  TipRanks",
+      "published_at": "2026-02-19T14:59:25+00:00",
+      "scraped_at": "2026-02-21T13:23:03.355976+00:00",
+      "author": "TipRanks",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "e69bc31b-d14a-4cb1-a987-dace544844a5",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "neutral",
-      "title": "Ethereum hit by billion dollar sell pressure as top crypto fund faces $862M high stakes liquidation risk - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSDZVWEt3emZ3Nkc1QkdCQlBZbWg1QVhrSjNmMnpieU8yZVNPUEtEV0g4R2lSQnRzei1yS2tjU1dmUTNpVGRYN2t5eDZPZ3hsNHdmdFFEVkJVMnFJWmd1cE1nZVFNRHpxX19WN0ppeEViOXFDODZCSlF2Y0xWZlI1WThlUV9uczk3QnZZUFdsYUZhRkRGVW84OGZPOG9FU3ptZk5YVVpyQXRNT0R6ZUs4bVRqdFhxWHNiMF9pWDdTamVuOTg?oc=5",
-      "description": "Ethereum hit by billion dollar sell pressure as top crypto fund faces $862M high stakes liquidation risk  CryptoSlate",
-      "published_at": "2026-02-05T11:45:47+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518548+00:00",
-      "author": "CryptoSlate",
+      "title": "Ethereum Price and the Rising Influence of Staking - Sarasota Herald-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGdLTV9yNWpuQXhkSTJmTWQyMDdEQW5UMThtS2p3Nmd2c2c2d0F6a3kydWZSZjRqZ25xbGFoR1BlV0IydlRoVlJlYTBOSURFekdfcno5ZXZBQzREUVdqMjlieG5RUHdnOEFCc3NGdEt1OTV2aGdzWmE4RHlqZTFjY2hqYWJtWFkyTGY0OFRpbVlvSHlJMWZ6aG01SFpkOU8ybU4ySEVKSVJVQVU3ckh6SHBIX0FGLWMwd001VlRBWmViRjE4cWhYZ3ZMRDJmYnZsUEpaRw?oc=5",
+      "description": "Ethereum Price and the Rising Influence of Staking  Sarasota Herald-Tribune",
+      "published_at": "2026-02-20T17:46:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969550+00:00",
+      "author": "Sarasota Herald-Tribune",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -2670,49 +1650,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "2343d9bd-6f9d-4aa2-b439-e63e70857cea",
+      "id": "81fe7ec9-5a65-4eb2-97e4-0d3039d16204",
       "source": "google_finance",
       "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction: Is $1,500 Next for ETH After the ‘Aggressive Deleveraging’? - CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV0ZBSkFlTXRGajVDRU83X0xzU1psTXJ4TTB1NkNpc2xRdFgxb1hMdkZRVFVxQ18ycEtieUNEZWRGQmlCS0NqVjZRRTBadkxsOGxqeUhZT3VEaVJYN0wwQnVXZWZMZm5ONDNXbHd5U0ZjLWRoazNaM0YzY1J6Zmk3YUUtMlBVM2hYcFM1anRyOGJDRi1scTB1N3J3RTVGQjdXdGtJWW5PRzcyUQ?oc=5",
-      "description": "Ethereum Price Prediction: Is $1,500 Next for ETH After the ‘Aggressive Deleveraging’?  CryptoPotato",
-      "published_at": "2026-02-06T13:24:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518588+00:00",
-      "author": "CryptoPotato",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "71a4ff9e-d7e2-499e-9da8-0b6ad81045aa",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "Ethereum and Solana Are Getting Hit Hard. Are These Top Cryptocurrencies Buys on the Dip? - Nasdaq",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3RobDFTZl9LTUxWRUdLYS1EQkVHUkdVZXktY1dNT0tKdlRGOUFta2ZrbFlMSUZoVllfZmVFQkdpN0FJSkNpX1Bldy10czduZDh3Rk56cFFzZlJfZkhuSzNDZlJKUFRwS2ZYQkt0cjBlOG1xT1pUd2xCUjZoNEZSNDFPWmt2RDRZRkdNWGMteVBtUVYzQWJGUEhrSFZPWGJpU0hCRUdVMmE2cW9SMXNCOEtR?oc=5",
-      "description": "Ethereum and Solana Are Getting Hit Hard. Are These Top Cryptocurrencies Buys on the Dip?  Nasdaq",
-      "published_at": "2026-02-07T12:16:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518626+00:00",
-      "author": "Nasdaq",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "d102249c-878d-41a6-a638-9a3cf040df68",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "Solana’s quiet takeover – Can SOL profit from the FUD around Ethereum? - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOVJDT0Y1dlV0dHVJT1ZTbzViVzVyTnBkUnR2MGZUdWRjVURKaUdiSFRBUU8wdDVQNTVrZWU5VkgxcWZLQldXcUFaR3pGelR1U3lKczBzVjdCS1J3dHZzZ3FyRi1jRjVMaHhpbWxYNlhkWUxCRy00bWFaM0MxdUtjNUxSRlB4X0owOUE0X0FvY2JGTGPSAZgBQVVfeXFMTlloRTBheXZCY19xbTR5bHpBYmp5U2I4bXdJZVdvLWRPZ3o0Y0luOERMWlpRUHZKc2EzNjViRXZnS1VBb2VlYmFBU010SnBCbG9DM2ZJYjRFVkVETzNEU3NvNjgwOWtaWVBjeU5GZ2NCdC1udS1BcHAzZFdaRDREejFReFA4MFJsZF9ZUTVURUZBbWI0alBTaG0?oc=5",
-      "description": "Solana’s quiet takeover – Can SOL profit from the FUD around Ethereum?  AMBCrypto",
-      "published_at": "2026-02-08T05:04:01+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518662+00:00",
+      "sentiment": "neutral",
+      "title": "Ethereum at $2K: Breakout brewing or classic ETH bull trap? - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNVZIOUpMU1pGZndQMUpQVDRzcjdFcEItTUhNLV9vdDJNdGNsRUI3N0hvLTd1NnVGblpWNzhLcFdDb05fU1phTU5OaXFzVkhqNHk2YW5McEgyV2NRTjl4b09HVFI5ek4wd1pWeWk3M1FKYmxKWXM4NDBoc0x4WFVvZGphY3lqd9IBiwFBVV95cUxOTE9oN0hzbk4zZGxOTXM2bmRUemg4SmtLZ0taUEJMVVBsLU9tTF9SNE1zZHN3TmJnUnNZb3RqeW8yM0RMbjlsTFVLWFNac2Q5WnY2OWV0UldUYzVsQ3ppcWtaQng4bEV0TXhzdGxxRFV4cVJOVVdIYjZWUC1Ram5Pa0JEajI2VjRXaVFz?oc=5",
+      "description": "Ethereum at $2K: Breakout brewing or classic ETH bull trap?  AMBCrypto",
+      "published_at": "2026-02-21T09:02:16+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969631+00:00",
       "author": "AMBCrypto",
       "tags": [
         "ETH",
@@ -2721,16 +1667,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "2e7f0de5-a278-4b5a-b70e-09a50997981e",
+      "id": "0cd53b8c-c5f2-4f48-b6c9-f6ec3d5b640f",
       "source": "google_finance",
       "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "Ethereum falls under $2K as $355M liquidations hit crypto market - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE1nVmVJaVkwNm5KZUhIM3Q3UlNBZXdEbDk0RWtrSFJVU3F2NUpFQ0RoNzVaUF9ldEluNnNMV0FlQ0NTWjZ0c3F3eWZVdWVlc2oyNXc5RXVZdk43YVEzQURhc2xoTnI1TFNYdjNseDgyNUM2ZXlJa2dKOVdEcnJRNzkzdF8yQmlUcDBBVVVWYXVQSFRQVTNCNEprNGNCVlhHbkk3bTQySzR1VzVCeEREdDgxVlQtN3JnaVIw?oc=5",
-      "description": "Ethereum falls under $2K as $355M liquidations hit crypto market  TradingView",
-      "published_at": "2026-02-05T16:00:51+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518694+00:00",
-      "author": "TradingView",
+      "sentiment": "neutral",
+      "title": "Ethereum price eyes historic slide as Bitwise flags $1,500 - dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmQzV1k3c3BrSWlBMGViOE1mSi11cEN5Wlh3WlNtOFZWa0FObGUtaDQ4X3EtcENLY2IxYVVUanl0SXJWYmxpZVFuRHpZeFZVR0VRWkc4SVhTamFHYm8yOG9Gd0FLQUFlVE8yUklNazhqQVNqTl9DWDFYcGF4YlE4a1RPajljejhtc3F6NWJoZmNiRlZh?oc=5",
+      "description": "Ethereum price eyes historic slide as Bitwise flags $1,500  dlnews.com",
+      "published_at": "2026-02-19T19:33:43+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969696+00:00",
+      "author": "dlnews.com",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -2738,33 +1684,67 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "b50a41cd-c3e5-4274-b38d-ba52e1bc08d2",
+      "id": "0fe262ea-6db8-4238-91f6-cdc284330164",
       "source": "google_finance",
       "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin Falls Below $70,000 as Crypto Crisis Gets Scary - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOaGVTNExsY2JWS09EZzFiS092UGxUcTJuZUYzdnNadHB3eTB0TnZOd1dvX3RLaUstekdYMF9uSVo0bmxIM1ktbjNfamVNU2ZQY3BMWE1rQXd4Qk9TOGh2ZDdoc0dzWXJwcmMtdTJodXN1UGl4cGwwaVV5TEpKTVNQVTJCbEtjZ0FyRWxUM1Q3NjBEdm5BNzZ2ZGg1UlNLNElUSFBra2U4TXlreXMzVTJORlpoRDIyRnNQcXgtSE9EYWlSa2pBdWM5a1hGSEFyUkI4eWJCeVpQUEhaVlVJWUtTT0ktVlBGb201cEFja2R6SFVWVzBzSnRyZ1Q4dExFbHJwUlJKN0gwNXktUkt1aGpJOUhLM3Fneng4Y1NqaTF2SmI3QXdIa0xHZHBESUtSUnRJbHVDbWg5U0FjV2w2cUZWektnaF9hdzJzRjhZM0RNcmhSY3JPRnQ2eWVrUGVGNXNsU2c0VXo1QUlreU1sRlpUVDU2VW00TDdYMGNvbUY5empOVXJHYmFKRmJ3?oc=5",
-      "description": "Bitcoin Falls Below $70,000 as Crypto Crisis Gets Scary  Barron's",
-      "published_at": "2026-02-05T21:12:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518726+00:00",
+      "sentiment": "neutral",
+      "title": "Tom Lee Forecasts End Of Crypto Winter By This Month, Says Bitcoin, Ethereum May Find Support At These Levels - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mUkZELXdpczdtdjBFbFdfM2YxdFpwRmhCRnVJdWo4NU5iSHJ5NFdmY3hyMi02TmVORjFSR05qbkJpTTVXTG1Wc2dmYjZ5alk0bWJ4OFhUSFZEWnBCSFFxdUpSV1dVcVM5dXd2ZzlsUzBQU1dUZUVibmh5VndIT3c?oc=5",
+      "description": "Tom Lee Forecasts End Of Crypto Winter By This Month, Says Bitcoin, Ethereum May Find Support At These Levels  Yahoo Finance",
+      "published_at": "2026-02-18T14:31:09+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969802+00:00",
+      "author": "Yahoo Finance",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ef2f76bc-d48e-4abf-ba0b-a22f3978b105",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum Price Forecast: Vitalik Buterin hints at cypherpunk 'Bolt-On' upgrade for L1 - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSXlhenhmVVB0N0lyczV0N2MwMGl6NS14d2F3NFFROENGY3cxdm01WXdQWTZUVkZqY0doQlNzcGZDS2Y5UWNwLWZEd1dtaE43NUhjY3doRkFXd3ZQYUJiQmlnWDdxRkRJbzA1X0E5QVY0alNPTVMzQzNOeXNLc3NmVVRHVUQzLVlrYTV4UEloUFVySF9ZdDBoX1lYYVBaNzFTWnZTS2RzclllTGlGcE1BbTZnRC1iR1Y0OHQ4cUgtZ1B6bWtuZ3dWSl9sc2h2TGFBX3NlTUVhaDgxd9IB3wFBVV95cUxNWk5EdlhGcXBPX0loYmFFdWE1eXd2VHY0SlNTeEZWa2M2TnM3MmhPMXl6Z0loX1N4RklzNm42eXpsSVkxcmpwSGNpTHRiYi1zcHlqUllwUTNSSFJIY0g2MUIyYy1qd3RSMVBUWHo2WXo2QUsxODdJTFQzeUI0N3A0S2VWcDhPX3ExYTQxNy0yRm1SMUotOFNQa0lXa3hwdHNZVHVQWENzMkc4MWtteUxuZmE5elNSMTVsZUw5cXIzcS1YdDhBdVRiRnBOemZFa3I1eVF1S3hmbmo4dmlVQTdV?oc=5",
+      "description": "Ethereum Price Forecast: Vitalik Buterin hints at cypherpunk 'Bolt-On' upgrade for L1  FXStreet",
+      "published_at": "2026-02-21T01:06:59+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969883+00:00",
+      "author": "FXStreet",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "84e07b3a-de55-4237-be33-fbbd92d30aa8",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin, Ethereum, XRP Waffle as Crypto Crisis Deepens. Why It Could Get Worse. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQUVJtdzg3ZGhMTTNmVEZvSjBuZ2Rlck1saXl0aXBpTGxDWjREeG1PbFpiNllhR0dOdDVFUnpqQURCa1JMMEc3SGdWNTlpbmxNdHlZeEhUUlNRTk5CUnJ6U010WGlRUEFPbWs0MnNCcktLRlJ5QkRKMUZfeGpLY0oyX3I1NjZ2TTFDc3VERDMzX1NEMmdpZzhPZEk2dXJpN1VUc0VYM3NNdUV6Q0ZRSFk0U3d5WEd5SWVFZ29CMkt6NURuUl9tYkVKZHRvd09PR0QzOTRySWtYSWJLU3FoTHpfbmE3Sk1oeldzaXltM0U3SVM5WjhISDlpMkpmMl9Od2hkMW5rVGJBV3owM3E0cW1BS1drdXR1UlRaX3RCM2tZb192VVNyTFdFSEpBNThOc1JsMG9ZVndJSEp2OGcxdkE3MHV1N2Y5eDFwYm93TkZna3I1SmxQVjh5Y0kzRHAzLU5aTWlQQl9BWHpCZkZDX0ZhbmhldUU5c3g0NEFxWHk2VmtqSlpSUlQw?oc=5",
+      "description": "Bitcoin, Ethereum, XRP Waffle as Crypto Crisis Deepens. Why It Could Get Worse.  Barron's",
+      "published_at": "2026-02-19T21:34:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.969971+00:00",
       "author": "Barron's",
       "tags": [
-        "BTC",
+        "ETH",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "6f09f101-0fec-4d1b-ad29-00955051047a",
+      "id": "8f1fa463-e31f-4533-a2c4-1f3a9cc03a4c",
       "source": "google_finance",
       "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ether price analysis: Why ETH is underperforming during this crypto plunge - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLURZUUpqUjI2d3FRQ2VINDkzQlJhMUx1XzNYcEJIRmwtRkZsOWg4OVpta2paODNaeE1BUjFpc0Yta05GaWdIMlFCWHQxVE9GTmhGd2RLSXB4M0lQYU5DRjNua1phYm1reFd2eG1jVnZtQ1RvcDNVRWxTUjZkZTBSMXZaYWUwMmtZYjZxQkdqWUJwSVBiT3VQQllvalE?oc=5",
-      "description": "Ether price analysis: Why ETH is underperforming during this crypto plunge  CoinDesk",
-      "published_at": "2026-02-05T16:17:41+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518759+00:00",
-      "author": "CoinDesk",
+      "sentiment": "neutral",
+      "title": "Digital Real Estate and the Ethereum Price Connection - Victorville Daily Press",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbUQyVlVNSVYzOWZlUmJhdWZ5U2JORUQ4N1ExemVyWWIyZjFMUFpjd3g4LTF6WVFUZ1lza3BmY2xQWDhDa0h6NHFBYXFSR2tpeDU3MFJMUXlvZGxsb29CVHNleUI0Z3RzVGE1akFBcE9BMTZidlJRSDBuUEl0NjBINUthZUR4V2RGb1h0VFlxYWMyQ3Ntc1RpY01NTlFDa2pwU1lKZXJlZ2Ixc1lvcEJmd2JCRFhKNU1mdC1qNVNaWl9acjRaVGhsUXVBTENWOV9fTmphcmJIZw?oc=5",
+      "description": "Digital Real Estate and the Ethereum Price Connection  Victorville Daily Press",
+      "published_at": "2026-02-20T16:32:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970042+00:00",
+      "author": "Victorville Daily Press",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -2772,16 +1752,101 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "e881fa22-c8d8-4fd9-8013-7a1c6f88339d",
+      "id": "0e0c2532-f7ab-49e3-95af-0559d0f3c1a3",
       "source": "google_finance",
-      "ticker": "BTC",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "The Little Ethereum That Could: Why Use Drives Ethereum’s Price - Asbury Park Press",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdGNQeU5ZQ0Y3bEV5ZldPb1RPQlhzLVZnbC1kb3NLdWowTEhhMktFSXFZdUUtX1F3aWVmcG5IYzBhRjNzbC1NMGs2THF1WTJhUEc5V3FVUWVlT2pOWmZDQkJ4dWJJaW8tUzQzcTUwcXk1bFpNaW1kZUhVYlNVbDJUckcxN3JfV2ZtcTdRRnRZTTUyYmJFWFFYNmNQRVVxU1JBVV9aWTZCRXNsZmxJaV9WcnFlVHJDazd5SVEyY1FVdVFpUU10cEZsd1dqR045blNfN1c3Ty13?oc=5",
+      "description": "The Little Ethereum That Could: Why Use Drives Ethereum’s Price  Asbury Park Press",
+      "published_at": "2026-02-20T17:55:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970116+00:00",
+      "author": "Asbury Park Press",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f113e71c-8d8e-45eb-8d8c-234ec2d21036",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Understanding Ethereum Price as a Function of Its Many Use Cases - Abilene Reporter-News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOXJaZFdPUm95UjRldTgwSG9lOGV0Sk9VZWxmYThBU0R5X2I1c3BIS1lqOHEyMGVuTDJiNHpUal9lbjVGeFN1bGtoTnlaN3QxZWVWOHhOX0MydVpRY1JiN1BPVm16cFcyaExFSlZEeEJ6a0xXTHNkVmxwMFV3U01ERGRWR3QwRFpib3AyWEdZWVpaNHZBM3Y3UTRSSnNPNktaQzBvOHRKRFVMNzdTQnczXzdDY0pCSHBQVWpVLUFMbGdKc0FHZkc1WVJncEdXNWkzSUJVb0wyT1VzSkE4ZUpuVFFjVEhudw?oc=5",
+      "description": "Understanding Ethereum Price as a Function of Its Many Use Cases  Abilene Reporter-News",
+      "published_at": "2026-02-20T16:25:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970179+00:00",
+      "author": "Abilene Reporter-News",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "6a4bad85-8bc2-4a90-89b9-d1a1eddf3db1",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "How Macroeconomic Forces Shape Ethereum’s Price Trends - Democrat and Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQN0RPdDc3eExjdUYxYnY0NnNUOEtOUnUtRk0wTkpCMEJLb0pENFl1Q3poM3ZUZ29MMFVMUkc5VXRCVXc4cDZ3bE1ZenFVOU9aWGFGSDFfYUtBSDRKVlBVWkR1Nmc0VG92MHpEWkJheDNWMUZqQjh2bmh3M2NhYlhOVC16Y19OYm1RaUFWdE5NVmd5amxFcXJzdXZOaUFzQUFmbnlkVTJSVkExYjRxWnBiMWx6aHdzOW4zVGdqNTZPYlZ4WDhmSWVmMDlzR3NyWDBxWUp2Uy1UcVFNTzB0WUJ4am9B?oc=5",
+      "description": "How Macroeconomic Forces Shape Ethereum’s Price Trends  Democrat and Chronicle",
+      "published_at": "2026-02-20T15:38:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970243+00:00",
+      "author": "Democrat and Chronicle",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "4835861a-89a7-4533-85e4-7327b903c09d",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Understanding the Relationship Between Ethereum Price and DeFi/NFT Adoption - The Desert Sun",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWVNyUTNNR2dqQVZ0VHdneko4Y0F2Tk9IeXpvUjZHSFI1bVE0TFBJakhCcUgwYUpuZTRZQWxnQWdMQUtaaURRN3Z6cGtTS2FFRmVSV1h3X3FKWS13STZMMEM5a3ZhQWZxSmpQU3VlU29CQ0hzQy1iUVRnb3ZxazRjLUZ4S0R3ZHZIVDdSaEVhSHBWQ3dyRzNpVGhFejM4alU5WmRXVG8zdzg4eDNFY1NNdWdHZElZTVRpalg5eDFEdmVMdEtRcWFXUEpLLVlmOVB3UFlxQzRWdWpqSHU2RE04cGkxRFBrOXBtSDhFVDVKQQ?oc=5",
+      "description": "Understanding the Relationship Between Ethereum Price and DeFi/NFT Adoption  The Desert Sun",
+      "published_at": "2026-02-20T18:23:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970311+00:00",
+      "author": "The Desert Sun",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b1949a9b-574c-49ea-9727-71fecc4e99ab",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "The Factors that Affect Ethereum Value - The Florida Times-Union",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FwcDg3cUtzTVBBb0FzYmRYSjNDdjFnR184bEg3MlBENVVIR3FfRlJyZnVnRDZZbWl2Wi1FVms4c3dFWUZtajBHeDI5QWNZOHhKLTFoNVgzZFEwMUJ5eTZrdDc2bjNaVnlkdWhsLXluQXp5QVRwQTFiSks1c1kxNjJod3BhWlppYkJtNW1ub0s5NGJscjdZMU9ZYXAybUdXaVdRRHp0bW5DdWVKdlZrS3N5NnRMcFltUEdQRVRjZF9PQms?oc=5",
+      "description": "The Factors that Affect Ethereum Value  The Florida Times-Union",
+      "published_at": "2026-02-20T18:39:01+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970364+00:00",
+      "author": "The Florida Times-Union",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "0d156381-5ac3-44bf-90f0-9269185f874e",
+      "source": "google_finance",
+      "ticker": "ETH",
       "sentiment": "bullish",
-      "title": "Best Crypto to Buy Now: Bitcoin, Ethereum, Solana Top the List - CoinCentral",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSEFEMDdWRmRtZ0FYMXNDUGtNV1NLRnh5Z0NUaTJmN2N2SGpNeWtRX19RNHF2M2RhcVROZDNDYkdpelBQSWJOYVBLMzZ2UUhwYjN5VjktYWRUWkFYLVVQbmtvVFZDN194WW9KaWJVdHZZMGQ0TmotWWw5UTVPWUg2dHMtQVNPLUhZS3lYbQ?oc=5",
-      "description": "Best Crypto to Buy Now: Bitcoin, Ethereum, Solana Top the List  CoinCentral",
-      "published_at": "2026-02-08T08:50:04+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518790+00:00",
-      "author": "CoinCentral",
+      "title": "What to Know About Ethereum’s EIP-1559 Upgrade and Its Effects on ETH Price - The Providence Journal",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYXp3WXU1UHhuU2QzOC1DUk92X01yc01FbFhPV0R0dmhiTlVFVnNRZ1dpaXFPQ2RSS0YtLTNIY2tZT3RVVEE4THZMX205MVRrejk4bnB1cjdSemx5Vkp2X08yLTZFN2ZIa1hkQVdPbmF3SUhuVDBFN3B1R3FMRndvT04ySFE1YW1kRURUSHg2Smo0YkNzaFJ0R1g1UVpjSUpfekJqYU9QLXNydlVpYjI0T05MdFN0aDJNaWxsQk1MNnJpT3ZTMGNNSjlZUDZybVBKTVQzYmtJWUxaMWRMTkdkODNzYmpQd29TZDZ4WTNKMUw5OWd1X3NIU0VB?oc=5",
+      "description": "What to Know About Ethereum’s EIP-1559 Upgrade and Its Effects on ETH Price  The Providence Journal",
+      "published_at": "2026-02-20T18:12:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970430+00:00",
+      "author": "The Providence Journal",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -2789,16 +1854,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "e0b2d6ba-e935-4006-8695-071fe772f834",
+      "id": "c0c01ed7-603d-4124-aa06-d77b19143f98",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "bearish",
-      "title": "Ethereum price prediction 2026, 2027, 2028-2032 - Cryptopolitan",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4WDV6VnA5ZTFQQXdsMUtwM3NBY0xqUEJDdGhKZVZiMmZTOF9jTW9OTWxYMXZQRW13SmhBLWlLWU1FNVFrdmVnSXRNMzczQ0lmeWZIVFZ2eUJkZHVWRC1uV0lBM0xUYU0?oc=5",
-      "description": "Ethereum price prediction 2026, 2027, 2028-2032  Cryptopolitan",
-      "published_at": "2026-02-05T19:46:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518818+00:00",
-      "author": "Cryptopolitan",
+      "title": "Ethereum Price Tests $2,000 Floor As Risk Sentiment Turns - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVm0wci1uRjg1RVJyNkJyc2tKNW91Nkp2b3VrSGNGdnRfTjRSeE41YW5MeVN5cHdSRk90QlhOVVo2UFNHbTRnT3d4Z2tka29JSk1VR193ZFRpWndsSEVyR3FzZFgwejBsQ3Bsb2RNUW1neVN5ZE5Tc3Fxa3U1Q3c0UmNmVVhGOURTaVhRSXJyZy16TVdnZkJEQ01CT2Q?oc=5",
+      "description": "Ethereum Price Tests $2,000 Floor As Risk Sentiment Turns  Seeking Alpha",
+      "published_at": "2026-02-20T04:55:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970484+00:00",
+      "author": "Seeking Alpha",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -2806,32 +1871,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "3e605f6f-4b7d-4b2d-90d0-54a86abb7964",
+      "id": "fa02808c-615d-4f92-adb6-cd267d9df51f",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "bearish",
-      "title": "Ethereum Price Prediction Stalls, Cardano Waits, While APEMARS - openPR.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWNEWm10bEtnT1N6MEFQZUlodzV4Wm8tb2xXVWFCbENhY00yczJXNC1MdkhmU1UyVGZkbWw5Q002VFhfUXB0NVktbVI5R2h0OGVRTEpDWDdKQllHcVBESHJuTkh1ZjJuT296QTVIc2gzeVNCY2ozbEl1VlFCSndFY2FJZTllNDJXRnctUTZPTFlzTEtwM21udEVPVjc?oc=5",
-      "description": "Ethereum Price Prediction Stalls, Cardano Waits, While APEMARS  openPR.com",
-      "published_at": "2026-02-08T12:32:39+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518848+00:00",
-      "author": "openPR.com",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "9aedbd7b-dd22-47cf-8aa8-7f62db36314f",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "Ethereum and Solana Are Getting Hit Hard. Are These Top Cryptocurrencies Buys on the Dip? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTktKRi16XzBPQms3VlZoaDczWkwta3A0bnotTmt5aGlWYzk2dVVTcDBLYXBNMTMtSTlNdmZxY19JMXhON0dvYkJkeUZWcUh2NzZTQW1QcElXSGZjUG5HOFRkQUVOR3pCNDJqSnJDbXVwTjk0NnVhVDItWUljTWxHNXQ4S2FsUzNQc25TWWgtaDRieXNJNG5XSg?oc=5",
-      "description": "Ethereum and Solana Are Getting Hit Hard. Are These Top Cryptocurrencies Buys on the Dip?  The Motley Fool",
-      "published_at": "2026-02-07T11:56:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518884+00:00",
+      "title": "Prediction: 2026 Will Be the Year of Ethereum (ETH) - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMVFjRE9BT25FVTZGbGRSUUx2VWx4N2U0SlhwcFRUdHdtZnJXZjAxM1BKSmZnX2REOUdnWVFrSm5LdnQwdk1SUXNpQWk3dFo2dmE0TWhRZzN4UFBOaktSLUw3OTBGOTFiTUFSbFNmOWh1cmNEdmpfalVqaXVCbVpxNEtTMnBITVVWcG1ZUWc2RTdfeG9NRkE?oc=5",
+      "description": "Prediction: 2026 Will Be the Year of Ethereum (ETH)  The Motley Fool",
+      "published_at": "2026-02-18T11:45:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970545+00:00",
       "author": "The Motley Fool",
       "tags": [
         "ETH",
@@ -2840,15 +1888,32 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "b2054fd2-970f-4652-bdd4-e26ab76f675d",
+      "id": "71776924-8ddc-4463-9482-e618a0adfa54",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "XRP Is Winning Against ETH, but Losing Against BTC — So, Why Can’t It Hold a 20% Rally? - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWHZFVVBWcXVJQkZqMHpMbzVKcTJoTEdnUGZRUVAtSU94blRtTVJ0SGJ0V0V6dE80WlZFUHVUbEVqSFp0VTJsbHFEX2pWQ2RkQzZxbkljVjg5ckJaeTY3WVRkVTd2WHlRVG9NT2J2cEJXdGZyRzRnb1oyOTVhRmV1NGpvQTNRaEpHSzBpb3NZMA?oc=5",
+      "description": "XRP Is Winning Against ETH, but Losing Against BTC — So, Why Can’t It Hold a 20% Rally?  CCN.com",
+      "published_at": "2026-02-21T10:05:36+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970608+00:00",
+      "author": "CCN.com",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "0b3aa54d-9eb1-4480-ab50-1e9c1775efc9",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "neutral",
-      "title": "Assessing Ethereum’s liquidity landscape shift as reserves hit multi-year lows - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYTN0amVhVlVkQm5BMk10ZlZlcEpNSVgzNTJGanVzU0V2Z3A1bVluQXJXVUEwWFpSQ3JCRHljSlQ1dGdhWkNacWlyVG9LUU1GZW0tOTNkTDhGMUJObmlWZ180QllKZEs5dlY2XzhocFppOGQtbnZNOGJkeElsMHRLeFRkSEZNZUFRSUV2S1ZGSHZaRDUxR1FMTUFrTHI3ZzRCa3fSAacBQVVfeXFMTjg3X2FXY1F6R3hQOFYydmZvV1A3QVVDVU9Sd2FVYmoxbTRGNDlMaDd4cHNlSFlDZkNnLVZhbHlZd2REYzRFMHh1akxhY0xLSjhTRWVPV3VIbnppRTFsY3RRQi0tVGRkR3lLbHVKOEg1TFducEU5RTUzRkxDNE9PcWxfbjNRb3BBdUt3Rjg5ZzVtYlBBZ25XTnd2eFNDMm1hWXZXRmJPcGs?oc=5",
-      "description": "Assessing Ethereum’s liquidity landscape shift as reserves hit multi-year lows  AMBCrypto",
-      "published_at": "2026-02-08T03:01:02+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518921+00:00",
+      "title": "Ethereum: Why Fundstrat sees $1.7K as a possible ETH bottom - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmRJSkRnMFNNWGxGQnU1ejdKNXZZV2Q5QnRkYlZlZ2M3VkdHaWI4dzQwSnpwYlFjMFZrTEhPaHpIRV9icDg5c0hQUVBFaVRDR0NTb2xVaEdtdXlNakdhbnpDLWFlRTUwWmxwM0pzeUtlNzluSUJDSDBDZXdZbTRYN1NqMTZwWm_SAYwBQVVfeXFMT3AxSnp4T2F1Z3dkZEhUQUJSVXVoeVotX252MmpSbEd3OU5ZaEdQRVppSm56VVJ0OUpYc0NQZHkzSklmUGdVSnU1clNJV3BIQ1I0bWdFTzRBLXFJWGt4Q1RMZ3ZKNDJRdGg2TUxFNWhVMDd6OGpLRWtKeTJ6dHhyNzhLTHdYV19nbU92QzU?oc=5",
+      "description": "Ethereum: Why Fundstrat sees $1.7K as a possible ETH bottom  AMBCrypto",
+      "published_at": "2026-02-21T02:02:13+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970666+00:00",
       "author": "AMBCrypto",
       "tags": [
         "ETH",
@@ -2857,916 +1922,15 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "bcfe567b-8b77-44ba-a01b-ed46d329f191",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Will ‘under pressure’ Ethereum withstand the surge in selling? - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzJrak0ydGlRS0Jjc3pBZ2hJNDhZZGloXzlyR2hCSkoxUFhwUDdqWmlZR0tmQm5tLTB3UFF0dmZaSUx6Sy1LN1EwVExrUGY3NTdBQk45U0dDN1BjWWhaY3ZMWmlwYmtBLXpUa1FFNFd0eDc2QTFXTDNrRXEwdjh2aUNyQ0NNSzVNT2fSAY8BQVVfeXFMT0pGdkZiSmpTbGI2VzRUWldscGhMaURpSEQyYm5wbUUxb0V2MDFlTDY2N1lfaTNwNnRENkF5b1Q4bFlLX1hjTjI2dGNIQjRVbmEyZUpxMVhDTmNKQUFLX2VkczY5WlZNczJoM3N0ZFJzeGlpaFdCcEJaanV1R2pFWTN6ZjFYdkZyd2xjMHl6LWM?oc=5",
-      "description": "Will ‘under pressure’ Ethereum withstand the surge in selling?  AMBCrypto",
-      "published_at": "2026-02-07T07:05:51+00:00",
-      "scraped_at": "2026-02-08T13:02:45.518955+00:00",
-      "author": "AMBCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "985cad7d-fe57-4233-96c9-8b7027f083aa",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum makes game-changing decision that could change future of cryptocurrency: 'Poised to lead the way' - The Cool Down",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZGxkMGZGWDJBMURSdWhSYzN0ZWFhQUNkeG9FYlBpRXRLQnY4WnVvSk5pa0Jod3lBUFgxNXU4UV9fR3c5YjhJZmRlLW9Ta2EtNUFyOEtJYmNjZFhyUkh3UUNxekIzajlqWUJjTHNQVFc2WWI0aVUyZ252d0hmLUFzQXRxYjdxaVBIQUJJWF8zT3BNUGJ4UHJBeDhn?oc=5",
-      "description": "Ethereum makes game-changing decision that could change future of cryptocurrency: 'Poised to lead the way'  The Cool Down",
-      "published_at": "2026-02-07T15:30:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519027+00:00",
-      "author": "The Cool Down",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "57aba789-e743-45a9-80e0-5635ed96c524",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "ETH Struggles, POL Rebounds, but BlockDAG’s Private Sale Could Be the Next Crypto Jackpot with 200x ROI Potential! - 2UrbanGirls",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNd1k1UE0wTTJmZDNLZEpxVzJ0SWJDa2JYZi1iSHU4bWEwdUpGbVcyOXdrNG9xUmhIXzZUQy16UXFHc0NmRXQ2WXdYeUZDYTkwd21zNFZkVzdFNzRsd1FlQWg2cGl0VE9KTjB5M1JKZWJOLWxPamFMNDBVaUpJVTllU2EwcmtVaFhvbVpvb1o0YU1uR2pEMUhRc3pLZVFFOUZ3LVhZNEhsbnI3WjlZVTR6cElFcVRtM2M1SER1bWM2ajE5Nmk5cUpiVlZtMzBXSUh4Uy15bGY2TUQwSEE?oc=5",
-      "description": "ETH Struggles, POL Rebounds, but BlockDAG’s Private Sale Could Be the Next Crypto Jackpot with 200x ROI Potential!  2UrbanGirls",
-      "published_at": "2026-02-07T16:18:07+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519069+00:00",
-      "author": "2UrbanGirls",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4604d56f-8561-4cb5-9d2a-e39de2d0b2db",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum Price Closes Sub-$2,000 Support As Crypto Rout Intensifies - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMXhfZGtFNDAyemxHdzhUQjMtSTJpdWJ3NzV6akEzVXF6WUpyRnl2MWZ3NGR3eEdPNkFYQW9FOXVMWENJeDFZNGxqSmstUGJHOHlHcXVUWHRGU1FfQzlWaURlUnV5VkFxTVZYNzZLMnlNV2lDWnZQM2E0NDlPbDBvSWZERjZicHQwSFZXc1VqRFd3ZkJNcW9ESTJ2QTFzRXJEY2k2MXIyaXFPOG1GTlJsS19aSmVESDl0LVhmRnhpZGdGZw?oc=5",
-      "description": "Ethereum Price Closes Sub-$2,000 Support As Crypto Rout Intensifies  TradingView",
-      "published_at": "2026-02-06T03:08:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519130+00:00",
-      "author": "TradingView",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "97aa436d-cc91-467f-8265-f8ee4ea04283",
-      "source": "google_finance",
-      "ticker": "U",
-      "sentiment": "bearish",
-      "title": "Ethereum’s 40% decline is an early 2025-like ‘opportunity’ – Exec - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcnFPS1VqX19jcjUxSklHbnFpelVNTGp2OEpsc1ItcXNoaU92bm9NaU9wTnVDcl9RMXJKQTN0dHVSeHZqNkpLM0x3Y1c3SnNaS0F4NkxNTERlQXpBUXBjVzlUSEVIZzhxWFByMmtKUjd3dHVCMDAwUFBDVTUwRUl1WHJMYWFDbDl5ZUHSAY8BQVVfeXFMUGhIVkdNTk9rTzUzazQyazhzd0d5OS1KRnZOX0c2NXlIVWNQbGtKOGw0aHh4eVExLWgtZVRxbDhQTnZkMDBBQ2JpZWttbS0wc09URjA4R1pxRlhPT2VpT0tQdjZPdEVfZF9HeGJYNkhVcWZMaTd0SDF1V01zR2FQUVZIR2VRb1ZPOG9ONWtKUUE?oc=5",
-      "description": "Ethereum’s 40% decline is an early 2025-like ‘opportunity’ – Exec  AMBCrypto",
-      "published_at": "2026-02-07T13:20:53+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519163+00:00",
-      "author": "AMBCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "42862c46-adb8-40ea-8203-e792a8d3e69b",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction: $2,625 Break Sparks $4K Run? - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObjhOT2tVNGJ0NDY5Z1Raa2MzekFFaEZhcHljVlRTUjR5RkZPSFZxYUJDcS02QmJOU3NhdGRuYlZXUzNTQ2dRc1VCU2J3STVvT2hDdHJwOEU0bUlGTThteFJoVTNLeG1YcUV1QlNldjN2NEkxUHQ0a0NjTmJUbi1kdEV3R3R0Wm8?oc=5",
-      "description": "Ethereum Price Prediction: $2,625 Break Sparks $4K Run?  Coinpaper",
-      "published_at": "2026-02-07T17:50:22+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519191+00:00",
-      "author": "Coinpaper",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3b4ef46c-a741-47dd-bd89-2d4af44330d7",
+      "id": "30a8ad29-37f0-40ba-8367-9114ab4dbecb",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "bullish",
-      "title": "Ethereum Weekly Price Forecast: Trend Research capitulates, BitMine's Thomas Lee sees a V-shaped recovery - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcjlsMm4taUdnQTVuQWpNSTJBYllFNUEwQ0ZoU25xTFNyT2gtaXFOWFo2Y3VkNUFXZ2hpeXdQdWV1Z1VXbGZlSVJJLUVlRWtiNXZYWVk3em1MQzlqYllMNXhDWDlOY1JNWFhXdktZZ1dma0hTdFlmZ3JvaV9QcUtkczV0Ulh1aV9FX3JwVVVfakJUUVlweG0zcWJEVTNVMFoyczMxTFZBak55SzBvNlNDc0phUFN1QW0tOTVYVWVmLV9weWNKWXFxYWsydEZGa3h2VGN4bEZMQzZKeG8zUDI3NFBjQUtKZVZKbWtkN1NQa2s4eXo50gH6AUFVX3lxTE1UVzc1dWpuVl92YXNqZnBiMV9mUl9oelc1RThLbzFhQVlPUzNpVl92THF2TjY1TkJSSkZkVG5FTklsTWRwc2JhQVBWRUxXdlZ3NXFURnZvUWI5bGp0WVJVdW10Ujg5bFVmdU44SkRZUDhnX1ZRSFBGVENiR3REUFVPZzJVSnplU0xqMjliZHZiN1FtaU51NldBQTBtOExwLUxkM1pwNl9qU3czTDQ4S3o5aTB6UXNqUHd4c2FQVlNlSzZkeEFXeDFOWGFST1lrSHFBYTMyQTA4VU41a05XX0U1a1dMb2J1SmQtYXg0MjlWLTZHbWRKSldfc0E?oc=5",
-      "description": "Ethereum Weekly Price Forecast: Trend Research capitulates, BitMine's Thomas Lee sees a V-shaped recovery  FXStreet",
-      "published_at": "2026-02-07T14:22:21+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519232+00:00",
-      "author": "FXStreet",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "01df6238-6cfd-468c-9ad3-33f264a61526",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Sinks Below $2,000 as Founder Vitalik Buterin and Whales Torch the Floor - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNF9xTTFaSm15amNDeDVoLUMzTTA0bHFRanZ5TF9nc2N4Z09ZSm82a05Tai1lZTJ1bTFpSmVDYWZ2WkY0NWJ4cUVtekFxb3VCOXBGbXNCcUtrckRRSHdhQXlMdGUyVFRENGlka0dhZlFGOFhteW5ManBYT1BkNnlVekVsR3ZGdmduTGZtREFwLW1rS3Q1YUxxclFWb3UxeG44U0pUb3k2SV9DY0hjaEdyeTgwcHIwdw?oc=5",
-      "description": "Ethereum Price Sinks Below $2,000 as Founder Vitalik Buterin and Whales Torch the Floor  TipRanks",
-      "published_at": "2026-02-05T17:05:27+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519270+00:00",
-      "author": "TipRanks",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c4f38830-4c33-43be-85d7-caadf5844708",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "ETH Price Dips Below $2,050 as Charts Signal Critical Support Zones - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2NGUmhzQnlZSmswVmthUnU3dnRsWGpwN285UFhDVy03aVQxeXA5M1pHNkxJQUhNakR2V0dkSFVUOXlJRjhGUjVDdEQxaVQtVzVDclRMOEIwcEdXdkNkNHFjSmxoOXlJaWxwOU9SV1pDNnlUVjNDOGZWZWtER1lEVzBZRW1ZcmJ0NklnUnQ4TmMwWi1sX0FJckNB?oc=5",
-      "description": "ETH Price Dips Below $2,050 as Charts Signal Critical Support Zones  Coinpaper",
-      "published_at": "2026-02-08T12:58:04+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519327+00:00",
-      "author": "Coinpaper",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7135fcad-1398-446a-9d28-422a1d5ac2e2",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction 2026–2030: Can ETH Reclaim $3,900 in the Next Market Cycle? - coindcx.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JdEZyb2J0MGM2dzRnLXVHQ2RVSVZNM3VoUXBkVkJzMmlNZDYwODBHbHlQUjJVTnNYYlZSMnFSLTZFbjhlcEluMjVWcFhvY3lLaEJmeE9fc0JZOUJzT1ZYeHpNcmJ5cEtfZE82bXRtbmRzR28?oc=5",
-      "description": "Ethereum Price Prediction 2026–2030: Can ETH Reclaim $3,900 in the Next Market Cycle?  coindcx.com",
-      "published_at": "2026-02-02T08:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519361+00:00",
-      "author": "coindcx.com",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "60732cc9-c435-49aa-84df-9c3a774e11b6",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP sink to multi-month lows - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY0QwTS1uSjFwQ09oelAxaEhiaVdwQXU2NlY1b3hWYnY1aU9XNjRtNEJ1SVh2QVJmLVlid0pLWFZBUUQ4ZEV6VkgzUk5zeW5CZmNoeWhQWDJad1ZfU3pJV1NlOWYyZk9SOGVqLWRlOTZvQ2s3QXJxUHJrM1lpeTFTdTRqYWZ5ZFM4clJFb2lBeHM5Y24xMGlucTNvR201ZFdkaFBKRmZPNE1qRDN5VjFWVnJiY2dpM3E0R09SSjZKS1o5YVpqeXBVMmpBcXRrZjdyWE8wQjlSazV4aUllV19rd9IB5gFBVV95cUxNbGVnOFBnUVRRRTA4NEtLTDBTc2EtTFJuUEVEX2FxSUg3WGY5R3N2MktSUV84NkRLeC11MUluUl91U09pUDIzNXlEeS0tSEl6SmxKU0QyVUhNRDVuS0QwYTQ1S1gwUU50d1hRaDF2WXpmMGhtTVY3XzFNVWUzc25yRlVSN0VaVkFBVk9kSC1GSjFFYmtDQVhJNmU0MEFrWEJLNTJLa2VoU1BwUlhvS0JUeHdQMGhQSkd6S01MQlJaQV9zOG01dVpIamY1Zi12RDNDTG1DUS14NndMcDQ2dURxZklGa0NYdw?oc=5",
-      "description": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP sink to multi-month lows  FXStreet",
-      "published_at": "2026-02-06T03:33:29+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519400+00:00",
-      "author": "FXStreet",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "34f4f703-3860-49d3-a7c6-84d78ab94fa6",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Tom Lee’s BitMine ETH holdings are down $8B as crypto crashes - Protos | Informed crypto news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0xITDRwSVFKUy1KY01tZ2RwcEV4T2ZTb1hhblU4cklYV29tUHNsdmk5eml1Z2xOZks4Wmp4ajVkYjhhUmVRamZjemFCSkYtTUNRQmdvRUV4emF3M1dENnV5NXh1akZRcGljLVVmamVhMjd6VWdPVDNEeU9PVk10R3BaLVozdw?oc=5",
-      "description": "Tom Lee’s BitMine ETH holdings are down $8B as crypto crashes  Protos | Informed crypto news",
-      "published_at": "2026-02-05T19:20:22+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519434+00:00",
-      "author": "Protos | Informed crypto news",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7fc11b33-b601-413f-83a7-8454340d3e65",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Crypto mayhem continues as Bitcoin tests $60k, Ethereum falls below $1,800 - theindianpanorama.news",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObURMV3RmUDVwUHNBeFJaT0VXaTNKX2xZN3UzbzJvWC1kSjBFcjE5NDcxUEJXTlE3b0ZZcFVuekMwYTZjRDRnbTYwMlRMRkFLaFp0bEdQQVZLRFVhUWlHR2JwQlhValRCZms4czJuc2lKTU5xd1FKYXhHNGl0b2daSU1ZV2tseGpwTTNDZURxbFpNdGdzVTAyZTlEazBHOEU2bDlOcmd1eEVJQ21WZHVZVUVXZU12dw?oc=5",
-      "description": "Crypto mayhem continues as Bitcoin tests $60k, Ethereum falls below $1,800  theindianpanorama.news",
-      "published_at": "2026-02-07T07:39:51+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519468+00:00",
-      "author": "theindianpanorama.news",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f2022b91-b16c-45d4-b446-bee67bfdfddc",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Falls to 9-Month Low as Investors Panic Sell - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pTVJZdDk3R2dLQ3AtVU91dXJSRVZOaWhWZWZWMW9Zc3pxNm9iNU5sS045NlpyaU1FZFpIbTc2UWF5ckxUOVFCTzNkVmJKeUNOdFZVYXpEZk1LczBoSFNPLVZVYmhhQ0ZiRDI1djAyRQ?oc=5",
-      "description": "Ethereum Price Falls to 9-Month Low as Investors Panic Sell  BeInCrypto",
-      "published_at": "2026-02-06T19:00:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519498+00:00",
-      "author": "BeInCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "4da2a8b4-943b-46de-805d-056d348533a4",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Crypto Investment Products See Record Outflows Amid BTC, ETH Price Slump - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVp6ZVduLWFGQk5VdWVoYjVLVGw4VHdtdjZsbUg3dEE4Z2V6M0s1VU1EYloyOF92aWZfRTBWZV9pa293MzFpNjFsVGtfVWVoMFlYT0VPUnlTUkYzLXl5NzROTmJ1T0tLbHVHY1lDaFREM1RZVHhnTEZlS3RSVVJEQzNPWDQtR1BzLVhn?oc=5",
-      "description": "Crypto Investment Products See Record Outflows Amid BTC, ETH Price Slump  Yahoo Finance",
-      "published_at": "2026-02-02T14:16:45+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519529+00:00",
-      "author": "Yahoo Finance",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "1b2846e0-ad78-4f97-a44b-65311601372c",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum in a Bloodbath: Analysts Call It a Lost Month for ETH Price | February Altcoin Report - Cryptonews",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXI0TXNlcEVDTlFVYnN3RG5oLTR1M1ZLVTZqNjZrcHNEQm40cUpqTjZfSV95UFljRHU0b1k2SVN0SFlmbC1udkl2am52UURmLVhucml6M3B5QjRlRHh2OE83Nk82eVhfUjhzN0YzRGlrVzY4cUIyMFNpLWNxNGRsa0M0MzctcGVqYjM4MkJENXBETnE4bWZsQXQxQmI0NDQ?oc=5",
-      "description": "Ethereum in a Bloodbath: Analysts Call It a Lost Month for ETH Price | February Altcoin Report  Cryptonews",
-      "published_at": "2026-02-05T09:54:57+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519564+00:00",
-      "author": "Cryptonews",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0479dcb4-4845-4b13-836a-acfd03b62a21",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum fails at $2.5K: How $466M in liquidations crushed ETH - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemtFR3FBd05SN19rZ0RwRmNnd3JqQzA4YWRJSEJOSnBNQjZLRXBFcTBWVHlIOElkRE5ySk5ESGRPVkJFWDlrblhYOUZ1cHV5UWdsVVBqdTZYNEJNbUhwY3g4Ulo2Z2szMDR5Zm9oR3RZdzFEUFB5RFhudVEtVURTYjJ3enRYVHBlT3fSAY8BQVVfeXFMT2VwRktUdHJfdEEzVHJxVVNBM25yWUlBazFOWmNBNWRYRDRfNGFPOF9lZUV2MXNCWGNacWRsSG5Wc2trRzBSRnVrQTN3dmJYODVwQW9TZTE4VVZwSWxCdElTYVdGMFZjaTNhUG9ETU1BQ0JuczhCZ1R5cm01UGNMZXVHdFFvaTAtUkt0aC1DdnM?oc=5",
-      "description": "Ethereum fails at $2.5K: How $466M in liquidations crushed ETH  AMBCrypto",
-      "published_at": "2026-02-06T21:00:49+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519594+00:00",
-      "author": "AMBCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "71833604-231c-45f9-956b-8f51856e7a45",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "OG whale who lost $250M last week is already buying ETH again – Here’s why - AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcXoxN2VUaEVfaTI3N0JiNHQtbDdPSkFvRWxQMDM1NDFsaExtd1Y5X3B5M2hHUkdOYWU1blktTXlxTHZLLTlLUkhKRGE1TEczQThYbmQ4cWxPeEthNmFMdGpDejFGd2gzbndtMWJNN0xGWHhYZWpveXdRd2FFZzg1SjNzV08zYzhMSWpoWHlVYkgzSFE0M0g3VdIBngFBVV95cUxQNlEtRE5KYmxsdUx5VXpodVBueTk4elhDRUo4OS00a0ZQd0hWVzlQcTIwY0UzTXVNekFxSHFDZ05NSXA5cFJxa0tHQkVVNjVXMmhDSm1wOWM5YmdPVWZ5dEpGTjlSbDFxWHlwTjlyUzRybS1sM2xXdzIxUE1aTFZTbnF2TmZqRzJGVEFadGhGcHBEazhiSWNqMnJ1SmhuZw?oc=5",
-      "description": "OG whale who lost $250M last week is already buying ETH again – Here’s why  AMBCrypto",
-      "published_at": "2026-02-06T06:00:33+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519646+00:00",
-      "author": "AMBCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7d79935a-ad6f-4e41-b223-855c16df6820",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction: Top Reasons Why ETH is Set to Rebound - BanklessTimes",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHlMdUFZdjVBNUJMazlGNmFFalpwdldrNnA3bDREVFNfTVIyX3YzbTh5MEJ5RlRpWXhfUllxYTVhbFJPOGx4Qm1xY1g1QjJGTTN5Vk5FOVkxR1I0RVlHU3pBWk1Ra0dDZDI0bGQyTW41VVhqd3F4SUdXWElIM0g0MkswNjAzZkhSelFXc2loSlJ2ZWRaSUxfVWRWT0FNYVFRZlFWUVZhNU8xYU50d2lnRHd3ZV8?oc=5",
-      "description": "Ethereum Price Prediction: Top Reasons Why ETH is Set to Rebound  BanklessTimes",
-      "published_at": "2026-02-05T14:23:10+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519678+00:00",
-      "author": "BanklessTimes",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "2fed7ad3-1b9a-4f52-baa1-bf430729f35e",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Bitcoin, Ethereum, XRP Sentiment Turns Extremely Bearish In Crypto Market Crash - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUUNGUmVjVllIQzBBekZlQTN3ZWJYVjd3UEZVRFkwTDdySDhhczJuLS1SM2xPTFg3NVBsdjR1SE1yazBScDZVVGxPNlRDbmNJU2tLVEVSaDdKTi1JLUNUZlllTUtoVVZfcnpCSGJDUF9vTW5kQ1lRdVR1QmgtUjNzNTQtQ3o1YjhjVFFqcTluMl9wTDBfZ1BwUFpmdU90ZUhNclZhT0Vpalo3ZDFmNDBuX3lWN1dUY3Flc0RWYnkzTGQ4Vm15RE92MFZRbnVmcnpoclBHX3JR?oc=5",
-      "description": "Bitcoin, Ethereum, XRP Sentiment Turns Extremely Bearish In Crypto Market Crash  Benzinga",
-      "published_at": "2026-02-05T18:17:43+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519710+00:00",
-      "author": "Benzinga",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "5c88d258-48d8-4309-94a9-986a489dd36c",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum USD Recovers 12.6% as RSI Enters Neutral Zone - Meyka",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT0dsS01oNF9kNlN5U0RtMGlNSzNYZjQwR0tYVWFwSTEycmVUbE5CYzU3cWhQeXBjaGh4MXViZzhlSVVDbXVieEQzbC1SbUQ5cXBFazRkSFVvQ2Y5QnFwWGdlOXNaTk1QUWYwWEtJQlJvNHBQbW5iQ3Rib0c5UHR3ZEphMTN3MHRu?oc=5",
-      "description": "Ethereum USD Recovers 12.6% as RSI Enters Neutral Zone  Meyka",
-      "published_at": "2026-02-07T21:32:57+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519807+00:00",
-      "author": "Meyka",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "fd01d8b1-2112-4c08-9881-75c137738ec4",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Why is Crypto Crashing Today? Bitcoin, Ethereum, XRP, Solana Plunge $900 Billion in 22 Days | Explained - The Sunday Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbVd0b3NQMGpyNHZmRUgzLXlFRVp2eFVPUWdXNFByZzlSTngtQXJjRXg2UVk3X3FwTXZOT1dralRFb1U3ZndneTRJVlZDbHdJTXRVQ05yUUJncy15TmVjQ1g4V2E3aktYOWRhbE9uaXp6OW02ZWVZa2xMbEpTQjFIbEpmdEFIUVQ0Q2tTQWFYUHBJLTZRb05pbmdZWUx2WHQ3MDlhUUlRWHd0WnRVN0U5TDROblFKZGpLcEllNVFJNnczeElKNjEzeWE4X3RUcy1aN2lhb2U5QUtpbDlXdEtzZS1hLUh3VEFUV3BXakpNdEFiQQ?oc=5",
-      "description": "Why is Crypto Crashing Today? Bitcoin, Ethereum, XRP, Solana Plunge $900 Billion in 22 Days | Explained  The Sunday Guardian",
-      "published_at": "2026-02-05T17:37:30+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519845+00:00",
-      "author": "The Sunday Guardian",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c093f47a-489f-4e69-a72a-29628e61dbf2",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "EF researcher explains Ethereum's plan to tackle the quantum threat - The Block",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWk5NHloNGYtcks2UEZDNGg5aHI5SzI5U1pna24xNFJVdktYZzVlNXFTbmV3dWplQ2lxVzVCWDQyQjg0MjdhY1g2SU92UTIzMlY0TGxvOUpzYy1heGFSTzA5RlNMUzJPZ1NuLTd1WjFIZ2ZwSUl3NUltY3JGb2FlU3BZVEpiTGhRTE9Fc3JnbVY0Zm15ZUhxcktWczhodDBWdTE4SQ?oc=5",
-      "description": "EF researcher explains Ethereum's plan to tackle the quantum threat  The Block",
-      "published_at": "2026-02-06T16:37:11+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519876+00:00",
-      "author": "The Block",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "d81ed755-b0f3-499b-8135-c49139f0058c",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction As Vitalik Continues to Dump More ETH Amid Crypto Crash - CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjNBRmJTcUVEOU45Y3cyYmpNbW91Z2pUZjV2b3NnQ21zc0ptWmJSTFVNOTNHTkhDRHNJci1jU2ZxbW9NdGZKM29MbE5UYjcyeFI0WXNBajRXU2Jzb2EwWm8tUExqak9SSl9iVndDU3E3S3Z0dVc2bFlfV3NGZDVQSHMzX2l2VTM1UjdvQngtM0Z1VWpBR21YdjVWaEZaMklNWXc?oc=5",
-      "description": "Ethereum Price Prediction As Vitalik Continues to Dump More ETH Amid Crypto Crash  CoinGape",
-      "published_at": "2026-02-05T15:31:34+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519909+00:00",
-      "author": "CoinGape",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "a2f3dc5c-c753-4b72-bcc9-ab28761efbe6",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ether leads crypto losses with 30% crash: Where is the bottom? - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaDQwTXMyS3FOM1NaVmUxMnh4S2lWZEZxQTZ5ampGY3c4Zmk3ei1XeW9lRnBYdXJOLXRyMTlXR2Y4RGJDZHd2SkVEQk9RYi1JaENTUXUzNW01QUo1WEJWQV94NW9GOGNiSkVNeThaMUxDMkRtTmZ0RHZMem00bmdXM2JIdnowU204Qkg3bTRTeVd2VENzcU1ycThUOHZwX1otZjhQcUYybV9rZTZqb0pGVS1RcndwTWp4LTg3aVR1cHo?oc=5",
-      "description": "Ether leads crypto losses with 30% crash: Where is the bottom?  TradingView",
-      "published_at": "2026-02-06T15:10:16+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519940+00:00",
-      "author": "TradingView",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "0202463c-527a-46d0-a009-6ae7cce14e49",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "ETH price crashes below $2,000 today: Why Ethereum’s founder sold ETH worth $6.6 million amid massive cryp - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQcmlvY0tFSm4yNS1KcFRSN1F3NG5zUUFrRkYwcHhOSXphbkVkamtTejNxN3RROFZpYUF5LTc2Qm1USjRkUlNHamhnUlUyS0tzSEY2VlNuYXNHTVhZRThCZkk3VW5vbjVQM2dFTUZJdHFESWdQcEZETHA1OV9RbnhLTjZjelM0d0E1VkRLS0RocFgyMVZuTHQ2LXhmZl96eTE3Yk43WklmV0NmREhWVU45ZFlZNUdvdUkwQWppaU5oQzQtbUs4WnBCQWFzZEotR2I2TV9Gc2lfSDh6S2R3T1p1cDl6aFJUelhsdXRoZXBWMFRudm5KVGs4R29nVTVWXzR3ajNYWW44QmpfWGFkRVNlUmxydnVNWVXSAZwCQVVfeXFMUG5CX0c3VE5UdE9ZRVpWdVBueTNsR0lYQ2RGU0JnNDdyWTNzRjFIcHVIc015b0RRSFF0dXBzQVo0WU5mVHA2UDdWcDVDUzVPeEpXYmtnelhfc2lkM1RuVllpWnJ0akxfVEFZeXUyeWdGWXphLVNMLUhLZTlra0NZNTN2enY3ZVVHSVgzQVJ0RVl5RWNLQkdCM2ZYcVNQU2J6bkNmMlFMUkVNWFNzOFdqekNoUWVnNGZxa3JCOHRIRWpuVjdiUTkyOWdxUHozSmhQQXc4VGl2cXYzMzNnb2RGSHNjNXhFMko3dDRkVGJ2cU5rNjFjY2JBOFNJTnRScjJzdWNTZHVkN0tSSm9vT2Z1VmJGODZJbFRzRTk1M0E?oc=5",
-      "description": "ETH price crashes below $2,000 today: Why Ethereum’s founder sold ETH worth $6.6 million amid massive cryp  The Economic Times",
-      "published_at": "2026-02-05T17:10:22+00:00",
-      "scraped_at": "2026-02-08T13:02:45.519984+00:00",
-      "author": "The Economic Times",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ea81d079-0f68-4f79-908c-e2ef54cd7fca",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Whale Withdraws 20,520 ETH from Binance via Gnosis Safe - MEXC",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1qYkZtZWxYYUtNNm42Q29hOWR0YkJKSm9USWJKS3VHMXBRZzkzOXdNRXBVNkJsWEdTTE5SZzNQVGpvSXBzd1hF?oc=5",
-      "description": "Whale Withdraws 20,520 ETH from Binance via Gnosis Safe  MEXC",
-      "published_at": "2026-02-08T04:52:47+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520109+00:00",
-      "author": "MEXC",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "67dec1cd-f889-474c-b1a6-bdfa19c8c538",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Payy Launches Ethereum Privacy Network Amid Crypto Boom - Evrim Ağacı",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaDZsQXByM2FIeHMwd2NvNWQ5WFljVFptV19SUEI5T1hoNW81MVFPcEx2N1l1WTRCWWxpWUp1NzJMV0QyWHhfcEVId0dIbEZMM3UzUlIxSi1Zam8ySC04TWFhRVpoTEpoUGIzT3hiNTVZVzF5eEx4cG5rdm5mUGZ2c0NPdE95dUc0RF9xdEtma1UtMTA?oc=5",
-      "description": "Payy Launches Ethereum Privacy Network Amid Crypto Boom  Evrim Ağacı",
-      "published_at": "2026-02-06T02:25:49+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520146+00:00",
-      "author": "Evrim Ağacı",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "6ecb5b7f-7a1d-4bc9-8beb-972eef6cddab",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Bitcoin’s (BTC) Free Fall, Ethereum’s (ETH) Collapse, and More: Bits Recap Feb 6 - CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVF9XVnpTSkFMajNnaXZVaWMtdl85V3IxRW85Q25wRlRJMmZuQmo5YjYtX3QxbTlGMENPN3ozRnNiYlhIbmRiX2N6ZnNDcWw4SXVORUxneWx4Z2t2UTlPb3VBaWMwczUxRkI0U3FlNnlyRG9zTW05T1VfUERLRER0b1dyNzJzQXVHVFhITDIwbFdtb1h3R2liWmtUNy1JZw?oc=5",
-      "description": "Bitcoin’s (BTC) Free Fall, Ethereum’s (ETH) Collapse, and More: Bits Recap Feb 6  CryptoPotato",
-      "published_at": "2026-02-06T12:26:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520182+00:00",
-      "author": "CryptoPotato",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3bf87125-bacc-40df-9965-dad3478d4e19",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Forecast: ETH plunges below $2,000 as funding rates return to negative territory - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeTViUHJPVF8wOXltUjBYVnBBOFRRLVl5X1R3eTcyYjVhYVZtX3ZqUzZFZmpDN1NHd1BMYm5mTE9ydFpWQUtFUGxJeFJlaWRwbDVtLWVfcG42bnZSRjJPWDdtcks1OExsOFQ2ZldZaTI1ZnpzbW13dWRyV3FaeWRnSzlaSnBEV3lDcWlzV05QUm0yTHV2ZjYxbkpjdHNtMjFLcnZIeVUtTFdZeGxDYnFWX3FZa1ZvXy1qQ3RVMUwxTUJRU1VZMzFxTjN1aEk5d2p6RXMwb0V3eE9ZVmpQV1JXS1lqSHpmMnNK0gHuAUFVX3lxTE83cTlwWTJMbVpYYkN2OG13WHFfVkpRS2RnOWw3OFhTTW1nZHBVZjBKeTcxWlljSmJfTFFtZEotMFlBcUVBMVlQTDFBcnQ1X3Jsb3RXeGNpaUxhNGNmT09XMFFwT2tZNlFFT2FkRnlVZG8zRUVmMXlFRHM3bFA5V29sX2FEQ2lNRE5HY1R4bnN2dmFFLVlyR2tTV2xXSEtKWXRJR05OVV9oTGxfS3h3T2VLWVhtbm1NTWZfeHRWZkxuWmRKYjVsRkRENVpoSHZCYURyTjdyYV9iUkd0V203M1UyYnlocjdHelNGY2lwc2c?oc=5",
-      "description": "Ethereum Price Forecast: ETH plunges below $2,000 as funding rates return to negative territory  FXStreet",
-      "published_at": "2026-02-05T20:05:07+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520250+00:00",
-      "author": "FXStreet",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ea86898e-4f88-47a3-90f2-c49bfcf98091",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Eric Trump Jibed For Old Ethereum Advocacy As Second-Largest Crypto Sinks Below $2,100 - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR1JTem0yR2k0ZVAzS0dqQlQyTmkzSnVWZTU0bmVhNS1NVjB3Q0g0VVZ4NTNxdUo3Z0xMTURXbDcxUmhhM0JXalhUQzItbkJhX0VoSEdlbVNNdno2SWt0amJyZW9wbEdlQ0diYWhkZ3Bsa2lmVXdMN1NjRHJ4YUE4NWlYWS1LekU2Wl9hNWN6MkFCSW81OUJXLW9rSGx5XzdxdTRhV3B5TVJCeUd3eGEtVTZLY3ZhM1N3ODZkMGFNMFZySkVyNzJhZXh0Yjd5dzZZUlA1NUxOWjNCVXFQQ2tJ?oc=5",
-      "description": "Eric Trump Jibed For Old Ethereum Advocacy As Second-Largest Crypto Sinks Below $2,100  Benzinga",
-      "published_at": "2026-02-05T09:19:57+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520284+00:00",
-      "author": "Benzinga",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "8dc65894-4a27-4b8f-bf05-8cc619fb57ee",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Outlook: Bearish Structure Puts $1,666 ETH Target in Play - CoinCentral",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb2lXaF9WQUFRTEFZQVJXTzhyeldoUU5MLVVyQXFxNy1uWW5nLWJ0VWZNclN4eHBQSG9TWm9GUVN0T21waEJicjZyQ0xDYVpibW9TMi1FRmVlQjE5MEpXNERTMGlKV244ckQ4X3ZQNEhmaE5OdkNsX2tvbHVsekpaeDNGYVA3T2VLcnRsdWl1aEdOdWFLNmltU3JR?oc=5",
-      "description": "Ethereum Price Outlook: Bearish Structure Puts $1,666 ETH Target in Play  CoinCentral",
-      "published_at": "2026-02-06T05:21:51+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520315+00:00",
-      "author": "CoinCentral",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "2be0fd1c-cddb-4503-836e-836a17e7150a",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum Bull Case: A Range Breakout Could Propel ETH Price Toward $7,000 - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbGVqTEt0VVNHNGxIZEpEM1V1b201QnZ3Ylk2T0QxUUt0MUg5NXUxRGJ4RTFvWldSWjc0My1CN19QUnlzUVBjSHBUTVpBTXRybjZFYXJLRkFtMnJveEROd2xJeGVPMFlEeGYxRWlGcmx4dVZSUHBVZlhNZGI0VGhlZ2hNY0RVVTFDcktVYjJ6N0xKSVJYcEpka3hfUC1UTWQtbEhwREF5dkh2bW8t0gGyAUFVX3lxTE1lYWRIbi0ydTJzeGZ0OEZUWFdrNExRT0ZUeF9uQXJEYm1kR3J3eEN2LTliT1ZzZUQtbnBlNHoxNWxoUGUzX2R1aHZLdjU5NXdQa2k3Z1RZWGRSZGRJUENXOW56amlsaWtFUlZwLWZNNGEyeEZONWNONy1ZNHZFaUpsd3UwdXMxazRwQVp6bm1haFduVVJKd0wtYmllUVdQajdFbXRUS05CRDN5aHRoTDRfeWc?oc=5",
-      "description": "Ethereum Bull Case: A Range Breakout Could Propel ETH Price Toward $7,000  Coinpedia",
-      "published_at": "2026-02-06T16:58:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520348+00:00",
-      "author": "Coinpedia",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "7e509856-745f-4327-8eda-f538add7fd76",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum collapses below $2,000 after Vitalik Buterin and insiders moved millions to exchanges into thin liquidity - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQclBVWjVoem5EeVJYbVkzQXllZDE3RjZmeUhNVW9IaWpuTkhfMXBzajl6VFFJeFJrSHRWSVctR2hIbEJZSUpoaUpseVZOd2QyRTFybEdaT3A1UjBxSFJuZm9zWEhENGZRSEhYT0NRUjg5aFdRUE1vekw5OXBRZ1ZrcTBCVDBOOVU1OGppRnJQOEZkZFFGX3NZbTBMN2pyUWE5YXh5YmR0dGYwOEl1ZERuYWh4VGtRSGowcV9zXy1HdURTb3ZnYWh2MjRhMHRDZzFNZEJV?oc=5",
-      "description": "Ethereum collapses below $2,000 after Vitalik Buterin and insiders moved millions to exchanges into thin liquidity  CryptoSlate",
-      "published_at": "2026-02-06T19:45:25+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520420+00:00",
-      "author": "CryptoSlate",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "abd45d30-acc8-4381-8d57-c0118243bc39",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum Loses 11% On Crypto Investors' Flight To Safety - MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbkpkTzhWMHZXMDFXZTEzQndTa3RNV2tSMFF5dzJtNGxoeTVEQUNnSjAzeldnXzRDdkEwUm5QS25naWtCZ2NWSGM2THZKUnVLSXJ6elRaZk1JTkR0QjNqM21NYk5hLVEtTlo4NXNGLW5ZS0dpbThwUllxR242dVdWaXpnQW5MSFpv?oc=5",
-      "description": "Ethereum Loses 11% On Crypto Investors' Flight To Safety  MarketForces Africa",
-      "published_at": "2026-02-06T09:45:10+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520452+00:00",
-      "author": "MarketForces Africa",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ed424cc9-4f2e-4e2c-ae0a-977edef877d5",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Crypto Liquidations Top $700M as Bitcoin, Ethereum and Altcoins Extend Selloff - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3NVeUtiU3JfZWxBTV90dk9JQ1lXV244NFJ5VDljRzVRLXVBb0M5SU1PTklmbDJjQzhCM1p0TmRWVElubkFacGJWaWJPLVlRNDZBWFFoNGRNS3YyeUpEdERPYkczSjRRVDZPc0NKQkRySWZBREwtakZEaW1yM21ydTV1dG5ZTy0zS1NIRDU5VzY5dmlZOWZkZGdyQ1NWR29Zd04yVEYwd28yelZVbHlWQ09TVjVwNE9WMkx3WGdudmRxU0Q3anNIR2loai1QemUwaWc?oc=5",
-      "description": "Crypto Liquidations Top $700M as Bitcoin, Ethereum and Altcoins Extend Selloff  TradingView",
-      "published_at": "2026-02-05T10:09:31+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520506+00:00",
-      "author": "TradingView",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "72d7478a-4261-4a9c-84ad-4f7e7e20ca15",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ether's recent crash below $2,000 leaves $686 million gaping hole in trading firm's book - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalVaTlQtOVZUMlJsSkE5czZrU0NteHdrMDAxaXFyVzNpWWJfTGI5Vl9MdXdtTi1rU2VqbDVCQnRpSmNlVnRvaG41Q1Fpa0hxY2pwd3ZMckZOTldRejFEWTZtLTJYakVwNmIyX2hYeE91M1RPT1V2S1plVHRXajdBQ3RxQXZyMXRPMk9kZGhfcHRyYXlQVnF0TkRPNXp0R1FmSkgwa1djZGhQeGhPTWptNjRlaHRiQzJPQlp5MlkyYXhqUlBaUDJUT0lwMkFUeERSaVE?oc=5",
-      "description": "Ether's recent crash below $2,000 leaves $686 million gaping hole in trading firm's book  CoinDesk",
-      "published_at": "2026-02-07T07:20:46+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520541+00:00",
-      "author": "CoinDesk",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c08db549-d392-4e96-a857-e800d6397ee7",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "$BTC and $ETH Outflows Indicate Aggressive Accumulation - MEXC",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAyWGxIRkNUV3VNQllQQTNyX3pjZVU0OTQ2SDIxalRLZkI4enZCdFIyTTVxanBGSE00dEZUNTNSaEIzdHpOdUk0?oc=5",
-      "description": "$BTC and $ETH Outflows Indicate Aggressive Accumulation  MEXC",
-      "published_at": "2026-02-07T22:26:03+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520570+00:00",
-      "author": "MEXC",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f208396f-ebf4-492e-a9af-f10f76bec080",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Myriad Moves: How Low Will Bitcoin and Ethereum Go? - Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCbVQtYnoyVDRuZ0dVcVFrb1FQOTRBNVNnM3VzSUNDN2ZxWmNOYUJ1bmhfWXNOTTdZQ3dBd2J0RjVQMWZoY1pJRTBBX2l4UE5pQ083anF6eEpTalEtSzNxeVR1Q2N3ZmQzaDFNT000VW12RVNf0gF8QVVfeXFMUGJVcTlDcU1oSDFYQXhxV250QkZBTUlXelY5SWxFZHhXRHAybHFJcnBvb3ZmMDBSQVdIckVPWW1iWlNQdDBfei1VdnJLa192U2ZzV3hrSlJnN0FLM3hIejNUVU9iTV9YVmZiZEVLR1Z4dDFUSUE0V2lyN2VUSA?oc=5",
-      "description": "Myriad Moves: How Low Will Bitcoin and Ethereum Go?  Decrypt",
-      "published_at": "2026-02-05T20:15:27+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520602+00:00",
-      "author": "Decrypt",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "21c81005-874d-417d-bb37-77130a593e40",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum Betting Sites: Best ETH Sportsbooks Reviewed - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mRmlCY3pXR1dYMUhmcFoxOFFmSWh3bkEwM3p5aFJ1aWdMV3B1andXXzQ2NGZjcEN5QW9GSXE5ZFk3R1RuelptakZYZW1kUi03cGFNS2JyR05Dckk?oc=5",
-      "description": "Ethereum Betting Sites: Best ETH Sportsbooks Reviewed  CryptoSlate",
-      "published_at": "2026-02-06T11:49:30+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520633+00:00",
-      "author": "CryptoSlate",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e1542212-cf83-494f-8e73-65f321b03d42",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Prediction as ETH RSI Nears Historic Lows as Weekly Pattern Targets $7,000 - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMXlBY3JBRVlXMjZhVXFqMjNXdTAyRkJTSlAxakdVT3RvRk5nX3lEckhsMklvbEJoUWtCM2pfdGdpa0F0dW0tS0lkckhVREJjc3ZhQXhTb0VmMngxby0tX3NJT3MzdE1TdXlMTFBWdUkyTXNGMWZfRE1SSGgxTEtGblpZUXBNYTRTUE9GS3pMaGUzaDRqT3paYU5zQWxtQnFLdElVenFBTXJPc2NoYkRMTnRRekQ4MGs?oc=5",
-      "description": "Ethereum Price Prediction as ETH RSI Nears Historic Lows as Weekly Pattern Targets $7,000  Coinpaper",
-      "published_at": "2026-02-06T06:39:45+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520669+00:00",
-      "author": "Coinpaper",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "561a7673-64a8-4867-8968-802c1d0f4802",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Missed ETH and BNB's Early Prices? APEMARS Could Be the Best - openPR.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX09mVU9LR01FYkZsNjJSRklFcWhIOEZIbVJRSHNSUDBHR0NfaDhzYTB6cWE0RXRCWlRGMHBOMVd6MGZsMGlQVlBhQzlzeVJsT29vWjEyR0Joalp2WjVVWURVbTZNcXJyMVhFNkQ2TWpQYzl2WG1OMTZ2eUhZVGNZUGhJcXgxN0dobkNsRTNBV3pjc2ltUERRWlJfdw?oc=5",
-      "description": "Missed ETH and BNB's Early Prices? APEMARS Could Be the Best  openPR.com",
-      "published_at": "2026-02-08T08:32:40+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520701+00:00",
-      "author": "openPR.com",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "dc11340e-8bea-445f-a137-cab792727674",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Crypto Markets Rebound—Here’s Why Bitcoin, Ethereum, XRP Prices are Rising Today - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSDFSVTZuMVhIT0Ffd1JIZXJDSlo4SGJFRWFWT1BxaEdKQUtxT0JyVU1ROExBMTR1M0h6MkZ1c1J0Q0cyTGZXakNid2VJNExWcEJqV21CVm9YWkJuRkdvcHVMNThDMFFYVlVmczlsZUNsenJzSUNBNVZ6U3BrSkdmak5KVVRaM0ljUHFyWW9kMl9aTUpVeTBZdmdxMmJaVW51V21KTjYtRjlOM096M3EtNVp4elR0d9IBuwFBVV95cUxPZEdPY3dKcGtKLU9ORlRnZ3FwTmV4R2JQdEJEenpZTW5acVk0amRMeTJmVllsMGlVczJmTmZZT3dJQldrbGhJT25yQlBiZkY2UVFBckFEa2hVRmRLZ0hwVGxRNlJ1Wkp2WmJIMFpIRkV6Wk1lR0xYc3pCbFF5UmFZZExXeGR4UkdKS2VXa2cwUWVlVnN5a21UbWZ5SEFndWVhX1RyTGx2UnZCQXBRTW0xNmp3OWJHLTJwSUY0?oc=5",
-      "description": "Crypto Markets Rebound—Here’s Why Bitcoin, Ethereum, XRP Prices are Rising Today  Coinpedia",
-      "published_at": "2026-02-07T07:14:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520742+00:00",
-      "author": "Coinpedia",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ed61aed4-6230-496a-8a5b-9986df63bc89",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "BTC, ETH Hit New Lows As Crypto Market Crashes To $2.4trn - MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWhZN1VjTlZuWGZteWVLYnBOcWo2aEtZRDA1ZUQ4WEY0c1VxdFNiWW4yUE1mbXR1TTRsLXRyeExpTjkyUTRNTHQwbnZqQWZjdjJaN09FYUtnS2pWVXBUUVE1VllMTTd3WUhWT0N4RWNOWEFsYk1KUmpVUkNJSHFYVURJWkdMeVBiRGc?oc=5",
-      "description": "BTC, ETH Hit New Lows As Crypto Market Crashes To $2.4trn  MarketForces Africa",
-      "published_at": "2026-02-05T11:09:16+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520775+00:00",
-      "author": "MarketForces Africa",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "01c394f0-6981-4a2d-9f63-c6f4a893956a",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ether's recent crash below $2,000 leaves $686 million gaping hole in trading firm's book - InteractiveCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRV8tR3k4NFhtWDlscnI2MUlWTzNLYlBOZlpsbG52TXFTNmJEbUc5eVg5QlFtbVZaZ095eDJYWjBWbzZSODZyOERCQnJIZU9YTXBrY3NTM3FkZmpzUzIwRGdGcUQybmdyRlZkN2E0VHNPM09GMzJHSEJ3VHlUajBrT2xnR1RLSTdJYjJSckQ2cXdacGFYOVJUb0xWcUhhdHo2MGk1bTJvWW9qZXBLR2dpR3AxUmJIV0FNUnBsNTdWak5sa0VvVUQ3ZFN6WQ?oc=5",
-      "description": "Ether's recent crash below $2,000 leaves $686 million gaping hole in trading firm's book  InteractiveCrypto",
-      "published_at": "2026-02-08T06:09:39+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520814+00:00",
-      "author": "InteractiveCrypto",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "ced0c4f0-c9f4-4984-898b-79a87f88aa3b",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "XRP Sentiment Remains Strong as Bitcoin and Ethereum Turn Bearish - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ0lGYXZ3T01LRmxvY284T3ExM0RHejNnMmRyZWFEWkFHVmNKSk1nWXRaXzExemJ2MWZ6N3dJTEdkdDhPNVFOZXREUlN2d0gtN3RjMkF5LTk1dU8wVmNZYm80R25Sam9ZanJCUnRrR0dueGlyOWg3Nk9raUhpNjFOSVNtYW1WemhNN3NSb3FSVzEtVlhITlV5a0YtUEZRc2FmN09jaFk4MVFPMU0?oc=5",
-      "description": "XRP Sentiment Remains Strong as Bitcoin and Ethereum Turn Bearish  CoinMarketCap",
-      "published_at": "2026-02-05T18:51:02+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520847+00:00",
-      "author": "CoinMarketCap",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "e5646ee0-ba72-42d8-8df6-879e8dc2b271",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Why are OG crypto whales accumulating Ethereum amid crypto winter? - Cryptopolitan",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aVWcxSkl2dWxLRUg4R0xKYU5LMTkzNVc5VzN2bzBsQnZ5V1RXbXIyRGxNZWtEclduT2s2MldfQjAycU9kaW9hcjVEOE9xRFJqbXdVTGw5cWNueFoyWDFlWnBjOW5XeHdRY3JQWWY3NkpsYXlLbXNoTA?oc=5",
-      "description": "Why are OG crypto whales accumulating Ethereum amid crypto winter?  Cryptopolitan",
-      "published_at": "2026-02-07T13:33:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520881+00:00",
-      "author": "Cryptopolitan",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c20c4dec-53fa-4ff3-8c42-bcd7a2f879fd",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bullish",
-      "title": "Ethereum Price Forecast: Analysts Say This is the Best Crypto To Buy As ETH Tumbles - Cryptopolitan",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRlp1QjBEekhQQ1Awb21TV2d4cU1FX1RvQUU3LURQTjJ6a0UxMWU1aDhTZTBheFlFQU1OQ0dSSFhzY05YQ3FXOEQxVlhTcDZBRzJOV2c0aE1NOTNoUGRibEVTVFFSMlV0NVJyaHBwdEdKYjgwQjZzNUh3OGhhQ1NYTjg3YVRNVG8wNE43cWFXQUc1VFZ4dXBfMjJ5NXYzbzI3bktpdFE2MkEwNFpBMy1QMlViWQ?oc=5",
-      "description": "Ethereum Price Forecast: Analysts Say This is the Best Crypto To Buy As ETH Tumbles  Cryptopolitan",
-      "published_at": "2026-02-06T17:04:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520918+00:00",
-      "author": "Cryptopolitan",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c02e779f-e431-4afa-b196-347337a97475",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "Best Crypto to Buy Now February 6 – XRP, Solana, Bitcoin - Cryptonews",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMnNsaldYUk9TWHpxdElBdWxpOTdzMV9wMTlHQXZiNnRQQjIzWVdabWhIVnU2bWlCWXQ5Q1JDNmRzdUJPVTFFVjNxTlYzWXJYdHNSSlRWSVBjSDh2Nkk3eEdjVDBia1NpUkN6MGJyVWtIWUd3bEN1WDZleUJPTkJLdlNTQVFHQ1NOakcyTU9IZmUtbVRXYkRyU2xWUzF0YjNneEFBckZVOHJNdw?oc=5",
-      "description": "Best Crypto to Buy Now February 6 – XRP, Solana, Bitcoin  Cryptonews",
-      "published_at": "2026-02-06T22:35:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520952+00:00",
-      "author": "Cryptonews",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "127e27cf-b6e9-4f85-8b41-b3f7479a26bb",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Crypto Market Struggles As Extreme Fear Hits Bitcoin And Ethereum - BlockchainReporter",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0pQYlFCV1hNSmNlWmczYzZMV1hSMnZPa1gwUy1ZSlpTVjV0dmNuOU1MbzRzbElSd0J4Z3RCZkt6QjlvQVdoUWVKYzgxNnFNSjdremNHZWhRaG5veHBtakNiWmJuWHJOSTNfamZFV044REgtalBZYjh2b0djc29tQTRhNU9jRXRoSV9pWExSc0ZtamY5NzVjWHYzVDV0QQ?oc=5",
-      "description": "Crypto Market Struggles As Extreme Fear Hits Bitcoin And Ethereum  BlockchainReporter",
-      "published_at": "2026-02-08T12:02:25+00:00",
-      "scraped_at": "2026-02-08T13:02:45.520987+00:00",
-      "author": "BlockchainReporter",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "75df0867-704d-4836-af87-68482e9d9d71",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum (ETH) Slides Below $2,100 While This New Crypto Surges 300%, Analysts Explain - Cryptopolitan",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJlbzRhQkk3RGlaUVNyU3pzaHVVRDhZLU13dXExZ29ONmczWXBjUThUcVJOV1l4QnhXVHc5REw2Y1kwY2lNaFJvM3I0bU9yc1RHTS1wM0I1dXd3alJXc3pPTFlmRms5blh3a2ttNkJWX3VBY1Jlcm1KTUFlLUpzMWNYS1BDcVJNdlR2WGhMRVFQMU1ITlpjUk9id0xORFF5ZUN6UGlvVFF0OXhMaDZ0Mw?oc=5",
-      "description": "Ethereum (ETH) Slides Below $2,100 While This New Crypto Surges 300%, Analysts Explain  Cryptopolitan",
-      "published_at": "2026-02-06T17:04:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521127+00:00",
-      "author": "Cryptopolitan",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "3ef64d39-9f03-4825-a708-7a69cfbf0b92",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "They Bought ETH High, Sold Low: $747M Loss After Full ETH Exit - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdmhtOEFXNHFKd3JES1B6MFFkV2hQamVqdFctSjVXTFhOdWI0VTZSbmd1VEpkQ090Sm1acGxZRV9XVEgtaFo2UE91NGdDVUdtUk5TemlGUVhfT1VSdDRhWmdZTWhPWWdrdzVQeDZNYWhJNWVTaEpidTI0allsc05BRWNHYi1HZGVpNGszLU02ZUlBTk85NGEwd1hGblV6Uzg?oc=5",
-      "description": "They Bought ETH High, Sold Low: $747M Loss After Full ETH Exit  CryptoRank",
-      "published_at": "2026-02-07T09:19:22+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521170+00:00",
-      "author": "CryptoRank",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "b6f5c5e0-cac0-4ba3-bc43-0fc1213c02f2",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bullish",
-      "title": "Crypto News Today, February 6: Supercycle They Say! Sentiment Hit Rock Bottom, BTC USD Touched $60K, ETH Under $2K - 99Bitcoins",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNODlDS1haenVzU1R0Y0Rma2NKTms2MElhTzQ3TE1PbkIyQkF0N25lZ3dQY1gyZEhFSGlqTnlGY0NOZVd2bEZnUzFNMlE1T3BfZURwZ1IwSkdxUV9nUW9DU0FDV2MzS3ZlbWJZOS1zZnllNTdPaENnXzc3S1dqenVxaGJGQ0JPbGNKSWxhLXVfemNrWjQ0Z0h1YklxUEVxb3JqNU9tS1hHSWprWDNUYzdNQzJOV0xvbzBmSGdhOENBb3ZrZW4tUjBBOHFpbDVfSlV5QlpKdWlMLWNRQUtydUE?oc=5",
-      "description": "Crypto News Today, February 6: Supercycle They Say! Sentiment Hit Rock Bottom, BTC USD Touched $60K, ETH Under $2K  99Bitcoins",
-      "published_at": "2026-02-06T17:04:36+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521275+00:00",
-      "author": "99Bitcoins",
-      "tags": [
-        "BTC",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "902cbfbf-4b74-48d6-8acf-56c4eec79335",
-      "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "neutral",
-      "title": "Donald Trump’s WLFI Sells $5M Bitcoin, Vitalik Buterin Sells $7M Ethereum — Why Are Bulls Not Buying? - CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ3RFY3ZVMjF1d0IzMENsWFhiaGdYUDlwRGdrSzJYbnNUUmdwTkVRUGIzdDI1SmtBcUNyOHVTYklIVUdDUHluSUxmQXpFYkhqYXd6eC1OMlJHZW42cDlzMWZna2Izc2VvdWg5SG9CR01tdzhabU8zX0hHT296NEd4WTRXUXo5UDBpc2VwUGJpdUlMcHdyLXQxTTB2NkRuTEM1aUJPV1lB?oc=5",
-      "description": "Donald Trump’s WLFI Sells $5M Bitcoin, Vitalik Buterin Sells $7M Ethereum — Why Are Bulls Not Buying?  CCN.com",
-      "published_at": "2026-02-06T10:06:58+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521321+00:00",
+      "title": "Tom Lee's BitMine Buys Over $140M Ethereum In Two Weeks — Why Is The Price Not Moving? - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODhZVDFzc01YYVl1ZDFPRnZwZUpGeXhXQUdyZ2ZOeVJ4QnBJVmRTMURtVHY1eDNkMi1BUC1mMHNRLWdtNFgySlcxTFpCR0NNai1zMkhQQzJhN0N1VnlZNjJVNjVqZk8yUW5WSnpmQTBmdko3WllZOGRpaHNxWDdoelpmdXpPS3FfR01xWjd6Q0VVdGcwcHFkdUJrRQ?oc=5",
+      "description": "Tom Lee's BitMine Buys Over $140M Ethereum In Two Weeks — Why Is The Price Not Moving?  CCN.com",
+      "published_at": "2026-02-20T13:44:56+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970727+00:00",
       "author": "CCN.com",
       "tags": [
         "ETH",
@@ -3775,15 +1939,185 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "f7141f43-c26c-44b0-a69b-1af103db08da",
+      "id": "964b5b9f-9627-4d1f-b7f1-05e5b7e4c58d",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum (ETH) Price: $1,770 Could Mark the Bottom, Says Fundstrat as Whale Buying Surges - MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1IeWFOaHVFc2RCOTJZZHFyVm5ocXZ5a3FibHdBeE9EYkR1X0tGTkRJMERtalpza2ZUVlRvNE1uVzJBNFJHVU5F?oc=5",
+      "description": "Ethereum (ETH) Price: $1,770 Could Mark the Bottom, Says Fundstrat as Whale Buying Surges  MEXC",
+      "published_at": "2026-02-21T12:14:20+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970782+00:00",
+      "author": "MEXC",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "a26e0d15-787b-480a-862e-ca4a448abb5a",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "XRP Defies Crypto Gloom as Retail Fear Grips Bitcoin and Ethereum - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUlzOWVLQnlmRVA2VldyM1VnWElHLW9JamVfcjlhT0c5QmFHOHM1WklBZHlyU21zSVk2dnNqUS1oenN1OS02NDVFNWd1WjNKZmdzV2h2MkV0LWNNSDl0aU9iWjZxcGhhUTBJOGZTU1JKOS0xbXg5akFwb2NIMkFZeng1NGd4QVFYM1BnWnpSSnRkNlVib0paTGNEWkZrUWFNRWthWUx5ZW1LNUFldnVfb1JVM1prNmxsMnZBd2ZvM0xGQQ?oc=5",
-      "description": "XRP Defies Crypto Gloom as Retail Fear Grips Bitcoin and Ethereum  TradingView",
-      "published_at": "2026-02-05T13:59:22+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521357+00:00",
+      "title": "Bitcoin, Ethereum, XRP Drop. This Could Have a Big Impact on Crypto This Week. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPRkFmelJLZUdON0R2QURHQllRTk5oOUlDdnJsTndyWEJHMHd2MW9lS3FmWjFQWGpURjlGZzRNbXhHaGlLTDBxdEU1bkMyYXRfbThJUkZ2NGI1R2tjSEo4WWhXS08yUDExUk9xdndaNDJkNGIxaFFKUDEydW9vTE5KbERnTVBZVUFudV9ZdUlmMHJocVItcXdDSlFXTXRHRUw5bDVaNXhFS2l0VXNiWlAwZHBkQUdwUk9NektOZVJrZlhsdVMwZWZMekxTcENaUnBFZHdDekVIUUE2RlBjQU4tTFhMZGwxM3dUdXZ0aVhqLU1obEt2dWFIaDRPSVM3QkF2ZjJaQ2pjdGwwZUZfLWp5clJheHJjNUpZRTFSblZFY3hMcHFPTzhXMlRUY29ULVhZWUF0T0VFZHlTR1JkYWpkNFViQ3RPZkRtd3ZhSTRyVFVERzZvZzNnVlk0eUlGWXc5dldhVU10SUY4ZTVFcmpKRDBJbXN4THdMRVdsQUt5Y1lfNHlfbVNzdGQ3Mlh4dw?oc=5",
+      "description": "Bitcoin, Ethereum, XRP Drop. This Could Have a Big Impact on Crypto This Week.  Barron's",
+      "published_at": "2026-02-16T10:08:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970840+00:00",
+      "author": "Barron's",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "15cafba3-496c-4384-aeef-e7181b08295d",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Price Forecast: Active addresses halt growth as US selling pressure eases - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWm5RbGxmY2VDYmg2Q3lxTGd0Yml6MFl0YVpEMXd0UGVIZlEwT1VoUUhuSjJFR1YyU29kR2dYSFM1SFVjZU9pZ0ttekRRRlZSV3FVczgxUm1ENmtfS3Nfb2dlZ1FnUnZ1M21XZ3AtLS1OTnR6a2l4eXAyM3hERzNnNzVIUmxjcExOWE1wYTBxWjhuUlY0NzdCU1FTY0xncUVoX2dCOUUwb2lGRVhfQlNsclZ0bWRhX1MtRjhCOEwtYUZnUThQbzF6cnljX1E1Vy0zLTNncEVKbXTSAd4BQVVfeXFMTVlibWpJT0lPMV9iTnVSNVljeXZLTEY1LTBucklUSE90cEZqb2xDbzdZYUpTMG9jRFZFZUdDOU9zbURYRVVxM19HNHE4U3l6TUlpbURjWTdtZmZISHNlSHhPSXFkbENzenFFek44cmpSTU8tdkI2ZGJRamZ2M2gxRnZhZjVHVVhjWTRGWHB5VTl1aWVsOFZXbi1vZ3J2bmZnNnNTQ3BhUXl1YzdQT0YzQVdITGJRRzNIbi03ajF6bzA0ZDRRNXljeTNxWENsaThmTHR6cEdNRGRvU2xxN1p3?oc=5",
+      "description": "Ethereum Price Forecast: Active addresses halt growth as US selling pressure eases  FXStreet",
+      "published_at": "2026-02-20T01:04:13+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970901+00:00",
+      "author": "FXStreet",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8da14921-9b29-45ef-a431-003d82ef08ff",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Prediction: 2026 Will Be the Year of Ethereum (ETH) - Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVE02SkFuRXByeVhRcGp1VlNkRm51Zm0xUVRHYkpva1VnSUVOczNjRzA5dThLMVRBT1llYjFhT3MtVFNwd0JMTXdka1dqcm1FUTJ2akE2TUo3dzNMekZuXzNNbU9ud3paY3RraUkxTGd4ZVBTcVdiNmxLT1lJRkFxag?oc=5",
+      "description": "Prediction: 2026 Will Be the Year of Ethereum (ETH)  Nasdaq",
+      "published_at": "2026-02-18T12:05:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.970981+00:00",
+      "author": "Nasdaq",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "5b9a9c81-85f2-4d61-88b5-c5f3e078c0a2",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "ETH Denver 2026 Opens With Builder Energy Despite Crypto Slump - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVlOTGxRXzQyd0l0ZEdhVC1DX2taT3NzVFdGMkVpLXNRQXM4bV9Sa3ZSZ3E1TEFHMUdvd0txbU5aQXZnQUt1RHB6WFg0bTZmTUlSWWRoUV81Vl9pT2ZLZE9uUWozeGlVblJBbHNKelBuNVZPLTBHZVRmNFVKOXAwVU1tONIBiwFBVV95cUxNZ0tOZlNwYnVBcWlvVnJOY2tfTWZUNkVZX214N181YUsxN0pkdDU4WWw0STB5eEhyZEFWU0hMQjR5OEJNRnJ6aXZhbUk2NXltR3JjSm1XUXlfOHlweERYOVBDUTEwOUl1aUNXbVJXUkFHRllFN19FeGs1cDhUaG1zYWhlR1BNYUF5Yk1r?oc=5",
+      "description": "ETH Denver 2026 Opens With Builder Energy Despite Crypto Slump  Decrypt",
+      "published_at": "2026-02-19T00:49:21+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971038+00:00",
+      "author": "Decrypt",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "62df2bb3-d847-4dc4-ab9a-136a244b9525",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin and Ethereum are off to their worst start of the year in a decade—but some see a rebound in sight - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmZfcHlMeDVFODdJVEhwNUczZ2ZqdjZJeDZDU1lXUE9FOWdSMWRhNllqekstZkJVX3BCZi1PRUpPbVhkc0pJOXVGZVBNZ3hhNVVQVWdNM2d5UXpMaVRWSFRPSTZjMVlkNDdxc01yOE51VVJRWldxR2FDeTk0X2tYVHE4YjBISGozd0RtNVB6aFFMOFBTQlRLRDBJc0ptZm4yaWJr?oc=5",
+      "description": "Bitcoin and Ethereum are off to their worst start of the year in a decade—but some see a rebound in sight  Fortune",
+      "published_at": "2026-02-20T17:01:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971139+00:00",
+      "author": "Fortune",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "edbb8c84-4f89-46eb-980c-00f6415953c3",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Crypto: ETH staking climbs to 50% but real activity remains around 31% - Cointribune",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRXJyOHVvdXR6cXBjWnVYNk9pZ0I3U0l3YmgxS1NRRXdWUnRDeUZQZzZPTVhiMU9BaWJudFFqMllmV1NQanJ1MnVCUDYycHVtT0JneFBLSHpzbl9GY19JUWhTOUozM0FYaGdzM09UWk9LYkJyRG5DcmJmSUtPbkhicXdORktGenJvM0hzZ2RJekRXQQ?oc=5",
+      "description": "Crypto: ETH staking climbs to 50% but real activity remains around 31%  Cointribune",
+      "published_at": "2026-02-21T09:07:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971193+00:00",
+      "author": "Cointribune",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "bba5a362-ae1d-4564-a78c-a72ca50e2b14",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Harvard University Cuts Bitcoin ETF Holdings In Q4, Enters Ethereum ETF For First Time — Crypto Billionaire Changpeng Zhao Wonders 'What's Next' - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc3Y3YVM4MmUyNEU0V2JaeHdwdVhleFQ5aDhOUzB6M2FhUkk5MVFFQi00LXdabllUY3VoY2ZmUVRJYXFoYk52TlFmZHFidlNvcnJFUGxQREdVMkxQOGVXeE9xWnIwNl9xOVV4YXdyemZON0l6bV9YSkUzb25VajBQTXFkbzhxR1p1?oc=5",
+      "description": "Harvard University Cuts Bitcoin ETF Holdings In Q4, Enters Ethereum ETF For First Time — Crypto Billionaire Changpeng Zhao Wonders 'What's Next'  Yahoo Finance",
+      "published_at": "2026-02-19T23:31:11+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971277+00:00",
+      "author": "Yahoo Finance",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8b289412-985b-4cfb-aed6-2baca2bbb54a",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Price Analysis: 4-Hour Triangle Compression Signals Imminent Breakout - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYWdpZGZsWlVMWXNaVThEWWQwWExFOWpDdmZkZXJDVFlER2RzX0ZsQ2stdGF0WkxBNWpIY0VjRlR3Y1Jab0ZKQzEydmlwWFc3LWxrUlJlem1yS3J1S096b1RUNnNQdWRkbVJqeXdlYllna2xUNFNzUk5kSDR5M2hXNXFCeFBsbHRsdXNXRDRvTkJpWTdfSGlQUF9CVmNBRXZmWlNaMC13?oc=5",
+      "description": "Ethereum Price Analysis: 4-Hour Triangle Compression Signals Imminent Breakout  CryptoPotato",
+      "published_at": "2026-02-20T16:26:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971333+00:00",
+      "author": "CryptoPotato",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "3592f3ab-0e28-4500-be6c-e7a453e84da1",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "CLARITY Act Gains Momentum & Peter Thiel Bows Out of ETHZilla - Investing News Network",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU2JmTUF0aWE5djlBMzRfWHZOMzVQRU9PU19XLWhXUEcxbTNGTHZtbFk1cVBSVjRnX1Q0MG5va2kxN0J3Wk4tV2JGQ0MyWVo0RF85TTBkbkRORkpFb3FSZjVmQUJfS0NjMWJheVhWUElndGk2MW1DUDMtVGpGbTF0OTRQVHI?oc=5",
+      "description": "CLARITY Act Gains Momentum & Peter Thiel Bows Out of ETHZilla  Investing News Network",
+      "published_at": "2026-02-18T21:05:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971421+00:00",
+      "author": "Investing News Network",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "3f41f693-08b3-4bba-b4d0-b8060c992ede",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin And Ethereum Post Worst Start To A Year On Record: Fortune - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN3BUUUd2bkVDam81OTgxV2VfVUt4ZFphQndRdGxaSlMtLW9Qd2w4dWxlcmE5UFp4enhLSjFYeDZaZVJTdVJNUThwaDdDeXpIdGJ1T29fanZoeTYyX0pMQXFWNklVamRscV9wMUhsWS1MSnlUY0RKN3ZPbHZtSVRVdmlnYk9pcXBPTlR1Z1NCSFpUSWdoRG16eWdrdkJ4ZmVURDBTOXROUmsxU29BQmtUeVJwWDQ4TkdydDc0NWhGSnU?oc=5",
+      "description": "Bitcoin And Ethereum Post Worst Start To A Year On Record: Fortune  TradingView",
+      "published_at": "2026-02-20T21:15:07+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971486+00:00",
       "author": "TradingView",
       "tags": [
         "BTC",
@@ -3792,67 +2126,84 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "7664fc64-26db-474b-aec3-3a2a118033bc",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "neutral",
-      "title": "Ethereum Reclaims $2,100 as Tom Lee Reaffirms Store of Value View - The Coin Republic",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOG9DanlkRDlfYXQ5NzVRYkVRcjdzV1owaEhQdzZLYjNDUllncFIzYmlaUWRWcW1ocGJFa3NOR2xYRlpzUHlSMVc3QmlmbVdjWHJUc2t6UFFMU2tVMFZhWWlKemhFODl3cjdjemk4X0gyQmEtUzQ2TjQwZTlwT0psRW1ubGlxRnFrcmE5bmVwSmUtLXYtQW1oQnBpVHFTMzU3UzR1QnYtY19kZzTSAbABQVVfeXFMTTFULWtDUlJING9DMFY1c0lqVmFjWWRteldjRFpSaUgtd1BlOFVoSHg4bnF4a1pFblVzQTlsNzdGSDdONnBmZktIcjM5TklnOUIyek9BVG9pMjdlLWkyb0hmVHlDNmR2ZHRzU2F0ZjI0UnZBaklRSkhxcGZEcGhGUE9VWUJfRUVnUnlERC1VOFMwR09yczlDcnFkYkRMcGZJR3ZUR2hqY0VtUWNHekRrekQ?oc=5",
-      "description": "Ethereum Reclaims $2,100 as Tom Lee Reaffirms Store of Value View  The Coin Republic",
-      "published_at": "2026-02-07T22:22:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521394+00:00",
-      "author": "The Coin Republic",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "c343bdff-e0ff-4b23-b0c7-ee37a13db289",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum Price Outlook as Vitalik Buterin Sells $14 Million Worth of ETH: What’s Next for Ether? - CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNy11SVV6Umc5NXdXQWRCYjk3MHFXUjlnNXNyMWxtSTlBX0pteGJGd1RicUZhZGRXVURrZG9kVXR1b2M5bWFFbXVDMkhCZWpYX3FXZmdZTGh1WkRXRGt1VHBxS1BMbGdsaE9XTmF3R3dnT1phNGxZNWNXak03bEw3M0NPNFlXcllDNjBZTU04Yks3M0NJZk9yVy1OcU9PdXA5N2xWYXFjOVhtQ1pGdktfZG8wcC1rTnM2UjJ5TVFXRQ?oc=5",
-      "description": "Ethereum Price Outlook as Vitalik Buterin Sells $14 Million Worth of ETH: What’s Next for Ether?  CoinGape",
-      "published_at": "2026-02-06T16:48:53+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521543+00:00",
-      "author": "CoinGape",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "f73312d4-76db-4230-9dd3-ba2bbd9a2703",
+      "id": "b4bfe93a-1ecc-487c-bbcc-89f8392b4c79",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bearish",
-      "title": "Why is crypto crashing today? Bitcoin price (BTC USD), Ethereum, XRP, Solana and Avalanche fall as market - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOVmJRUm5RWEIzTXhtal84TEFBQmlVbkdOQTJpQVdJR2JvcFQ3bjV6dHRYdGNxZDFpQVFST184X1Atekx4YWJLcWVHYkZ3MlZOcWloc0plMVVadDdnWFJBenE3WVE4Z1lraEhJTkh6OGc1UkhheU5Tdk9kNnItd3duemxnM2xkVkRwTDJxSnVyRDhxUlMtNmZmQVVTWV8zQW1YVHFjeHlhdGxVSWN1ZXB0S2M5bHJtVXNUQlRtNnNmeTg1UVRCNUFpSkdneXhMVl9Ga2R3dHBiX2laVUpHVTZoNVR4NmlDWnJOX3JzRkI0ZDQtMHBmVWR6OV82b3BDMDRzTkJYTV9LRk5uWWdxOHZHWFVDeUM4RE5YOXQzOVZrX2dGTVN5a0J1UVZMbFDSAbICQVVfeXFMUGdudGdmLTE2bmxuR1p4NjBtRzVJX2ZRWjh6eHRxbV9BQVBkenllSXhRVEZzWEVjeDJRTW44WGIyTWJNc3FKazROYzY0cGZ6YjVDR2lTV3dtdDhMRlBVN2dIbW84YTB5d2U1bFFrMEtXLUFHUzJWQXBRdEZWY18wTjk3VzRLZzFHMmp4UFJWMm9aZm9nbTgxVTlYRXU5VW00NTBMcmVUUXpXSHAtR0xieTVrOThsUXRnT1NCekxKM2x5R2I2amlCYk9SOS1XN1BxYlhLSFB0MVJQbWwzQUhHUWc5VjF0ZFhPWHgwWnpBTlc5UWJsOWkwOS12NHI4UExYMWg3alp2MXp6a2tDR0ZJaXhmbHVPNF9hSTQ3elZOeHY3blJqV0lTcXRNWDU0OGpaUHBB?oc=5",
-      "description": "Why is crypto crashing today? Bitcoin price (BTC USD), Ethereum, XRP, Solana and Avalanche fall as market  The Economic Times",
-      "published_at": "2026-02-05T13:18:39+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521677+00:00",
-      "author": "The Economic Times",
+      "title": "Crypto Price Prediction Today 20 February – XRP, Bitcoin, Ethereum - Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS19nUFQ5M1BfY2dqcWRCWm13SHc2VXRJa2pTWDh1c1pvb1FSM2s4LTZqbTJJc0NhN3BBMWxiNUJDMllGQW4xWmsyZWZ3VHhZTWdEVGFHMzNwNEI0ZlRTZWtQOWxnenQ4bk5JNEl3am9WQUlnLUpBeDdWMDlFdEdiSzZJNjVKNEJPTk5WUWxSMEpCaHFXTVE?oc=5",
+      "description": "Crypto Price Prediction Today 20 February – XRP, Bitcoin, Ethereum  Cryptonews",
+      "published_at": "2026-02-20T22:30:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971550+00:00",
+      "author": "Cryptonews",
       "tags": [
-        "AVAX",
+        "ETH",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "8cfb3373-210e-4b1f-91f0-52b1e4c4469a",
+      "id": "fe41e293-dc04-4989-bfa1-691fb1881b39",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bearish",
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP remain range-bound as breakdown risks rise - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcFNoUDdKSkpwRnBCclZJWkRzUUtSSU1BZ1ZtS0h1WjRmazN4Wmg2dWVrb2FDRTJpLTZXdEJMUE9TczB6c1djYW85c3NWclAyQzduR3NTc0lYVGR5LVFHM3pSTnZOTkxpOGtLbDZycmwyNE03SVdzQ2E1VkZPZ2REcmV4SzdKMnZnNXg4V09oemthYmZILUxjQlM4amFWV0JNTzFfQmxTMGNKVkZ3eVU3VjVzLXFpamV3aWNRelBkZE5pNUJDckp6RHV2cmVCNkdJblNtd0dJRUZxWm9uU1Q2Mm9RcjNtZV9lNzhmRjFhSzlNNDcyVDB0StIB_gFBVV95cUxOLTB4VWkxVlhqUXkwNHhxdTd0ampxWnI0RXpIUmlpcDVIMXpuNmN1RG16ZXFFUXZsdGxMelNRblNkWjUyYmxHQXZLQllEaFRWSHY1Q0x2QVJhVFZ2ZS1XYTdid1IzX0RZMHkzXzJGNjAtS21KTm9uTmU1aGdjRkZkT25VQUlDX2hyUlRQdWhMQWh6Sl81MkczWHdEdEJrMGtEZU1MaE1lOFJHcjFrbVBiRFNRUk4wZmhsMFdxQk9OS052Q2NxM1J1b3RVaXBQTWJQcmFMczh5ZERmSERlVWVCQ1o3M09WMXdjM0dfTGRCa21WVWluakJQb1lMY1B0QQ?oc=5",
+      "description": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP remain range-bound as breakdown risks rise  FXStreet",
+      "published_at": "2026-02-20T04:14:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971621+00:00",
+      "author": "FXStreet",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "77efa09e-7e33-433f-8da3-db6c8bcbe63c",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "bullish",
-      "title": "Bitcoin Rebounds Into the Weekend, Ethereum Outperforms: ETH vs BTC, Who Leads Next Week? - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeUVaNlBqQV93d084NHRuZi1nNHRjcks2UlJ0OWJEVFpIbmdOc0liUm5oRWlqdG5DT1Y3bDhlMXlmdWZ0ZTdTZlc3N01BR3p0VzIxb19TdDRZQ2xkR3VSNmhrakFJUml2MGF4REJEcEVYMXkyRHVLREY2V2J4aUFiVVZuemFsZ0dNY2xVbzVTS1Q2TktWdXl5a2VwY2pJWDRzY0Y5NkJVSkZDMWdUOFluSEJLSUlhcnQ0XzBwQmk1cznSAcYBQVVfeXFMTi16Z1VyUUFSR2w1ZW9aSGZHNGJzeXBFZU9DcFozMEF3NDQwRENFY2lKQklTNFRlTzVOSG5qUVFkYS14VlQ4djZxV3RNWUllem5OaVBkSFEtRU9nMmNaZW9pbk5KaGFsYTliX2RxRDl4dWlBMkRTM1VicjlNQ2FpQmJmZmtCUGlISGdndFhscjdEc2hKZ2d1VUtKYXNfZVhlZm56cTdQYWpmbnhsZ2stY3BJeEU5ZGlLdjZZUzFjMXU3MkxxRW1n?oc=5",
-      "description": "Bitcoin Rebounds Into the Weekend, Ethereum Outperforms: ETH vs BTC, Who Leads Next Week?  Coinpedia",
-      "published_at": "2026-02-07T10:53:00+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521719+00:00",
-      "author": "Coinpedia",
+      "title": "Forget Bitcoin and Ethereum: This is the Crypto to Buy in 2026 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYno0ejBzd0NBVDJsa0NVb2ZndEpLMHUxczgyRVlYMWVNVUFXcktHek1sQXZsRDR6MVhTdGl4dFp3UEs1RXVFYTZUOVlmN1F5V280WkJqSHlxcDVlMkFPX0ZnVTQ0Y3B3MmhId0lXQ3M1NGY3bkhLZWpZZEs4TXQyM2syQWpkalJxTTlGM0dBX0pkZkRUalZOby1ERFVyMTNXN2JjLV9QYmY?oc=5",
+      "description": "Forget Bitcoin and Ethereum: This is the Crypto to Buy in 2026  24/7 Wall St.",
+      "published_at": "2026-02-18T03:21:17+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971674+00:00",
+      "author": "24/7 Wall St.",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "859860ae-5119-416a-889c-7eb0cc654b8b",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin and Ethereum gains face new crypto tax under Dutch law - Digital Watch Observatory",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTa0VvQWRjaDN0SlZoUG03dFBxaDNYMzlaeUI2OG12Z1ZEbzhlN3VFOGQ1R1JSXzFmdUFsUi1xSEprMkxCZ1E4aXdxMTRiQm54RXdKQ2ZYUVlFaVR3bW5TQ1FWME53MWFid1RheFJEajhydWZ1bUZ0d1dmRlg3d1E?oc=5",
+      "description": "Bitcoin and Ethereum gains face new crypto tax under Dutch law  Digital Watch Observatory",
+      "published_at": "2026-02-18T12:21:03+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971816+00:00",
+      "author": "Digital Watch Observatory",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "584b076f-eda6-4f80-8ab1-6977bc259f66",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Finds Structural Support Despite Broader Crypto Weakness - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUtvd2xjcHBYZk9kNk1kM0psdTRTcGxNd3VwT3UtY2Nya2NnOHV3bkktX1pWVU9Dbm9aSVpNNGg0SC1VMzJFY0ZaSWFyeFpLWHAxWWR4d25tMEhIekVNQmV6dnlaZ3c3TUM0NzRSNjQ2S3VwOHBiaGhNbTd3R1FrcXVHazBMUlRzTVluZUVLb1h6ODZhd3RRQmNUVTRhOF9POUtnazdxNmhfVzMyaUFF?oc=5",
+      "description": "Ethereum Finds Structural Support Despite Broader Crypto Weakness  Investing.com",
+      "published_at": "2026-02-19T13:12:18+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971876+00:00",
+      "author": "Investing.com",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -3860,15 +2211,559 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "e1b23b99-9173-4480-a100-ecaab6abab00",
+      "id": "e3c4ee6d-a123-4900-ab82-6cbd8e135198",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "neutral",
-      "title": "Trend Research deposits $816M in ETH to Binance: Strategic Move Sparks Market Analysis - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iR2pBVHk5WThoOU01ZmM2M3dGemV4ZE5PbzZFT055Q3k1NjNHNkJMLUkxVU42amVlR244VlU0dUdIVUoxa1hGdmpUX2lqWXNRcjNqeUYza28wU0pia1l6WndoUnM4cGpicVFCNXBwNGtPTnZkZHpKRlBlaFB6cEU?oc=5",
-      "description": "Trend Research deposits $816M in ETH to Binance: Strategic Move Sparks Market Analysis  CryptoRank",
-      "published_at": "2026-02-07T03:51:02+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521754+00:00",
+      "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 4.371 Million Tokens, and Total Crypto and Total Cash Holdings of $9.6 Billion - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOSUZCWmJteThsSHRUVS1wOTh0NkNTWExjSWdtZWFFOHZXUWhCZ2NqdDV5dG5oMHZqZGxyS1FLVUZSRFZWQlFYS3pOaW1sc3VCSDNYRlJKOWVxV2tyR2FucGJBTGlsY09VSjFFQV9BRUxGS3R5MkRSTHhlbUZ0OXZLRE81RHJIaWw4OHA2RWEwbGZINUFaaWVsNGxISktYYWlkRjdfNmpyUUJXYlkyVmJfT0FUMGZsYzZfX0JDNEd5aDd6ZXNqYUd6WllXeHBNTGl3ZGhLWG5iMFVTQlNXN1dwMURfSVJMOTc1TWFQOFQ1SWtKbUxzcWdjUkhDeGlpVUg5cnlrNFB0TUtIRkQ0YTNyVHIxblhFN2k1UWxkNjZOTUtuXzA?oc=5",
+      "description": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 4.371 Million Tokens, and Total Crypto and Total Cash Holdings of $9.6 Billion  PR Newswire",
+      "published_at": "2026-02-17T13:30:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.971996+00:00",
+      "author": "PR Newswire",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "097891d3-36c4-4fc2-adf2-49f9a518351e",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum Price Prediction: This Metric Says ETH is Heavily Undervalued at $2K - FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUGxtV1F3X20zSkZEalZWaVVESDdQcHc3R0xVb2JIcVZyR3ZYYVZKVl9oUWF6UUxfUzRSTTJNTFFleDJtNDdCUTdSY3VWOXhqamwwMkRlX1ROa3J4d1oxOHl3eTVCcTFWRWNSNGZURG1SMTY1Q1BiU3pSaEVPak9QV3A2VG5NWHNiQUNNNXpZMTQwVEJ0UnJmakJ0eng1S3FYMzdrdDZyb0NUSjR6Q0llOW1HQXA5cnZvRDFWZnllVjFtcE1y?oc=5",
+      "description": "Ethereum Price Prediction: This Metric Says ETH is Heavily Undervalued at $2K  FXEmpire",
+      "published_at": "2026-02-18T18:09:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972061+00:00",
+      "author": "FXEmpire",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "0f72f2c6-3110-40d8-ad84-f08bc3ad1f21",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum price prints bearish pennant as breakdown risk grows - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMGlteF9Fa0pvSGwzczZvUVN6M0k5NEI4elBqckJFNkJVSHlMNnV1WDU4dEJEQ0xZb3R1Zl94Z0VaR3Rwa0Npa3A1WWhhd0J0VzVwZEN5QWlmeXZ5UlNsM0pKaWFyMmd1MllSWW82dmlKOGpJVng1U1d4UnZKRWJRQjlkN1N0eEFsNnc?oc=5",
+      "description": "Ethereum price prints bearish pennant as breakdown risk grows  crypto.news",
+      "published_at": "2026-02-18T14:19:45+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972113+00:00",
+      "author": "crypto.news",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "309ab7fd-b1a4-4a4c-bc53-ece292dd84d2",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum (ETH) Forms a Bullish Flag, But There’s a Major Catch: Analyst - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVjhCaS1ISU9BVUt1YUlpa2ZJcGs2dmlZTndhNTdJZTd1SVJGRUVDTExzRVMxTnk4Q3o0MlM3LVZlMk9ILXNHWTJDMndfaTV4anNqS0JkUkF2Qmxxc2s5a01BTnBxN2dvNDBEODE4N0tBVThKV2JuaWg5RFBwSC00bkgzNWtCaUVvVkVzY2hEUXYyZmhzZlU0?oc=5",
+      "description": "Ethereum (ETH) Forms a Bullish Flag, But There’s a Major Catch: Analyst  CryptoPotato",
+      "published_at": "2026-02-21T11:17:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972173+00:00",
+      "author": "CryptoPotato",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "3811b33f-68ef-425c-822f-163e3eb643c1",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Price Watch: Can ETH Hold $1,900 as Investors Rotate to Mutuum Finance (MUTM)? - openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjY3anlFa1VhUkhSLWhsYU9nWHJNZnQ4MnI3MHVZaVdjb3lza0M5Rk54SjRMejNLbXhWR2NRNmVldEZjckgzX1VXV0wyZ1hsUUpFenpKcUNGSTZVZHJOUTdRZkdZNkZwc183Yzg3Qi1ZT19GbjVaYlhydW5GT2RJdTZpMFBrN3ZudmM5SmxjbkZLTWJ3ZExoaUdLcw?oc=5",
+      "description": "Ethereum Price Watch: Can ETH Hold $1,900 as Investors Rotate to Mutuum Finance (MUTM)?  openPR.com",
+      "published_at": "2026-02-21T10:45:33+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972229+00:00",
+      "author": "openPR.com",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "27337b38-6934-48d7-b59e-b445abeaa030",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum ETFs Break 4-Week Outflow Streak — Can ETH Price Finally Recover? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52VXBlVjdIelAweG9DU2VBT25HUlBNWFdQWU16Sm91SGN0WlpJZ1h6eTQzTk96bndLaFVIM1dGbzJEQVNZSEQyOVc1N1VYMzBjM3o3d0J3dmZLa3FpY1RPZkNOQWNtZlh2OVVPZTl5QVVpSHktQ2xQemVFbw?oc=5",
+      "description": "Ethereum ETFs Break 4-Week Outflow Streak — Can ETH Price Finally Recover?  BeInCrypto",
+      "published_at": "2026-02-19T16:00:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972316+00:00",
+      "author": "BeInCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "a2cf74af-2f5e-4da0-b976-5f7fda21d0e0",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum price outlook: the bullish case for ETH amid the crypto winter - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWh1cjVxS0xqb3RvOFpKclBES21hSWtPVXF5cGZBSlBySV9GUkViOUFGZDlZLXdLRDhla2dPbUlHS1BFTkhPY01icW52OHE4WmVtOHpPelc4MlVJcGhZN1VLS3dUelFMUjlFa0M4bW1PU1MtTmJfdTZseEEzYTJtdlVDc040bnBIUGN2QWZUZUtMYTU3cjZ2SThWQzlJTERwUUFxWGd1VFRNLXhnbi1nV21RX1NlUDdaaW5GLUhGY1h3TERyYkE?oc=5",
+      "description": "Ethereum price outlook: the bullish case for ETH amid the crypto winter  TradingView",
+      "published_at": "2026-02-19T07:16:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972375+00:00",
+      "author": "TradingView",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "0d9ac50e-fc45-4d68-af50-7d11f4f861ce",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Crypto Price Analysis February-20: ETH, XRP, ADA, BNB, and HYPE - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1d3SEhyZFc3MXE4ZGVYcnlFMXVRR2FWU0V2QkFkQjRBbUxKUzZBX29Oazk1cmNkTldkY2k0Y3ZZMGF2Y2x0b1NaVzl0VGtkazRiQnJYYUphdmE2SmJFWnE2dFpJdUNiV3lsSV9BeTFzVVlGdXRDejVlaGd0OWhnOEdzczM0bEEzUlJucw?oc=5",
+      "description": "Crypto Price Analysis February-20: ETH, XRP, ADA, BNB, and HYPE  CryptoPotato",
+      "published_at": "2026-02-20T08:04:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972482+00:00",
+      "author": "CryptoPotato",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f50a79ed-7d25-4193-93d2-3dc637d72385",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum Price Prediction: What Happens to ETH if $2K Support Is Decisively Lost? - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRjFMRV94S05WeVk2N2I1SnZucjhBdkgwNlloTmxKZXhsaXFfTXBxY3pWWnM3STZvNHJsWGctTXhIWlB1R1A4aEtVTmZXU1Y4YnQtOGtrMTRuamVRTnBaUGkwa3ZBZnkxNE51QVJzeC16d0dGdTZxa2NJY045eDZxZWxwaHp0YWI1SGpNcXNjS252aXpvSl9SUTk2a0QwZVNYREhmQW5BNA?oc=5",
+      "description": "Ethereum Price Prediction: What Happens to ETH if $2K Support Is Decisively Lost?  CryptoPotato",
+      "published_at": "2026-02-18T13:43:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972545+00:00",
+      "author": "CryptoPotato",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "5b72c505-55f6-4a50-91d5-4731784ee904",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum edges up but still marks weekly losses - Economies.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDVfcGZHRmdYSWRoQ0xHSld5c09HU0w3bGxlTWVEOEFjOWxjRzFyVlkzTzkzbFhlcHM4X2pXeUVrRGJGVTIxVDVrWWhsVEMtZ1JPVHFzMjRqR0lyM3hOLWYzT3NxdElCcG5EZU1td2JVSi1fbEhjVW9Ha1l3VEFBempDZHlObVVBblhITVQteUk4c2M5a0E?oc=5",
+      "description": "Ethereum edges up but still marks weekly losses  Economies.com",
+      "published_at": "2026-02-20T21:46:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972605+00:00",
+      "author": "Economies.com",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b4466996-cb55-4ee0-9a1f-4afd617a4ffb",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum Price Locked in Crucial Range—Will it Clear $2,200 Following a Strong Whale Accumulation? - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb2lvMXZkNkFJZTdGUmhwSjMxeFg0MlVpd3E3Rm43Z2kwQklrdU5qbkNzVWZaU05QVk1wb182OHNIaVdheHUzY0ZHTHN3R283LWJxM2NCUkIzVFVUYnFfQ3RqRWpQcFIzRFNzQkFCbzhlZURZOWNKTFF1bXlya1N5WTJ4YzRJVEJzT3RONHRYYlRYbE9GRFg1UlVJYVZhbkhsVzJGQzQwR2ZpSHEzeFlUNVFydGVOeFRkV1Q0Qk5CcFhYeHE2TWRnWjV3MTZ0UdIB0wFBVV95cUxOLTFLVURjSVNEeHg1azQ1Ynk0dE50QXNYZzBrbEU3aHBjS21ROGtidnN5SG52R1RJX05NVzVYVTl4T1BsQ2pzRWI2aTkwNkJZS2F2UWFnOGU1TVRnWVRMSmc0bUdVZGduMWdVN3lVZjZQcllXWU1mSEVsbm9kOTVnZHBIbnU4Q05pY0hPUExNbVQ0QUlMTWNHa1NtTmJVOU92SGZDUXp4VDh2cC02TGU0VVdzRnZuQVhzODBERzlHRXBKU3pMbzl4NE1YalBsbWtHZlVF?oc=5",
+      "description": "Ethereum Price Locked in Crucial Range—Will it Clear $2,200 Following a Strong Whale Accumulation?  Coinpedia Fintech News",
+      "published_at": "2026-02-19T14:18:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972676+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b3618780-23d8-43de-a9ac-302d67ba3bc5",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Price Poised At Critical Threshold With Directional Move Pending - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWkMyV2hPdzlCTUIxeXNRNGFiWWpXUEJEX1dKb2ZYX2NsS0RqeTVaTHNOME4xby1oRTh1UEY5bVIzclJNMWFRdEJBckNqdklMdDZNd3NFdU1PNWZBT2VwSVhZNXJ2d0FNOWszeUh5SnV6bDBHZWZsQXZ6YVNwcVowa01INkJPSzlLUzBmNmF6WVFrc3pFZ3E3YVl5Qk11QWlLSGQ5dlRFU2xfX2o3TV9CeWR6QkZIQXVrckVlNHU2QVhlR0I2NVBJUUJVaw?oc=5",
+      "description": "Ethereum Price Poised At Critical Threshold With Directional Move Pending  TradingView",
+      "published_at": "2026-02-20T03:18:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972733+00:00",
+      "author": "TradingView",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "1d06e5e7-817f-4100-98b0-b63eec411066",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Peter Thiel dumps all ETH treasury shares after \"Ethereum's MicroStrategy\" fell 95% since August - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdmtSa052ZkhqZDU1QXRxQTl1UGs3OWRYUXJjZGtLVmYtaTJXdVIycVdaUGVDV2pZNjY5dndSWlBRSGZfNDg2bDJZa05TT25kaUtPTGd2Z3JaMzJ0ZHNFdnBmZ2hMZlJqS0ZBYjZhWVFlNi1nakE3UmdOakZMRDJMdzdONkFHZWNHRnIzRWh6YloxQVZoa29RQTBnUWROY1Jjc2hnMjd6YTZVME1jMGtGc3NFcDNycnJC?oc=5",
+      "description": "Peter Thiel dumps all ETH treasury shares after \"Ethereum's MicroStrategy\" fell 95% since August  CryptoSlate",
+      "published_at": "2026-02-18T20:10:38+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972842+00:00",
+      "author": "CryptoSlate",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "97330c15-c038-4d88-8d83-76613ce73398",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Is $2.7 Billion Whale Selling the Last Shakeout for Ethereum? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMV8yLXNwN0phMU81bkJoam1NcVdESnFYMG5HdDZ0cTc1bk53c2VERGJZaGFzaG9UUEs4dnU2ZGJueDkxWGhIWkEySWpRbnRyTkM4TkptZS1FaTdHRWhKc29OcTZfZmxTUkRfbU42UzBrSnJiTndxSkZHUk01dTJEMw?oc=5",
+      "description": "Is $2.7 Billion Whale Selling the Last Shakeout for Ethereum?  BeInCrypto",
+      "published_at": "2026-02-20T15:00:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.972954+00:00",
+      "author": "BeInCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "017b1a97-a9bc-44d1-8439-fe8677d12cc8",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Why are BTC, ETH and XRP prices down today and will Bitcoin, Ethereum and Ripple finally rise or continue - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNZ3VRekxnUUhPVlZ5LVRBUlJBcmNKM2taMWFQYVJQZUlnbmVSckZhaHpOalhzeHNJVTJicFB5M3Fra3JxYndNUnI0SXNkR0RXTXl5TFA3ZGFaOG8xMXlOdS1CSG56YXROcDVzQXFQX1Uwa0FoRHJyRjJyaWhkYVRnY3h5MVE4TkJ4SEd6R0ZSVVo3RFVQSzdpTGt3N2ZCMnZheGhXX0pUZlFJcHlpREtDUXFET1k2WFVOQXhtNkJMMUVTWUtJdUdFRjU1OTg1VHZBLVdWbms3YW1aN3UydjhLYUpEN3dqTmg2dmg3WVFYQVpHYlZ3bm4wc1JYSnBvQ0hEbnd6T1kwcWlNcm1vcXF2R2l5d0N1S3BEdklnZl9XTWd6SkhEY0Jta0VjWXpSbU5lVlpLNzNfN2V5SFp6SUd5cXQ2RERDcFlOTHdIellUUjEwT2ZMSmo2a3h6dzFZY1hRSTlHUWxzZ2h5NE9BUWRkdVNGOEpfOXJYNWROWDU5SEhLMmhCNEVGT0lIU1hhWnhaY0JFYy1wQlhFSFFWVm9aeWFxLUMzd9IBqwNBVV95cUxOYmh5YlNiRHBCMGI0WXJvVzdLZDYzT3lObUt4eWN1QVg5ZWNFZnVPdmtUQ2FESHFiYlBQclpva3lRbllnUWtpR3hocDVMekJRdUJCS2pRYjFFWUpmT1dpbUJ2MFI1NmwtRnJiU0plLU1lU21EdkNnNl9jRk5DUUNHNURhZXlQeU5vTkFNaWZaZHdvZldhUEpqc3JHSm5BRmp2OERmaUhObGo3QjYxb2hUQ0tfT1NxQi05Y216SVhJc3dqWWptV0o4S1FXNGRob2FDRjVZdkdZN3gwQkgxRTYwX010RThpLWlINzdPOFRNSll4dzMyQUQwakNxQVl5Wld4Yk5ab29aZS1qT0huNFVqd0FrclZqVkJ0ODdfQ3B1dUJLX0dhVnVHdm9Sc3IxZVFPZWlEYndGMF9ieXhBNV9MTFFyWi1pTjVBUzU1VHdMXzFMSHE2RUpyb2tLN2xSWTVlZ2d1RWRaWnViZUo0Rm9wb2xSS1VlT24ydHJRWENIQWlxaUIzR0NlUF8tdmtXcjdvYkE4LUFwSUlaWjRJWlo3MS0wYTlKX1Jubzk0?oc=5",
+      "description": "Why are BTC, ETH and XRP prices down today and will Bitcoin, Ethereum and Ripple finally rise or continue  The Economic Times",
+      "published_at": "2026-02-19T11:56:11+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973026+00:00",
+      "author": "The Economic Times",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "12915599-411c-4b5f-bb5e-e48b066011e1",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum’s 2026 roadmap just hit — but ETH won’t recover until one metric flips - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0N2a29paldXdXhqQ3hjYVpjOGF5RWNteVl3SndNdmgtNmY1RVR1d2pOcUdDWDh4cEdsLXlaUWl4RUFPRExoNUFPSGxFcDBUTVFJOU1fT3VuX0g0NGlxUDlCT3BxMDdWZ3V0alUzcWNrZjBVVFBJNUpSd2swUERGTzVBNWtHc09QTm5WSlFnRWQtMW1aMTBrMDFWVHFTQldXT2c?oc=5",
+      "description": "Ethereum’s 2026 roadmap just hit — but ETH won’t recover until one metric flips  CryptoSlate",
+      "published_at": "2026-02-20T16:10:31+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973123+00:00",
+      "author": "CryptoSlate",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "1b23bbbf-a505-4c39-b72d-502a0413f489",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Tom Lee and K3 Capital Increase ETH Accumulation Below $2,000 - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43dmItQVRzaFRyVGtRZkQ0VFZIQ29yY0VpMmF4cmxoWGtoelpSaVQ3UzJDQWIySFVFY1g0YVB4THlZNzk4aVBfa0ZSNGJwVHVKZUt1bkgtWDdEbUhCVE5VaUFvQ3ptdGZjak9nZ19HekJ6RDJCd1lnWFdqaHI?oc=5",
+      "description": "Tom Lee and K3 Capital Increase ETH Accumulation Below $2,000  BeInCrypto",
+      "published_at": "2026-02-19T14:59:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973177+00:00",
+      "author": "BeInCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "bdb909c0-91ab-42c7-b03e-cdace4d6493e",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Bitmine adds 45,759 ETH as price slips from 2025 peak - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RYTFWSzZJUEhiWXVfSzFwMmhIQjBkZnlibE53ajhvTzlmQ1ROaFBWaU1NVVpMNDRvdm1GamRrVzlYVmtBRHZVMXBLM3A2RmZsaVExOHJoeUdMUWdYby1TbEFiLVlYMGUzZ1otT1QtV3c2MEptYzg5LXV1cUpBdw?oc=5",
+      "description": "Bitmine adds 45,759 ETH as price slips from 2025 peak  crypto.news",
+      "published_at": "2026-02-19T09:11:53+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973324+00:00",
+      "author": "crypto.news",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "e677d077-2b49-4519-b8f2-32638ce85828",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum price holds 0.618 fibonacci support as bullish volume signals reversal - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQy15Tm9lN2c2S1B3RkVlQTd0dnd5anIxTkdpSjl2blhxNlowYzloaFJRY1Q0TTJEcHZjNGRjMDY4TUtfZmQ3QS1DRFJBOGl5aU14TmtPYklKcFlTV3ZJWGgwOFpRT2NQQ0pGN3lLQ25nSURWOXM4QjV4dVp2Tlh6S1FQd3kxV29BLXBFeU90TE1GbWxISWJJLWtMMXA1QXJpMWc?oc=5",
+      "description": "Ethereum price holds 0.618 fibonacci support as bullish volume signals reversal  crypto.news",
+      "published_at": "2026-02-19T19:21:55+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973378+00:00",
+      "author": "crypto.news",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "4174ab25-f28e-4e58-9b92-a91f298a4a8e",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Outlines 2026 Protocol Priorities: What It Could Mean for ETH Price - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORGtSc0ZBVHBySHFwUW9zRWRreFg3aHdsUTF4RFgtalEzS0tXV3VTR2NHaVdZRWhDdGcyQWREcDBNMnd4LUhabUo1V0RhYkJSRlRjTUppSHVrdVRZWTNmSXVpVlluRkpKTk94V1V6MFdrUllpclNjaTVfcWNTWmg4TkJKRQ?oc=5",
+      "description": "Ethereum Outlines 2026 Protocol Priorities: What It Could Mean for ETH Price  BeInCrypto",
+      "published_at": "2026-02-19T09:35:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973441+00:00",
+      "author": "BeInCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "3d7ac446-ff13-476a-8c46-ab65a5c1953b",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum’s “Fractal” Signal Meets Record Accumulation as Price Slides - Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcnNLM0R6akx5bkpubDRFVXNZOE9nR0tXNG5UeHNLLVJ5bVNhTHhUcEQ0d0Z1eXBnQWRBbW9LSE1BcUFlSUsxN2R5VE1OZVExNjNvTlhrTXNmUEVreWJwZWNPN2NGSlhjVm9WamljVGc5MVd3Y1o2dkVHd0NPQ2FMeTZ3WWp1ellIS3lmajBkWXJjaFktZVI1S3N5Yw?oc=5",
+      "description": "Ethereum’s “Fractal” Signal Meets Record Accumulation as Price Slides  Coinpaper",
+      "published_at": "2026-02-21T10:12:49+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973500+00:00",
+      "author": "Coinpaper",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ca7d277f-86f7-4f99-bddb-d1db70002863",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum locks 50% of supply, yet ETH dips below $2K – How? - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYUo3UElfRXNLZlYzaDc3VXlDdXhXdTU0OUxIeVNlMzg1clVxcnlWYVdpbDNlNEJpeDVDWFppUVA5OE9NRHpxRmZBOGh0TXpTTEhmREd6bm5UTGFRNHhycXZodUlFZldZMnR3SkM2eklJZXA0Uld2OExxdlZ3bDZKRnlR0gGHAUFVX3lxTE5mT1NXTkZfZHJEYjR4VE5VOWoxLXpSd1kxM1dmWkE2NFFFNGFDcFdlM2tISTQ3THZiVHFDZE9EbkZ2VkV0VldNWHdMNmJsREs5Q2NMRkhVakMxcHZ0aVZLZHVPREh1azhyMG50OTJINkZ4MjFrMjJJNjJZS09UOTh0NUlPOHlaWQ?oc=5",
+      "description": "Ethereum locks 50% of supply, yet ETH dips below $2K – How?  AMBCrypto",
+      "published_at": "2026-02-19T03:01:56+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973564+00:00",
+      "author": "AMBCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "dfb7f3eb-5ce2-4ec3-91fe-0835382c4780",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Ethereum – Smart money ‘buys the dip’ as altcoins enter structural downtrend - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdElBVmplbXVDdl9La1J6cWUtb0E5SnJEVFczcTk1YjczelFWWVhfV1phQ1ZaQ3BvZnlNRnA3bFFwUEZQOXhLejAxSDlzVDlQQTdNVjFldm1Tb2p0VGxwMzlPZUZEemxSRTRibEk0cFFDanY4UW9OSGx1M1d4TTRCMlR1Uk1VN19jNmVFMUlqVVFURzJTaHJ6MndDRdIBoAFBVV95cUxQa1lWYXRaU2g4eHJQcVZkNklDWXpMM3JDN1NnS0tvN0NvSkVKTEpVWFR4dUs3Z3NBUS0zU2sxRWp4V1hjUGxtWGxVMXNncjVWdlVlQTRnNlRPUkhDaHJRT3RFVFdRN3lHc1cwT3ZYY3RBTTg3aFVBU29zcFB5Ym80WjJxUlIzU0JGelZLSzJZeGNiODBzbmhQVzczcUVLMzB6?oc=5",
+      "description": "Ethereum – Smart money ‘buys the dip’ as altcoins enter structural downtrend  AMBCrypto",
+      "published_at": "2026-02-20T17:02:06+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973627+00:00",
+      "author": "AMBCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b1dce48f-0c3a-41b1-abab-c0144153181a",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum nears KEY support after 17K ETH outflows – Relief rally ahead? - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSTNqazVweTRtUDUwSmFPWjZCQWRIVGVHaUEwRVVjbDkxN2QxYUpZRV9oRzBqMjQyYzFTa3JIT3JBeVVpUUJ2bGw4UW9FLVVhUHVGMnQ4dHlBMFRoaWUwMEdJLS1ENjRMb0luUXRnT1h4S3dOYWZCMFhteUhWZXZGWWZPMGNZd2ZMaEoxNnBUSjdHclI4alHSAZsBQVVfeXFMTk9aUnJWT3hHNEd4WnBMUlNFanhDMDVCVXVUTFlHaFNFTEZSQld1Tl9sa3MtNjlqMkZnWFBUSnl2Qm9VQWkzMTRMVFo2WDY4SlpNOERIdmxSeEdYeVJHTFh5RWZTSHNPakp4OHQyNG5yQVlpUTBvU2RsSFltcFlpN3NHZTFCaVpacENxa2pLYTEtemczMTQzMWhpR1U?oc=5",
+      "description": "Ethereum nears KEY support after 17K ETH outflows – Relief rally ahead?  AMBCrypto",
+      "published_at": "2026-02-20T15:02:05+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973743+00:00",
+      "author": "AMBCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "665b67d6-24db-4fb5-8b7e-796b22184b7b",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Crypto News Today: How Bitcoin, Ethereum and XRP Are Positioned Into the Weekend - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONnk1MTZfVjRqM1V5UG1fbEZBQlpQLVQtaVlGcURrVWwyOFVuQjZvZVF2VmNXYVY4dWhpVm9SRG5FdThjSld3X0pNb0lMMGhOclgyQ1NZVy1VMnY1czFiN2R3NDNOWUl1ZGRfRlgyVFRfVmpJTWxqYS0tWG1ZeDFzaFB2VVp2a0loUlhackVZOUY5bjdsVlN6MkdZLW1xb1lIc0pMYnMwY0ZUcHVUQ0VkUUNBeW44VHPSAbwBQVVfeXFMT292Y0NJcGN1MkRMUXVKemQydGFTVjNwSF93X292dlVrSk9aSTZVSlVFQVNwSHEtRjBvbXB0dnZVZjRTZktLVkhvcjhmNGJYOW1kNlRjMEVFWGRBNlp2Ul9KaHFnOGFodGpLRFVjd2RuQWNCWkc1M0tCLTAtSHRSOXRuTmh0WEhBMGRsR1NNZFRnY3RtSG12dXdtVDh6OUZkYzVHUDVxTGo2UEhYVElaeHlhcEppSW5FQ3QwWTg?oc=5",
+      "description": "Crypto News Today: How Bitcoin, Ethereum and XRP Are Positioned Into the Weekend  Coinpedia Fintech News",
+      "published_at": "2026-02-21T06:51:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973873+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "6a234f44-59f2-43ea-92af-cb4f5d83c587",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Will Bitcoin, Ethereum, XRP extend short-term rebound? - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaGphSWo2QllfbVhfNkx2YTBrNDRnY3pyRHN4TGFiRDYycmxaR2tXYndja2Myejd3Q3NXcTlrbEFNM0lLSUt4QVVzenZpSzNkeWUzTGhOdElyaTBfVEdFZjhXdDRER1BSeFduMFNxVm14Qmx5SzFBUkhKUWh5ckhUQW10Z3ZUWXNham04ZzllRV85MGN6UlZxdnVUaThiLVNpejZmR3JSd3E2TG5vdkJvSVA5QzBieE9seW1wNHdCOERiN0dwaGfSAcsBQVVfeXFMTzhQWjJxZzhkajRhZF9JeTgtY0pCOHpPbkFyN2lrMDJsTGNfRVhZQkJBYjNMSlRvVXpqNnhDXzhqOFlubzl3dVoxb0RnSTJTVHFnSGpyMTA4d25pSENmd0FXLTNtajg3SVF5dXNiczh6aUZpeEVoMFEwUklwT05iZXp2dHhTOVRaalpDbzZRNW5ubmNqYm9KV01jNXJZSXZWR3FIQnBQRG1vTllXLTZqTUpmSkVhR0oxODNvU1U1U3FWM1NObXd1dXNpMFE?oc=5",
+      "description": "Will Bitcoin, Ethereum, XRP extend short-term rebound?  FXStreet",
+      "published_at": "2026-02-20T12:00:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973925+00:00",
+      "author": "FXStreet",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "e82c3e62-cb5a-4874-a34b-8d9f54576799",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Stable, But Bulls Must Watch One Key Level - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcjhDcm9jTnRWYl8wT0l2YzlINnh0eDdsa1prRV9VTFRRejV6YU9ib2RUUXRCRkNOSzJSVHVYTVJrb1pnRW9aWW1sN0x2Qm1BV2tuX3ZMNkc3V2NtVXJNRmI0ZUdpbUhYY0JDOHUxQnZmTGtoVVdwUzVtQWhDbmpRcmJWeVMwc1JjMHFTdVlZbi1VUGZnYS0zVFVTWXlJNS1qZXpwSTFCcmsxZWdvbVM3Tjc5UmwwTUtYMGllNUpsTnJSMGpMRlpUQ1ZpZWJ3QQ?oc=5",
+      "description": "Bitcoin, Ethereum, XRP, Dogecoin Stable, But Bulls Must Watch One Key Level  Benzinga",
+      "published_at": "2026-02-20T19:51:38+00:00",
+      "scraped_at": "2026-02-21T13:23:03.973979+00:00",
+      "author": "Benzinga",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "acc3e4b6-bb59-4f10-8316-613a07adad1c",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Crypto Buy Alert For Bitcoin, Ethereum and XRP: Here’s What Comes Next - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNXzgySWVkX2tUYXNrLWo2MmdlQ05PN1dsdy0yZ1hrOVlmYWFMdjY3S2ZSRkhTUjI4emtzUUV2OHNzVV9vNkNfQnpYcEo3RlkxN1VYOW5YdV9MMUo3N09sMHdISVRHcUtnd3RkNVhIQ0VQRE1tMGdjWGNIWWpldVMwaG43dXFMRnQ4eDNsMDRxNmVsZzRJN01zWWhTQdIBoAFBVV95cUxPR05vaVpFS0lBczh0XzVMVHZKaEtNWnM0ZENqRDl2WnZGN0xEUjFYcy1JbjdnY3ItUjFudDhfZzlMOWZJQlBuN2Z3dGNkRnRMNTVrMlowQWZfT2tqNmQ5b3c0bnpvaC1QdkJyN2I2T2xzWGtQV2pzUDJURXpYRjIweGpkVzV5Y2RsSHdUX3o3ZUFzTGktcU14VENxYm8wZHpn?oc=5",
+      "description": "Crypto Buy Alert For Bitcoin, Ethereum and XRP: Here’s What Comes Next  Coinpedia Fintech News",
+      "published_at": "2026-02-19T18:18:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974049+00:00",
+      "author": "Coinpedia Fintech News",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "25a84b87-c449-4134-b362-98dca28d72cc",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Harvard Crypto Shift And Ethereum Staking ETF Put Focus On BlackRock - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVGRyT25OSWRrWjVvZU95bGJudnZNakhkNzIxQmpiLU5JSHdOTzg3cEtEeWlUa0ZFMXctcDB0YTdzc050cXYzRmFGNnNmNm95b0JkX3FaX1ViT2pzN1FrNHVvZkJFX25lVjRRYTRQdjRPZFpReEFyYnc1QzM4azZaM2JhZWhVT0RpdWpPYjhwd0lBSnhvNnhhSVZ6TDZIVVZ5VEJ0RjU5eEo1c2pIOEt0dURyTklObVJYMjVCQjlkcTcza3ltbXFhNWlQY3NKMllXU1RLclhn?oc=5",
+      "description": "Harvard Crypto Shift And Ethereum Staking ETF Put Focus On BlackRock  simplywall.st",
+      "published_at": "2026-02-18T22:57:51+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974104+00:00",
+      "author": "simplywall.st",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f8f981e6-41e2-4c52-a0e0-65596349883f",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Why are Bitcoin, Ethereum and Ripple prices surging and will BTC, ETH and XRP move upwards now or again fa - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQbW9qSzBUN3JDRFAxZlJOYVh4OWt4WDZrc0pQbHhrbGVIQXVxdkhtYVZ0bFVHTm1iTjMyemc4V1ppX2tCSldjTEZfTDk5Q0RUNWFSRzVwWFNJZjlUQjBEUWZQSW5IRzdxU0t4cEhBNFZWNDFUWl9YUC0zT3N4UHR5RHlzN1JYV2dXSnh1UDZ0cmZjcjV5QUdLeHBhNG1mWlRhWC1ueUswM3MzbFZ0ZVh5a0RpUTY4ZlBGdHZLVGkzWGV2UGlSR2V5aEt3RUUzUE90UHppeHY1eGRPZHJPVEVWUHJzUDF3VEgtcGRuUHlfRzVjMUxNVkN5YVNxN2R0SFFObjJzdkxxVFJhTlI2WHBmUl9wU0dSWFh3d2JwbDVaQzlpZ0tJSTU1MjBxSkhIWEFkZ0FyMmFoa29zbElrZzVtbl9DbTF3b21rbXYyVjB0WW5MWTEtYXZxeWpWOGt2eTk4N2gtSUNGU2I5cXBpcThlYkMtaTdhcXc2enVSZXdrUV9Bdnc3a1JrUnJWdjdtUWdHclNmTGtMT1ZWS2fSAaADQVVfeXFMTXBoNnhUSWdBNXpjdTVUbDYzbTNnZ0FObGlybEtaZ2JqQVI1OXNpUFFpaktuUUhObV9DQzM5MWJIZ3FxMlZ3Ul93QjBNbE1xaE9ZdGpLTzB3QlQtYndBV3JoMURDcjdXRUdOT1puYzRSY1oyamlzN2NfcDBnNGRJbHc0YV9UcUd3V0FzQjByczUyR0RCOUJRSkpaYVIzY20zUDNwX28xamtlRWhveE4xQWFxd0h5T3Y3RjkyX0pkdFFyclp4Vmd2MnRNNHNPTXdja2hvX01vbTRFWnNEaS00RFI3M25TSjNmQS1SdFJZbXZmaFp5QUNHdmIwaWVtcVNIc1RKaGdBQk9FQUtldHNZUkN5Z0plREhuT2Z2RzQxdEtsQmNSd1Z6cHdoTUVmMnBDUTJVZXdRTmVrWUo1cHlpQXB3QldELTRqaDZ0ZV9jbmlKalhRN2Q5VXo0c2RESWFXSlliRERoNzVLTlpOS0hPVktVSXBtSFZITDR6TS1oQXJIZ2p3c0kxTzA3cnN4Z2Z0UWtlM0JmQ0xHY2ZISG5KVXU?oc=5",
+      "description": "Why are Bitcoin, Ethereum and Ripple prices surging and will BTC, ETH and XRP move upwards now or again fa  The Economic Times",
+      "published_at": "2026-02-20T13:53:21+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974173+00:00",
+      "author": "The Economic Times",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "4e62c6de-4368-4598-a967-9d881f8e96bf",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Sharplink’s ETH Stack Nears 870K as Institutions Claim 46% Stake - Bitcoin.com News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeXRQazNvcTFWbkVUS0tIQlhmNmdqREhmeTNINi04N2tOdlY1X0ZabGpNallacW9Wb0JWcFBBUXBvb2Z3NTVMY0VRWjRrczhBTHktcVZlbXRlRjkwaUlpYzh0M2JHaDJBSmlnRG4zM013NzlzR1BSckMwU1VudjIxUXpfXzB1UUlYVkRYaHFiaHZVZw?oc=5",
+      "description": "Sharplink’s ETH Stack Nears 870K as Institutions Claim 46% Stake  Bitcoin.com News",
+      "published_at": "2026-02-20T02:30:41+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974249+00:00",
+      "author": "Bitcoin.com News",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "f776e7b7-b8d3-41d4-ad55-b0d407118c48",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Tom Lee’s BitMine doubles down on Ethereum as markets turn red – Details - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2QtQmhaTURIUzRNcGs2RVByN2ZzY1lub3N5VUktdHFNbExodGd3aEotLU5KdUpJNUJnc1Vxak5zTklvU1ozRFZTbDRmb09iT2FtZUdfWkxad29SQU0tNFk1UGFPTWV0LS1tWHdGY29oTFBIXzJFOVEyOHVrclZMX0diX2F2N280SGFDblZQenhmLURZVEVJ0gGcAUFVX3lxTFBTQWFLNFAyWkVOcWhfWXVKaVlQeTMya1BqQVhSbHFjRS1mTVJYZnV4bWZ5M1JFV1MxYlIwUkQ1d2JGSTlSQUdaeTNtRDRXS0t4ZFZIdk9xSWVmdkpWSTZZX3BPYVBLMVFnUXd3QTFOR1JyOWtSTFlvTXdrTUo4eFFadDlTYmR5WGNwZThINVp3VE1WWlRMTWdzb25HVQ?oc=5",
+      "description": "Tom Lee’s BitMine doubles down on Ethereum as markets turn red – Details  AMBCrypto",
+      "published_at": "2026-02-20T07:02:02+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974309+00:00",
+      "author": "AMBCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "77c789e5-14c3-44fd-bc29-fd1961cb9dde",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "How Much ETH Does Vitalik Buterin Really Own? - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWVlOUTQzY203dFI5Vjd5UExwajRDTWV0RzQtOHVPcFppcWJzZVhzTl9UTTE2UEY0T25tMzc5UnBVOURWd1JCRkZRWmlrUXBmcklZUHJfODFEbGt6OS1pRGtVejFiRDVmNDV6eV9oUXllUTRfcWUyaVJFN09FaGVxdTc3SzFscUlsalE?oc=5",
+      "description": "How Much ETH Does Vitalik Buterin Really Own?  CryptoRank",
+      "published_at": "2026-02-20T17:04:43+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974363+00:00",
       "author": "CryptoRank",
       "tags": [
         "ETH",
@@ -3877,50 +2772,101 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "a8ecfad4-b0bb-4cbe-bb0f-91636df97444",
+      "id": "ad101e52-82a7-4da1-a83a-7b463cb8e1d0",
       "source": "google_finance",
       "ticker": "ETH",
       "sentiment": "neutral",
-      "title": "Ethereum treasury ETHZilla (ETHZ) pushes deeper into tokenization with $4.7 million in home loans - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZk5KNGxnWHFKNDJSMUludlJXU01uSmZKby12YkNBc2FHR3lacU0tYnhNRnRmajZXSE9Cc2sydklONVc4R1U0YjE3R1JEdGxtVHk0dF8yWFdHM241a1ZzNGF5dFY0YTZrZE8xeG1mbjNlbmxJZkFNU2F0VjBjNFJobHVYUjNLTExRQmszQU9GZWNncThFYzU2NG03cWNCQUc5VXc2ZFZYdW1tZmhSMUR5V0xUM3VXaElzbDczU21ja256bDdQUW05a2NZQWVmVWti?oc=5",
-      "description": "Ethereum treasury ETHZilla (ETHZ) pushes deeper into tokenization with $4.7 million in home loans  CoinDesk",
-      "published_at": "2026-02-05T13:02:08+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521793+00:00",
+      "title": "Tom Lee’s Bitmine snaps up 45,000 ETH in rapid two-day accumulation: Onchain data - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGZGxUVmxyYlVfMm14ZzZCUm93cnhNQlU3SUhWWFZuWFpCYkllRUFXckluTXd5ZnNfdDVYa3hxZmJkNDRIWHRrNGpYM3ltZDBYd19ZcjI2UGZoZ1d5U0p1c3loTm40NWs?oc=5",
+      "description": "Tom Lee’s Bitmine snaps up 45,000 ETH in rapid two-day accumulation: Onchain data  Crypto Briefing",
+      "published_at": "2026-02-20T12:28:02+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974429+00:00",
+      "author": "Crypto Briefing",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "3716665a-259f-4680-98a8-ce95d15a244d",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "ETHZilla crashes 97%, Thiel exits the ‘Ethereum Treasury’ model - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYURmNVJ4MWxWQU1xX1VRQlJ0dlE1d2ZhcjhUbkFjclB1Y0dPQmlIUW1iWEo1NG4wR1ZhemhYU3JCTndLUnMwSlZBVFRvdHpXdVE1dEl1YXRBMGIzRGVWR1NoZVVEQk1iTi1XQVF0WHlHUkZ0dnRLZkdQeXdqNXFFNWc5ZmhZOEdGSVHSAY8BQVVfeXFMT3JfOHQweVVSZkRLU20wa012c1hJZnJFeWF2ZDI3Nk5kT1hoNE5wRm5jWnlzMW12SVN3Z3paWm0zdWJuSFFQaHFaWnRzTm1ZdVcyQTliUjI1ME1sOF9oR1BSMnhqSUNaakt1b1pLTVp0MEZqSEtrUUh4aVQyX0JZVTVCQy1DbnkwdXpGd2htbVU?oc=5",
+      "description": "ETHZilla crashes 97%, Thiel exits the ‘Ethereum Treasury’ model  AMBCrypto",
+      "published_at": "2026-02-19T07:01:58+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974491+00:00",
+      "author": "AMBCrypto",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "28b524d6-b0f2-43e9-af68-e047c2fd5c9e",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "title": "Ethereum Price Rises After SCOTUS Ruling: Here’s Why a Drop to $1,500 is Possible - CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcXFMSWNBbDlaU0Nrc0kxUk9fRHVuTUxqeEZteEp1NWtTYXhlVTA0TjVJbkhpYmJtOXdRenVrTllORVMtVms3TllyTE5sdjAtMFc0cTVzdVBXcktCcEI3S1VlY29fZHhrLWhGWDdzMk42VnNTQzBDRHJqMng5bHdKVVBsODFiaFZHNk5pWEJUWDVJZU1zbU9Rcmp0N3dXNndwbF9nLUxMZ2JiMDg?oc=5",
+      "description": "Ethereum Price Rises After SCOTUS Ruling: Here’s Why a Drop to $1,500 is Possible  CoinGape",
+      "published_at": "2026-02-20T17:06:18+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974569+00:00",
+      "author": "CoinGape",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "8dbe821d-30fc-48fe-8741-fee6e58e3122",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum 2026 Protocol Update: Bigger Blocks, Better UX, and Quantum-Resistant Security - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbmZqT09mb3l2RGZjTzFmZHYzSnZqdUtsOHhuVzVKNTNtVzZsZW96ZzhlMWlLMlBTQ3A5ZkxJUnNMOEJOLV9DVHJzeWVPN21OZ2pwYm1lQWZ2eGFwZWN4SXJtZjYwbnhjNk5YZzI4dmU2UU1fMV9JLW9jcjZMZ0lLT0FNV0gxb0dqN2JCelJvWnkweWNadUtORDFWMmwwQQ?oc=5",
+      "description": "Ethereum 2026 Protocol Update: Bigger Blocks, Better UX, and Quantum-Resistant Security  CCN.com",
+      "published_at": "2026-02-19T13:42:34+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974627+00:00",
+      "author": "CCN.com",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "ca256295-f2d3-4ed4-bd34-d0e5006389ee",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin (BTC) news: Fed's Kashkari says crypto is 'utterly useless' - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYmxmNkVyTTI5TlNVTHB6Y253MTZYenF2bUZiVXlMRDJqMHhtUDNRRlREdkhwQm1reFB5NWxGQmhJTWhvNjlhRVhQSWdFMHJKV3lKeHZSR1VrRnVyT0doMGotUjREaUhCczhKTTVMSU5iMV9oLXppenhBa3pBdGdPNlg3WHFVWm0tbDRybGRnYXNqS3UyUm44T2hnM2lpY0NxcmZGblJrTm53WWpQZ0xPZWVvSmliTlJPeGhNVDkzMndsWUt3ZV83djBlSQ?oc=5",
+      "description": "Bitcoin (BTC) news: Fed's Kashkari says crypto is 'utterly useless'  CoinDesk",
+      "published_at": "2026-02-19T16:40:57+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974682+00:00",
       "author": "CoinDesk",
       "tags": [
-        "ETH",
+        "BTC",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "373253de-7bc5-4ac8-b719-e95831d4f3ea",
-      "source": "google_finance",
-      "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum cracks $2,000 as Fed fears deepen crypto sell-off - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHpVa1lwVDhHS1llOFZWNFNxbmRieGRVRTVDRm11T0EzMDlXT0dJVUJyWnRONm50U3QwMzUwNTdaOW5iWHNGRjcxc2Z4aGt1WnJhbFBudy1TRFhDc1pCbDgtYldZRGdMUnRvREE2bERtNWp6V2ZNNzhmTVNhMm1haS10VQ?oc=5",
-      "description": "Ethereum cracks $2,000 as Fed fears deepen crypto sell-off  TechStock²",
-      "published_at": "2026-02-05T16:45:29+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521825+00:00",
-      "author": "TechStock²",
-      "tags": [
-        "ETH",
-        "Portfolio Search"
-      ],
-      "image_url": null
-    },
-    {
-      "id": "757805c7-ee64-4eb9-ae08-68514d028487",
+      "id": "7dda5073-7280-4c9f-9a60-079e0c5daf8c",
       "source": "google_finance",
       "ticker": "BTC",
       "sentiment": "neutral",
-      "title": "Bitmine Accumulates 20,000 ETH Amid Crypto Crash, Signals Bullish Stance - Live Bitcoin News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWhaU2F1elh6QnplYlZBZHZ1VVJZOEdMbTl0d0JFNDNTdktEeXY1ZWFxWUNJUEVsQWE3dTYxbjU1eTB3UEk4U0FaOUVkUTNmVkVYc19MTnhXV1ZWQTduUFFpa3pyQVJoblFOcGFuaEV6azFKMllSVFBURFJfeVdRWmNJdTRweTBjVkljSldJNnpYTERSTEszWkxFc2hsRjBSTjJLdmpB?oc=5",
-      "description": "Bitmine Accumulates 20,000 ETH Amid Crypto Crash, Signals Bullish Stance  Live Bitcoin News",
-      "published_at": "2026-02-08T11:45:35+00:00",
-      "scraped_at": "2026-02-08T13:02:45.521894+00:00",
-      "author": "Live Bitcoin News",
+      "title": "$40,000 BTC Put Stands Out In $2.5 Billion Options Expiry - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84YTRwbDNfWTB4WkZwX3JfSzIwaFdwS2ZRVktFdElmdW9wbGcwMDFqbC14U1F0QnU0eUZrRVA4OVBKZmRxZE1WT2RzWnJhY3lJMjZfeDFlczdpNG1aOWRhQi1XeENRRXRCM3ViNEN0OHl0MHE2UmdBMQ?oc=5",
+      "description": "$40,000 BTC Put Stands Out In $2.5 Billion Options Expiry  BeInCrypto",
+      "published_at": "2026-02-20T05:08:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974750+00:00",
+      "author": "BeInCrypto",
       "tags": [
         "BTC",
         "Portfolio Search"
@@ -3928,16 +2874,50 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "2d11e5de-e062-4318-83dd-33178d9579e7",
+      "id": "e8dfdb15-b7ba-4a85-b661-7f00a857f2f7",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "bullish",
+      "title": "Bitcoin And Ethereum Futures Go 24/7 On CME As Stock Breaks Out To New Highs - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUFp0QzFWd1lUWUNHZ1p4aTB2MWJnb1VhMmlEZTB1enZVRTJDQTZPazFQNWhQRVF6QjhWa29DLXVBaUxOa1luRm4weWxOalgtS2hfRzNTSzBZZHRMNTA1ZjlfRm13U2pqVzNSQWVKLXh5T0ZOVkR2Rkd6N1F0d1dsTXRoLVBzam13dnE0eTlsOGVWcFdxNmtma2ppTmplZTFNbmJVQXJ2Y0ZvMjFvbFhHdEdhY245Z25xZVlJNU1nOFZ5MmZoR3FjV2pUTkg5VmxSd0cyYQ?oc=5",
+      "description": "Bitcoin And Ethereum Futures Go 24/7 On CME As Stock Breaks Out To New Highs  Benzinga",
+      "published_at": "2026-02-19T17:50:19+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974807+00:00",
+      "author": "Benzinga",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "c10bab5e-2f94-437d-a5b4-fb7c085ef72e",
+      "source": "google_finance",
+      "ticker": "BTC",
+      "sentiment": "neutral",
+      "title": "Bitcoin and Ethereum Options Expiry Today: $2.4B Set to Shake Crypto Markets - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRm1KOUs3UVVLcDBEQmthYjJvaWh6a3ZpSVhkTllyM082N1BFeVM4dUZvY3ZnRHJ3YnFYT0hXU1VQalRQc1hmdHdyQlNlZU56ZnhGMloyTFdBeGNoc2ZZNHhPUGJkTGVIM0J4WGZ4R2N4aEo1ZXRKVEdJakIwR3JoemJmc3RJbzQ5NUo3T1IxczVtVlFUcWRJQXQtUGYyU3dlTDRfOUh3RE5TR1FGb1hRaDUyQy16eEhNOEJWRndsWDhSaVJVbFhyc1c2ekpUTHc?oc=5",
+      "description": "Bitcoin and Ethereum Options Expiry Today: $2.4B Set to Shake Crypto Markets  TradingView",
+      "published_at": "2026-02-20T07:44:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974863+00:00",
+      "author": "TradingView",
+      "tags": [
+        "BTC",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "39584cd1-00f1-453b-8990-1093c67cf55a",
       "source": "google_finance",
       "ticker": "ETH",
-      "sentiment": "bearish",
-      "title": "Ethereum breaks $2,100 as Fed-liquidity fears ripple through crypto — what traders watch next - TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTV0OF82MEJmUHd5MjNWSzQyUUJyU1dncGxSeTJET0txUml0Z202cmIyVm1LbHlleEJLQ3p6WHNqY3BmcTE0b1ExTk43Sk54R3ZWTVBFR3NmVUMwbzJkeWxBaTBXOVdiTl8xbUZDU19kVFpVVzdUTTVyeTBNcnQxSktPUUU5OUhtdXpfRlByMEp0b1NHLUhDNUJ0LUt5cXdmQU9qYTFhaGVsTVdzQzhr?oc=5",
-      "description": "Ethereum breaks $2,100 as Fed-liquidity fears ripple through crypto — what traders watch next  TechStock²",
-      "published_at": "2026-02-05T14:40:57+00:00",
-      "scraped_at": "2026-02-08T13:02:45.522004+00:00",
-      "author": "TechStock²",
+      "sentiment": "bullish",
+      "title": "BitMine Is Confident in Ethereum’s Recovery: Here’s Why - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52dWlLS2hVUEp3TUUwT1J4M3hva1ozNU43WXpCN0xtZ25nQ0Y2NUpDYnItdVpXWE9ERXlLSUJGQldtY0c3c25MWllXZndOdlJicjhEVTl1T2N4TnZxS3lxNDZOamZqd0xJRVYzRWVJSm5RZw?oc=5",
+      "description": "BitMine Is Confident in Ethereum’s Recovery: Here’s Why  BeInCrypto",
+      "published_at": "2026-02-20T09:43:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.974919+00:00",
+      "author": "BeInCrypto",
       "tags": [
         "ETH",
         "Portfolio Search"
@@ -3945,33 +2925,67 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "93bc8d72-c348-4fde-8373-11167fc8f6c8",
+      "id": "1840910b-a1e5-4e72-9c6d-e05171be1cb0",
       "source": "google_finance",
-      "ticker": "BTC",
-      "sentiment": "bearish",
-      "title": "Crypto mayhem continues as Bitcoin tests $60k, Ethereum falls below $1,800 - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeTduZml2czVTVU9LY1gyS3l3WlpuNmJVNTN0VDU5MW9jQ3p3WnYtLUFGM0QzZV9ueThzenJ2NnRnVi1KYVBTMnpSaXYwM1QzRS10a2JBblluZmtBWXlHdlh5Ump4cm9QYmlnX2l6ZFNWdEVJZFZ2bWxmU2lFYlVrWXVRZFEwVVdUbEpEb2EwZVlsX25MZjN2LWNIZldfTDdRWm83anhScl9SczBfVkpBVFY5VHZOMlRhWTlFRjV0SVJKMzlJU1djZTNWT3pOR2RRdUZGLUhPYUY3ZGY3QkdKUklB?oc=5",
-      "description": "Crypto mayhem continues as Bitcoin tests $60k, Ethereum falls below $1,800  Business Standard",
-      "published_at": "2026-02-06T02:29:31+00:00",
-      "scraped_at": "2026-02-08T13:02:45.522039+00:00",
-      "author": "Business Standard",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Top 5 Reasons Ethereum Price Is Down Today - CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtRVFZNkd5TWxNUUk5Y1NySm1OYWU0cTU4c0ItbWpmdzh4b1NNMDhYNVhHbUpOSWdfbk5JSUcwNFBMZVVkcGRVT0FzRFlXZnRodWJMeEpNVWRYMm9KNTRIQkRXUmVnM2VPUVkydzlCY01Gdw?oc=5",
+      "description": "Top 5 Reasons Ethereum Price Is Down Today  CoinGape",
+      "published_at": "2026-02-19T10:52:39+00:00",
+      "scraped_at": "2026-02-21T13:23:03.975100+00:00",
+      "author": "CoinGape",
       "tags": [
-        "BTC",
+        "ETH",
         "Portfolio Search"
       ],
       "image_url": null
     },
     {
-      "id": "3178d19c-9b5f-4fa8-98a2-8655a6da64bc",
+      "id": "05b68dac-bab3-4954-b3c6-fef5d22ef71a",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "bullish",
+      "title": "Vitalik Buterin plans bolt-on cypherpunk layer to upgrade existing Ethereum - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNFlCUTYzOF85ejZ5aWp5ZkFKeHBkenVqLUZqYi1tT1VjdW96RElNaDk3b3FjM19XQ1FiZGpWSDdjbUVuLTJ4OWoySWQzQVlxSnFjR25OLWw3UUFSOWFxNWdyUHFTN1NyNnVqTlVPTmZIaDlZYnNHeTJBNVBoR1ZRdHpHOA?oc=5",
+      "description": "Vitalik Buterin plans bolt-on cypherpunk layer to upgrade existing Ethereum  Crypto Briefing",
+      "published_at": "2026-02-20T12:25:23+00:00",
+      "scraped_at": "2026-02-21T13:23:03.975156+00:00",
+      "author": "Crypto Briefing",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "b61c7270-e24a-4dbe-b4cb-76455a0a4ea3",
+      "source": "google_finance",
+      "ticker": "ETH",
+      "sentiment": "neutral",
+      "title": "Ethereum Whales Dump Reserves in 2026: Is a Bigger Move Coming? - Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ2p6dzNqcllKYUdZUkpYclV2QzVYZ0N3anF4RDdlQTZ0SmZQUHFVMTZ5WHg5OE14RmU1MTBDODItbk5Uc0tzd2hWTmJKZkxXa2Z1cW1mVzk5OFJDSk9pamsyTm1uUElwUExqQk1nRlhobnlHUkItbzNDUEN2YndkT2ExRnNUYlRoQlh5dVRXTkhleWVCTzRiNWRlOV9iQzhvcS1MTWNfNFN2cHViTVZiNUdKUkNTVlNNNWxOczRRWV8tY3lTMVHSAdMBQVVfeXFMTk5Ed0ozTHg1b0R1VEhTWTBPWWJEaFNFd2ozd18wSHVQSGZNQzFUdWRqQzBtQWFMNTdEN3RPTy1EZmxjWEJ2UUdtTW9fcVVkT2twb3ItZ0VxaXIwempuWE5TYUJiVmgwcXo4bjRRZTZRM3Z0aVM4NnV6SnFNWFZMY3pKOVFPWjVYR3VXOHNGSUdTVFJZWmxoMTJORERpbzNBYU9YXzl0dW5lX3U0eVAxcGs0Ymh0VkVJTWhTOF9CYzZValRfQXozSU9sZThWSUFYLU9Rcw?oc=5",
+      "description": "Ethereum Whales Dump Reserves in 2026: Is a Bigger Move Coming?  Analytics Insight",
+      "published_at": "2026-02-21T11:30:00+00:00",
+      "scraped_at": "2026-02-21T13:23:03.975212+00:00",
+      "author": "Analytics Insight",
+      "tags": [
+        "ETH",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "a2ca5045-67e9-473e-b3a4-0c56de215f9d",
       "source": "google_finance",
       "ticker": "LINK",
-      "sentiment": "bearish",
-      "title": "Chainlink Price Prediction 2026, 2027 – 2030: Will LINK Price Reach $100? - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sUHhJNVRNT20tQnFZZXE1TGZpd2lybVBqQm5xZHpaWHIzdHB1THlaOHhzOHJkT2piQTFLNmRDcFRKdGZ5YndVNnhFM0hNMHpFcVhacnpXX2gteWlaRmJtZUZ4WlMzbXE4ZDl5azFXU2haWDlw0gGwAUFVX3lxTE9qbW1yQ1ZldUZXMG5OWFVRcFNaSzRXNGhLRVNjeHFJQXJ3bmIwY3ZPMmh6M2FmMkRic0NhSGluQU1SS243cTVYYTJsSHV2WUwzazVJcVFtYkd2REJJLXp0VUVRTWtaSUVDZzFOUk4xM0ZsQVhPbk9fMzc0OUpFSVdiaEtUdkt0XzBnVVp3Tl9WVzF5SzNPR0pfNmtKLVRJVVNud3VscFFseDBOcVdVTFIt?oc=5",
-      "description": "Chainlink Price Prediction 2026, 2027 – 2030: Will LINK Price Reach $100?  Coinpedia",
-      "published_at": "2026-02-05T05:16:00+00:00",
-      "scraped_at": "2026-02-08T13:02:46.431229+00:00",
-      "author": "Coinpedia",
+      "sentiment": "bullish",
+      "title": "Blazpay vs BNB vs Chainlink: Crypto Presale 2026 Reveals the Next-Generation Presale Token Powering Web3 Growth - openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOelNZY1RRLVdnWmdJeElVS0ZFZjl1UFV1MGJQZEJ3WnNTZkp5Q0dudlJJU3hoV1lLcW5QckVCMnF0Z3lnbmdqeE1HamltZ3dFT1V4WmZFMC1XWUVBX1NjQXN1RTRsU0ZUMTBZWXlBOGg0U0tBRmxYN1BRdUNaczRxOWZqMUN5NzBxM053akNObUVhTy1jc3c?oc=5",
+      "description": "Blazpay vs BNB vs Chainlink: Crypto Presale 2026 Reveals the Next-Generation Presale Token Powering Web3 Growth  openPR.com",
+      "published_at": "2026-02-17T03:35:02+00:00",
+      "scraped_at": "2026-02-21T13:23:04.418442+00:00",
+      "author": "openPR.com",
       "tags": [
         "LINK",
         "Portfolio Search"
@@ -3979,16 +2993,16 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "d7176f29-e3e1-459b-bc68-4080f29cc976",
+      "id": "5dce8d14-d26f-4ab9-8ebc-2b9c7884d17d",
       "source": "google_finance",
       "ticker": "AVAX",
-      "sentiment": "neutral",
-      "title": "Avalanche (AVAX) Dips Ahead of Token Unlock Worth $365M - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejlyZnh3cTVEY0VEeGZBTlgzdFdUMUNDRHAyVWlkdXdFZnF5ajZhSGVPcU5LQXRTZzlEMGlPcmEwdVBGX1k3WUliSlZUcm1RLUJQNzBqY2hfMlRlSk5KbWpEeUVJS3J4d29HY1NOTzFOVXdoNnczcm5rc1BiY1VWOWl4TGw3Uzdoc2lMd3llNlVLczlNX2xFc3N6VHo1WnZZaGc?oc=5",
-      "description": "Avalanche (AVAX) Dips Ahead of Token Unlock Worth $365M  CoinMarketCap",
-      "published_at": "2026-02-07T04:17:41+00:00",
-      "scraped_at": "2026-02-08T13:02:47.740159+00:00",
-      "author": "CoinMarketCap",
+      "sentiment": "bullish",
+      "title": "Avalanche (AVAX) Down Over 90% From Highs—Is the $9.35 Bottom the Start of a New Rally? - Coinpedia Fintech News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR0g0MVdUMmxBOFJQbU1hc0dHVXNOR3VCZmY4QkJZQXZIblFieURrcjU5QkpOa0VyT2ppMDZEYjY1QlJmV1ppOXA3NjZJd283TTJfRy1fY19QWnphb1lwNXdoVlIxLWkwQXB2ZDVieGc1aE4yeTNOVEl6S2F3X0NJa0xieXZGS1FNMWJ3NlZWNjhKMTBzcW4zOEdJQmsxYk94ZUh6cmtFODBFaDFGVDVqQ0JFQXlka0VwRk1rWNIBwgFBVV95cUxQa0hnX2kwRzQ3TTJwbklzWW1PUzhMTnBXUlBaeWlHZ2tCZHNHMVRZSWY1YzlNc29tNXR5THd1czZOSnBVNkhLMGhUNGF3eFdIdXMxajZFWGlKV0NnUWcyQmhiSjFaMWhseG1OUDB4ZkFHOWY3WU5fOTFwYUtUUHdWNkRxWC1qNkxBZ0xxMTFaMUhhV2NyRGRFUXpiZkFQdnJ6U0dvazNxTmhXZnNmaHZtUEo4djkyd1FXbUY2VVJQSDNOZw?oc=5",
+      "description": "Avalanche (AVAX) Down Over 90% From Highs—Is the $9.35 Bottom the Start of a New Rally?  Coinpedia Fintech News",
+      "published_at": "2026-02-16T14:31:00+00:00",
+      "scraped_at": "2026-02-21T13:23:05.074754+00:00",
+      "author": "Coinpedia Fintech News",
       "tags": [
         "AVAX",
         "Portfolio Search"
@@ -3996,140 +3010,157 @@ window.DASHBOARD_DATA = {
       "image_url": null
     },
     {
-      "id": "56d2eda9-aa1f-436a-bdc6-eb5529c8879d",
+      "id": "897820a7-f8d8-4846-ae44-7877956cdd8b",
+      "source": "google_finance",
+      "ticker": "AVAX",
+      "sentiment": "bullish",
+      "title": "Avalanche (AVAX) Network Growth, Price Trends, and Investment Potential - vocal.media",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQTh2Sld5eEk3Snd5akthR045RHhuUUQwcHVwRl9yNjMwcVlDWTlyeDdHelh2cDJNSHNWTFZrUmhUWlZGRnhuRnI1NXJYLUc4Zk1qNFlJcTlVaG12RUxHNjZEaGhZT0JMZkJJTWZjeWc5UlJlX210VlRiR01Hc0N2YVFNWUdrZG9BS0NybWZVbE5pdzdKYk9XRk5n?oc=5",
+      "description": "Avalanche (AVAX) Network Growth, Price Trends, and Investment Potential  vocal.media",
+      "published_at": "2026-02-17T20:42:51+00:00",
+      "scraped_at": "2026-02-21T13:23:05.079316+00:00",
+      "author": "vocal.media",
+      "tags": [
+        "AVAX",
+        "Portfolio Search"
+      ],
+      "image_url": null
+    },
+    {
+      "id": "bae652e8-9c1b-4ca7-9604-75b8fdac87bc",
       "source": "yahoo_finance",
-      "title": "Bitcoin Is Crashing Again: Is It Finally Time to Buy This Top Cryptocurrency?",
-      "url": "https://finance.yahoo.com/news/bitcoin-crashing-again-finally-time-111800216.html",
+      "title": "Blink Charging Co. (BLNK) Strengthens EV Integration Capabilities",
+      "url": "https://finance.yahoo.com/news/blink-charging-co-blnk-strengthens-112020878.html",
       "description": null,
-      "published_at": "2026-02-07T11:18:00+00:00",
-      "scraped_at": "2026-02-08T13:02:53.626944+00:00",
+      "published_at": "2026-02-21T11:20:20+00:00",
+      "scraped_at": "2026-02-21T13:23:06.376120+00:00",
       "content_preview": null,
       "author": "Yahoo Finance",
       "tags": [
-        "Market News",
-        "Finance"
+        "Finance",
+        "Market News"
       ],
       "image_url": null,
-      "ticker": "BTC",
-      "sentiment": "bullish"
+      "ticker": "LINK",
+      "sentiment": "neutral"
     },
     {
-      "id": "2b1aec59-833b-4667-96e0-3300824147bc",
+      "id": "376c7314-ab5a-4160-b6e7-4a4b8b3a105c",
       "source": "google_finance",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq sell-off builds as tech rout continues, bitcoin plunges - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMzNwZHlCOWhvdHNjU1dpbzlxXzhVeGpRaC1FazV6em95WTYzQXk2bGJlTTZwNlFaS29tdTltdFhYZ3dnQjh3LTVQS0tUUHoyNC1Jb1RTeU1vMy1XLXJtQ1JuTUs5dmFLbDhINUhqNnNsQ3JiZUlhQjNjRWg0NE9QWUtpYjRyQVBsXzROOEVxX3cybmRySUFXRjJjdHZDcng2ZjY2dzdaT255RlM1dHlXdlZBdlg0TFQxYW5UdlpZTUlJaVRSeXpma0ptMzdvQWpQenpVY2ZDXzZfdw?oc=5",
-      "description": "Stock market today: Dow, S&P 500, Nasdaq sell-off builds as tech rout continues, bitcoin plunges  Yahoo Finance",
-      "published_at": "2026-02-05T21:07:22+00:00",
-      "scraped_at": "2026-02-08T13:02:55.077230+00:00",
-      "content_preview": "Stock market today: Dow, S&P 500, Nasdaq sell-off builds as tech rout continues, bitcoin plunges  Yahoo Finance",
-      "author": "Yahoo Finance",
+      "title": "PCE data, Amazon dethrones Walmart, Silicon Valley's 'vanlords' and more in Morning Squawk - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTnR0NEF0M2JJYjFvU1RqOWwwSDRjdXVoVExRWmxHZVl5eEhURnM1Szk0eTRNSmJJUVRoYThBWmUtS1QwUmtEbjNSVWtKcGtfZS1peWhRZ2NwX0Q1aXhKQVg2R0xXa0tUVE5TZUY1cHdPWlN2MURzQ2xiWWxfYWJoU1A2OWtkd2dwcTc40gGQAUFVX3lxTE1xY0txTlFybGthY1U5VklWYTFJdGVIbHFKQW9xUm1zTjFjQ0hWeEhaTkR6ZTlSZXNnVEt5aXRWelBoM0tNendwcGlrVVB4SzhIQjR0bWh6UExNYXZiR0lLUDA4Ty1uOUp5cF9nd0JIXzl4LVhQc2RIN0ZoOTBuZUZQMVZyZlJCV2c5MlE4a2FQZQ?oc=5",
+      "description": "PCE data, Amazon dethrones Walmart, Silicon Valley's 'vanlords' and more in Morning Squawk  CNBC",
+      "published_at": "2026-02-20T12:57:30+00:00",
+      "scraped_at": "2026-02-21T13:23:07.137594+00:00",
+      "content_preview": "PCE data, Amazon dethrones Walmart, Silicon Valley's 'vanlords' and more in Morning Squawk  CNBC",
+      "author": "CNBC",
       "tags": [
-        "Market News",
-        "Finance"
-      ],
-      "image_url": null,
-      "ticker": "BTC",
-      "sentiment": "bearish"
-    },
-    {
-      "id": "b4a6cc8e-be6c-45fe-a1a4-b5dda2c69059",
-      "source": "google_finance",
-      "title": "It’s Time to Rethink the Standard Investment Advice. But Not Too Much. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcDAyTGdmUTFDOW5mNzRMSjVzS29fenMwM2I4enhQeFI2R29HZmJvdEJpek84S2VxaWIwUXIwTkwxT0hyOV9rcDVYZzgwZkRtR2x3TnR5ZXZhWno2Ykh6aU5sOW9zN25NcU9Kd0dMQTQ3VzA3RW5qZVQxdE16Rjl6Qld0bUh2Z3ZPX2c?oc=5",
-      "description": "It’s Time to Rethink the Standard Investment Advice. But Not Too Much.  The New York Times",
-      "published_at": "2026-02-06T10:03:20+00:00",
-      "scraped_at": "2026-02-08T13:02:55.077270+00:00",
-      "content_preview": "It’s Time to Rethink the Standard Investment Advice. But Not Too Much.  The New York Times",
-      "author": "The New York Times",
-      "tags": [
-        "Market News",
-        "Finance"
+        "Finance",
+        "Market News"
       ],
       "image_url": null,
       "ticker": "ETH",
       "sentiment": "neutral"
     },
     {
-      "id": "eabd3eb3-a3da-49f5-8bba-c2a1b2719965",
+      "id": "dc69438d-ea80-46c6-b40d-3308b58b0128",
       "source": "google_finance",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq rise after tech rout as Wall Street rethinks AI risks - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRDN3LVgwUGdvS2hwVUZQY3Q5TUluUFhoQ3M1cmhqcmFqOG9tbGItNzlDOE1sdHVlZURBUlJzTXZYSy1hNXc5MzdTamRUdnZPQlgtQXJpbEp5UWM1dWV6Q1hiOUk5SmU5Vjc4Z2s4OENjb0tpQzRPSWtxd3FxLTk4UDFBUkRlNnZHRXV0eHBrdEl5dVpRbXhDYU8wNFlqdFRqNUlKdUlxT0dKOXI0QksxNjBhTEswWXM5aktXbnRDc2NoLUpXLTE5bXN0bmlHMlBNWXNVN2RMaGlRdUt0YUJsVHg1WWZGZw?oc=5",
-      "description": "Stock market today: Dow, S&P 500, Nasdaq rise after tech rout as Wall Street rethinks AI risks  Yahoo Finance",
-      "published_at": "2026-02-06T14:31:49+00:00",
-      "scraped_at": "2026-02-08T13:02:55.077368+00:00",
-      "content_preview": "Stock market today: Dow, S&P 500, Nasdaq rise after tech rout as Wall Street rethinks AI risks  Yahoo Finance",
-      "author": "Yahoo Finance",
+      "title": "Open Market: Cowboys have plethora of dynamic LB options in free agency - Dallas Cowboys | Official Site of the Dallas Cowboys",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZWctUG5Pd3UwcmFaTlo1MXZZY25CaTdsRFZCbXB6MldlUHNWX2wwMjlNemV0WTVnWjlrNzB3aXJ4RXFDcXlQMFJjX3Z6Z0liLUp3eHVBLWhVbVVBZXhtbm1GVmFhVGFWVVZmSW03ekEzUkdlaHRETWNYb2puZXpzWEljTkNUM05YcnFMQ1AwV2xQZlptUjlqSTRHMFE1VHpMdHlFQ0RtWG4?oc=5",
+      "description": "Open Market: Cowboys have plethora of dynamic LB options in free agency  Dallas Cowboys | Official Site of the Dallas Cowboys",
+      "published_at": "2026-02-20T19:13:38+00:00",
+      "scraped_at": "2026-02-21T13:23:07.138077+00:00",
+      "content_preview": "Open Market: Cowboys have plethora of dynamic LB options in free agency  Dallas Cowboys | Official Site of the Dallas Cowboys",
+      "author": "Dallas Cowboys | Official Site of the Dallas Cowboys",
       "tags": [
-        "Market News",
-        "Finance"
-      ],
-      "image_url": null,
-      "ticker": "ETH",
-      "sentiment": "bearish"
-    },
-    {
-      "id": "95863252-a578-4dc9-8076-3aab2a39fa09",
-      "source": "google_finance",
-      "title": "After almost a century in wide circulation, the mass market paperback is shuffling toward extinction. Our reporter Elizabeth A. Harris explores their disappearance and talks with Stephen King about what paperbacks have meant to him. Read more: https://nyti.m - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNjRRRGRHSXhkNllfb1huaGo4UnpTeEUzY3pwd3dKeUlQS2pDQ2s3MkFNNUR3WG5NcEI3QUE5cE1kbXBpV1VDWno4d1VxWGFyZ09hSmptU0JxcVJteTZjWU9tbmU1WFhxTm96OGhXS29iTEJBRGZvNXF5d1ZUQk44dlpkMUduY05QcE1DTkE3X29VTG5OdnJpOW53dVJMMF8wbFZ3LXdJOWVVRDFNdGhkQjV0QkdYVXV4eFJwalVCdHcxYTJ4YW9pUlJwaDBvRS1xaG0w?oc=5",
-      "description": "After almost a century in wide circulation, the mass market paperback is shuffling toward extinction. Our reporter Elizabeth A. Harris explores their disappearance and talks with Stephen King about wh",
-      "published_at": "2026-02-08T10:29:46+00:00",
-      "scraped_at": "2026-02-08T13:02:55.077858+00:00",
-      "content_preview": "After almost a century in wide circulation, the mass market paperback is shuffling toward extinction. Our reporter Elizabeth A. Harris explores their disappearance and talks with Stephen King about wh",
-      "author": "Facebook",
-      "tags": [
-        "Market News",
-        "Finance"
+        "Finance",
+        "Market News"
       ],
       "image_url": null,
       "ticker": "ETH",
       "sentiment": "neutral"
     },
     {
-      "id": "2ffab855-7e54-40d4-bd82-8d3b2e43f060",
+      "id": "d2e87d7b-5405-4ca3-91ef-a575f2c74055",
       "source": "google_finance",
-      "title": "Stock market today: S&P 500, Nasdaq fall for 2nd day as tech slides on AI worries with Google earnings ahead - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTGZJXzAxQVlITTZYNEdsU2hhMjBUaVVIZnBIc1g3aWpScEU5X3VDbGlWdkwzRGZTZTlUV3hrUzhob3NJZ1FUS3MwTjd4bzhHbjVYemUydUdmZTJVNUU5RzVmM3JtcWR4cUhkc0tBRW5sdTZqUDFBc1RTck1UbnlPRXk2UXdGa0xPV2ktN1Z0V1ZKN184Y1R1dTBBOEhGUWJSdHZyX3hESzZPU2xITFlJeUNMcUFlZlhUc19BdTBsM3RZRjMzRnF5WDc2WkI1eXJGcUt0UnBUSllOb2JpcDRPYnBVWldGRUFhTG9JMQ?oc=5",
-      "description": "Stock market today: S&P 500, Nasdaq fall for 2nd day as tech slides on AI worries with Google earnings ahead  Yahoo Finance",
-      "published_at": "2026-02-04T22:03:30+00:00",
-      "scraped_at": "2026-02-08T13:02:55.078159+00:00",
-      "content_preview": "Stock market today: S&P 500, Nasdaq fall for 2nd day as tech slides on AI worries with Google earnings ahead  Yahoo Finance",
-      "author": "Yahoo Finance",
+      "title": "Why Alphabet Stock Topped the Market Today - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZWVtU244bzZ3Q3I5R2dyNTNwYjV2QmFtTHppX0FZZ3lKZ1MyNEhnQ1JUOU82ZHF4WTBiWTZPcHRMYkd0cEJ2a1J1UURkSEh0RUx5dkpfU2dzSjVYMHlYLUpqZWRNOTVFdEV3WlVvZjlWd3V5RUNLdEd2LWZ2eDdnNU15dk13d3J2Vnpsc1B3?oc=5",
+      "description": "Why Alphabet Stock Topped the Market Today  The Motley Fool",
+      "published_at": "2026-02-20T22:26:00+00:00",
+      "scraped_at": "2026-02-21T13:23:07.138146+00:00",
+      "content_preview": "Why Alphabet Stock Topped the Market Today  The Motley Fool",
+      "author": "The Motley Fool",
       "tags": [
-        "Market News",
-        "Finance"
+        "Finance",
+        "Market News"
       ],
       "image_url": null,
       "ticker": "GOOG",
       "sentiment": "neutral"
     },
     {
-      "id": "bf15f2e9-18ca-44c9-ad1b-5efca69058ff",
+      "id": "a76cee1f-8ca2-4499-ab67-1bd67786175d",
       "source": "google_finance",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq jump to kick off February as gold, silver, bitcoin remain volatile - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQc0F4TE9UblcyRVIyTkVPQnJWZWtyTUgteHBtb2NGeDZPR1o4dE9FOFA4dUVlOEdmbW9VUTE3c0NJMUFFcW83d0N5LVQwVHYyODU2bXR3YzQ1NlZVVHJPQkhwcHUzcndOc0xrVFVqX0FubEd3NzBEWHJDY1hRUDBqcWF2azhFbnNWNFZWd2lvS3cwN0lnYlkzWmlVdmR6TTdRM1hNTEVwcVM1ZmZab29yUHk5ZHZ0NWdFR2FGNlZCeHdXSmg0UU9uRUk3d1BhbzVpcEZrOWExaVM3VjBzN0V2SFRkVFY3Rk0?oc=5",
-      "description": "Stock market today: Dow, S&P 500, Nasdaq jump to kick off February as gold, silver, bitcoin remain volatile  Yahoo Finance",
-      "published_at": "2026-02-02T21:06:10+00:00",
-      "scraped_at": "2026-02-08T13:02:55.078510+00:00",
-      "content_preview": "Stock market today: Dow, S&P 500, Nasdaq jump to kick off February as gold, silver, bitcoin remain volatile  Yahoo Finance",
+      "title": "Stock Market Today, Feb. 20: Alphabet Jumps as Gemini Rollout Bolsters $185B AI Buildout - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DTzhmYkR4V2JzN3k5S3ZPZnh6U0NjUFQxZXR6cW9wSE1uZGtiZXcxVEtFQjBoYjZoaHB0WEl6X0d3cUtRNFVITWxDYUliMEJqY3N4eWZMVjVqUHpkdkR4VUdXeU95akpoYjNpX3lGUExsejh4N1NxOEUzWQ?oc=5",
+      "description": "Stock Market Today, Feb. 20: Alphabet Jumps as Gemini Rollout Bolsters $185B AI Buildout  Yahoo Finance",
+      "published_at": "2026-02-20T22:06:48+00:00",
+      "scraped_at": "2026-02-21T13:23:07.138701+00:00",
+      "content_preview": "Stock Market Today, Feb. 20: Alphabet Jumps as Gemini Rollout Bolsters $185B AI Buildout  Yahoo Finance",
       "author": "Yahoo Finance",
       "tags": [
-        "Market News",
-        "Finance"
+        "Finance",
+        "Market News"
       ],
       "image_url": null,
-      "ticker": "BTC",
+      "ticker": "GOOG",
       "sentiment": "neutral"
+    },
+    {
+      "id": "a63f4190-9fc5-42cd-b108-89531671601c",
+      "source": "google_finance",
+      "title": "The Market for Murder: The Ethics of True Crime - The Cornell Daily Sun",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEZoeElwcTdjYjB2QkpuNF9GT0lXaTA3bXhTMzQzMzV3c2F3VkxDQ29LRjlDYmlnT3hWdnRhbnVMOUNYTTBEQ2Zjbnd6RXFzUHlRNnRTUlJyQWJfVjBUVGJvY3QxQjZGU1VvV2RObVBwYjlnMHpwRGZkUmV6RW4yN0hnREQ0QTR1M0M4X3RPdUJwVjQ?oc=5",
+      "description": "The Market for Murder: The Ethics of True Crime  The Cornell Daily Sun",
+      "published_at": "2026-02-20T14:03:54+00:00",
+      "scraped_at": "2026-02-21T13:23:07.139607+00:00",
+      "content_preview": "The Market for Murder: The Ethics of True Crime  The Cornell Daily Sun",
+      "author": "The Cornell Daily Sun",
+      "tags": [
+        "Finance",
+        "Market News"
+      ],
+      "image_url": null,
+      "ticker": "ETH",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "56e4b200-398e-4cee-bfde-c55ac3125b42",
+      "source": "google_finance",
+      "title": "Why Islamic finance could provide an ethical model for funding the green transition - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON081ZERlVGp5cWJLcWZuWHZ6ZXgzUS05a1ktSnlQUWNVRUh3bTNUTFZIOG9vTEcyYXhjS2JyMzlmNkc3YlpDZGZRdXZGZWtrRWR6M1oyY18wWG1PbUl1TnBfc0pCNVBlNzduOW9rVjhTV1dtUkZsRHBkZjBSZXlJVUNERmowdWFLRXFQQ1hGc0NsRWxpM0ZPbGpfUWlLb1BmcHBycVpiWGUxTUFWMTNxdC1fdkt4aDN5ZGc?oc=5",
+      "description": "Why Islamic finance could provide an ethical model for funding the green transition  The Conversation",
+      "published_at": "2026-02-20T17:48:07+00:00",
+      "scraped_at": "2026-02-21T13:23:07.139789+00:00",
+      "content_preview": "Why Islamic finance could provide an ethical model for funding the green transition  The Conversation",
+      "author": "The Conversation",
+      "tags": [
+        "Finance",
+        "Market News"
+      ],
+      "image_url": null,
+      "ticker": "ETH",
+      "sentiment": "bullish"
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-08T13:02:55.159568+00:00",
-    "total_articles": 242,
+    "last_updated": "2026-02-21T13:23:07.244714+00:00",
+    "total_articles": 185,
     "sources_count": {
       "bens_bites": 0,
       "ai_rundown": 0,
       "yahoo_finance": 1,
-      "google_finance": 241,
+      "google_finance": 184,
       "reddit": 0
     }
   },
