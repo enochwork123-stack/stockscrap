@@ -1,8 +1,8 @@
+#!/usr/bin/env python3
 import os
 import json
 import requests
 import sys
-import google.generativeai as genai
 
 def generate_ai_analysis(ticker, news_context, price_context=""):
     """
@@ -14,8 +14,14 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
             "summary": "AI Key not configured. Please add GEMINI_API_KEY to secrets.",
             "technical_outlook": "Technical analysis unavailable."
         }
-
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    
+    # Try different models and versions
+    variants = [
+        ("v1", "gemini-1.5-flash"),
+        ("v1", "gemini-1.5-pro"),
+        ("v1beta", "gemini-1.5-flash"),
+        ("v1beta", "gemini-pro")
+    ]
     
     prompt = f"""
     You are a senior financial analyst. Analyze the following data for {ticker} and provide two short sections:
@@ -37,45 +43,32 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     }}
     """
 
-    try:
-        genai.configure(api_key=api_key)
-        
-        # Debug: List available models
-        print("Available models:")
-        for m in genai.list_models():
-            if 'generateContent' in m.supported_generation_methods:
-                print(f"- {m.name}")
-        
-        # Try multiple model variants in case of 404s
-        models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-pro']
-        last_exception = None
-        
-        for model_name in models_to_try:
-            try:
-                model = genai.GenerativeModel(model_name)
-                response = model.generate_content(
-                    prompt,
-                    generation_config=genai.GenerationConfig(
-                        response_mime_type="application/json",
-                    ),
-                )
-                return json.loads(response.text)
-            except Exception as e:
-                last_exception = e
-                if "404" in str(e):
-                    continue
-                raise e
-        
-        if last_exception:
-            raise last_exception
+    last_error = "Unknown error"
+    
+    for version, model in variants:
+        try:
+            url = f"https://generativelanguage.googleapis.com/{version}/models/{model}:generateContent?key={api_key}"
+            response = requests.post(url, json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"response_mime_type": "application/json"}
+            }, timeout=30)
             
-    except Exception as e:
-        error_msg = str(e)[:100]
-        print(f"Error generating AI analysis for {ticker}: {e}")
-        return {
-            "summary": f"AI Error: {error_msg}",
-            "technical_outlook": "Check logs for technical error."
-        }
+            if response.status_code == 200:
+                result = response.json()
+                content = result['candidates'][0]['content']['parts'][0]['text']
+                return json.loads(content)
+            else:
+                last_error = f"{version}/{model} failed ({response.status_code})"
+                if response.status_code == 404:
+                    continue
+        except Exception as e:
+            last_error = str(e)
+            continue
+
+    return {
+        "summary": f"AI Error: {last_error}",
+        "technical_outlook": "Check API key and project settings."
+    }
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
