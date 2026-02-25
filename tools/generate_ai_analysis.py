@@ -43,14 +43,23 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
             "generationConfig": {"response_mime_type": "application/json"}
         }, timeout=30)
         
+        if response.status_code != 200:
+            print(f"Gemini API Error ({response.status_code}): {response.text}")
+            raise Exception(f"API returned {response.status_code}")
+            
         result = response.json()
+        if 'candidates' not in result:
+            print(f"Unexpected Gemini Response Structure: {result}")
+            raise Exception("No candidates in response")
+            
         content = result['candidates'][0]['content']['parts'][0]['text']
         return json.loads(content)
     except Exception as e:
+        error_msg = str(e)[:100]
         print(f"Error generating AI analysis for {ticker}: {e}")
         return {
-            "summary": "Analysis currently unavailable.",
-            "technical_outlook": "Technical data processing failed."
+            "summary": f"AI Error: {error_msg}",
+            "technical_outlook": "Check logs for technical error."
         }
 
 if __name__ == "__main__":
