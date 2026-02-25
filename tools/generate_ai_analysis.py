@@ -52,14 +52,26 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     for version, model in variants:
         try:
             url = f"https://generativelanguage.googleapis.com/{version}/models/{model}:generateContent?key={api_key}"
-            response = requests.post(url, json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"response_mime_type": "application/json"}
-            }, timeout=30)
+            
+            # Simple request without JSON mode restriction first to see if it fixes 404
+            payload = {
+                "contents": [{"parts": [{"text": prompt}]}]
+            }
+            
+            # If we know it's a 1.5 model, we can try adding JSON mode back later
+            # but for debugging 404, let's go basic
+            
+            response = requests.post(url, json=payload, timeout=30)
             
             if response.status_code == 200:
                 result = response.json()
                 content = result['candidates'][0]['content']['parts'][0]['text']
+                
+                # Try to parse JSON from the text (AIs sometimes wrap it in ```json)
+                import re
+                json_match = re.search(r'\{.*\}', content, re.DOTALL)
+                if json_match:
+                    return json.loads(json_match.group())
                 return json.loads(content)
             else:
                 last_error = f"{version}/{model} failed ({response.status_code})"
