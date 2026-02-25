@@ -16,6 +16,15 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     
     try:
         # Standardize on SDK which handles endpoint versions correctly
+        import google.generativeai as genai
+        # DEBUG: Check version
+        try:
+            import pkg_resources
+            version = pkg_resources.get_distribution("google-generativeai").version
+            print(f"DEBUG: google-generativeai version: {version}")
+        except:
+            print("DEBUG: Could not determine google-generativeai version")
+
         genai.configure(api_key=api_key)
         
         # DEBUG: List available models to see what the key actually sees
@@ -29,11 +38,15 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
         except Exception as list_err:
             print(f"DEBUG: Failed to list models: {list_err}")
 
-        # Use simple model name — SDK typically defaults to stable v1
+        # Try to use a model that likely exists in v1
+        # If the list above showed names, we could pick one. 
+        # For now, let's try the alias or full name.
         model_name = 'gemini-1.5-flash'
-        # Check if we should use a different name based on available_models
-        # For now, let's keep it but at least we see the list in logs.
-        
+        if available_models and any('gemini-1.5-flash' in m for m in available_models):
+            # Use the first one that matches
+            model_name = [m for m in available_models if 'gemini-1.5-flash' in m][0]
+            print(f"DEBUG: Using found model name: {model_name}")
+
         model = genai.GenerativeModel(model_name)
         
         prompt = f"""
