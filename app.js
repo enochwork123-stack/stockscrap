@@ -11,8 +11,89 @@ const AppState = {
     articles: [],
     savedArticles: new Set(),
     currentFilter: 'all',
-    metadata: null
+    metadata: null,
+    tvWidget: null
 };
+
+// ============================================
+// TradingView Chart Configuration
+// ============================================
+
+// Map from filter tab name → TradingView symbol
+const TICKER_TV_SYMBOLS = {
+    'google': 'NASDAQ:GOOGL',
+    'eqix': 'NASDAQ:EQIX',
+    'u': 'NYSE:U',
+    'tdoc': 'NYSE:TDOC',
+    'btc': 'BINANCE:BTCUSDT',
+    'eth': 'BINANCE:ETHUSDT',
+    'link': 'BINANCE:LINKUSDT',
+    'avax': 'BINANCE:AVAXUSDT'
+};
+
+const TICKER_DISPLAY_NAMES = {
+    'google': 'Alphabet (GOOGL)',
+    'eqix': 'Equinix (EQIX)',
+    'u': 'Unity Software (U)',
+    'tdoc': 'Teladoc Health (TDOC)',
+    'btc': 'Bitcoin (BTC/USDT)',
+    'eth': 'Ethereum (ETH/USDT)',
+    'link': 'Chainlink (LINK/USDT)',
+    'avax': 'Avalanche (AVAX/USDT)'
+};
+
+function renderChart(filter) {
+    const symbol = TICKER_TV_SYMBOLS[filter];
+    const chartSection = document.getElementById('chartSection');
+    const chartTitle = document.getElementById('chartTitle');
+    const chartContainer = document.getElementById('tradingview_chart');
+
+    if (!symbol || !chartSection) return;
+
+    // Show section
+    chartSection.style.display = 'block';
+    if (chartTitle) chartTitle.textContent = (TICKER_DISPLAY_NAMES[filter] || filter.toUpperCase()) + ' — Price Chart';
+
+    // Clear previous widget
+    chartContainer.innerHTML = '';
+
+    // Create TradingView Advanced Chart widget
+    // Use explicit height so sub-indicator panes (RSI, MACD, BB, DMI) all get rendered
+    new TradingView.widget({
+        container_id: 'tradingview_chart',
+        width: '100%',
+        height: 900,
+        symbol: symbol,
+        interval: 'D',          // Daily candles
+        timezone: 'exchange',
+        theme: 'dark',
+        style: '1',             // Candlestick
+        locale: 'en',
+        toolbar_bg: '#0d1117',
+        enable_publishing: false,
+        hide_top_toolbar: false,
+        hide_legend: false,
+        save_image: true,
+        withdateranges: true,
+        allow_symbol_change: true,
+        studies: [
+            'RSI@tv-basicstudies',
+            'MACD@tv-basicstudies',
+            'BB@tv-basicstudies'
+        ],
+        show_popup_button: true,
+        popup_width: '1200',
+        popup_height: '800',
+        no_referral_id: true
+    });
+}
+
+function hideChart() {
+    const chartSection = document.getElementById('chartSection');
+    if (chartSection) chartSection.style.display = 'none';
+    const chartContainer = document.getElementById('tradingview_chart');
+    if (chartContainer) chartContainer.innerHTML = '';
+}
 
 // ============================================
 // Data Loading
@@ -219,6 +300,13 @@ function setFilter(filter) {
     document.querySelectorAll('.filter-tab').forEach(tab => {
         tab.classList.toggle('active', tab.dataset.filter === filter);
     });
+
+    // Show/hide chart
+    if (TICKER_TV_SYMBOLS[filter]) {
+        renderChart(filter);
+    } else {
+        hideChart();
+    }
 
     // Re-render articles
     renderArticles();

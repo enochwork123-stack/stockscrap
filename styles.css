@@ -622,3 +622,73 @@ a:focus-visible {
     outline: 2px solid var(--color-primary);
     outline-offset: 2px;
 }
+
+/* ============================================
+   Chart Section
+   ============================================ */
+
+.chart-section {
+    margin-bottom: var(--spacing-2xl);
+    animation: chartFadeIn 0.4s ease;
+}
+
+@keyframes chartFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chart-section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-lg);
+}
+
+.chart-interval-note {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-tertiary);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 0.2rem var(--spacing-sm);
+}
+
+.chart-container {
+    width: 100%;
+    height: 900px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid rgba(255, 107, 74, 0.25);
+    box-shadow:
+        0 0 0 1px rgba(255, 107, 74, 0.08),
+        0 8px 32px rgba(0, 0, 0, 0.5),
+        0 0 60px rgba(255, 107, 74, 0.06);
+    background: var(--color-bg-secondary);
+    position: relative;
+}
+
+/* The TradingView iframe fills the container */
+.chart-container iframe {
+    border: none;
+    border-radius: var(--radius-lg);
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        height: 480px;
+    }
+
+    .chart-section-header {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+}

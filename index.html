@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <script src="data/dashboard_payload.js"></script>
+    <!-- TradingView Advanced Chart Widget -->
+    <script src="https://s3.tradingview.com/tv.js"></script>
+
 </head>
 
 <body>
@@ -82,7 +85,16 @@
                 </div>
             </div>
 
-            <!-- Articles Grid -->
+            <!-- Chart Section (shown per-ticker tab) -->
+            <div class="chart-section" id="chartSection" style="display:none;">
+                <div class="section-header chart-section-header">
+                    <h2 class="section-title" id="chartTitle">Price Chart</h2>
+                    <div class="chart-interval-note">Daily · Candlestick · TradingView</div>
+                </div>
+                <div class="chart-container" id="tradingview_chart"></div>
+            </div>
+
+
             <div class="articles-section">
                 <div class="section-header">
                     <h2 class="section-title">Latest Financial News</h2>
