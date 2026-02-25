@@ -40,6 +40,12 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     try:
         genai.configure(api_key=api_key)
         
+        # Debug: List available models
+        print("Available models:")
+        for m in genai.list_models():
+            if 'generateContent' in m.supported_generation_methods:
+                print(f"- {m.name}")
+        
         # Try multiple model variants in case of 404s
         models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-pro']
         last_exception = None
