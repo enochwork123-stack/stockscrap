@@ -94,6 +94,43 @@
                 <div class="chart-container" id="tradingview_chart"></div>
             </div>
 
+            <!-- AI Analysis Section -->
+            <div class="analysis-section" id="analysisSection" style="display:none;">
+                <div class="section-header analysis-header">
+                    <h2 class="section-title">
+                        <i class="ai-icon">✨</i> AI Market Intelligence
+                    </h2>
+                    <button class="btn-refresh-ai" id="refreshAiBtn" title="Refresh Analysis">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15">
+                            </path>
+                        </svg>
+                        <span>Re-Analyze</span>
+                    </button>
+                </div>
+
+                <div class="analysis-grid">
+                    <div class="analysis-card pulse-card">
+                        <div class="card-title">News Pulse</div>
+                        <div class="card-content" id="aiNewsSummary">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                        </div>
+                    </div>
+                    <div class="analysis-card outlook-card">
+                        <div class="card-title">Technical Outlook</div>
+                        <div class="card-content" id="aiTechnicalOutlook">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="articles-section">
                 <div class="section-header">

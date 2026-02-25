@@ -12,7 +12,8 @@ const AppState = {
     savedArticles: new Set(),
     currentFilter: 'all',
     metadata: null,
-    tvWidget: null
+    tvWidget: null,
+    analyses: {} // Store AI analyses per ticker
 };
 
 // ============================================
@@ -50,24 +51,30 @@ function renderChart(filter) {
 
     if (!symbol || !chartSection) return;
 
-    // Show section
+    // Show chart section
     chartSection.style.display = 'block';
     if (chartTitle) chartTitle.textContent = (TICKER_DISPLAY_NAMES[filter] || filter.toUpperCase()) + ' — Price Chart';
+
+    // Show analysis section
+    const analysisSection = document.getElementById('analysisSection');
+    if (analysisSection) {
+        analysisSection.style.display = 'block';
+        renderAIAnalysis(filter);
+    }
 
     // Clear previous widget
     chartContainer.innerHTML = '';
 
     // Create TradingView Advanced Chart widget
-    // Use explicit height so sub-indicator panes (RSI, MACD, BB, DMI) all get rendered
     new TradingView.widget({
         container_id: 'tradingview_chart',
         width: '100%',
         height: 900,
         symbol: symbol,
-        interval: 'D',          // Daily candles
+        interval: 'D',
         timezone: 'exchange',
         theme: 'dark',
-        style: '1',             // Candlestick
+        style: '1',
         locale: 'en',
         toolbar_bg: '#0d1117',
         enable_publishing: false,
@@ -91,8 +98,36 @@ function renderChart(filter) {
 function hideChart() {
     const chartSection = document.getElementById('chartSection');
     if (chartSection) chartSection.style.display = 'none';
+
+    const analysisSection = document.getElementById('analysisSection');
+    if (analysisSection) analysisSection.style.display = 'none';
+
     const chartContainer = document.getElementById('tradingview_chart');
     if (chartContainer) chartContainer.innerHTML = '';
+}
+
+function renderAIAnalysis(ticker) {
+    const newsEl = document.getElementById('aiNewsSummary');
+    const techEl = document.getElementById('aiTechnicalOutlook');
+    const symbol = ticker.toUpperCase().split('-')[0];
+
+    const data = AppState.analyses[symbol];
+
+    if (data) {
+        newsEl.innerHTML = `<p>${data.summary}</p>`;
+        techEl.innerHTML = `<p>${data.technical_outlook}</p>`;
+    } else {
+        showSkeleton(newsEl);
+        showSkeleton(techEl);
+    }
+}
+
+function showSkeleton(container) {
+    container.innerHTML = `
+        <div class="skeleton-text"></div>
+        <div class="skeleton-text"></div>
+        <div class="skeleton-text"></div>
+    `;
 }
 
 // ============================================
@@ -109,6 +144,7 @@ async function loadDashboardData() {
         const data = window.DASHBOARD_DATA;
         AppState.articles = data.articles || [];
         AppState.metadata = data.metadata || {};
+        AppState.analyses = data.analyses || {};
 
         // Load saved articles from localStorage
         loadSavedArticles();
@@ -410,10 +446,25 @@ function initEventListeners() {
         });
     });
 
-    // Refresh button
-    const refreshBtn = document.getElementById('refreshBtn');
-    if (refreshBtn) {
-        refreshBtn.addEventListener('click', refreshData);
+    // AI Refresh button
+    const refreshAiBtn = document.getElementById('refreshAiBtn');
+    if (refreshAiBtn) {
+        refreshAiBtn.addEventListener('click', async () => {
+            const ticker = AppState.currentFilter;
+            refreshAiBtn.classList.add('loading');
+            refreshAiBtn.disabled = true;
+
+            // Show skeletons while "refreshing"
+            renderAIAnalysis(ticker);
+
+            // Simulate/Trigger actual refresh (in real world would call an API)
+            // For this local dashboard, we'll re-load the data payload
+            await refreshData();
+
+            refreshAiBtn.classList.remove('loading');
+            refreshAiBtn.disabled = false;
+            renderAIAnalysis(ticker);
+        });
     }
 }
 

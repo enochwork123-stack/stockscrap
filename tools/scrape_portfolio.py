@@ -254,16 +254,34 @@ def main():
     # 2. Precision Google News Searches
     all_articles.extend(fetch_google_search_news())
     
-    if not all_articles:
-        print("No articles found.")
-        sys.exit(0)
+    # 3. Generate AI Analysis per Ticker
+    try:
+        from tools.generate_ai_analysis import generate_ai_analysis
+    except ImportError:
+        from generate_ai_analysis import generate_ai_analysis
     
-    # Save raw results
+    ticker_analyses = {}
+    for ticker_symbol in ["GOOG", "EQIX", "U", "TDOC", "BTC", "ETH", "LINK", "AVAX"]:
+        # Get headlines for this ticker to use as context
+        headlines = [a["title"] for a in all_articles if a["ticker"] == ticker_symbol][:5]
+        news_context = "\n".join(headlines)
+        
+        print(f"Generating AI Intelligence for {ticker_symbol}...")
+        analysis = generate_ai_analysis(ticker_symbol, news_context)
+        ticker_analyses[ticker_symbol] = analysis
+
+    # Save raw results with AI analyses
+    payload = {
+        "articles": all_articles,
+        "analyses": ticker_analyses,
+        "last_updated": datetime.now(timezone.utc).isoformat()
+    }
+    
     os.makedirs(os.path.dirname(RAW_OUTPUT), exist_ok=True)
     with open(RAW_OUTPUT, 'w', encoding='utf-8') as f:
-        json.dump(all_articles, f, indent=2, ensure_ascii=False)
+        json.dump(payload, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ Successfully scraped {len(all_articles)} high-precision articles")
+    print(f"✅ Successfully scraped {len(all_articles)} articles + generated {len(ticker_analyses)} AI analyses")
     sys.exit(0)
 
 if __name__ == "__main__":

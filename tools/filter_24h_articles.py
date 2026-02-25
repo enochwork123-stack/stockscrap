@@ -8,6 +8,7 @@ import json
 import sys
 from datetime import datetime, timezone, timedelta
 import os
+from dateutil import parser
 
 INPUT_FILES = [
     ".tmp/raw_portfolio.json",
@@ -58,25 +59,31 @@ def get_sentiment(text):
     else:
         return "neutral"
 
-def load_articles(filepath):
-    """Load articles from JSON file"""
+def load_data(filepath):
+    """Load articles and metadata from JSON file"""
     try:
         if not os.path.exists(filepath):
-            print(f"File not found: {filepath}")
-            return []
+            # print(f"File not found: {filepath}")
+            return {"articles": [], "analyses": {}}
         
         with open(filepath, 'r', encoding='utf-8') as f:
-            articles = json.load(f)
-        print(f"Loaded {len(articles)} articles from {filepath}")
-        return articles
+            data = json.load(f)
+            
+        if isinstance(data, list):
+            return {"articles": data, "analyses": {}}
+        
+        return {
+            "articles": data.get("articles", []),
+            "analyses": data.get("analyses", {})
+        }
     except Exception as e:
         print(f"Error loading {filepath}: {e}", file=sys.stderr)
-        return []
+        return {"articles": [], "analyses": {}}
 
 def filter_24h(articles):
     """Filter articles from last 7 days and only include portfolio-related news"""
     now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=7)  # Changed to 7 days for demo
+    cutoff = now - timedelta(days=30)  # Changed to 30 days to ensure news is found
     
     # Map keywords to specific ticker codes
     TICKER_TAG_MAP = {
@@ -98,7 +105,14 @@ def filter_24h(articles):
             if not published_str:
                 continue
             
-            published = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
+            # Robust parsing using dateutil
+            try:
+                published = parser.parse(published_str)
+                if published.tzinfo is None:
+                    published = published.replace(tzinfo=timezone.utc)
+            except:
+                print(f"Failed to parse date: {published_str}")
+                continue
             
             if published < cutoff:
                 continue
@@ -132,13 +146,17 @@ def filter_24h(articles):
     
     return filtered
 
-def save_articles(articles):
-    """Save filtered articles"""
+def save_data(articles, analyses):
+    """Save filtered data including analyses"""
     try:
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+        payload = {
+            "articles": articles,
+            "analyses": analyses
+        }
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(articles, f, indent=2, ensure_ascii=False)
-        print(f"Saved {len(articles)} filtered articles to {OUTPUT_FILE}")
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        print(f"Saved {len(articles)} filtered articles and {len(analyses)} analyses to {OUTPUT_FILE}")
         return True
     except Exception as e:
         print(f"Error saving articles: {e}", file=sys.stderr)
@@ -150,20 +168,23 @@ def main():
     print("24-Hour Article Filter")
     print("=" * 60)
     
-    # Load all articles
+    # Load all data
     all_articles = []
+    all_analyses = {}
     for filepath in INPUT_FILES:
-        articles = load_articles(filepath)
-        all_articles.extend(articles)
+        data = load_data(filepath)
+        all_articles.extend(data["articles"])
+        all_analyses.update(data["analyses"])
     
     print(f"\nTotal articles loaded: {len(all_articles)}")
+    print(f"Total analyses found: {len(all_analyses)}")
     
-    # Filter to last 24 hours
+    # Filter
     filtered = filter_24h(all_articles)
-    print(f"Articles from last 24 hours: {len(filtered)}")
+    print(f"Articles matching filters: {len(filtered)}")
     
     # Save
-    if save_articles(filtered):
+    if save_data(filtered, all_analyses):
         print(f"✅ Successfully filtered articles")
         sys.exit(0)
     else:

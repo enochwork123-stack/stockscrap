@@ -15,7 +15,10 @@ image = (
 
 @app.function(
     image=image,
-    secrets=[modal.Secret.from_name("github-secret")],
+    secrets=[
+        modal.Secret.from_name("github-secret"),
+        modal.Secret.from_name("googlecloud-secret")
+    ],
     schedule=modal.Period(hours=24),
     timeout=1200
 )

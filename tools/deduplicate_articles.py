@@ -11,14 +11,20 @@ import os
 INPUT_FILE = ".tmp/filtered_articles.json"
 OUTPUT_FILE = "data/dashboard_payload.js"
 
-def load_articles():
-    """Load filtered articles"""
+def load_data():
+    """Load filtered articles and analyses"""
     try:
+        if not os.path.exists(INPUT_FILE):
+            return {"articles": [], "analyses": {}}
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            data = json.load(f)
+            # Handle both old (list) and new (dict) formats
+            if isinstance(data, list):
+                return {"articles": data, "analyses": {}}
+            return data
     except Exception as e:
-        print(f"Error loading articles: {e}", file=sys.stderr)
-        return []
+        print(f"Error loading filtered data: {e}", file=sys.stderr)
+        return {"articles": [], "analyses": {}}
 
 def deduplicate(articles):
     """Remove duplicates based on URL"""
@@ -33,7 +39,7 @@ def deduplicate(articles):
     
     return unique
 
-def create_payload(articles):
+def create_payload(articles, analyses=None):
     """Create dashboard payload with metadata"""
     from datetime import datetime, timezone
     
@@ -53,6 +59,7 @@ def create_payload(articles):
     
     payload = {
         "articles": articles,
+        "analyses": analyses or {},
         "metadata": {
             "last_updated": datetime.now(timezone.utc).isoformat(),
             "total_articles": len(articles),
@@ -83,23 +90,24 @@ def main():
     print("Article Deduplication & Payload Generation")
     print("=" * 60)
     
-    # Load articles
-    articles = load_articles()
-    print(f"Loaded {len(articles)} filtered articles")
+    # Load data
+    data = load_data()
+    articles = data.get("articles", [])
+    analyses = data.get("analyses", {})
+    print(f"Loaded {len(articles)} filtered articles and {len(analyses)} AI analyses")
     
     # Deduplicate
     unique = deduplicate(articles)
     print(f"Unique articles: {len(unique)}")
     
     # Create payload
-    payload = create_payload(unique)
+    payload = create_payload(unique, analyses)
     
     # Save
     if save_payload(payload):
         print(f"✅ Successfully created dashboard payload")
         print(f"   Total: {payload['metadata']['total_articles']} articles")
-        print(f"   Ben's Bites: {payload['metadata']['sources_count']['bens_bites']}")
-        print(f"   AI Rundown: {payload['metadata']['sources_count']['ai_rundown']}")
+        print(f"   AI Analyses: {len(payload['analyses'])}")
         sys.exit(0)
     else:
         print("Failed to save payload")
