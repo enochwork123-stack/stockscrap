@@ -39,16 +39,30 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json",
-            ),
-        )
+        # Try multiple model variants in case of 404s
+        models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-pro']
+        last_exception = None
         
-        return json.loads(response.text)
+        for model_name in models_to_try:
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(
+                    prompt,
+                    generation_config=genai.GenerationConfig(
+                        response_mime_type="application/json",
+                    ),
+                )
+                return json.loads(response.text)
+            except Exception as e:
+                last_exception = e
+                if "404" in str(e):
+                    continue
+                raise e
+        
+        if last_exception:
+            raise last_exception
+            
     except Exception as e:
         error_msg = str(e)[:100]
         print(f"Error generating AI analysis for {ticker}: {e}")
