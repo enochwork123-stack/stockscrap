@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
 import os
 import json
 import requests
 import sys
+import google.generativeai as genai
 
 def generate_ai_analysis(ticker, news_context, price_context=""):
     """
@@ -38,22 +38,17 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     """
 
     try:
-        response = requests.post(url, json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"response_mime_type": "application/json"}
-        }, timeout=30)
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-1.5-flash')
         
-        if response.status_code != 200:
-            print(f"Gemini API Error ({response.status_code}): {response.text}")
-            raise Exception(f"API returned {response.status_code}")
-            
-        result = response.json()
-        if 'candidates' not in result:
-            print(f"Unexpected Gemini Response Structure: {result}")
-            raise Exception("No candidates in response")
-            
-        content = result['candidates'][0]['content']['parts'][0]['text']
-        return json.loads(content)
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json",
+            ),
+        )
+        
+        return json.loads(response.text)
     except Exception as e:
         error_msg = str(e)[:100]
         print(f"Error generating AI analysis for {ticker}: {e}")

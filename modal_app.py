@@ -10,7 +10,7 @@ app = modal.App("stockscrap-portfolio-sync")
 image = (
     modal.Image.debian_slim()
     .apt_install("git")
-    .pip_install("feedparser", "beautifulsoup4", "requests", "python-dateutil", "GitPython", "PyGithub")
+    .pip_install("feedparser", "beautifulsoup4", "requests", "python-dateutil", "GitPython", "PyGithub", "google-generativeai")
 )
 
 @app.function(
