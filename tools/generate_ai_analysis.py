@@ -18,8 +18,23 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
         # Standardize on SDK which handles endpoint versions correctly
         genai.configure(api_key=api_key)
         
+        # DEBUG: List available models to see what the key actually sees
+        print("DEBUG: Checking available models...")
+        available_models = []
+        try:
+            for m in genai.list_models():
+                if 'generateContent' in m.supported_generation_methods:
+                    available_models.append(m.name)
+            print(f"DEBUG: Available models: {available_models}")
+        except Exception as list_err:
+            print(f"DEBUG: Failed to list models: {list_err}")
+
         # Use simple model name — SDK typically defaults to stable v1
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model_name = 'gemini-1.5-flash'
+        # Check if we should use a different name based on available_models
+        # For now, let's keep it but at least we see the list in logs.
+        
+        model = genai.GenerativeModel(model_name)
         
         prompt = f"""
         You are a senior financial analyst. Analyze the following data for {ticker} and provide two short sections:
