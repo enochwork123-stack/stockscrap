@@ -15,6 +15,10 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
             "technical_outlook": "Technical analysis unavailable."
         }
     
+    # Extra debug logic for key format
+    key_info = f"len={len(api_key)}, prefix={api_key[:4]}"
+    print(f"DEBUG: Using key: {key_info}")
+    
     # Try different models and versions
     variants = [
         ("v1", "gemini-1.5-flash"),
