@@ -70,7 +70,7 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
             continue
 
     return {
-        "summary": f"AI Error: {last_error}",
+        "summary": f"AI Error: {last_error} (Key: {key_info})",
         "technical_outlook": "Check API key and project settings."
     }
 
