@@ -261,14 +261,22 @@ def main():
         from generate_ai_analysis import generate_ai_analysis
     
     ticker_analyses = {}
-    for ticker_symbol in ["GOOG", "EQIX", "U", "TDOC", "BTC", "ETH", "LINK", "AVAX"]:
+    tickers_to_parse = ["GOOG", "EQIX", "U", "TDOC", "BTC", "ETH", "LINK", "AVAX"]
+    
+    import time
+    for i, ticker_symbol in enumerate(tickers_to_parse):
         # Get headlines for this ticker to use as context
         headlines = [a["title"] for a in all_articles if a["ticker"] == ticker_symbol][:5]
         news_context = "\n".join(headlines)
         
-        print(f"Generating AI Intelligence for {ticker_symbol}...")
+        print(f"Generating AI Intelligence for {ticker_symbol} ({i+1}/{len(tickers_to_parse)})...")
         analysis = generate_ai_analysis(ticker_symbol, news_context)
         ticker_analyses[ticker_symbol] = analysis
+        
+        # Space out requests to avoid 429 quota errors on free tier
+        if i < len(tickers_to_parse) - 1:
+            print("Quota management: waiting 4s...")
+            time.sleep(4)
 
     # Save raw results with AI analyses
     payload = {
