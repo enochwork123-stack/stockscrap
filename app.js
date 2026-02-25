@@ -1,5 +1,5 @@
 /**
- * glaid AI News Dashboard
+ * Enozil AI News Dashboard
  * Main Application Logic
  */
 
@@ -125,7 +125,7 @@ async function loadDashboardData() {
 
 function loadSavedArticles() {
     try {
-        const saved = localStorage.getItem('glaid_saved_articles');
+        const saved = localStorage.getItem('enozil_saved_articles') || localStorage.getItem('glaid_saved_articles');
         if (saved) {
             AppState.savedArticles = new Set(JSON.parse(saved));
         }
@@ -136,7 +136,7 @@ function loadSavedArticles() {
 
 function saveSavedArticles() {
     try {
-        localStorage.setItem('glaid_saved_articles', JSON.stringify([...AppState.savedArticles]));
+        localStorage.setItem('enozil_saved_articles', JSON.stringify([...AppState.savedArticles]));
     } catch (error) {
         console.error('Error saving articles:', error);
     }
@@ -422,7 +422,7 @@ function initEventListeners() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 glaid AI News Dashboard initialized');
+    console.log('🚀 Enozil AI News Dashboard initialized');
     initEventListeners();
     loadDashboardData();
 });

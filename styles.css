@@ -1,14 +1,14 @@
 /* ============================================
-   glaid AI News Dashboard - Design System
+   Enozil AI News Dashboard - Design System
    ============================================ */
 
 /* CSS Variables - Design Tokens */
 :root {
-    /* Colors - glaid Brand */
-    --color-primary: #FF6B4A;
-    --color-primary-dark: #E55A3A;
-    --color-primary-light: #FF8567;
-    --color-primary-glow: rgba(255, 107, 74, 0.3);
+    /* Colors - Enozil Brand */
+    --color-primary: #0088CC;
+    --color-primary-dark: #006699;
+    --color-primary-light: #33AAEE;
+    --color-primary-glow: rgba(0, 136, 204, 0.3);
 
     /* Neutrals */
     --color-bg-primary: #0A0A0F;
@@ -140,7 +140,7 @@ body {
 .logo-text {
     font-size: var(--font-size-2xl);
     font-weight: 800;
-    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+    background: linear-gradient(135deg, var(--color-primary), #39B54A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
