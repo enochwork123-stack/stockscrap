@@ -13,6 +13,7 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     if ticker == "GOOG":
         api_key = os.environ.get("GEMINI_API_KEY")
         if api_key:
+            print(f"DEBUG: Found Gemini API key for {ticker}. Attempting Gemini call...")
             try:
                 import google.generativeai as genai
                 genai.configure(api_key=api_key)
@@ -20,6 +21,7 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
                 # Verified working model from diagnostics
                 model = genai.GenerativeModel('gemini-2.0-flash')
                 
+                print(f"DEBUG: Sending prompt to Gemini for {ticker} (Context length: {len(news_context)} chars)")
                 prompt = f"""
                 You are a senior financial analyst. Based on the news headlines provided below for {ticker}, 
                 please provide a 100-200 word sentimental analysis summary. 
@@ -48,16 +50,17 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
                 )
                 
                 data = json.loads(response.text)
+                print(f"DEBUG: Successfully received Gemini response for {ticker}")
                 return {
                     "summary": data.get("summary", ""),
                     "technical_outlook": data.get("technical_outlook", ""),
                     "model_used": "Gemini-2.0-Flash (Advanced)"
                 }
             except Exception as e:
-                print(f"DEBUG: Gemini failed for GOOG, falling back to rule-based: {e}")
+                print(f"DEBUG: Gemini failed for {ticker}. Error: {str(e)}")
                 # Fall through to rule-based if Gemini fails (Stability first)
         else:
-            print("DEBUG: Gemini API Key not found for GOOG, using rule-based.")
+            print(f"DEBUG: No GEMINI_API_KEY found in environment for {ticker}")
 
     # 2. Rule-Based Engine (Fallback for GOOG or Default for others)
     # Keyword-based sentiment weights
