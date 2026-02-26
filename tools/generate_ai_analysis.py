@@ -18,10 +18,10 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
                 import google.generativeai as genai
                 genai.configure(api_key=api_key)
                 
-                # Verified working model from diagnostics
-                model = genai.GenerativeModel('gemini-2.0-flash')
-                
-                print(f"DEBUG: Sending prompt to Gemini for {ticker} (Context length: {len(news_context)} chars)")
+                # Verified working model from latest diagnostics
+                model_name = 'gemini-2.0-flash'
+                print(f"DEBUG: Found Gemini API key for {ticker}. Attempting Gemini call with {model_name}...")
+                model = genai.GenerativeModel(model_name)
                 prompt = f"""
                 You are a senior financial analyst. Based on the news headlines provided below for {ticker}, 
                 please provide a 100-200 word sentimental analysis summary. 
