@@ -10,8 +10,53 @@ app = modal.App("stockscrap-portfolio-sync")
 image = (
     modal.Image.debian_slim()
     .apt_install("git")
-    .pip_install("feedparser", "beautifulsoup4", "requests", "python-dateutil", "GitPython", "PyGithub", "google-generativeai")
+    .pip_install("feedparser", "beautifulsoup4", "requests", "python-dateutil", "GitPython", "PyGithub", "modal")
 )
+
+# Specialized image for LLM inference (with GPU support)
+llm_image = (
+    modal.Image.debian_slim()
+    .pip_install("torch", "transformers", "accelerate", "huggingface-hub")
+)
+
+@app.function(
+    image=llm_image,
+    gpu="L4",
+    timeout=600,
+    container_idle_timeout=60,
+)
+def llm_inference(prompt: str):
+    """
+    Self-hosted Qwen-2.5-7B-Instruct inference on Modal GPU.
+    """
+    import torch
+    from transformers import pipeline
+
+    model_id = "Qwen/Qwen2.5-7B-Instruct"
+    
+    print(f"🤖 Loading {model_id} on GPU...")
+    pipe = pipeline(
+        "text-generation",
+        model=model_id,
+        model_kwargs={"torch_dtype": torch.bfloat16},
+        device_map="auto",
+    )
+
+    messages = [
+        {"role": "system", "content": "You are a senior financial analyst providing concise, data-driven analysis."},
+        {"role": "user", "content": prompt},
+    ]
+
+    print("🖋️ Generating analysis...")
+    outputs = pipe(
+        messages,
+        max_new_tokens=512,
+        do_sample=True,
+        temperature=0.7,
+        top_p=0.9,
+    )
+    
+    return outputs[0]["generated_text"][-1]["content"]
 
 @app.function(
     image=image,

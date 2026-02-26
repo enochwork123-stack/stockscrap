@@ -9,58 +9,55 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
     - Others: Deterministic Rule-Based Engine (Fast & Reliable).
     """
     
-    # 1. Branch for Gemini (GOOG only)
+    # 1. Branch for Internal Modal LLM (GOOG only)
     if ticker == "GOOG":
-        api_key = os.environ.get("GEMINI_API_KEY")
-        if api_key:
-            print(f"DEBUG: Found Gemini API key for {ticker}. Attempting Gemini call...")
-            try:
-                import google.generativeai as genai
-                genai.configure(api_key=api_key)
-                
-                # Verified working model from latest diagnostics
-                model_name = 'gemini-2.0-flash'
-                print(f"DEBUG: Found Gemini API key for {ticker}. Attempting Gemini call with {model_name}...")
-                model = genai.GenerativeModel(model_name)
-                prompt = f"""
-                You are a senior financial analyst. Based on the news headlines provided below for {ticker}, 
-                please provide a 100-200 word sentimental analysis summary. 
-                Focus on the themes, investor sentiment, and potential market impact.
-                
-                Keep the TECHNICAL_OUTLOOK concise (2-3 sentences).
-                
-                NEWS HEADLINES:
-                {news_context}
-                
-                PRICE CONTEXT:
-                {price_context}
-                
-                Format the response as JSON:
-                {{
-                    "summary": "...",
-                    "technical_outlook": "..."
-                }}
-                """
-                
-                response = model.generate_content(
-                    prompt,
-                    generation_config=genai.GenerationConfig(
-                        response_mime_type="application/json",
-                    ),
-                )
-                
-                data = json.loads(response.text)
-                print(f"DEBUG: Successfully received Gemini response for {ticker}")
+        try:
+            import modal
+            print(f"DEBUG: Attempting Internal Modal LLM call for {ticker}...")
+            
+            # Lookup the deployed function in the same app
+            llm_fn = modal.Function.lookup("stockscrap-portfolio-sync", "llm_inference")
+            
+            prompt = f"""
+            Based on the news headlines provided below for {ticker}, 
+            please provide a 100-200 word sentimental analysis summary. 
+            Focus on themes, investor sentiment, and potential market impact.
+            
+            Keep the TECHNICAL_OUTLOOK concise (2-3 sentences).
+            
+            NEWS HEADLINES:
+            {news_context}
+            
+            PRICE CONTEXT:
+            {price_context}
+            
+            IMPORTANT: Return ONLY a raw JSON object with these keys: "summary" and "technical_outlook".
+            """
+            
+            response_text = llm_fn.remote(prompt)
+            
+            # Extract JSON if the model wrapped it in markdown or text
+            import re
+            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+            if json_match:
+                data = json.loads(json_match.group())
+                print(f"DEBUG: Successfully received Modal LLM response for {ticker}")
                 return {
                     "summary": data.get("summary", ""),
                     "technical_outlook": data.get("technical_outlook", ""),
-                    "model_used": "Gemini-2.0-Flash (Advanced)"
+                    "model_used": "Modal-OSS-LLM (Llama/Qwen)"
                 }
-            except Exception as e:
-                print(f"DEBUG: Gemini failed for {ticker}. Error: {str(e)}")
-                # Fall through to rule-based if Gemini fails (Stability first)
-        else:
-            print(f"DEBUG: No GEMINI_API_KEY found in environment for {ticker}")
+            else:
+                # If it's just raw text, split it simply or use it as summary
+                return {
+                    "summary": response_text[:1000], 
+                    "technical_outlook": "See summary for details.",
+                    "model_used": "Modal-OSS-LLM (Raw Text)"
+                }
+                
+        except Exception as e:
+            print(f"DEBUG: Internal LLM failed for {ticker}. Error: {str(e)}")
+            # Fall through to rule-based fallback
 
     # 2. Rule-Based Engine (Fallback for GOOG or Default for others)
     # Keyword-based sentiment weights
