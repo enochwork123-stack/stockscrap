@@ -109,7 +109,10 @@ function hideChart() {
 function renderAIAnalysis(ticker) {
     const newsEl = document.getElementById('aiNewsSummary');
     const techEl = document.getElementById('aiTechnicalOutlook');
-    const symbol = ticker.toUpperCase().split('-')[0];
+    let symbol = ticker.toUpperCase().split('-')[0];
+
+    // Fix: Map frontend 'GOOGLE' filter to backend 'GOOG' ticker
+    if (symbol === 'GOOGLE') symbol = 'GOOG';
 
     const data = AppState.analyses[symbol];
 
