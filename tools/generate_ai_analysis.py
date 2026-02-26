@@ -9,59 +9,61 @@ def generate_ai_analysis(ticker, news_context, price_context="", llm_inference_h
     - Others: Deterministic Rule-Based Engine (Fast & Reliable).
     """
     
-    # 1. Branch for Internal Modal LLM (GOOG only)
-    if ticker == "GOOG":
-        try:
-            import modal
-            print(f"DEBUG: Attempting Internal Modal LLM call for {ticker}...")
+    # Attempt Internal Modal LLM call (Universal for all tickers)
+    try:
+        import modal
+        print(f"DEBUG: Attempting Internal Modal LLM call for {ticker}...")
+        
+        # Use direct handle if provided, otherwise from_name
+        if llm_inference_handle:
+            llm_fn = llm_inference_handle
+        else:
+            # Use correct from_name syntax for deployed apps
+            llm_fn = modal.Function.from_name("stockscrap-portfolio-sync", "llm_inference")
+        
+        prompt = f"""
+        Based on the news headlines and context provided below for {ticker}, 
+        please provide a two-paragraph response:
+        
+        Paragraph 1: A concise summary of the latest news and developments for {ticker}.
+        
+        Paragraph 2: A professional sentimental analysis focusing on investor mood, 
+        market themes, and potential impact.
+        
+        Keep the TECHNICAL_OUTLOOK concise (2-3 sentences).
+        
+        NEWS HEADLINES:
+        {news_context}
+        
+        PRICE CONTEXT:
+        {price_context}
+        
+        IMPORTANT: Return ONLY a raw JSON object with these keys: "summary" and "technical_outlook".
+        """
+        
+        response_text = llm_fn.remote(prompt)
+        print(f"DEBUG: Raw response from LLM for {ticker}: {response_text[:100]}...")
+        
+        # Extract JSON if the model wrapped it in markdown or text
+        import re
+        json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+        if json_match:
+            data = json.loads(json_match.group())
+            return {
+                "summary": data.get("summary", ""),
+                "technical_outlook": data.get("technical_outlook", ""),
+                "model_used": "Modal-OSS-LLM (Qwen-2.5)"
+            }
+        else:
+            return {
+                "summary": response_text[:1000], 
+                "technical_outlook": "See summary for details.",
+                "model_used": "Modal-OSS-LLM (Raw Text)"
+            }
             
-            # Use direct handle if provided, otherwise from_name
-            if llm_inference_handle:
-                llm_fn = llm_inference_handle
-            else:
-                # Use correct from_name syntax for deployed apps
-                llm_fn = modal.Function.from_name("stockscrap-portfolio-sync", "llm_inference")
-            
-            prompt = f"""
-            Based on the news headlines provided below for {ticker}, 
-            please provide a 100-200 word sentimental analysis summary. 
-            Focus on themes, investor sentiment, and potential market impact.
-            
-            Keep the TECHNICAL_OUTLOOK concise (2-3 sentences).
-            
-            NEWS HEADLINES:
-            {news_context}
-            
-            PRICE CONTEXT:
-            {price_context}
-            
-            IMPORTANT: Return ONLY a raw JSON object with these keys: "summary" and "technical_outlook".
-            """
-            
-            response_text = llm_fn.remote(prompt)
-            
-            # Extract JSON if the model wrapped it in markdown or text
-            import re
-            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
-            if json_match:
-                data = json.loads(json_match.group())
-                print(f"DEBUG: Successfully received Modal LLM response for {ticker}")
-                return {
-                    "summary": data.get("summary", ""),
-                    "technical_outlook": data.get("technical_outlook", ""),
-                    "model_used": "Modal-OSS-LLM (Llama/Qwen)"
-                }
-            else:
-                # If it's just raw text, split it simply or use it as summary
-                return {
-                    "summary": response_text[:1000], 
-                    "technical_outlook": "See summary for details.",
-                    "model_used": "Modal-OSS-LLM (Raw Text)"
-                }
-                
-        except Exception as e:
-            print(f"DEBUG: Internal LLM failed for {ticker}. Error: {str(e)}")
-            # Fall through to rule-based fallback
+    except Exception as e:
+        print(f"DEBUG: Internal LLM failed for {ticker}. Error: {str(e)}")
+        # Fall through to rule-based fallback
 
     # 2. Rule-Based Engine (Fallback for GOOG or Default for others)
     # Keyword-based sentiment weights
