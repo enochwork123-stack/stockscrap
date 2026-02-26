@@ -85,11 +85,25 @@ def sync_portfolio_news():
         print(f"📂 Cloning repository to {dname}...")
         repo = git.Repo.clone_from(auth_url, dname)
         
-        # 2. Run the update pipeline in the cloned directory
-        print("📰 Running portfolio news update pipeline...")
+        # 2. Add local path for imports
+        import sys
+        if dname not in sys.path:
+            sys.path.append(dname)
+
+        # 3. Run Step 0 Natively (with direct LLM handle for permissions)
         try:
-            # We use the existing scripts in the repo
-            subprocess.run(["bash", "update_dashboard.sh"], cwd=dname, check=True, text=True)
+            print("🔍 Step 0: Scraping Portfolio News Natively...")
+            from tools.scrape_portfolio import run_scraping
+            run_scraping(llm_inference_handle=llm_inference)
+        except Exception as e:
+            print(f"⚠️ Native Step 0 failed, falling back to rule-based in bash: {e}")
+
+        # 4. Run the rest of the pipeline in the cloned directory
+        print("📰 Running remaining news update pipeline...")
+        try:
+            env = os.environ.copy()
+            env["SKIP_STEP_0"] = "1"
+            subprocess.run(["bash", "update_dashboard.sh"], cwd=dname, check=True, text=True, env=env)
         except Exception as e:
             print(f"❌ Pipeline execution failed: {e}")
             return

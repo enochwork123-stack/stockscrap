@@ -2,7 +2,7 @@ import json
 import os
 import time
 
-def generate_ai_analysis(ticker, news_context, price_context=""):
+def generate_ai_analysis(ticker, news_context, price_context="", llm_inference_handle=None):
     """
     Hybrid Intelligence Engine.
     - GOOG: Gemini-powered deep analysis (100-200 words).
@@ -15,8 +15,12 @@ def generate_ai_analysis(ticker, news_context, price_context=""):
             import modal
             print(f"DEBUG: Attempting Internal Modal LLM call for {ticker}...")
             
-            # Lookup the deployed function in the same app
-            llm_fn = modal.Function.lookup("stockscrap-portfolio-sync", "llm_inference")
+            # Use direct handle if provided, otherwise from_name
+            if llm_inference_handle:
+                llm_fn = llm_inference_handle
+            else:
+                # Use correct from_name syntax for deployed apps
+                llm_fn = modal.Function.from_name("stockscrap-portfolio-sync", "llm_inference")
             
             prompt = f"""
             Based on the news headlines provided below for {ticker}, 

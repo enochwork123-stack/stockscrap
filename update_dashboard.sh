@@ -8,9 +8,11 @@ echo "============================================"
 echo ""
 
 #📰 Step 0: Scraping Portfolio News (GOOG, EQIX, U, TDOC, BTC, ETH, LINK, AVAX)...
-echo "📰 Step 0: Scraping Portfolio News..."
-python3 tools/scrape_portfolio.py
-echo ""
+if [ -z "$SKIP_STEP_0" ]; then
+    echo "📰 Step 0: Scraping Portfolio News..."
+    python3 tools/scrape_portfolio.py
+    echo ""
+fi
 
 # Step 1: Scrape Financial RSS (Bloomberg & Reuters)
 echo "📰 Step 1: Scraping Financial News (Bloomberg & Reuters)..."

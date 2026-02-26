@@ -240,9 +240,12 @@ def fetch_google_search_news():
             
     return all_articles
 
-def main():
+def run_scraping(llm_inference_handle=None):
+    """
+    Modular scraping function that can be called from other scripts or Modal.
+    """
     print("=" * 60)
-    print("AI Portfolio Search Engineer - Scraper")
+    print("AI Portfolio Search Engineer - Scraper (Modular)")
     print("=" * 60)
     
     all_articles = []
@@ -269,7 +272,12 @@ def main():
         news_context = "\n".join(headlines)
         
         print(f"Generating AI Intelligence for {ticker_symbol}...")
-        analysis = generate_ai_analysis(ticker_symbol, news_context)
+        # Pass the handle if provided (avoids permission issues in Modal)
+        if ticker_symbol == "GOOG" and llm_inference_handle:
+            analysis = generate_ai_analysis(ticker_symbol, news_context, llm_inference_handle=llm_inference_handle)
+        else:
+            analysis = generate_ai_analysis(ticker_symbol, news_context)
+            
         ticker_analyses[ticker_symbol] = analysis
 
     # Save raw results with AI analyses
@@ -283,6 +291,10 @@ def main():
     with open(RAW_OUTPUT, 'w', encoding='utf-8') as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
         
+    return all_articles, ticker_analyses
+
+def main():
+    all_articles, ticker_analyses = run_scraping()
     print(f"✅ Successfully scraped {len(all_articles)} articles + generated {len(ticker_analyses)} AI analyses")
     sys.exit(0)
 
