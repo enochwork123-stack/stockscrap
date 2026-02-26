@@ -85,10 +85,14 @@ def sync_portfolio_news():
         print(f"📂 Cloning repository to {dname}...")
         repo = git.Repo.clone_from(auth_url, dname)
         
-        # 2. Add local path for imports
+        # 2. Add local path for imports and change directory
         import sys
         if dname not in sys.path:
             sys.path.append(dname)
+        
+        # Save current dir to restore later
+        old_cwd = os.getcwd()
+        os.chdir(dname)
 
         # 3. Run Step 0 Natively (with direct LLM handle for permissions)
         try:
@@ -103,10 +107,15 @@ def sync_portfolio_news():
         try:
             env = os.environ.copy()
             env["SKIP_STEP_0"] = "1"
-            subprocess.run(["bash", "update_dashboard.sh"], cwd=dname, check=True, text=True, env=env)
+            # Now running in dname (already chdir-ed)
+            subprocess.run(["bash", "update_dashboard.sh"], check=True, text=True, env=env)
         except Exception as e:
             print(f"❌ Pipeline execution failed: {e}")
+            os.chdir(old_cwd)
             return
+
+        # 5. Restore directory for the push logic (which uses abs paths or relative from repo root)
+        # But payload_path is relative, so we stay in dname for the bash script and push.
 
         # 3. Check for changes in the dashboard payload
         payload_path = "data/dashboard_payload.js"
